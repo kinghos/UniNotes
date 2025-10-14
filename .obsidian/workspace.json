@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Lecture 1.md",
+                "file": "Part IA/Foundations of Computer Science/Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 1"
+              "title": "Intro"
             }
           }
         ]
@@ -160,12 +160,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,8 +181,8 @@
   },
   "active": "2e206e68fefcf245",
   "lastOpenFiles": [
-    "NST Maths/Chapter 1/Vectors.md",
     "Part IA/Digital Electronics/Lecture 1.md",
+    "NST Maths/Chapter 1/Vectors.md",
     "Part IA/Databases/Introduction to Databases.md",
     "Part IA/Databases",
     "Part IA/Foundations of Computer Science/Intro.md",
