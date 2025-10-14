@@ -3,7 +3,7 @@ match statements can be used to determine outputs of a function e.g.
 ```ocaml
 let rec g v = match v with
 | 0 -> 1
-| 1 -> 1
+| 1 -> 1 
 | n -> g (n-1) + g (n-2);;
 ```
 
