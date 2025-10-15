@@ -11,3 +11,5 @@ $$
 f = x.\bar{y}.z+x.\bar{y}.z+x.y.\bar{z}
 $$
 #### Karnaugh Maps
+To simplify into POS form, group the zeros and apply DeMorgan's laws.
+Some values can be mostly ignored - "don't care conditions". These can be represented as an X on a Karnaugh map, and treated as either a 0 or a 1.
