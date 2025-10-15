@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2e206e68fefcf245",
+            "id": "c369e2b8d3285549",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 1.md",
+                "file": "Part IA/Digital Electronics/Lecture 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 1"
+              "title": "Lecture 2"
             }
           }
         ]
@@ -180,11 +180,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2e206e68fefcf245",
+  "active": "c369e2b8d3285549",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Lecture 2.md",
+    "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Intro.md",
-    "Part IA/Digital Electronics/Lecture 1.md",
     "NST Maths/Chapter 1/Vectors.md",
     "Part IA/Databases/Introduction to Databases.md",
     "Part IA/Databases",
