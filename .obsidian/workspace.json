@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Lecture 2.md",
+                "file": "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 2"
+              "title": "Quine-McCluskey Minimisation"
             }
           }
         ]
@@ -182,8 +182,9 @@
   },
   "active": "c369e2b8d3285549",
   "lastOpenFiles": [
-    "Part IA/Digital Electronics/Lecture 1.md",
+    "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Digital Electronics/Lecture 2.md",
+    "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Intro.md",
     "NST Maths/Chapter 1/Vectors.md",

@@ -19,15 +19,5 @@ Some values can be mostly ignored - "don't care conditions". These can be repres
 - Essential prime implicant - a prime implicant that covers a minterm that no other prime implicant covers
 - Covering set - a minimum set of prime implicants which includes all essential terms plus any other prime implicant required to cover all minterms
 
-### Quine-McCluskey Minimisation
+### [[Quine-McCluskey Minimisation]]
 
-Given a function and its minterms, the QM method is more effective at simplifying the linear algebra than Karnaugh maps
-
-1. Create a table with 3 columns:
-	- Group: the number of ones
-	- Minterm
-	- Binary representation of minterms
-2. Make a second table with 3 columns:
-	- Group
-	- Matched pairs - comparing minterms in adjacent groups, and finding those that only differ by one variable
-	- Binary representiation - mark the changing variable with an X
