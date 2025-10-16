@@ -17,3 +17,5 @@ Three parts:
 - Carry kill -> $k_{i}=\bar{a_{i}}.\bar{b_{i}}$
 - Carry propagate -> $p_{i}=a_{i}\oplus b_{i}$
 - Carry generate -> $g_{i}=a_{i}.b_{i}$
+
+To reduce complexity, only 4-bit adder blocks are implemented with only up to $C_{4}$ generated using fast generation. This is then carried into the next 4-bit adder block, and within each 4-bit adder block, conventional RCA is used.
