@@ -10,5 +10,5 @@ Given a function and its minterms, the QM method is more effective at simplifyin
 	- Binary representiation - mark the changing variable with an X
 3. Repeat with another table, marking matched pairs where only one variable changes
 4. Continue until there are no matched pairs. Write down the Boolean representation of each prime implicant, and go back through all previous tables and see there are any minterms/minterm groups with no matched pairs (hence also prime implicants)
-5. Lastly, make one last table with the prime implicants and their corresponding minterms
-6. 
+5. Lastly, make one last table with the prime implicants and their corresponding minterms, and a column for each minterm
+6. Mark off all the minterms for each prime implicant with a cross, then find the columns with only one cross. These rows are the essential prime implicants, and ORed together will give the simplest Boolean expression.
