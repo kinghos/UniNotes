@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4004ad411983649f",
+        "id": "26ff47ed7e93565b",
         "type": "tabs",
         "children": [
           {
-            "id": "c369e2b8d3285549",
+            "id": "9f4453f362cc3121",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Lecture 1.md",
+                "file": "Part IA/Digital Electronics/Lecture 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 1"
+              "title": "Lecture 3"
             }
           }
         ]
@@ -180,11 +180,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c369e2b8d3285549",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Ripple Carry Adder Diagram.png",
+    "Part IA/Digital Electronics/Lecture 3.md",
+    "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Digital Electronics/Lecture 2.md",
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
-    "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Intro.md",
     "NST Maths/Chapter 1/Vectors.md",
