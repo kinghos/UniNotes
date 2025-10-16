@@ -1,3 +1,6 @@
 {
-  "cssTheme": "Rose Pine"
+  "cssTheme": "Rose Pine",
+  "enabledCssSnippets": [
+    "theme-override"
+  ]
 }
