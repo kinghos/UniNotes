@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "98148dda14de8eb1",
+        "id": "1fcefd6e534fa129",
         "type": "tabs",
         "children": [
           {
-            "id": "1ce8a03be46905fc",
+            "id": "f49e1fede0f1ec40",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -199,15 +198,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1ce8a03be46905fc",
+  "active": "f49e1fede0f1ec40",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Images/DigitalElectronicsLectureNotes.pdf",
+    "Part IA/Digital Electronics/Lecture 4.md",
+    "Part IA/Digital Electronics/Images/TristateBuffer.png",
     "Part IA/Digital Electronics/Images/BasicPAL.png",
     "Part IA/Digital Electronics/Images/BasicPLA.png",
     "Part IA/Digital Electronics/Images/DecoderExample2.png",
     "Part IA/Digital Electronics/Images/DecoderExample.png",
     "Part IA/Digital Electronics/Images/DemultiplexerExample.png",
-    "Part IA/Digital Electronics/Lecture 4.md",
-    "Part IA/Digital Electronics/Images/DigitalElectronicsLectureNotes.pdf",
     "Part IA/Digital Electronics/Lecture 3.md",
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Digital Electronics/Lecture 2.md",
