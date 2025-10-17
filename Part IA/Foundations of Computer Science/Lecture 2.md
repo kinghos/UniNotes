@@ -43,4 +43,23 @@ What makes this algorithm tail recursive is that the last thing it does is call 
 Tail recursion is only efficient if the compiler can detect it. It mainly saves space but can also speed up a program. It should only be used when the gain is significant.
 
 #### Multiple function calls
-When recursively calling a function, consider any side effects from calling the function more than once. If the same 
+When recursively calling a function, consider any side effects from calling the function more than once. If the same recursive call is used more than once, a local variable can be used to store the output.
+```ocaml
+let x = 2.0 in
+let y = Float.pow x 20.0 in
+y *. (x /. y)
+```
+
+#### Asymptotic complexity
+Asymptotic complexity refers to how costs grow with increasing inputs. Space complexity can never exceed time complexity, so time complexity often greatly exceeds space complexity.
+
+$$
+\begin{aligned}
+ O(2g(n)) & \text{ is the same as } O(g(n)) \\
+ O(\log_{10}n) & \text{ is the same as } O(\ln n)  \\
+ O(n^2+50n+36) & \text{ is the same as } O(n^2) \\[1.5ex]
+ O(n^2) & \text{ is contained in }  O(n^3) \\
+ O(2^n) & \text{ is contained in }  O(3^n)  \\
+ O(\log n) & \text{ is contained in } O(\sqrt n)
+\end{aligned}
+$$
