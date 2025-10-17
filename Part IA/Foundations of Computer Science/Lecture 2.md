@@ -50,6 +50,7 @@ let y = Float.pow x 20.0 in
 y *. (x /. y)
 ```
 
+### Complexity
 #### Asymptotic complexity
 Asymptotic complexity refers to how costs grow with increasing inputs. Space complexity can never exceed time complexity, so time complexity often greatly exceeds space complexity.
 

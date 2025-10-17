@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 2.md",
+                "file": "Part IA/Digital Electronics/Lecture 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 2"
+              "title": "Lecture 4"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 2.md",
+                "file": "Part IA/Digital Electronics/Lecture 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 2"
+              "title": "Backlinks for Lecture 4"
             }
           },
           {
@@ -182,8 +182,9 @@
   },
   "active": "8f65b66b2135214a",
   "lastOpenFiles": [
-    "Part IA/Foundations of Computer Science/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Lecture 2.md",
+    "Part IA/Digital Electronics/Lecture 4.md",
+    "Part IA/Foundations of Computer Science/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Intro.md",
     "Part IA/Digital Electronics/Lecture 3.md",
     "Part IA/Digital Electronics/DigitalElectronicsLectureNotes.pdf",
