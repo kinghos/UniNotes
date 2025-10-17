@@ -63,3 +63,23 @@ $$
  O(\log n) & \text{ is contained in } O(\sqrt n)
 \end{aligned}
 $$
+#### Analysing complexity of functions
+```ocaml
+let rec nsum n =
+  if n = 0 then
+    0
+  else
+    n + nsum (n - 1)
+```
+Given n+1, the function doe a constant amount of work, then calls itself with n.
+This gives the recurrence equations $T(0)=1$ and $T(n+1)=T(n)+1$. Hence, the cost is linear.
+
+```ocaml
+let rec nsumsum n =
+  if n = 0 then
+    0
+  else
+    nsum n + nsumsum (n - 1)
+```
+This function call nsum which we know takes $O(n)$, and then calls itself once,
+hence giving the recurrence relations $T(0)=1$ and $T(n+1)=T(n)+n$. Hence, the cost is $O(n^2)$
