@@ -22,3 +22,19 @@ Here, $x=1, y=z=0$ would enable system 1 (an input of $001$, read from z->x)
 
 Decoders can be used output combinational logic.
 ![[DecoderExample2.png]]
+#### ROM
+ROM is a data storage device that is:
+- usually written into once
+- read at will
+- essentially a lookup table where a group of input lines specifies the address of locations holding words
+e.g. if $n=4$, then ROM has $2^4=16$ possible locations. If $m=4$, then each location can store a 4-bit word. Therefore the total number of bits stored is $m\times2^n=64$.
+
+ROM can be used to act as combinational logic. Storing the minterms in appropriate memory locations means no logic simplification is required and multiple Boolean expressions can be implemented. This is reasonable efficient if lots of minterms need to be generated.
+
+However, ROM can be quite inefficient with only a few non-zero entries, as the number of minterms to be implemented is quite small.
+
+### Programmable Logic Arrays
+In a PLA, only the required minterms are generated using a separate AND plane. The outputs from this plane are ORed together in a separate OR plane to produce the final output.
+![[BasicPLA.png]]
+A modified structure known as Programmable Array Logic does not have a programmable OR array and so outputs from the AND array cannot be shared among the OR gates to give the final outputs.
+![[BasicPAL.png]]
