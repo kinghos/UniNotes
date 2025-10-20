@@ -11,10 +11,17 @@
             "id": "d26940a0baf0d129",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ]
@@ -178,10 +185,10 @@
   },
   "active": "d26940a0baf0d129",
   "lastOpenFiles": [
+    "NST Maths/Chapter 1/Supervision Notes.md",
     "NST Maths/Chapter 1/Vectors.md",
     "Part IA/Digital Electronics/Lecture 1.md",
     "Untitled.canvas",
-    "NST Maths/Chapter 1/Supervision Notes.md",
     "Part IA/Digital Electronics/Images/DigitalElectronicsLectureNotes.pdf",
     "Part IA/Digital Electronics/Images/RSLatchStateTransitionTable.png",
     "Part IA/Digital Electronics/Images/NORTruthTable.png",
