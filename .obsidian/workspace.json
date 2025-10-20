@@ -181,8 +181,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d26940a0baf0d129",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Images/DelayTimingFlipFlop.png",
+    "Part IA/Digital Electronics/Images/TFlipFlop.png",
+    "Part IA/Digital Electronics/Images/JKFlipFlop.png",
     "Part IA/Digital Electronics/Images/TransparentDLatch.png",
     "Part IA/Digital Electronics/Lecture 5.md",
     "Part IA/Digital Electronics/Images/MasterSlaveFlipFlop.png",
@@ -199,8 +202,6 @@
     "Part IA/Digital Electronics/Images/TristateBuffer.png",
     "Part IA/Digital Electronics/Images/BasicPAL.png",
     "Part IA/Digital Electronics/Images/BasicPLA.png",
-    "Part IA/Digital Electronics/Images/DecoderExample2.png",
-    "Part IA/Digital Electronics/Images/DecoderExample.png",
     "Part IA/Digital Electronics/Lecture 3.md",
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Digital Electronics/Lecture 2.md",
