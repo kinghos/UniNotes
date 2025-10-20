@@ -65,3 +65,18 @@ let rec append = function
   | ([], ys) -> ys
   | (x::xs, ys) -> x :: append (xs, ys)
 ```  
+
+#### Reversing a list
+This function has complexity $O(n^2)$
+```ocaml
+let rec nrev = function
+  | [] -> []
+  | x::xs -> (nrev xs) @ [x]
+```
+
+Using an accumulator to make the function tail recursive, the complexity becomes $O(n)$
+```ocaml
+let rec rev_app = function
+  | ([], ys) -> ys
+  | (x::xs, ys) -> rev_app (xs, x::ys)
+```
