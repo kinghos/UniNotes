@@ -11,17 +11,14 @@
             "id": "d26940a0baf0d129",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Part IA/Foundations of Computer Science/Lecture 3.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Lecture 3"
             }
           }
         ]
@@ -81,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -168,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,9 +185,10 @@
   "active": "d26940a0baf0d129",
   "lastOpenFiles": [
     "NST Maths/Chapter 1/Supervision Notes.md",
+    "Part IA/Foundations of Computer Science/Lecture 3.md",
+    "Untitled.canvas",
     "NST Maths/Chapter 1/Vectors.md",
     "Part IA/Digital Electronics/Lecture 1.md",
-    "Untitled.canvas",
     "Part IA/Digital Electronics/Images/DigitalElectronicsLectureNotes.pdf",
     "Part IA/Digital Electronics/Images/RSLatchStateTransitionTable.png",
     "Part IA/Digital Electronics/Images/NORTruthTable.png",
