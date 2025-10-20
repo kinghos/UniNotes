@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 3.md",
+                "file": "Part IA/Digital Electronics/Lecture 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 3"
+              "title": "Lecture 5"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -184,15 +183,17 @@
   },
   "active": "d26940a0baf0d129",
   "lastOpenFiles": [
-    "NST Maths/Chapter 1/Supervision Notes.md",
+    "Pasted image 20251020110738.png",
+    "Part IA/Digital Electronics/Lecture 4.md",
+    "Part IA/Digital Electronics/Lecture 5.md",
     "Part IA/Foundations of Computer Science/Lecture 3.md",
+    "NST Maths/Chapter 1/Supervision Notes.md",
     "Untitled.canvas",
     "NST Maths/Chapter 1/Vectors.md",
     "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Digital Electronics/Images/DigitalElectronicsLectureNotes.pdf",
     "Part IA/Digital Electronics/Images/RSLatchStateTransitionTable.png",
     "Part IA/Digital Electronics/Images/NORTruthTable.png",
-    "Part IA/Digital Electronics/Lecture 4.md",
     "Part IA/Digital Electronics/Images/RSLatch.png",
     "Part IA/Digital Electronics/Images/TristateBuffer.png",
     "Part IA/Digital Electronics/Images/BasicPAL.png",
