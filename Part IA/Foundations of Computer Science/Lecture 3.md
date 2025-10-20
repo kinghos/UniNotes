@@ -37,3 +37,11 @@ let null = function
   | [] -> true
   | _::_ -> false
 ```
+
+```ocaml
+let is_zero = function
+  | 0 -> true
+  | _ -> false
+```
+
+Polymorphic functio
