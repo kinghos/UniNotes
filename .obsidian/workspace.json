@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0f2140f04bc5ea6b",
+        "id": "6bbd6f7454e41b2f",
         "type": "tabs",
         "children": [
           {
-            "id": "d26940a0baf0d129",
+            "id": "3d4fa212c39a9251",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,11 +183,12 @@
   },
   "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Images/RippleCounterTiming.png",
     "Part IA/Digital Electronics/Images/DelayTimingFlipFlop.png",
+    "Part IA/Digital Electronics/Lecture 5.md",
     "Part IA/Digital Electronics/Images/TFlipFlop.png",
     "Part IA/Digital Electronics/Images/JKFlipFlop.png",
     "Part IA/Digital Electronics/Images/TransparentDLatch.png",
-    "Part IA/Digital Electronics/Lecture 5.md",
     "Part IA/Digital Electronics/Images/MasterSlaveFlipFlop.png",
     "Part IA/Digital Electronics/Lecture 4.md",
     "Part IA/Foundations of Computer Science/Lecture 3.md",
@@ -201,7 +202,6 @@
     "Part IA/Digital Electronics/Images/RSLatch.png",
     "Part IA/Digital Electronics/Images/TristateBuffer.png",
     "Part IA/Digital Electronics/Images/BasicPAL.png",
-    "Part IA/Digital Electronics/Images/BasicPLA.png",
     "Part IA/Digital Electronics/Lecture 3.md",
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Digital Electronics/Lecture 2.md",

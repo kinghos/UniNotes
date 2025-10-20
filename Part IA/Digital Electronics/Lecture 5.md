@@ -43,4 +43,6 @@ Can be used for:
 Two types: ripple and synchronous counters. Ripple counters should be avoided.
 
 #### Ripple counters
-Ripple counters are made by cascading together negative edge trig
+Ripple counters are made by cascading together negative edge triggered T-type FFs in toggle mode. FFs are not clocked using the same clock, so they are not synchronous. Therefore outputs do not change at the same time, and propagation delay builds up. 
+
+![[Pasted image 20251020114556.png]]Each subsequent counter output has half the frequency. This is why counters are often known as dividers.
