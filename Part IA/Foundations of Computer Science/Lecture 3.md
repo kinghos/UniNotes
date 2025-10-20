@@ -44,4 +44,24 @@ let is_zero = function
   | _ -> false
 ```
 
-Polymorphic functio
+`null` is a polymorphic function - takes `'a list` (alpha list) as input, which can be a list of any type
+
+```ocaml
+let rec nlength = function
+  | [] -> 0
+  | _ :: xs -> 1 + nlength xs
+```
+This function has nested computation, meaning it has a time and space complexity of $O(n)$
+
+```ocaml
+let rec addlen = function
+  | (n, []) -> n
+  | (n, _::xs) -> addlen(n+1, xs)
+```
+This function is tail recursive, so its time complexity stays the same but its space complexity is $O(1)$
+
+```ocaml
+let rec append = function
+  | ([], ys) -> ys
+  | (x::xs, ys) -> x :: append (xs, ys)
+```  
