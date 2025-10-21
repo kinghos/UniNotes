@@ -21,3 +21,9 @@ Ternary relationships can be used to get around this. Acted_In can have another 
 Consider scope when modelling something as an attribute or entity.
 
 Many to one relationships - e.g. each employee works in one department, but one department has many employees.
+
+Weak entities are entities that depend on the existence of another entity. The key of a weak entity is called a discriminator. Here, to uniquely identify an AlternativeTitle you need the alt id and movie id.
+![[WeakEntity.png]]
+
+Sub entities can inherit the attributes (including keys) and relationships of the parent entity.
+![[Pasted image 20251021114808.png]]

@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,9 +183,11 @@
   },
   "active": "3d4fa212c39a9251",
   "lastOpenFiles": [
+    "Pasted image 20251021114808.png",
+    "Part IA/Databases/Images",
+    "Part IA/Databases/Images/WeakEntity.png",
     "Part IA/Databases/Introduction to Databases.md",
     "Part IA/Databases/Lecture 2.md",
-    "Part IA/Databases/Untitled",
     "NST Maths/Chapter 2/Complex Numbers.md",
     "NST Maths/Chapter2_to_annotate.pdf",
     "NST Maths/Chapter 2",
@@ -205,7 +208,6 @@
     "Part IA/Digital Electronics/Images/RSLatchStateTransitionTable.png",
     "Part IA/Digital Electronics/Images/NORTruthTable.png",
     "Part IA/Digital Electronics/Images/RSLatch.png",
-    "Part IA/Digital Electronics/Images/TristateBuffer.png",
     "Part IA/Digital Electronics/Lecture 3.md",
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Digital Electronics/Lecture 2.md",
