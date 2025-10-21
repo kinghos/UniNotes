@@ -14,3 +14,6 @@ Many to many relationships - for X <-> Y, any S can be related to zero or more Y
 
 Relationships can also have attributes, e.g. between Movie and Person, the Acted_In relationship can have attribute Role
 
+A multi-valued attribute can be used to store a comma separated list of an attribute. In a real database, this violates 1NF.
+
+Ternary relationships can be used to get around this. Acted_In can have another entity connected to it - Role, which can then store multiple roles.
