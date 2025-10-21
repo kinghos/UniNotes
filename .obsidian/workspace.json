@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NST Maths/Chapter 1/Complex Numbers.md",
+                "file": "NST Maths/Chapter 2/Complex Numbers.md",
                 "mode": "source",
                 "source": false
               },
@@ -181,10 +181,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "3d4fa212c39a9251",
   "lastOpenFiles": [
-    "NST Maths/Chapter 1/Supervision Notes.md",
-    "NST Maths/Chapter 1/Complex Numbers.md",
+    "NST Maths/Chapter2_to_annotate.pdf",
+    "NST Maths/Chapter 2/Complex Numbers.md",
+    "NST Maths/Chapter 2",
+    "NST Maths/Supervision Notes.md",
     "Part IA/Digital Electronics/Lecture 5.md",
     "Part IA/Digital Electronics/Images/RippleCounterTiming.png",
     "Part IA/Digital Electronics/Images/DelayTimingFlipFlop.png",
@@ -217,7 +219,6 @@
     "Part IA",
     "NST Maths",
     "Excalidraw/Drawing 2025-08-28 14.12.30.excalidraw.md",
-    "Notes.md",
-    "Excalidraw"
+    "Notes.md"
   ]
 }
