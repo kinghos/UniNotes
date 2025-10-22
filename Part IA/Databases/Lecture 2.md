@@ -26,4 +26,4 @@ Weak entities are entities that depend on the existence of another entity. The k
 ![[WeakEntity.png]]
 
 Sub entities can inherit the attributes (including keys) and relationships of the parent entity.
-![[Pasted image 20251021114808.png]]
+![[InheritedEntity.png]]
