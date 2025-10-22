@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Lecture 5.md",
+                "file": "Part IA/Digital Electronics/Lecture 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 5"
+              "title": "Lecture 6"
             }
           }
         ]
@@ -183,6 +183,8 @@
   },
   "active": "3d4fa212c39a9251",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Lecture 5.md",
+    "Part IA/Digital Electronics/Lecture 6.md",
     "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Lecture 4.md",
     "Part IA/Databases/Images/InheritedEntity.png",
@@ -197,7 +199,6 @@
     "NST Maths/Chapter2_to_annotate.pdf",
     "NST Maths/Chapter 2",
     "NST Maths/Supervision Notes.md",
-    "Part IA/Digital Electronics/Lecture 5.md",
     "Part IA/Digital Electronics/Images/RippleCounterTiming.png",
     "Part IA/Digital Electronics/Images/DelayTimingFlipFlop.png",
     "Part IA/Digital Electronics/Images/TFlipFlop.png",
