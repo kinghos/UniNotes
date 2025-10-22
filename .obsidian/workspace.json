@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Intro.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro"
+              "title": "Lecture 4"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "3d4fa212c39a9251",
   "lastOpenFiles": [
-    "Part IA/Foundations of Computer Science/Lecture 3.md",
     "Part IA/Foundations of Computer Science/Intro.md",
+    "Part IA/Foundations of Computer Science/Lecture 4.md",
+    "Part IA/Foundations of Computer Science/Lecture 3.md",
     "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Databases/Lecture 2.md",
     "Pasted image 20251021114808.png",
