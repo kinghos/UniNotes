@@ -21,3 +21,21 @@ let rec inter xs ys =
     else
       inter xs ys
 ```
+
+###### Zip
+```ocaml
+let rec zip xs ys =
+  match xs, ys with
+  | (x::xs, y::ys) -> (x, y) :: zip xs ys
+  | _ -> []
+```
+In the above example, the underscore covers all remaining cases - including the cases where `xs = [], ys = ...`, the case where `xs = ..., ys = []` and where `xs = [], ys = []`.
+
+The syntax `let D in E` embeds declaration D within expression E.
+```ocaml
+let rec unzip = function
+ | [] -> ([], [])
+ | (x, y)::pairs ->
+     let xs, ys = unzip pairs in
+     (x::xs, y::ys)
+```
