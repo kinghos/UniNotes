@@ -39,3 +39,17 @@ let rec unzip = function
      let xs, ys = unzip pairs in
      (x::xs, y::ys)
 ```
+This local declaration can be replaced like so
+```ocaml
+let conspair ((x, y), (xs, ys)) = (x::xs, y::ys)
+let rec unzip = function
+  | [] -> ([], [])
+  | xy :: pairs -> conspair (xy, unzip pairs)
+```
+The following is an iterative version of this function
+```ocaml
+let rec revUnzip = function
+  | ([], xs, ys) -> (xs, ys)
+  | ((x, y)::pairs, xs, ys) ->
+      revUnzip (pairs, x::xs, y::ys)
+```
