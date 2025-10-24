@@ -26,4 +26,7 @@ $$
 D cannot change in a time shorter than $t_{hold}$. Therefore $$
 (t_{pc}+t_{pd})min \geq t_{hold}
 $$
-A reliable FF must have a minimum hold time less than the minimum propagation delay time, as you would expect 2 FFs directed cascaded without any combinational logic between them to have no timing issues. Often FFs are designed with $t_{hold}=0$
+A reliable FF must have a minimum hold time less than the minimum propagation delay time, as you would expect 2 FFs directed cascaded without any combinational logic between them to have no timing issues. Often FFs are designed with $t_{hold}=0$, satisfying this condition.
+
+Clock skew is the problem of clock edges reaching each FF at different times, owing to different wire lengths and other small delays.
+Clock stew reduces propagation delay (bad), but increases hold time (good).
