@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6bbd6f7454e41b2f",
+        "id": "72b95b12d04b2c5b",
         "type": "tabs",
         "children": [
           {
-            "id": "3d4fa212c39a9251",
+            "id": "e66882cf3b7894bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -181,10 +181,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3d4fa212c39a9251",
+  "active": "e66882cf3b7894bd",
   "lastOpenFiles": [
-    "Part IA/Digital Electronics/Lecture 6.md",
     "Part IA/Foundations of Computer Science/Lecture 5.md",
+    "Part IA/Digital Electronics/Lecture 6.md",
     "Part IA/Digital Electronics/Images/ExcitationTable.png",
     "Part IA/Digital Electronics/Lecture 5.md",
     "Part IA/Digital Electronics/Lecture 1.md",
