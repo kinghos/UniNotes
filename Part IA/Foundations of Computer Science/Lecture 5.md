@@ -12,3 +12,13 @@ let rec insort = function
   | [] -> []
   | x::xs -> ins x (insort xs)
 ```
+
+Using `#trace ...` can be used to output a trace of a function
+
+#### Quicksort
+- Choose a pivot element $a$
+- Divide: partition the input into two sublists
+	- Those at most $a$ in value
+	- Those exceeding $a$
+- Conquer: recursively sort both sublists
+- Combine: append the two sorted lists together
