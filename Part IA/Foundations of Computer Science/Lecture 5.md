@@ -22,3 +22,19 @@ Using `#trace ...` can be used to output a trace of a function
 	- Those exceeding $a$
 - Conquer: recursively sort both sublists
 - Combine: append the two sorted lists together
+
+```ocaml
+let rec quick = function
+  | [] -> []
+  | [x] -> [x]
+  | a::bs ->
+      let rec part l r = function
+        | [] -> (quick l) @ (a :: quick r)
+        | x::xs ->
+            if (x <= a) then
+              part (x::l) r xs
+            else
+              part l (x::r) xs
+      in
+      part [] [] bs
+```
