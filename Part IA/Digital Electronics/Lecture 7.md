@@ -43,4 +43,12 @@ $\frac{T_{0}}{T_{c}}$ can be seen as the probability that the input changes at a
 A synchroniser can be used to to minimise metastability.
 ![[Pasted image 20251024114802.png]]
 Here, if $T_c$ is long enough, $D_1$ will resolve to a valid level with high probability. This means FF1 has a valid input that satisfies its setup and hold times and yields valid output Q. 
-The synchroniser fails if output Q becomes metastable.
+The synchroniser fails if output Q becomes metastable. The probability of failure for a single input change is 
+$$
+P_{fail}=\frac{T_{0}}{T_{c}}e^{{ - \frac{T_{c}-t_{su}}{\tau} }}
+$$
+If $D_0$ changes once per second, the probability of failure per second is just $P_{fail}$.
+System reliability is measured as the *mean time between failures* (MTBF).
+$$
+MTBF = \frac{1}{{P_{fail}}/{s}}=\frac{T_{c}e^{\frac{T_{c}-t_{su}}{\tau}}}{NT_{0}}
+$$
