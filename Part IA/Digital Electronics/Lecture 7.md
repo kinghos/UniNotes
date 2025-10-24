@@ -30,3 +30,17 @@ A reliable FF must have a minimum hold time less than the minimum propagation de
 
 Clock skew is the problem of clock edges reaching each FF at different times, owing to different wire lengths and other small delays.
 Clock stew reduces propagation delay (bad), but increases hold time (good).
+
+#### Metastability
+It is not always possible to control when a FF input changes in relation to the clock edge. This can happen when the input signal comes from a user e.g. a button
+![[Metastability.png]]
+This invalid state will eventually fall onto one of the two valid states. The time taken for this to happen can be modelled by this equation. $$
+P(t_{res}>t) = \frac{T_{0}}{T_{c}}e^{-\frac{t}{\tau}}
+$$
+where $T_c$ is the clock period, and $T_0$ and _$\tau$_ are characteristics of the FF
+$\frac{T_{0}}{T_{c}}$ can be seen as the probability that the input changes at a 'bad' time since it decreases with increasing $T_c$, and $\tau$ is a time constant indicating how fast the FF will exit the metastable state.
+
+A synchroniser can be used to to minimise metastability.
+![[Pasted image 20251024114802.png]]
+Here, if $T_c$ is long enough, $D_1$ will resolve to a valid level with high probability. This means FF1 has a valid input that satisfies its setup and hold times and yields valid output Q. 
+The synchroniser fails if output Q becomes metastable.
