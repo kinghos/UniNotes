@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 5.md",
+                "file": "Part IA/Digital Electronics/Lecture 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 5"
+              "title": "Lecture 7"
             }
           }
         ]
@@ -183,10 +183,11 @@
   },
   "active": "e66882cf3b7894bd",
   "lastOpenFiles": [
-    "Part IA/Foundations of Computer Science/Lecture 5.md",
-    "Part IA/Digital Electronics/Lecture 6.md",
-    "Part IA/Digital Electronics/Images/ExcitationTable.png",
     "Part IA/Digital Electronics/Lecture 5.md",
+    "Part IA/Digital Electronics/Lecture 7.md",
+    "Part IA/Digital Electronics/Lecture 6.md",
+    "Part IA/Foundations of Computer Science/Lecture 5.md",
+    "Part IA/Digital Electronics/Images/ExcitationTable.png",
     "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Lecture 4.md",
     "Part IA/Databases/Images/InheritedEntity.png",
