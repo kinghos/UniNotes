@@ -38,3 +38,37 @@ let rec quick = function
       in
       part [] [] bs
 ```
+
+##### Append-free quicksort
+```ocaml
+let rec quik = function
+  | ([], sorted) -> sorted
+  | ([x], sorted) -> x::sorted
+  | a::bs, sorted ->
+     let rec part = function
+       | l, r, [] -> quik (l, a :: quik (r, sorted))
+       | l, r, x::xs ->
+           if x <= a then
+             part (x::l, r, xs)
+           else
+             part (l, x::r, xs)
+     in
+     part ([], [], bs)
+```
+
+#### Merge sort
+```ocaml
+let rec merge = function
+  | [], ys -> ys
+  | xs, [] -> xs
+  | x::xs, y::ys ->
+      if x <= y then
+        x :: merge (xs, y::ys)
+      else
+        y :: merge (x::xs, ys)
+```
+
+
+- Insertion sort: simple to code, quadratic complexity
+- Quicksort: fast on average, quadratic complexity in worst case
+- Merge sort: optimal in theory, often slower than quicksort in practice 
