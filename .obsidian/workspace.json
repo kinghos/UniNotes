@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 6.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 6"
+              "title": "Lecture 5"
             }
           }
         ]
@@ -183,11 +183,12 @@
   },
   "active": "e66882cf3b7894bd",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Intro.md",
+    "Part IA/Foundations of Computer Science/Lecture 6.md",
     "Part IA/Foundations of Computer Science/Lecture 5.md",
     "Part IA/Digital Electronics/Lecture 8.md",
     "Part IA/Digital Electronics/Images/TrafficLightCircuit.png",
     "Part IA/Digital Electronics/Images/TrafficLightTransition.png",
-    "Part IA/Foundations of Computer Science/Lecture 6.md",
     "Part IA/Digital Electronics/Images/Delays.png",
     "NST Maths/Supervision Notes.md",
     "Part IA/Digital Electronics/Lecture 2.md",
@@ -206,7 +207,6 @@
     "Part IA/Digital Electronics/Images/ExcitationTable.png",
     "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Lecture 4.md",
-    "Part IA/Foundations of Computer Science/Intro.md",
     "Part IA/Foundations of Computer Science/Lecture 3.md",
     "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Databases/Lecture 2.md",
