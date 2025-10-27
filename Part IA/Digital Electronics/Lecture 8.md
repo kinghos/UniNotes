@@ -26,3 +26,8 @@ Now drawing the circuit:
 - If not, add logic for this e.g. adding unused states to the transition table
 - Alternatively use Clear and Preset inputs to set a known state at power up
 In this example, the FSM does self-start when powered on, as all unused states lead to used states.
+
+State assignment is rarely obvious or straightforward. Algorithms exist for optimising assignment but are not suitable for manual execution.
+If you have $m$ states, at least $\log_{2}m$ states are required to encode them.
+
+Example: Divide by 5 counter which is high for 2 clock edges then low for 3 edges. Here, there are 5 states i.e. 3 FFs.
