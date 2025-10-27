@@ -11,12 +11,14 @@
             "id": "e66882cf3b7894bd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20251024114802.png"
+                "file": "Part IA/Foundations of Computer Science/Lecture 6.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251024114802"
+              "icon": "lucide-file",
+              "title": "Lecture 6"
             }
           }
         ]
@@ -181,6 +183,8 @@
   },
   "active": "e66882cf3b7894bd",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Images/Delays.png",
+    "Part IA/Foundations of Computer Science/Lecture 6.md",
     "NST Maths/Supervision Notes.md",
     "Part IA/Digital Electronics/Lecture 2.md",
     "Part IA/Digital Electronics/Lecture 3.md",
@@ -189,7 +193,6 @@
     "Part IA/Digital Electronics/Lecture 5.md",
     "Part IA/Digital Electronics/Lecture 7.md",
     "Part IA/Digital Electronics/Lecture 6.md",
-    "Pasted image 20251024114802.png",
     "Part IA/Digital Electronics/Images/Metastability.png",
     "Part IA/Digital Electronics/Images/HoldTime.png",
     "Part IA/Digital Electronics/Images/TimeConstraints.png",
