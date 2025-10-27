@@ -21,3 +21,8 @@ $$
 $D_A$ is clearly $\overline{A}$ and $D_{G}=R.A$
 Now drawing the circuit:
 ![[Pasted image 20251027111951.png]]
+##### Problems
+- Check to see if the FSM can eventually reach a known state from any of the unused states
+- If not, add logic for this e.g. adding unused states to the transition table
+- Alternatively use Clear and Preset inputs to set a known state at power up
+In this example, the FSM does self-start when powered on, as all unused states lead to used states.
