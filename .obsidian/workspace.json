@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 5.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 5"
+              "title": "Lecture 6"
             }
           }
         ]
@@ -181,8 +181,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "e66882cf3b7894bd",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Lecture 5.md",
     "Part IA/Digital Electronics/Lecture 8.md",
     "Part IA/Digital Electronics/Images/TrafficLightCircuit.png",
     "Part IA/Digital Electronics/Images/TrafficLightTransition.png",
@@ -202,7 +203,6 @@
     "Part IA/Digital Electronics/Images/SerialDataLink.png",
     "Part IA/Digital Electronics/Images/ShiftRegisterTiming.png",
     "Part IA/Digital Electronics/Images/ShiftRegister.png",
-    "Part IA/Foundations of Computer Science/Lecture 5.md",
     "Part IA/Digital Electronics/Images/ExcitationTable.png",
     "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Lecture 4.md",
