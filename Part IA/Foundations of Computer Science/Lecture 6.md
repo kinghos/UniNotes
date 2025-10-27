@@ -25,3 +25,27 @@ let wheels = function
   | Car robin -> if robin then 3 else 4
   | Lorry w -> w
 ```
+
+#### Polymorphic types
+```ocaml
+type 'a option = 
+  | None
+  | Some of 'a
+
+type ('a, 'b) result =
+  | Ok of 'a
+  | Error of 'b
+```
+Can be used in place of an exception to return something
+
+### Exceptions
+Exception handling allows code to recover by raising an exception or but attempting an alternative
+```ocaml
+try
+  print_endline "pre exception";
+  raise (NoChange 1);
+  print_endline "post exception"
+with
+  | NoChange _ ->
+    print_endline "handled a NoChange exception"
+```
