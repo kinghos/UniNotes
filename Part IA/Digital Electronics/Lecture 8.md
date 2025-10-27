@@ -31,3 +31,4 @@ State assignment is rarely obvious or straightforward. Algorithms exist for opti
 If you have $m$ states, at least $\log_{2}m$ states are required to encode them.
 
 Example: Divide by 5 counter which is high for 2 clock edges then low for 3 edges. Here, there are 5 states i.e. 3 FFs.
+The FFs are connected together to form a shift register. The output from the final shift register in the chain is connected to the input of the first FF i.e. a continuous cycle. This needs 2 more FFs but is much more simple to wire.
