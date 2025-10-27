@@ -49,3 +49,16 @@ with
   | NoChange _ ->
     print_endline "handled a NoChange exception"
 ```
+`raise` will jump to the nearest try/with handler that matches the exception.
+
+```ocaml
+exception Change
+let rec change till amt =
+  match till, amt with
+  | _, 0         -> []
+  | [], _        -> raise Change
+  | c::till, amt -> if amt < 0 then raise Change
+                    else try c :: change (c::till) (amt - c)
+                         with Change -> change till amt
+```
+`Change` is raised if we run out of coins or if the amount goes negative. The recursive call is in an exception handler, this means the choice is undone if it goes wrong. This means the most recent choice is undone, so if the code needs to backtrack it will keep catching exceptions down the stack. If the top level has an error then it must be impossible to give change.
