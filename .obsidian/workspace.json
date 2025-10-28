@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 6.md",
+                "file": "Part IA/Digital Electronics/Lecture 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 6"
+              "title": "Lecture 7"
             }
           }
         ]
@@ -183,10 +183,12 @@
   },
   "active": "e66882cf3b7894bd",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Lecture 6.md",
+    "Part IA/Digital Electronics/Lecture 5.md",
+    "Part IA/Digital Electronics/Lecture 8.md",
     "Part IA/Foundations of Computer Science/Lecture 6.md",
     "Part IA/Foundations of Computer Science/Lecture 5.md",
     "Part IA/Foundations of Computer Science/Intro.md",
-    "Part IA/Digital Electronics/Lecture 8.md",
     "Part IA/Digital Electronics/Images/TrafficLightCircuit.png",
     "Part IA/Digital Electronics/Images/TrafficLightTransition.png",
     "Part IA/Digital Electronics/Images/Delays.png",
@@ -195,9 +197,7 @@
     "Part IA/Digital Electronics/Lecture 3.md",
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Digital Electronics/Lecture 4.md",
-    "Part IA/Digital Electronics/Lecture 5.md",
     "Part IA/Digital Electronics/Lecture 7.md",
-    "Part IA/Digital Electronics/Lecture 6.md",
     "Part IA/Digital Electronics/Images/Metastability.png",
     "Part IA/Digital Electronics/Images/HoldTime.png",
     "Part IA/Digital Electronics/Images/TimeConstraints.png",
