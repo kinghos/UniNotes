@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Lecture 7.md",
+                "file": "Part IA/Digital Electronics/Lecture 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 7"
+              "title": "Lecture 4"
             }
           }
         ]
@@ -183,12 +183,15 @@
   },
   "active": "d14bc4e29925bfe1",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Lecture 3.md",
+    "Part IA/Digital Electronics/Lecture 2.md",
+    "Part IA/Digital Electronics/Lecture 1.md",
+    "Part IA/Digital Electronics/Lecture 6.md",
+    "Part IA/Digital Electronics/Lecture 7.md",
     "Part IA/Digital Electronics/Lecture 5.md",
     "Part IA/Digital Electronics/Lecture 4.md",
     "Part IA/Databases/Lecture 3.md",
     "Part IA/Databases/Images/RASyntax.png",
-    "Part IA/Digital Electronics/Lecture 7.md",
-    "Part IA/Digital Electronics/Lecture 6.md",
     "Part IA/Digital Electronics/Lecture 8.md",
     "Part IA/Foundations of Computer Science/Lecture 6.md",
     "Part IA/Foundations of Computer Science/Lecture 5.md",
@@ -197,8 +200,6 @@
     "Part IA/Digital Electronics/Images/TrafficLightTransition.png",
     "Part IA/Digital Electronics/Images/Delays.png",
     "NST Maths/Supervision Notes.md",
-    "Part IA/Digital Electronics/Lecture 2.md",
-    "Part IA/Digital Electronics/Lecture 3.md",
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Digital Electronics/Images/Metastability.png",
     "Part IA/Digital Electronics/Images/HoldTime.png",
@@ -206,7 +207,6 @@
     "Part IA/Digital Electronics/Images/SerialDataLink.png",
     "Part IA/Digital Electronics/Images/ShiftRegisterTiming.png",
     "Part IA/Digital Electronics/Images/ShiftRegister.png",
-    "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Lecture 4.md",
     "Part IA/Foundations of Computer Science/Lecture 3.md",
     "Part IA/Foundations of Computer Science/Lecture 2.md",
