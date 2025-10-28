@@ -34,3 +34,11 @@ Students = {
 - $\mathbf{X} = \{ A_{1}, A_{2}, \dots, A_{k} \}$ is a set of attributes
 - $M=\{ A_{1} \mapsto B_{1}, A_{2}\mapsto B_{2},\dots A_{k}\mapsto B_{2}\}$ is a renaming map
 - A query Q must be well-formed: all column names of result are distinct. In $Q_1\times Q_2$, the two sub-queries cannot share any column names while in $Q_1\cup Q_2$, the two sub-queries must share all column names.
+
+| Operator   | RA                                     | SQL                                         |
+| ---------- | -------------------------------------- | ------------------------------------------- |
+| Selection  | $\sigma_{A>12}(R)$                     | `SELECT DISTINCT * FROM R WHERE R.A > 12`   |
+| Projection | $\pi_{B,C}(R)$                         | `SELECT DISTINCT B, C FROM R`               |
+| Renaming   | $\rho_{\{B\mapsto E, D\mapsto F\}}(R)$ | `SELECT A, B AS E, C, D as F FROM R`        |
+| Union      | $R \cup S$                             | `(SELECT * FROM R) UNION (SELECT * FROM S)` |
+|            |                                        |                                             |
