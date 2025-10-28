@@ -1,6 +1,7 @@
 Suppose that S and T are sets. The Cartesian product, $S \times T$ is the set $$
 S \times T = \{(s,t)|s\in S, t\in T\}
 $$
+This means each item in S will be paired with every item in T (every possible combination)
 A binary relation over $S\times T$ is any set $R$ with
 $$
 R\subseteq S\times T 
@@ -35,10 +36,18 @@ Students = {
 - $M=\{ A_{1} \mapsto B_{1}, A_{2}\mapsto B_{2},\dots A_{k}\mapsto B_{2}\}$ is a renaming map
 - A query Q must be well-formed: all column names of result are distinct. In $Q_1\times Q_2$, the two sub-queries cannot share any column names while in $Q_1\cup Q_2$, the two sub-queries must share all column names.
 
-| Operator   | RA                                     | SQL                                         |
-| ---------- | -------------------------------------- | ------------------------------------------- |
-| Selection  | $\sigma_{A>12}(R)$                     | `SELECT DISTINCT * FROM R WHERE R.A > 12`   |
-| Projection | $\pi_{B,C}(R)$                         | `SELECT DISTINCT B, C FROM R`               |
-| Renaming   | $\rho_{\{B\mapsto E, D\mapsto F\}}(R)$ | `SELECT A, B AS E, C, D as F FROM R`        |
-| Union      | $R \cup S$                             | `(SELECT * FROM R) UNION (SELECT * FROM S)` |
-|            |                                        |                                             |
+| Operator     | RA                                     | SQL                                                                            |
+| ------------ | -------------------------------------- | ------------------------------------------------------------------------------ |
+| Selection    | $\sigma_{A>12}(R)$                     | `SELECT DISTINCT * FROM R WHERE R.A > 12`                                      |
+| Projection   | $\pi_{B,C}(R)$                         | `SELECT DISTINCT B, C FROM R`                                                  |
+| Renaming     | $\rho_{\{B\mapsto E, D\mapsto F\}}(R)$ | `SELECT A, B AS E, C, D as F FROM R`                                           |
+| Union        | $R \cup S$                             | `(SELECT * FROM R) UNION (SELECT * FROM S)`                                    |
+| Intersection | $R\cap S$                              | `(SELECT * FROM R) INTERSECT (SELECT * FROM S) `                               |
+| Difference   | $R-S$                                  | `(SELECT * FROM R) EXCEPT (SELECT * FROM S)`                                   |
+| Product      | $R\times S$                            | `SELECT A, B, C, D FROM R CROSS JOIN S`<br>Or<br>`SELECT A, B, C, D FROM R, S` |
+##### Natural Join
+- We often ignore domain types and write a relational schema as $R(A), \text{where} A=\{ A_{1},A_{2},\dots,A_{n} \}$
+- When we write $R(A,B)$, we mean $R\cup B$ and implicitly assume that $A\cap B=\phi$ (i.e. disjoint fields, no A occurs in B)
+- $u.[A]=v.[A]$ abbreviates $u.A_1=v.A_{1}\times\dots\times u.A_{n}=v.A_{n}$
+
+Given $R(A,B)$ and $S(B,C)$, we define the natural join, denoted $R\bowtie S =\{ t | \}$
