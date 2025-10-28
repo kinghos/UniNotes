@@ -30,7 +30,7 @@ Students = {
 ```
 
 #### Relational Algebra abstract syntax
-![[Pasted image 20251028111947.png]]
+![[RASyntax.png]]
 - $p$ is a simple boolean predicate over attributes values
 - $\mathbf{X} = \{ A_{1}, A_{2}, \dots, A_{k} \}$ is a set of attributes
 - $M=\{ A_{1} \mapsto B_{1}, A_{2}\mapsto B_{2},\dots A_{k}\mapsto B_{2}\}$ is a renaming map
