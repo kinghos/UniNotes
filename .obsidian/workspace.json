@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Lecture 4.md",
+                "file": "Part IA/Digital Electronics/Lecture 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 4"
+              "title": "Lecture 6"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "don't care",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,13 +183,13 @@
   },
   "active": "d14bc4e29925bfe1",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Lecture 5.md",
+    "Part IA/Digital Electronics/Lecture 4.md",
     "Part IA/Digital Electronics/Lecture 3.md",
     "Part IA/Digital Electronics/Lecture 2.md",
     "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Digital Electronics/Lecture 6.md",
     "Part IA/Digital Electronics/Lecture 7.md",
-    "Part IA/Digital Electronics/Lecture 5.md",
-    "Part IA/Digital Electronics/Lecture 4.md",
     "Part IA/Databases/Lecture 3.md",
     "Part IA/Databases/Images/RASyntax.png",
     "Part IA/Digital Electronics/Lecture 8.md",
