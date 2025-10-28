@@ -50,4 +50,6 @@ Students = {
 - When we write $R(A,B)$, we mean $R\cup B$ and implicitly assume that $A\cap B=\phi$ (i.e. disjoint fields, no A occurs in B)
 - $u.[A]=v.[A]$ abbreviates $u.A_1=v.A_{1}\times\dots\times u.A_{n}=v.A_{n}$
 
-Given $R(A,B)$ and $S(B,C)$, we define the natural join, denoted $R\bowtie S =\{ t | \}$
+Given $R(A,B)$ and $S(B,C)$, we define the natural join as $$R\bowtie S = \pi_{A,B,C}(\sigma_{B=B},(R\times \rho_{\vec{B}\mapsto \vec{B}},(S)))$$
+Explicit join predicates are commonly used, replace `NATURAL` with a `WHERE` clause.
+When NULL values exist, there are further join variations (left/right/inner/outer)
