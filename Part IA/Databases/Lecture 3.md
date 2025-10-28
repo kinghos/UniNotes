@@ -22,6 +22,15 @@ Schema: `Students(name: string, sid: string, age: integer)`
 An instance of this schema:
 ```sql
 Students = {
-
+	{(sid, fm21), (name, Fatima), (age, 20)},
+	{(name, Eva), (sid, ev77), (age, 18)},
+	{(age, 19), (name, James), (sid, jj25)}
 }
 ```
+
+#### Relational Algebra abstract syntax
+![[Pasted image 20251028111947.png]]
+- $p$ is a simple boolean predicate over attributes values
+- $\mathbf{X} = \{ A_{1}, A_{2}, \dots, A_{k} \}$ is a set of attributes
+- $M=\{ A_{1} \mapsto B_{1}, A_{2}\mapsto B_{2},\dots A_{k}\mapsto B_{2}\}$ is a renaming map
+- A query Q must be well-formed: all column names of result are distinct. In $Q_1\times Q_2$, the two sub-queries cannot share any column names while in $Q_1\cup Q_2$, the two sub-queries must share all column names.
