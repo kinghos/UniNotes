@@ -15,3 +15,11 @@ This is known as row matching. This only works in certain cases.
 Two states, say p and q, can be considered equivalent if from each of these states, a finite state machine generates the same output sequence in response to any input bit sequence.
 In practice, if they have the same next states and same outputs they are equivalent.
 **Next states can be equivalent without being identical**
+
+#### Generic Logic Array
+Similar in concept to PLAs, but have the option to make use of D-type flip-flops in the OR plane.
+![[GLADevice.png]]
+
+#### Field Programmable Gate Arrays
+- Array of configurable logic blocks surrounded by input blocks
+- 
