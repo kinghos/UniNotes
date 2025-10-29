@@ -73,7 +73,9 @@ For binary search trees, inorder gives a sorted list from the tree, by "squashin
 
 #### Functional arrays
 - Immutable
+- Tree structure
 - $O(\log n)$ access time (slower than a conventional array which is $O(1)$)
+- Using "binary code", the path to the target is found e.g. reading right to left, `1111` encodes the value 4 places to the right, `1100` encodes the value two lefts and two rights down. Extra digits are ignored.
 
 Lookup function
 ```ocaml
@@ -95,3 +97,26 @@ let rec sub = function (* Alternative implementation *)
 | Br (v, t1, t2), k when k mod 2 = 0 -> sub (t1, k / 2)
 | Br (v, t1, t2), k -> sub (t2, k / 2)
 ```
+`when` acts the same as an if clause.
+
+
+```ocaml
+let rec update = function
+| Lf, k, w ->
+    if k = 1 then
+      Br (w, Lf, Lf)
+    else
+      raise Subscript  (* Gap in tree *)
+| Br (v, t1, t2), k, w ->
+    if k = 1 then
+      Br (w, t1, t2)
+    else if k mod 2 = 0 then
+      Br (v, update (t1, k / 2, w), t2)
+    else
+      Br (v, t1, update (t2, k / 2, w))
+```
+
+##### Complexity of Dictionary Data Structures
+Linear search: most general, needing only equality on keys but inefficient
+Binary search: need an ordering on keys
+Array subscripting: Least general, needing keys to be integers, but worst cast is $O(\log n)$
