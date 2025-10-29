@@ -1,5 +1,5 @@
 Using option types forces you to check the option every time it is used, using pattern matching. This ensures you cover the error case
-#### Dictionaries
+### Dictionaries
 A dictionary attaches values to identifiers. It has the operations:
 - lookup
 - update/insert
@@ -22,7 +22,7 @@ let rec lookup = function
 let update (l, b, y) = (b, y) :: l
 ```
 
-#### Binary Search Trees
+### Binary Search Trees
 The time complexity for lookup is only $O(\log n)$ when the tree is balanced.
 ```ocaml
 let rec lookup b = function
@@ -47,4 +47,26 @@ let rec update k v = function
     else (* a = k *)
       Br ((a, v), t1, t2)
 ```
-This code reconstructs a new tree in which the target value is replaced 
+This code reconstructs a new tree in which the target value is replaced.
+
+#### Tree Traversal
+- Preorder - label first
+- Inorder - label midway
+- Postorder - label last
+```ocaml
+let rec preorder = function
+| Lf -> []
+| Br (v, t1, t2) ->
+    [v] @ preorder t1 @ preorder t2
+
+let rec inorder = function
+| Lf -> []
+| Br (v, t1, t2) ->
+    inorder t1 @ [v] @ inorder t2
+    
+let rec postorder = function
+| Lf -> []
+| Br (v, t1, t2) ->
+    postorder t1 @ postorder t2 @ [v]
+```
+For binary search trees, in 
