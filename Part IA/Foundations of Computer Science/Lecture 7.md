@@ -69,4 +69,29 @@ let rec postorder = function
 | Br (v, t1, t2) ->
     postorder t1 @ postorder t2 @ [v]
 ```
-For binary search trees, in 
+For binary search trees, inorder gives a sorted list from the tree, by "squashing down" the tree.
+
+#### Functional arrays
+- Immutable
+- $O(\log n)$ access time (slower than a conventional array which is $O(1)$)
+
+Lookup function
+```ocaml
+exception Subscript
+let rec sub = function
+| Lf, _ -> raise Subscript  (* Not found *)
+| Br (v, t1, t2), k ->
+    if k = 1 then v
+    else if k mod 2 = 0 then
+      sub (t1, k / 2)
+    else
+      sub (t2, k / 2)
+```
+Alternatively:
+```ocaml
+let rec sub = function (* Alternative implementation *)
+| Lf, _ -> raise Subscript
+| Br (v, t1, t2), 1 -> v
+| Br (v, t1, t2), k when k mod 2 = 0 -> sub (t1, k / 2)
+| Br (v, t1, t2), k -> sub (t2, k / 2)
+```
