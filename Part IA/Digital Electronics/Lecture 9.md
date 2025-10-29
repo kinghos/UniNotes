@@ -7,4 +7,11 @@
 Here there are four FFs (including $ra$)
 
 #### Elimination of Redundant States
-Reducin
+Reducing the number of states may reduce the number of FFs required and may reduce the complexity of the next state logic owing to to more unused states (don't care states)
+![[RedundantStates.png]]
+Look for redundant states - here, H and I have the same next states and outputs, so they can be removed. Now row I can be removed since there is no way to get there, and K, M, N and P have the same next state and output as H and hence can be replaced by H. Then, their rows can be removed from the table. J and L are identical so L can be replaced by J and removed from the table. D and G are identical, as are E and F, then G can be replaced by D and G eliminated, and F replaced by E and F eliminated.
+This is known as row matching. This only works in certain cases.
+
+Two states, say p and q, can be considered equivalent if from each of these states, a finite state machine generates the same output sequence in response to any input bit sequence.
+In practice, if they have the same next states and same outputs they are equivalent.
+**Next states can be equivalent without being identical**
