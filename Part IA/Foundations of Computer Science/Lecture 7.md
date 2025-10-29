@@ -21,3 +21,30 @@ let rec lookup = function
       
 let update (l, b, y) = (b, y) :: l
 ```
+
+#### Binary Search Trees
+The time complexity for lookup is only $O(\log n)$ when the tree is balanced.
+```ocaml
+let rec lookup b = function
+| Br ((a, x), t1, t2) ->
+    if b < a then
+      lookup b t1
+    else if a < b then
+      lookup b t2
+    else
+      x
+| Lf -> raise (Missing b)
+```
+
+```ocaml
+let rec update k v = function
+| Lf -> Br ((k, v), Lf, Lf)
+| Br ((a, x), t1, t2) ->
+    if k < a then
+      Br ((a, x), update k v t1, t2)
+    else if a < k then
+      Br ((a, x), t1, update k v t2)
+    else (* a = k *)
+      Br ((a, v), t1, t2)
+```
+This code reconstructs a new tree in which the target value is replaced 
