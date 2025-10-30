@@ -11,3 +11,18 @@
 - $c-(c\cdot \hat{b})b$ is the vector part of c perpendicular to b
 - When given equations of shapes, consider restrictions in the axes the object can move, e.g. for the equation for a sphere, how is movement in each plane limited
 - Replace $r$ with $r-a$ in equations of shapes to centre at a point other than the origin
+
+- $\lambda A\times \mu B= \lambda \mu (A\times B)$ 
+- Consider orientation of cross product and for vector areas (right-handed system)
+- For cylindrical coordinates:
+	- Fixing $r$ forms a cylinder
+	- Fixing $\theta$ forms a half-plane
+	- Fixing $z$ forms a plane
+	- Fixing $r$ and $z$ forms a circle
+- For spherical coordinates:
+	- Fixing r forms a sphere
+	- Fixing $\theta$ forms a cone
+	- Fixing $\phi$ forms a half-plane
+- 3D spirals are called a helix
+
+### [[Complex Numbers]]
