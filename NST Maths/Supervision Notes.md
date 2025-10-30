@@ -26,3 +26,4 @@
 - 3D spirals are called a helix
 
 ### [[Complex Numbers]]
+- Always put into exponential form to solve.
