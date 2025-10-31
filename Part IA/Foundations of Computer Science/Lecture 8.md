@@ -49,3 +49,12 @@ let rec matprod arows brows =
   let cols = transp brows in
   map (fun row -> map (dotprod row) cols) arows
 ```
+
+### Predicates
+A predicate is a boolean-valued function.
+```ocaml
+let rec exists p = function
+| [] -> false
+| x::xs -> (p x) || (exists p xs)
+```
+Here, the OR function evaluates the first argument first - if it is true, it doesn't waste time evaluating the second argument.

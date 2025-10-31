@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 8.md",
+                "file": "Part IA/Digital Electronics/Lecture 10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 8"
+              "title": "Lecture 10"
             }
           }
         ]
@@ -183,13 +183,14 @@
   },
   "active": "48c8eb0e3fce6821",
   "lastOpenFiles": [
-    "Part IA/Digital Electronics/Lecture 4.md",
+    "Part IA/Digital Electronics/Lecture 9.md",
+    "Part IA/Digital Electronics/Lecture 10.md",
     "Part IA/Foundations of Computer Science/Lecture 8.md",
+    "Part IA/Digital Electronics/Lecture 4.md",
     "NST Maths/Supervision Notes.md",
     "NST Maths/Chapter 2/Complex Numbers.md",
     "NST Maths/Chapter 1/Vectors.md",
     "Part IA/Foundations of Computer Science/Lecture 7.md",
-    "Part IA/Digital Electronics/Lecture 9.md",
     "Part IA/Digital Electronics/Images/GLADevice.png",
     "Part IA/Digital Electronics/Images/RedundantStates.png",
     "Part IA/Digital Electronics/Images/OneHot.png",
@@ -228,7 +229,6 @@
     "NST Maths/Chapter 1",
     "Part IA/Foundations of Computer Science",
     "Part IA/Digital Electronics",
-    "Part IA",
-    "Excalidraw/Drawing 2025-08-28 14.12.30.excalidraw.md"
+    "Part IA"
   ]
 }
