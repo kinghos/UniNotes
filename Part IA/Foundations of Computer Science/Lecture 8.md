@@ -28,5 +28,13 @@ let prefix = fun a -> (fun b -> a ^ b)
 let promote = prefix "Professor "
 promote "Mopp" (*Professor Mopp*)
 ```
+Operators like `>=` can be passed as functions using brackets `( >= )`
 
+Function to transpose a matrix
+```ocaml
+let rec transp = function
+  | []::_ -> []
+  | rows -> (map List.hd rows) ::
+            (transp (map List.tl rows))
+```
 
