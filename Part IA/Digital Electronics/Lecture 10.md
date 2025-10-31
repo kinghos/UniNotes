@@ -19,3 +19,9 @@ A cell will not contain any implied state pairs if the outputs are different, si
 ![[ImplicationTable4.png]]
 - The "coordinates" of the remaining cells correspond to the equivalent state pairs, i.e. A-D and C-E so $A\equiv D$ and $C\equiv E$
 - This means in the state table D can be replaced with A and eliminated, and the same for E and C.
+### Electricity
+Electrons move from -ve to +ve (conventional current is opposite)
+
+One electron has a charge of $1.6 * 10^-19 \text{C}$
+$I=\frac{Q}{t}$
+EMF is defined to be 1 volt if it gives 1 J of electrical energy t oeach 
