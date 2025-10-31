@@ -38,3 +38,14 @@ let rec transp = function
             (transp (map List.tl rows))
 ```
 
+Matrix multiplication
+```ocaml
+let rec dotprod xs ys =
+  match xs, ys with
+  | [], [] -> 0.0
+  | x::xs, y::ys ->  (x *. y) +. (dotprod xs ys)
+  
+let rec matprod arows brows =
+  let cols = transp brows in
+  map (fun row -> map (dotprod row) cols) arows
+```
