@@ -5,10 +5,17 @@ $\lambda(p, x)$ is the output given the present state and input x and
 $\sigma(p,x)$ is the next state given the present state p and input x
 
 To eliminate redundant states, each pair of states must be compared.
-![[Pasted image 20251031111215.png]]
+![[ImplicationTable.png]]
 Indicate in each cell any implied equivalent state pairs.
 A cell will not contain any implied state pairs if the outputs are different, since this does not satisfy our earlier equivalence theorem.
 
 - Mark each cell with different outputs with an X
-- Any pairs with the same outputs must have their corresponding next state pairs written in the cell, e.g. A and B have the same output, so $D\equiv F$ and $C\equiv H$. Repeat for all cells iwth same output.
-- Remove self-implied pairs, e.g. 
+- Any pairs with the same outputs must have their corresponding next state pairs written in the cell, e.g. A and B have the same output, so $D\equiv F$ and $C\equiv H$. Repeat for all cells with same output.
+- Remove self-implied pairs, e.g. in A-D cell there is $A\equiv D$ if $A\equiv D$
+
+![[ImplicationTable2.png]]
+- Now check each implied pair. If any pair is not equivalent (indicated by a cross in another cell) it should be crossed out.
+![[ImplicationTable3.png]]
+![[ImplicationTable4.png]]
+- The "coordinates" of the remaining cells correspond to the equivalent state pairs, i.e. A-D and C-E so $A\equiv D$ and $C\equiv E$
+- This means in the state table D can be replaced with A and eliminated, and the same for E and C.
