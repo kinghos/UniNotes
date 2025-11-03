@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 9.md",
+                "file": "Part IA/Digital Electronics/Lecture 11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 9"
+              "title": "Lecture 11"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "d7776724a527ddca",
   "lastOpenFiles": [
-    "Part IA/Foundations of Computer Science/Lecture 8.md",
     "Part IA/Foundations of Computer Science/Lecture 9.md",
+    "Part IA/Digital Electronics/Lecture 11.md",
+    "Part IA/Foundations of Computer Science/Lecture 8.md",
     "Part IA/Digital Electronics/Lecture 10.md",
     "Part IA/Digital Electronics/Images/ImplicationTable.png",
     "Part IA/Digital Electronics/Images/ImplicationTable4.png",
@@ -219,7 +220,6 @@
     "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Databases/Lecture 2.md",
     "Part IA/Databases/Images",
-    "Part IA/Databases/Introduction to Databases.md",
     "NST Maths/Chapter2_to_annotate.pdf",
     "NST Maths/Chapter 2",
     "Untitled.canvas",

@@ -66,3 +66,11 @@ let rec iterates f x =
   Cons (x, fun () -> iterates f (f x))
 ```
 This returns the infinite sequence $x, f(x), f(f(x)),\dots$
+
+#### Numerical computations
+```ocaml
+let next a x = (a /. x +. x) /. 2.0
+let approxsqrt k = iterates (next k) 1.0
+let _ = get 5 (approxsqrt 3.0)
+```
+Starting at 1, this generates an infinite sequence that approaches the value of $\sqrt{ 3 }$ using Newton-Raphson.
