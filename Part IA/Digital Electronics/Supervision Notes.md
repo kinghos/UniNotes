@@ -2,4 +2,5 @@
 - The output of a Moore machine can only change when the clock ticks - the output is a function of the state
 - The output of a Mealy machine is different, the state controls which function is used to determine the outputs from the inputs.
 - Using a Mealy machine can reduce the amount of states needed, i.e. less FFs.
+- Gray's code can simply be done with 2 FFs
 - 
