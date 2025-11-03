@@ -46,7 +46,7 @@ Students = {
 | Difference   | $R-S$                                  | `(SELECT * FROM R) EXCEPT (SELECT * FROM S)`                                   |
 | Product      | $R\times S$                            | `SELECT A, B, C, D FROM R CROSS JOIN S`<br>Or<br>`SELECT A, B, C, D FROM R, S` |
 ##### Natural Join
-- We often ignore domain types and write a relational schema as $R(A), \text{where} A=\{ A_{1},A_{2},\dots,A_{n} \}$
+- We often ignore domain types and write a relational schema as $R(A), \text{where}\ A=\{ A_{1},A_{2},\dots,A_{n} \}$
 - When we write $R(A,B)$, we mean $R\cup B$ and implicitly assume that $A\cap B=\phi$ (i.e. disjoint fields, no A occurs in B)
 - $u.[A]=v.[A]$ abbreviates $u.A_1=v.A_{1}\times\dots\times u.A_{n}=v.A_{n}$
 
