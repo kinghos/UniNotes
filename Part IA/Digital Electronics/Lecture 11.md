@@ -17,3 +17,8 @@ When there is a gate voltage applied, electrons are attracted to the underside o
 
 ##### p-Channel MOSFET
 These are the opposite, where the charge carriers are holes. G has to be negative for the transistor to turn on.
+
+##### n-MOS inverter
+![[n-MOSInverter.png]]
+Low $V_{in}$ becomes high $V_{out}$ and vice versa.
+n-MOS logic has too high power consumption and slow output transition times to be an effective form of building gates.
