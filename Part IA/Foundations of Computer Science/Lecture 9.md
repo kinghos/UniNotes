@@ -49,3 +49,20 @@ let rec interleave xq yq =
   | Cons (x, xf) -> Cons (x, fun () -> interleave yq (xf ()))
 ```
 Combined with `get`, this can combine two lazy lists with alternating terms.
+
+### Functionals for lazy lists
+```ocaml
+let rec filterq p = function
+| Nil -> Nil
+| Cons (x, xf) ->
+    if p x then
+      Cons (x, fun () -> filterq p (xf ()))
+    else
+      filterq p (xf ())
+```
+
+```ocaml
+let rec iterates f x =
+  Cons (x, fun () -> iterates f (f x))
+```
+This returns the infinite sequence $x, f(x), f(f(x)),\dots$

@@ -50,6 +50,8 @@ let rec matprod arows brows =
   map (fun row -> map (dotprod row) cols) arows
 ```
 
+
+A higher order function is a function that takes in or returns a function
 ### Predicates
 A predicate is a boolean-valued function.
 ```ocaml
