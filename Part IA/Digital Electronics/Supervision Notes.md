@@ -1,0 +1,5 @@
+- Moore machines can have outputs labelled akin to Mealy machines, but with the slash inside the state, e.g. "001 / 0" and "0010" / 1 means 0010 is the state that outputs 1.
+- The output of a Moore machine can only change when the clock ticks - the output is a function of the state
+- The output of a Mealy machine is different, the state controls which function is used to determine the outputs from the inputs.
+- Using a Mealy machine can reduce the amount of states needed, i.e. less FFs.
+- 
