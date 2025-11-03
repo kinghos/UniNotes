@@ -13,3 +13,7 @@ A device with a single p-n junction forces current to only flow through in one d
 ##### n-Channel MOSFET
 Current flow from D to S ($I_{DS}$) is controlled by the voltage applied between G and S ($V_{GS}$) i.e. G has to be +ve wrt S for current $I_{DS}$ to flow.
 ![[MOSFET.png]]
+When there is a gate voltage applied, electrons are attracted to the underside of the gate, so this region is "inverted" and becomes n-type. This region is known as the channel. There is now a continuous path from S to D, so the transistor is on. 
+
+##### p-Channel MOSFET
+These are the opposite, where the charge carriers are holes. G has to be negative for the transistor to turn on.
