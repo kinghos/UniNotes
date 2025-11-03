@@ -41,3 +41,11 @@ let rec get n s =
 ```
 This gets the first n elements as a list
 
+#### Appending a list
+```ocaml
+let rec interleave xq yq =
+  match xq with
+  | Nil -> yq
+  | Cons (x, xf) -> Cons (x, fun () -> interleave yq (xf ()))
+```
+Combined with `get`, this can combine two lazy lists with alternating terms.
