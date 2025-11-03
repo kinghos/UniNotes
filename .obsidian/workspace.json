@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Lecture 11.md",
+                "file": "Part IA/Databases/Lecture 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 11"
+              "title": "Lecture 3"
             }
           }
         ]
@@ -181,14 +181,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "d7776724a527ddca",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Lecture 11.md",
     "Part IA/Digital Electronics/Images/CMOSInverter.png",
     "Part IA/Digital Electronics/Images/n-MOSInverter.png",
     "Part IA/Digital Electronics/Images/MOSFET.png",
     "Part IA/Digital Electronics/Images/PotentialDivider.png",
     "Part IA/Foundations of Computer Science/Lecture 9.md",
-    "Part IA/Digital Electronics/Lecture 11.md",
     "Part IA/Foundations of Computer Science/Lecture 8.md",
     "Part IA/Digital Electronics/Lecture 10.md",
     "Part IA/Digital Electronics/Images/ImplicationTable.png",
@@ -203,7 +203,6 @@
     "Part IA/Foundations of Computer Science/Lecture 7.md",
     "Part IA/Digital Electronics/Images/GLADevice.png",
     "Part IA/Digital Electronics/Images/RedundantStates.png",
-    "Part IA/Digital Electronics/Images/OneHot.png",
     "Part IA/Digital Electronics/Lecture 3.md",
     "Part IA/Digital Electronics/Lecture 7.md",
     "Part IA/Digital Electronics/Lecture 6.md",
