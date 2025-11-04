@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Supervision Notes.md",
+                "file": "Part IA/Databases/Lecture 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "Lecture 4"
             }
           }
         ]
@@ -183,8 +183,10 @@
   },
   "active": "d7776724a527ddca",
   "lastOpenFiles": [
-    "Part IA/Databases/Lecture 3.md",
     "Part IA/Digital Electronics/Supervision Notes.md",
+    "Part IA/Databases/Lecture 4.md",
+    "Part IA/Databases/Untitled",
+    "Part IA/Databases/Lecture 3.md",
     "Part IA/Digital Electronics/Lecture 11.md",
     "Part IA/Digital Electronics/Images/CMOSInverter.png",
     "Part IA/Digital Electronics/Images/n-MOSInverter.png",
@@ -218,7 +220,6 @@
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Foundations of Computer Science/Lecture 4.md",
     "Part IA/Foundations of Computer Science/Lecture 3.md",
-    "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Databases/Images",
     "NST Maths/Chapter2_to_annotate.pdf",
     "NST Maths/Chapter 2",
@@ -228,7 +229,6 @@
     "Part IA/Databases",
     "NST Maths/Chapter 1",
     "Part IA/Foundations of Computer Science",
-    "Part IA/Digital Electronics",
-    "Part IA"
+    "Part IA/Digital Electronics"
   ]
 }
