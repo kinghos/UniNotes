@@ -5,3 +5,4 @@ Update - What if a directors name is misspelled? We may update it correctly for 
 
 Performance issues - a transaction implementing a conceptually simple update has a lot of work to do, possibly locking the whole table
 
+Breaking down tables e.g. table for people, table for films, reduces redundancy. A third table can be used to hold the relationship between the two.
