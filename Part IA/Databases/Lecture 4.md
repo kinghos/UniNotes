@@ -14,3 +14,20 @@ $$
 then Z is a superkey for R. If no proper subset of Z is a superkey, then Z is a key for R. We write $R(\underline{Z}, Y)$ to indicate that Z is a key for $R(Z\cup Y)$
 
 A database is said to have referential integrity when all foreign key constraints are satisfied.
+
+A schema with a simple key:
+```sql
+CREATE TABLE genres (
+genre_id integer NOT NULL,
+genre TEXT NOT NULL,
+PRIMARY KEY (genre_id));
+```
+A schema that is all-key and that has two foreign keys:
+```sql
+CREATE TABLE has_genre (
+movie_id varchar(16) NOT NULL -- up to 16 chars
+REFERENCES movies (movie_id),
+genre_id integer NOT NULL
+REFERENCES genres (genre_id),
+PRIMARY KEY (movie_id, genre_id));
+```
