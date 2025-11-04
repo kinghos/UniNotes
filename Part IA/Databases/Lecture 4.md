@@ -31,3 +31,18 @@ genre_id integer NOT NULL
 REFERENCES genres (genre_id),
 PRIMARY KEY (movie_id, genre_id));
 ```
+
+Implementing multiple relationships with two tables is possible.
+Two tables:
+$$
+R(\underline{X,Z}, U)
+$$
+$$
+Q(\underline{X,Z}, V)
+$$
+Can be combined into one:
+$$RQ(\underline{X, Z, type}, U, V)$$
+Using a tag domain(type) = {r, q} (for some constant values r and q)
+- represent an R-record {x, z, u} as an RQ-record (x, z, r, u, NULL)
+- represent a Q-record {x, z, v} as an RQ-record (x, z, q, NULL, v)
+- 
