@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 3.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 3"
+              "title": "Lecture 9"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lazy ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,11 +74,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -182,6 +184,8 @@
   },
   "active": "d7776724a527ddca",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Lecture 5.md",
+    "Part IA/Foundations of Computer Science/Lecture 3.md",
     "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Foundations of Computer Science/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Lecture 9.md",
@@ -217,8 +221,6 @@
     "Part IA/Digital Electronics/Lecture 5.md",
     "Part IA/Digital Electronics/Lecture 2.md",
     "Part IA/Digital Electronics/Lecture 1.md",
-    "Part IA/Digital Electronics/Lecture 8.md",
-    "Part IA/Foundations of Computer Science/Lecture 6.md",
     "Part IA/Databases/Images",
     "NST Maths/Chapter2_to_annotate.pdf",
     "NST Maths/Chapter 2",
