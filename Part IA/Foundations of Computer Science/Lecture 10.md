@@ -46,3 +46,20 @@ let qhd = function
 | _ -> raise Empty
 ```
 `norm` here ensures that the front part is never empty unless the entire queue is empty.
+
+#### Breadth First Search with Queues
+```ocaml
+let rec breadth q =
+  if qnull q then []
+  else
+    match qhd q with
+    | Lf -> breadth (deq q)
+    | Br (v, t, u) -> v :: breadth (enq (enq (deq q) t) u)
+```
+Massive speedup compared to the other algorithm.
+
+### Iterative deepening
+Breadth-first search is not practical for infinite trees, as it uses too much space. Breadth-first examines $O(b^d)$ nodes, and since they are all stored, this means the space complexity is the same. Depth-first iterative deepening performs repeated depth-first searches, each time discarding the results of the previous search. Thus the space complexity becomes $O(d)$.
+
+#### Stacks
+Often treated as an imperative data structure - push and pop change an existing stack, not returning a new one.
