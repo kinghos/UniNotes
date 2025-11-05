@@ -75,7 +75,7 @@ For binary search trees, inorder gives a sorted list from the tree, by "squashin
 - Immutable
 - Tree structure
 - $O(\log n)$ access time (slower than a conventional array which is $O(1)$)
-- Using "binary code", the path to the target is found e.g. reading right to left, `1111` encodes the value 4 places to the right, `1100` encodes the value two lefts and two rights down. Extra digits are ignored.
+- Using "binary code", the path to the target is found e.g. reading right to left, `1111` encodes the value 4 places to the right (index 15), `1100` encodes the value two lefts and two rights down (index 12). Extra digits are ignored.
 
 Lookup function
 ```ocaml
