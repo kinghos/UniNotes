@@ -19,3 +19,19 @@ Address supplied from PC to memory yields instruction to be executed.
 The instruction is presented to the rest of the datapath. PC is incremented.
 Including Mux enables PC to be changed to an arbitrary value to permit branching.
 More of the datapath can be added - control unit and registers
+![[MemoryAccess.png]]
+Mux can access registers in memory.
+
+##### Branching
+If a branch instruction is decoded and the ALU zero flag (flag indicating if the ALU output is 0) is set, then the AND gate output (the branch Mux control input) will become 1 and the input to the PC will now come from the jump adder.
+
+
+#### Multicycle processor
+Single cycle processors have 3 main weaknesses:
+- Clock cycle needs to be long enough to cope with slowest instruction
+- Needs 3 adders, 1 in ALU and 2 in the PC logic
+- Separate instruction and data memory
+In a multicycle processor:
+- Instructions are broken into multiple shorter, faster steps
+- More complex instructions take more steps than simple ones 
+![[MulticycleProcessor.png]]
