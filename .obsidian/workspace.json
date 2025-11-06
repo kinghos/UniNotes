@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -180,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "d7776724a527ddca",
   "lastOpenFiles": [
     "Part IA/Introduction to Graphics/Images",
     "Part IA/Introduction to Graphics/Images/ImageStorage.png",
