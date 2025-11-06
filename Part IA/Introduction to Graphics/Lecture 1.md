@@ -14,8 +14,14 @@ Sometimes it is desirable to pad an image with extra pixels, or to define a regi
 For row-major, interleaved, colour: $i_{first}=(x_{0}+p)\cdot{3}+(y_{0}+p)\cdot{3}\cdot(n_{cols}+2p)\cdot{3}$
 
 #### Pixel formats
+| Format     | Bytes    |
+| ---------- | -------- |
+| Grayscale  | 1        |
+| Highcolour | 2        |
+| Truecolour | 3        |
+| Deepcolour | $\geq$ 4 |
+More bytes means less colour banding
 
-| Format    | Bytes                      |
-| --------- | -------------------------- |
-| Grayscale | One colour channel, 1 byte |
-|           |                            |
+#### Pixels
+Pixels are points - no dimensions, no area, cannot be seen. It has coordinates, and is a sample.
+Sampling is the process of mapping continuous functions to discrete functions. Quantisation is the process of mapping a continuous variable to a discrete one.
