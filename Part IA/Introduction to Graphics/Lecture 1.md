@@ -25,3 +25,11 @@ More bytes means less colour banding
 #### Pixels
 Pixels are points - no dimensions, no area, cannot be seen. It has coordinates, and is a sample.
 Sampling is the process of mapping continuous functions to discrete functions. Quantisation is the process of mapping a continuous variable to a discrete one.
+
+#### Ray tracing
+Identify point on surface and calculate illumination
+Given a set of 3D objects, shoot a ray from the eye through the centre of every pixel and see what surface it hits.
+
+A ray can be modelled as the equation of a line.
+$$P=O+s\hat{D}$$
+where $P=[x, y, z]$
