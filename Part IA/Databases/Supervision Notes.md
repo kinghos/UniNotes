@@ -8,3 +8,5 @@ Normalised data prevents:
 - Lower concurrency (more locks to stay consistent)
 
 Cartesian product fails with an empty argument.
+Primary keys are always distinct and never null
+Consider the schema of the table and the conditions for the primary key
