@@ -104,4 +104,9 @@ It may be easier to visualise linked lists in OCaml as nested boxes - rather tha
 let rec mlistOf = function
   | [] -> Nil
   | x :: l -> Cons (x, ref(mlistOf l))
+  
+let extend mlp x = 
+  let last = ref Nil in
+  mlp := Cons (x, last);
+  last
 ```
