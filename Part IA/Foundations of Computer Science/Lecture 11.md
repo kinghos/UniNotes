@@ -12,3 +12,29 @@ ref;; (*Create a box*)
 (:=);; (*Update the contents of the box*)
 ```
 The return type of `:=` is unit.
+```ocaml
+let p = ref 5
+p := !p + 1
+let ps = [ref 77; p]
+List.hd ps := 3
+```
+Here, ps is not updated, only the reference at the head.
+
+#### Commands
+A series of expressions can be executed by being separated with semicolons, the value of the last expression is what is returned.
+A typical command returns unit.
+```ocaml
+1 + (print_endline "abc"; 3; 101);; (*is equivalent to*)
+1 + (let () = print_endline "abc" in let _ = 3 in 101)
+```
+This code prints "abc", then 102
+
+**Semicolons will terminate if statements**
+```ocaml
+if true then
+  print_endline "it was true"
+else 
+  print_endline "it was false";
+  print_endline "more printing here"
+```
+***This code will only print "more printing here" as the semicolon terminates the ***
