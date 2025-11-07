@@ -6,3 +6,5 @@ Normalised data prevents:
 - Modelling inconsistency
 - Lower update performance / more writes
 - Lower concurrency (more locks to stay consistent)
+
+Cartesian product fails with an empty argument.
