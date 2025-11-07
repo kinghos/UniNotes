@@ -19,3 +19,12 @@ Assumptions are statements that may be used for deduction, while goals are state
 
 $\implies$ means implies or if x then y
 To prove a goal $P\implies Q$ assume P is true and prove Q
+RTP - required to prove
+
+#### Modus Ponens
+From the statements $P$ and $P\implies Q$ the statement $Q$ follows.
+or, in other words
+If $P$ and $P=>Q$ hold then so does $Q$
+or in symbols
+$$\frac{P\ \ \ \ P\implies q}{Q}$$
+To use an assumption of the form $P\implies Q$, aim at establishing P. Once this is done, by Modus Ponens, one can conclude Q and so further assume it
