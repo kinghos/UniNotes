@@ -37,4 +37,42 @@ else
   print_endline "it was false";
   print_endline "more printing here"
 ```
-***This code will only print "more printing here" as the semicolon terminates the ***
+***This code will only print "more printing here" as the semicolon terminates the if statement***
+
+#### The `while` command
+```ocaml
+let tlopt = function
+| [] -> None
+| _::xs -> Some xs
+
+let length xs =
+  let lp  = ref xs in (* list of uncounted elements *)
+  let np  = ref 0  in (* accumulated count *)
+  let fin = ref false in
+  while not !fin do
+    match tlopt !lp with
+    | None -> fin := true
+    | Some xs ->
+        lp := xs;
+        np := 1 + !np
+  done;
+  !np (* the final count is returned *)
+```
+`while` returns unit.
+
+#### Private, Persistent References
+```ocaml
+exception TooMuch of int
+let makeAccount initBalance =
+  let balance = ref initBalance in
+  let withdraw amt =
+     if amt > !balance then
+       raise (TooMuch (amt - !balance))
+     else begin
+       balance := !balance - amt;
+       !balance
+     end
+  in
+  withdraw
+```
+When
