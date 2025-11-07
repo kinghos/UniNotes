@@ -74,5 +74,34 @@ let makeAccount initBalance =
      end
   in
   withdraw
+
+let my_account = makeAccount 500
 ```
-When
+Here, calling `my_account 10` repeatedly will give a different output each time - very different to pure functions.
+
+#### Primitives for arrays
+```ocaml
+[|"a"; "b"; "c"|] (* allocate a fresh string array *)
+Array.make 3 'a'   (* array[3] with cell containing 'a' *)
+let aa = Array.init 5 (fun i -> i * 10) (* array[5] initialised to (fun i) *)
+Array.get aa 3  (* retrieve the 4th cell in the array *)
+Array.set aa 3 42 (* set the 4th cell's value to 42 *)
+
+aa.(3) (*get shorthand*)
+aa.(3) <- 90 (*set shorthand*)
+```
+
+#### Mutable linked lists
+
+```ocaml
+type 'a mlist =
+  | Nil
+  | Cons of 'a * mlist ref*
+```
+It may be easier to visualise linked lists in OCaml as nested boxes - rather than 3->5->9 think of the box 3 around the box 5 around the box 9
+
+```ocaml
+let rec mlistOf = function
+  | [] -> Nil
+  | x :: l -> Cons (x, ref(mlistOf l))
+```
