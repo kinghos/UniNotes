@@ -12,3 +12,10 @@ Definition - an explanation of the mathematical meaning of a word or phrase.
 ##### Example
 $\text{For all integers m and n, if m and n are odd integers, then so is } m\cdot n$
 Consider the definition of odd - an integer of the form $2i + 1$ for some integer i
+
+A statement is simple or atomic when it cannot be broken into other statements, and it is composite when it is built using several statements connected by logical expressions.
+
+Assumptions are statements that may be used for deduction, while goals are statements to be established.
+
+$\implies$ means implies or if x then y
+To prove a goal $P\implies Q$ assume P is true and prove Q
