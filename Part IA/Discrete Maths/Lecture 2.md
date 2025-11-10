@@ -20,4 +20,7 @@ RTP: $n\equiv0(\mod2)$, that is, $n-0=2i$ for an integer i.
 Universal statements are of the form
 $\text{For all individuals x of the universe of discourse, the property} P(x)\text{ holds.}$
 Or in symbols: $\forall x.P(x)$
-The main proof strategy for proving universal statements is
+The main proof strategy for proving universal statements is to let x stand for an arbitrary individual and prove P(x).
+Make sure to use an **unused variable**. If x is used in the question, either declare x as fresh or use a different variable.
+
+Universal instantiation - 
