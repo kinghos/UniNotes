@@ -20,3 +20,7 @@ You can use formulas without deriving them
 Consider if the circuit is not grounded - it must be a full loop for current to flow.
 
 Architecture specifies the quantity and size of registers - do not conflate with architectural state. Architecture is essentially a blueprint of a chip. Microarchitecture is an implementation of said architecture.
+Caveats of pipelining
+- branching
+
+Consider the bounce of switches.
