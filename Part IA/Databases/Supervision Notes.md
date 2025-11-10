@@ -17,3 +17,4 @@ Consider duplicate on join
 
 Only one thing crossed out in a cell in an implication table is enough to disregard the cell.
 You can use formulas without deriving them
+Consider if the circuit is not grounded - it must be a full loop for current to flow.
