@@ -13,3 +13,7 @@ Consider the schema of the table and the conditions for the primary key
 
 Single quotes on strings!
 Consider duplicate on join
+
+
+Only one thing crossed out in a cell in an implication table is enough to disregard the cell.
+You can use formulas without deriving them
