@@ -23,4 +23,9 @@ Or in symbols: $\forall x.P(x)$
 The main proof strategy for proving universal statements is to let x stand for an arbitrary individual and prove P(x).
 Make sure to use an **unused variable**. If x is used in the question, either declare x as fresh or use a different variable.
 
-Universal instantiation - 
+Universal instantiation - using an assumption of the form $\forall x.P(x)$, you can plug in any value, e.g. a, for x to conclude that $P(a)$ is true and so further assume it.
+
+Fix a positive integer m. For integers a and b we have that $a\equiv b(\mod m)$ if and only if, for all positive integers n we have that $n\cdot a\equiv n \cdot b(\mod n \cdot m)$
+Let m be a positive integer, and a and b be arbitrary integers.
+RTP: $a\equiv b(\mod m)\iff(\forall \text{pos int n }n\cdot a=n \cdot b(\mod n \cdot m))$
+Assume $a=b(\mod m)$ that in $a-b=m.i$ for an integer i.
