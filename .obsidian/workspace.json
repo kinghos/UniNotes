@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Lecture 2.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 2"
+              "title": "Lecture 8"
             }
           }
         ]
@@ -181,10 +181,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f7cef61010d60354",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
-    "Part IA/Digital Electronics/Lecture 12.md",
+    "Part IA/Foundations of Computer Science/Lecture 9.md",
+    "Part IA/Foundations of Computer Science/Lecture 8.md",
+    "Part IA/Foundations of Computer Science/Lecture 7.md",
+    "Part IA/Foundations of Computer Science/Lecture 10.md",
+    "Part IA/Foundations of Computer Science/Lecture 11.md",
     "Part IA/Discrete Maths/Lecture 2.md",
+    "Part IA/Digital Electronics/Lecture 12.md",
     "Part IA/Digital Electronics/Lecture 10.md",
     "Part IA/Digital Electronics/Lecture 11.md",
     "Part IA/Databases/Supervision Notes.md",
@@ -192,20 +197,15 @@
     "Part IA/Digital Electronics/Lecture 9.md",
     "Part IA/Digital Electronics/Lecture 8.md",
     "Part IA/Discrete Maths/Lecture 1.md",
-    "Part IA/Foundations of Computer Science/Lecture 11.md",
     "Part IA/Discrete Maths",
-    "Part IA/Foundations of Computer Science/Lecture 10.md",
     "Part IA/Introduction to Graphics/Lecture 1.md",
     "Part IA/Introduction to Graphics/Images",
     "Part IA/Introduction to Graphics/Images/ImageStorage.png",
-    "Part IA/Foundations of Computer Science/Lecture 9.md",
     "Part IA/Introduction to Graphics",
     "Part IA/Foundations of Computer Science/Lecture 5.md",
     "Part IA/Foundations of Computer Science/Lecture 3.md",
     "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Foundations of Computer Science/Lecture 1.md",
-    "Part IA/Foundations of Computer Science/Lecture 7.md",
-    "Part IA/Foundations of Computer Science/Lecture 8.md",
     "Part IA/Digital Electronics/Images/Pipelining.png",
     "Part IA/Digital Electronics/Images/MulticycleProcessor.png",
     "Part IA/Digital Electronics/Images/MemoryAccess.png",
