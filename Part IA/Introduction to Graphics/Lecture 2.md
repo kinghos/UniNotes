@@ -67,5 +67,6 @@ Sampling can be done through
 ##### Super-sampling
 - Grid - divide into a number of sub-pixels and shoot a ray through the centre of each. Has the same problems as without anti-aliasing
 - Random - shoot at random points. This leads to noise artefacts (which the eye is less sensitive to)
-- Poisson - shoot at random points with the condition that no two rays will pass through the pixel closer than $\epsilon$ to one another. Better image than pure random sampling, but hard to implement
-- Jittered - Divide i
+- Poisson disc - shoot at random points with the condition that no two rays will pass through the pixel closer than $\epsilon$ to one another. Better image than pure random sampling, but hard to implement
+- Jittered - Divide into sub-pixels than shoot at a random point in each sub-pixel. For N rays, it is better than pure random sampling, and acts as an approximation to Poisson disc sampling, and hence easier to implement.
+
