@@ -41,4 +41,12 @@ Components of a lookup:
 Closure - an iteration is repeated until there are no further changes. Normal-form conversion is a closure iteration.
 
 ### Normal forms
-A unique normal form for data can be defined by repeatedly applying information-preserving, reorganisation/rewriting rules until closure. a typical
+A unique normal form for data can be defined by repeatedly applying information-preserving, reorganisation/rewriting rules until closure. This ensures data is stored in a consistent format, e.g. declaring the order of data by alphabetical order.
+
+A normalised database is essentially one that has little or no redundant data.
+- Typically redundant relational databases have tables with too many attributes
+- A good rule is that all table data should either be key or semantically on the key.
+- If you can spot data that does not directly depend on the key, that part of the table should be split off into a separate table. This procedure is repeated until closure.
+- Splitting is a division transform that can be reversed using a join.
+- Automated procedures have been mooted to convert databases into normal forms
+- Computers cannot really understand what "semantically depends" means so it is better to simply do a better job of modelling the entity-relationship model
