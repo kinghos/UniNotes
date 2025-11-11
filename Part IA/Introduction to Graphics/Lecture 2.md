@@ -39,3 +39,33 @@ I is the intensity of the light reflected by the surface
 	- The sign of $\cos \theta$ determines which side of the polygon is illuminated
 
 #### Imperfect specular reflection
+![[SpecularReflection.png]]
+$L$ is a normalised vector pointing in the direction of the light source.
+$R$ is the vector of perfect reflection
+$N$ is the normal to the surface
+$V$ is a normalised vector pointing at the viewer
+$I_l$ is the intensity of the light source
+$k_s$ is the proportion of the light which is specularly reflected by the surface.
+$n$ is Phong's ad hoc roughness coefficient
+$I$ is the intensity of the specularly reflected light
+
+### Overall equation
+Thus the overall equation can be considered to be the ambient illumination plus the diffuse and specular reflections from each light source.
+$$
+I=I_{a}k_{a}+\sum _{i}{I_{i}k_{d}(L\cdot N)+\sum_{i}I_{i}k_{s}(R\cdot V)^n}
+$$
+This does not have shadows, and no interaction between surfaces - assume that all light reflected off all other surfaces onto a given surface can be amalgamated into a single constant term: "ambient illumination", adding this onto the diffuse and specular illumination.
+
+#### Sampling
+Assuming that each ray passes through the centre of a pixel has problems, such as jagged edges to objects and small objects being missed completely. These artefacts are known as aliasing.
+
+Sampling can be done through
+- Shooting a single ray through the pixel's centre
+- Super sampling - multiple rays through the pixel and average the result, could be a grid, random, jittered or Poisson
+- Adaptive super-sampling - shoot a few rays through the pixel, check the variance of the resulting values, if similar enough stop, otherwise shoot more rays.
+
+##### Super-sampling
+- Grid - divide into a number of sub-pixels and shoot a ray through the centre of each. Has the same problems as without anti-aliasing
+- Random - shoot at random points. This leads to noise artefacts (which the eye is less sensitive to)
+- Poisson - shoot at random points with the condition that no two rays will pass through the pixel closer than $\epsilon$ to one another. Better image than pure random sampling, but hard to implement
+- Jittered - Divide i
