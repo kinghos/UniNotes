@@ -50,3 +50,20 @@ A normalised database is essentially one that has little or no redundant data.
 - Splitting is a division transform that can be reversed using a join.
 - Automated procedures have been mooted to convert databases into normal forms
 - Computers cannot really understand what "semantically depends" means so it is better to simply do a better job of modelling the entity-relationship model
+
+#### Redundancy-Consistency-Throughput trade-off
+- Low redundancy gives good update throughput due to fewer locks
+- High redundancy gives good query times (less files to be accessed)
+However, redundancy can lead to stored data inconsistency.
+- Unlocked reading can give the impression of inconsistent data stored.
+- Pre-computing answers to common queries can speed up response time, but is technically redundant.
+
+#### Read-oriented databases
+Useful when:
+- Data is seldom updated but often read
+- Reads can afford to be mildly out of sync with the write-oriented database, in which case extracting read-oriented snapshots periodically and storing them in a read-oriented database can be faster.
+#### OLAP vs OLTP
+OLAP - online analytical processing
+- Write once or journal/ledger updates
+OLTP - Online transaction processing
+- A rich mix of queries and updates to live data.
