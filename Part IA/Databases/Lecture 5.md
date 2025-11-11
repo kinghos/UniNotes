@@ -33,3 +33,12 @@ Data is redundant if it can be deleted and then reconstructed from the data rema
 Problems:
 - Data in different places can disagree
 - Correct transactions may have to acquire many locks
+
+Components of a lookup:
+- The lookup cost arises from finding the appropriate records using searching and key matching.
+- The data movement costs arises from sending the query and receiving the result.
+
+Closure - an iteration is repeated until there are no further changes. Normal-form conversion is a closure iteration.
+
+### Normal forms
+A unique normal form for data can be defined by repeatedly applying information-preserving, reorganisation/rewriting rules until closure. a typical
