@@ -29,3 +29,11 @@ Fix a positive integer m. For integers a and b we have that $a\equiv b(\mod m)$ 
 Let m be a positive integer, and a and b be arbitrary integers.
 RTP: $a\equiv b(\mod m)\iff(\forall \text{pos int n }n\cdot a=n \cdot b(\mod n \cdot m))$
 Assume $a=b(\mod m)$ that in $a-b=m.i$ for an integer i.
+
+
+#### Equality axioms
+Every individual is equal to itself
+$\forall x.x=x$
+For any pair of equal individuals, if a property holds for one of them it also holds for the other one
+$\forall x.\forall y.x=y\implies(P(x)\implies P(y))$
+
