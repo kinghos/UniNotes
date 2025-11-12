@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Lecture 3.md",
+                "file": "Part IA/Introduction to Graphics/Lecture 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 3"
+              "title": "Lecture 2"
             }
           }
         ]
@@ -183,8 +183,8 @@
   },
   "active": "f63009c3e78107e7",
   "lastOpenFiles": [
-    "Part IA/Discrete Maths/Lecture 2.md",
     "Part IA/Discrete Maths/Lecture 3.md",
+    "Part IA/Discrete Maths/Lecture 2.md",
     "Part IA/Object-Oriented Programming/Lecture 1.md",
     "Part IA/Databases/Lecture 5.md",
     "Part IA/Object-Oriented Programming",
