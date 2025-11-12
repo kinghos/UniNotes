@@ -22,3 +22,10 @@ Java compiles to architecture agnostic machine code. This can then run on any de
 - The JVM ships with tons of libraries which make the bytecode small
 - The hardest part of the compile is done by the compiler, leaving the computer-readable bytecode to be translated by the JVM
 - However, there is still a performance hit compared to fully compiled native code.
+
+#### Functions vs Procedures
+Functions are made up of a prototype and a body
+- Prototype specifies name, arguments and possibly return type
+- Body is the actual function code
+- Functions are like mathematical functions - they take inputs and provide outputs
+Procedures however manipulate state outside of the function, and may have no return type at all.
