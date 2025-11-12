@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Lecture 5"
             }
+          },
+          {
+            "id": "393820a023972504",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f63009c3e78107e7",
+  "active": "393820a023972504",
   "lastOpenFiles": [
     "Part IA/Databases/Lecture 5.md",
     "Part IA/Introduction to Graphics/Lecture 2.md",
