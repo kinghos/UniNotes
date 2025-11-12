@@ -17,4 +17,8 @@ Features:
 - Polymorphism
 
 #### Bytecode
-Java compiles to architecture agnostic machine code. This can then run on any device thr
+Java compiles to architecture agnostic machine code. This can then run on any device through the JVM.
+- Bytecode is compiled so it is not easy to reverse engineer
+- The JVM ships with tons of libraries which make the bytecode small
+- The hardest part of the compile is done by the compiler, leaving the computer-readable bytecode to be translated by the JVM
+- However, there is still a performance hit compared to fully compiled native code.
