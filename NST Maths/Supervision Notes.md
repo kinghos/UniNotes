@@ -27,3 +27,14 @@
 
 ### [[Complex Numbers]]
 - Always put into exponential form to solve.
+- "By symmetry" - always consider as a simple proof
+
+### [[Hyperbolic Functions]]
+- Consider domain/range of functions for sketches
+
+###  [[Differentiation]]
+- Points of inflection are not necessarily $\frac{dy}{dx}=0$
+
+### [[Elementary Analysis]]
+
+### [[Infinite Series]]
