@@ -5,4 +5,5 @@ or in symbols $P \land Q$ or $P\ \&\ Q$
 The proof strategy is to first prove P and subsequently prove Q or vice versa
 ##### Example
 For every integer n we have that $6|n \iff 2\ |\ n \land 3\ |\ n$
-To prove, assume $6\ |\ n$ and prove $2\ |\ n$ and $3$
+To prove, assume $6\ |\ n$ and prove $2\ |\ n$, then $3\ |\ n$
+For the other side, assuming $2\ |\ n \land 3\ |\ n$ means you assume both statements are true.
