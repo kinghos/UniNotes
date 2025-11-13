@@ -34,9 +34,4 @@
 - Shear parallel to x axis by factor a - $x'=x+ay, y'=y$
 
 #### Matrix representations
-Scale:
-$$
-\begin{matrix}
-x' \\ y'
-\end{matrix}
-$$x' \\ y'
+![[MatrixTransformations.png]]
