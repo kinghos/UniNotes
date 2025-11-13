@@ -50,4 +50,9 @@ $$(x,y)=(x,y,1)$$
 	- Translate point $(x_{0}, y_{0})$ to the origin
 	- Scale by m about origin
 	- Translate the origin to $(x_{0}, y_{0})$
-- 
+
+#### Rotating an object to a particular direction
+- Find the initial direction which the object is pointing
+- Calculate the axis which is desired
+- Transform the axis so it faces the same direction as the object, e.g. if the object is facing in the positive y direction, rotate so x and z are zeroed
+- Perform the inverse of this matrix to go from the initial axis to the desired axis.
