@@ -1,0 +1,12 @@
+#### Distributed ray tracing
+- Distribute the samples for a pixel over the pixel area
+	-  Get random or jittered super-sampling
+	- Used for anti-aliasing
+- Distribute the rays going to a light source over some area
+	- Allows area light sources in addition to point and directional light source
+	- Produces soft shadows with penumbrae
+- Distribute the camera position over some area
+	- Allows simulation of a camera with a finite aperture lens
+	- Produces depth of field effects
+- Distribute the samples in time
+	- Produces motion blur effects on any moving objects
