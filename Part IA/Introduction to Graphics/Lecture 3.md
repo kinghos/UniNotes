@@ -35,3 +35,19 @@
 
 #### Matrix representations
 ![[MatrixTransformations.png]]
+
+#### Homogenous 2D coordinates
+- Translations cannot be represented using simple 2D matrix multiplication on 2D vectors so we switch to homogeneous coordinates.
+$$(x,y,w)=\left( \frac{x}{w} , \frac{y}{w}\right)$$
+- An infinite number of homogeneous coordinates maps to every 2D point
+- w=0 represents a point at infinity
+- Usually take the inverse transform to be
+$$(x,y)=(x,y,1)$$
+#### Matrices in homogeneous coordinates
+![[MatrixTransformsHomogeneous.png]]![[MatrixTranslationHomogeneous.png]]
+##### Scaling about an arbitrary point
+- Scaling by a factor m about the point $(x_0, y_0)$:
+	- Translate point $(x_{0}, y_{0})$ to the origin
+	- Scale by m about origin
+	- Translate the origin to $(x_{0}, y_{0})$
+- 
