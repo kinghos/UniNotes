@@ -20,4 +20,13 @@ $a+x \equiv b+y (\mod m)$
 $ia\equiv ib (\mod m)$
 
 For all natural numbers m, n and primes p:
-$(m+n)^p=m^p-n^p (\mod p)$
+$(m+n)^p=m^p+n^p (\mod p)$
+Hence,
+$(m+1)^p =m^p+1(\mod p)$
+And by induction:
+$(m+i)^p=m^p+i(\mod p)$
+
+#### Fermat's Little Theorem
+For all natural numbers $i$ and primes $p$
+1. $i^p=i(\mod p)$
+2. $i^{p-1}=1(\mod p)$ whenever $i$ is not a multiple of $p$
