@@ -11,4 +11,13 @@ To use an assumption of disjunctive form:
 
 ##### Example
 $$\text{Prove }Q \text{ using }P_{1}\lor P_{2}$$
-We prove the following two cases in turn: (i) that assuming $P_1$, we have Q, and (ii) that assuming $P_2$ we have
+We prove the following two cases in turn: (i) that assuming $P_1$, we have $Q$, and (ii) that assuming $P_2$ we have $Q$. Case (i): Assume $P_1$ *then prove Q using this and other assumptions*. Case (ii) *then prove Q using this and other assumptions*.
+
+#### Lemmas and binomial theorem
+$p\mid(a.b)\implies(p\mid a\lor p\mid b)$
+For $a\equiv b (\mod m), x\equiv y(\mod m)$:
+$a+x \equiv b+y (\mod m)$
+$ia\equiv ib (\mod m)$
+
+For all natural numbers m, n and primes p:
+$(m+n)^p=m^p-n^p (\mod p)$
