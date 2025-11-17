@@ -4,4 +4,10 @@ Values of variables:
 - For objects, the value of the associated variable is a reference, pointing to the data associated with that object.
 - Values are copied on assignment.
 - Values that are references also copy but NOT therefore the objects
-- 
+
+#### The function stack
+When a function is called, three things are stored
+- Arguments
+- Local variables
+- Memory address to jump to when the function completes
+These things are stored in a stack.
