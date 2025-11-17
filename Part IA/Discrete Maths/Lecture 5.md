@@ -17,4 +17,4 @@ A monoid is an algebraic structure with
 satisfying
 - neutral element laws: $e\bullet x = x = x \bullet e$
 - $(x\bullet y)\bullet z = x\bullet(y\bullet z)$
-A monoid is commutative if $x\bullet y = y \bullet x$
+A monoid is commutative if $x\bullet y = y \bullet x$ is satisfied.
