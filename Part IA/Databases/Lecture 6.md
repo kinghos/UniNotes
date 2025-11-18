@@ -43,3 +43,6 @@ Serialising is converting a data structure into a series of bytes for transfer o
 #### Document query languages
 - Query unstructured text
 - Query tags e.g. picking out certain attributes from semi-structured parts of the document
+#### Problems with NoSQL
+- Key nesting can cause replication of data, which multiplies with any replication arising from the data being denormal
+- It is "horizontally scalable" meaning it expands with more machines, not upgrading existing machines.
