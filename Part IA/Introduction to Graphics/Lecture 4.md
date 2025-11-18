@@ -24,4 +24,5 @@ $$\hat{r}=\frac{\hat{v}\times u}{|v\times u|}$$
 $$\hat{u}=\hat{r}\times \hat{v}$$
 #### Transforming normal vectors
 - Transformation by a nonorthogonal matrix does not preserve angles
-- 
+- Since $N\cdot T=0$ and $N'\cdot T'=(GN)\cdot(MT)=0$, where G is the normal transform and M is the vertex position transform
+- We can find that $G=(M^{-1})^T$
