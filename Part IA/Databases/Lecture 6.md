@@ -28,7 +28,18 @@ Serialising is converting a data structure into a series of bytes for transfer o
 - XML can be unstructured, as all data can be in one large element.
 - However XML documents may be associated with a schema
 
-##### Schema rigorousness schema
-- A schema, named with a URL exists. The schema dictates precisely the element names and which elements may be allowed inside which others along with occurrence limits.
-- The schema is relaxed: e.g. the order of elements inside a parent element is unimportant
-- 
+##### Schema rigorousness spectrum
+1. A schema, named with a URL exists. The schema dictates precisely the element names and which elements may be allowed inside which others along with occurrence limits.
+2. The schema is relaxed: e.g. the order of elements inside a parent element is unimportant
+3. Other attributes or elements beyond those in the schema are also allowed
+4. There is no schema at all
+
+#### Document-oriented database systems
+- A document oriented database stores data in the form of semi-structured objects. They are also known as aggregate-oriented databases
+- Query of a distant database encounters a round-trip time
+- Denormalised data is not directly semantically related to the key it is stored under
+- A denormal DBMS enables us to rapidly pull much or all of the data likely to be needed using one key
+- One or two fetches of denormal data should enable all sorts of fast, local operations in an application-specific way
+#### Document query languages
+- Query unstructured text
+- Query tags e.g. picking out certain attributes from semi-structured parts of the document
