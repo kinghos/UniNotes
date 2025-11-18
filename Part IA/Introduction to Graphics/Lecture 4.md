@@ -16,3 +16,12 @@ This assumes that:
 For an arbitrary camera, we can either
 - Work out equations for projecting objects about an arbitrary point onto an arbitrary plane
 - Transform all objects into our standard coordinate system and use the above assumptions
+#### Viewing transforms
+Find a viewing transform so that the camera centre is at c, and is directed towards l and vector u is the up direction.
+For a left-handed coordinate system:
+$$\hat{v}=\frac{l-c}{|l-c|}$$
+$$\hat{r}=\frac{\hat{v}\times u}{|v\times u|}$$
+$$\hat{u}=\hat{r}\times \hat{v}$$
+#### Transforming normal vectors
+- Transformation by a nonorthogonal matrix does not preserve angles
+- 
