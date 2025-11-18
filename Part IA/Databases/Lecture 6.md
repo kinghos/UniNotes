@@ -20,4 +20,15 @@ Unstructured documents can be "shredded", i.e. broken down and given structure b
 - Opaqueness implies the DBMS knows nothing about what is stored - it would not mind if values were encrypted and it never saw the encryption keys
 - Distribution provides redundancy and load balancing
 - Implementations can range between ACID and BASE semantics
+
+#### Serialising 
+Serialising is converting a data structure into a series of bytes for transfer over a network or storing in a file.
+- Main two formats used are JSON and XML
+- Both contain tree-structured text with named nodes and hence are broadly similar
+- XML can be unstructured, as all data can be in one large element.
+- However XML documents may be associated with a schema
+
+##### Schema rigorousness schema
+- A schema, named with a URL exists. The schema dictates precisely the element names and which elements may be allowed inside which others along with occurrence limits.
+- The schema is relaxed: e.g. the order of elements inside a parent element is unimportant
 - 
