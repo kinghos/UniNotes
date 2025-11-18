@@ -17,3 +17,4 @@ The heap has gaps between objects.
 
 #### Pointers
 Pointers point directly to memory addresses and allow more direct memory manipulation.
+References can be thought of as limited pointers.
