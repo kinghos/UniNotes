@@ -45,3 +45,4 @@ By setting state as private, you can control how that field is modified. In othe
 | `private`   | ✔️    | ❌       | ❌        | ❌        |
 Private members can be made public, but not the other way around.
 Access modifiers can also be used to make an immutable class, with `final`.
+An immutable class has no setters.
