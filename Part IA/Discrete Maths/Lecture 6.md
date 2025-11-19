@@ -24,3 +24,4 @@ A ring is a semiring $(0,\oplus,1,\otimes)$ in which the commutative monoid $(0,
 A ring is commutative if so is the monoid $(1,\otimes)$
 #### Division Theorem
 For every natural number m and positive natural number n, there exists a unique pair of integers q and r such that $q\geq 0, 0\leq r\leq n$ and $m=q\cdot n+r$
+This is denoted as $\text{quo}(m,n)$ and $\text{rem}(m,n)$
