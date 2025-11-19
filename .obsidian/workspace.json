@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "immu",
+                "query": "static",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
