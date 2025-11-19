@@ -11,3 +11,6 @@ The `super()` function should be used to call the constructor of a parent class 
 #### Casting
 Widening cast - moving up the tree with implicit type casting, e.g. calling a function made for a Person on a Student
 Narrowing cast - moving down the tree. Can be problematic, as there is not enough info to represent the "specialised" class. Casting to the correct class can fix this.
+
+#### Overriding
+Use `@Override` for code clarity
