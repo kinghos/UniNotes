@@ -28,5 +28,5 @@ $(m+i)^p=m^p+i(\mod p)$
 
 #### Fermat's Little Theorem
 For all natural numbers $i$ and primes $p$
-1. $i^p=i(\mod p)$
-2. $i^{p-1}=1(\mod p)$ whenever $i$ is not a multiple of $p$
+1. $i^p\equiv i\pmod p$
+2. $i^{p-1}\equiv1\pmod p$ whenever $i$ is not a multiple of $p$
