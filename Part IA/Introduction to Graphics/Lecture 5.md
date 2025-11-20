@@ -42,3 +42,37 @@ Using the Z-Buffer algorithm:
 			  depth(x,y) = z
 			  colour(x,y) = fragment_colour(x,y)
 ```
+The Z-Buffer must store depth with sufficient precision
+- Consider bit depth/and float/int
+- Often it is stored as $\frac{1}{z}$ so there is risk of zero division
+
+### GPUs
+- Optimised for floating point operation on large arrays of data
+- Performs all low-level tasks and a lot of high-level tasks
+	- Clipping, rasterisation, hidden surface removal
+	- Procedural shading, texturing, animation, simulation
+	- Ray tracing
+	- Video rendering
+	- Physics engines
+- Full programmability at several pipeline stages
+	- but optimised for massively parallel operations
+
+Modern GPUs:
+- Contain between hundreds and thousands of SIMD processors and can operate on large arrays of data
+- >>1000GB/s memory access
+
+#### GPU APIs
+- OpenGL
+	- Open standard
+	- Multi-platform
+	- General focus
+- DirectX
+	- Windows/Xbox
+	- Proprietary
+	- Focus on games
+- Vulkan
+	- Open standard
+	- Cross platform
+	- Reduced CPU load
+	- Better support for multi-core and finer control of GPU
+	- Intended for game engines and highly optimised code
