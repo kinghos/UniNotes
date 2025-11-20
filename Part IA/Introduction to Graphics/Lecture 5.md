@@ -85,4 +85,17 @@ GPGPU:
 
 #### OpenGL programming model
 CPU code:
-- gl*
+- gl* functions that
+	- Create OpenGL objects
+	- Copy data CPU <-> GPU
+	- Modify OpenGL state
+	- Enqueue operations
+	- Synchronise CPU and GPU
+- C99 library
+- Wrappers in most programming languages
+
+GPU code:
+- Fragment shaders
+- Vertex shaders
+- Written in GLSL
+	- Similar to C
