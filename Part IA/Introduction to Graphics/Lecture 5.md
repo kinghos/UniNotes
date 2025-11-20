@@ -65,6 +65,8 @@ Modern GPUs:
 - OpenGL
 	- Open standard
 	- Multi-platform
+		- OpenGL ES on mobile, stripped down version
+		- WebGL, JavaScript library
 	- General focus
 - DirectX
 	- Windows/Xbox
@@ -76,3 +78,11 @@ Modern GPUs:
 	- Reduced CPU load
 	- Better support for multi-core and finer control of GPU
 	- Intended for game engines and highly optimised code
+GPGPU:
+- OpenGL and DirectX are not meant to be used for general purpose computing
+- CUDA - C-like language used for parallel computing (Nvidia only)
+- OpenCL - open standard alternative to CUDA
+
+#### OpenGL programming model
+CPU code:
+- gl*
