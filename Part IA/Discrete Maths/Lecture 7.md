@@ -27,4 +27,6 @@ The common divisors of pairs of natural numbers is defined as
 $CD(m,n)=\{d\in\mathbb{N}:d\mid m\land d\mid n\}$
 
 #### Euclid's Algorithm
-Let $m$ and $m'$ be natural numbers and let $n$ be a positive integer such that $m\equiv m' \pmod n$
+Let $m$ and $m'$ be natural numbers and let $n$ be a positive integer such that $m\equiv m' \pmod n$. Then, $$
+CD(m,n)=CD(m',n)
+$$
