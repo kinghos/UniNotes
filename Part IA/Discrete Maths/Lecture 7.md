@@ -9,3 +9,9 @@ For all $0\leq k, l<m$
 For all natural numbers $m>1$, the modular arithmetic structure
 $$(\mathbb{Z}_{m},0,+_{m},1,\cdot_{m})$$
 is a commutative ring
+
+#### Linear combinations
+An integer r is said to be a linear combination of a pair of integers m and n whenever there are integers s and t such that $s\cdot m + t\cdot n=r$
+
+#### Sets
+$\in$ is known as the set membership predicate.
