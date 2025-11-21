@@ -21,3 +21,10 @@ Multiple inheritance of state:
 Can still be useful - but risky
 
 Java does not allow classes to have multiple parents, but multiple interfaces can be implemented. This means there cannot be name clashes
+
+Java has functionality for default methods in interfaces. This came about because of a need to expand the language without breaking backwards compatibility. By adding default methods in interfaces, the classes that implement it will not break as they can simply use the default method.
+
+Resolution rules:
+- Classes always win
+- Otherwise subinterfaces win. The method with the same signature in the most specific interface is selected
+- If the choice is still ambiguous the class inheriting must override the method and be explicit
