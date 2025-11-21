@@ -30,3 +30,14 @@ $CD(m,n)=\{d\in\mathbb{N}:d\mid m\land d\mid n\}$
 Let $m$ and $m'$ be natural numbers and let $n$ be a positive integer such that $m\equiv m' \pmod n$. Then, $$
 CD(m,n)=CD(m',n)
 $$
+For all positive integers m and n, $CD(m,n)=D(n)$ if $n\mid m$, otherwise $=CD(n, \text{rem}(m,n))$
+Since n is the greatest divisor in $D(n)$, the greatest common divisor can be found through a recursive procedure:
+$$
+\begin{equation}
+  gcd(m,n)=\begin{cases}
+    n & \text{if $n\mid m$}\\
+    gcd(n,\text{rem}(m,n)) & \text{otherwise}.
+  \end{cases}
+\end{equation}
+$$
+This is Euclid's algorithm.
