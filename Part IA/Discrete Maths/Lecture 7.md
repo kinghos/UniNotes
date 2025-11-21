@@ -12,6 +12,19 @@ is a commutative ring
 
 #### Linear combinations
 An integer r is said to be a linear combination of a pair of integers m and n whenever there are integers s and t such that $s\cdot m + t\cdot n=r$
+$x$ has a reciprocal in $\mathbb{Z}_m\iff$ 1 is an integer linear combination of $m$ and $x$ 
 
 #### Sets
-$\in$ is known as the set membership predicate.
+- $\in$ is known as the set membership predicate.
+- Set comprehension is defining a set by means of a property that precisely characterises all the elements of the set.
+- Two sets are equal when they have the same elements.
+- Hence, equivalent predicates specify equal sets
+
+#### Greatest common divisor
+The set of divisors is defined as
+$D(n)=\{d\in\mathbb{N}:d\mid n\}$
+The common divisors of pairs of natural numbers is defined as 
+$CD(m,n)=\{d\in\mathbb{N}:d\mid m\land d\mid n\}$
+
+#### Euclid's Algorithm
+Let $m$ and $m'$ be natural numbers and let $n$ be a positive integer such that $m\equiv m' \pmod n$
