@@ -11,3 +11,13 @@ Many kinds of objects can provide the same method, and the method can be invoked
 All methods in Java are dynamic polymorphic.
 
 #### Multiple inheritance
+**Java does not support this**
+Multiple inheritance of behaviour:
+- Name clashes
+- Which method from each function should be inherited with a shared name?
+Multiple inheritance of state:
+- Name clashes - need to specify which state is being referred to
+- Less readable and more likely to have bugs
+Can still be useful - but risky
+
+Java does not allow classes to have multiple parents, but multiple interfaces can be implemented. This means there cannot be name clashes
