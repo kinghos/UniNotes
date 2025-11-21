@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Lecture 4.md",
+                "file": "Part IA/Discrete Maths/Lecture 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 4"
+              "title": "Lecture 7"
             }
           }
         ]
@@ -74,13 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -167,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,6 +182,8 @@
   },
   "active": "fe7d930711537018",
   "lastOpenFiles": [
+    "Part IA/Discrete Maths/Lecture 4.md",
+    "Part IA/Discrete Maths/Lecture 7.md",
     "Part IA/Digital Electronics/Lecture 11.md",
     "Part IA/Digital Electronics/Lecture 8.md",
     "Part IA/Introduction to Graphics/Lecture 5.md",
@@ -204,7 +203,6 @@
     "Part IA/Discrete Maths/Lecture 1.md",
     "Part IA/Discrete Maths/Images",
     "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
-    "Part IA/Discrete Maths/Lecture 4.md",
     "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Discrete Maths/Lecture 2.md",
     "Part IA/Discrete Maths/Lecture 3.md",
@@ -224,7 +222,6 @@
     "NST Maths/Chapter 2/Chapter2_to_annotate.pdf",
     "NST Maths/Chapter 3",
     "NST Maths/Chapter 2/Complex Numbers.md",
-    "NST Maths/Chapter 1/Vectors.md",
     "Part IA/Object-Oriented Programming",
     "Part IA/Introduction to Graphics/Images/SpecularReflection.png",
     "Part IA/Introduction to Graphics/Images/DiffuseShading.png",
