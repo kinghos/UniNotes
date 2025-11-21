@@ -8,3 +8,6 @@ Many kinds of objects can provide the same method, and the method can be invoked
 - Run the method in the child
 - Must be done at runtime since that is when we know the child's type
 - Type errors cause run-time faults
+All methods in Java are dynamic polymorphic.
+
+#### Multiple inheritance
