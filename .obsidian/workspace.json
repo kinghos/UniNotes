@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Supervision Notes.md",
+                "file": "Part IA/Discrete Maths/Lecture 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "Lecture 7"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fermat",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,9 +182,12 @@
   },
   "active": "74f82c27309b79bd",
   "lastOpenFiles": [
+    "Part IA/Discrete Maths/Lecture 6.md",
+    "Part IA/Discrete Maths/Lecture 4.md",
+    "Part IA/Discrete Maths/Lecture 5.md",
+    "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Object-Oriented Programming/Lecture 5.md",
     "Part IA/Discrete Maths/Lecture 7.md",
-    "Part IA/Discrete Maths/Lecture 4.md",
     "Part IA/Digital Electronics/Lecture 11.md",
     "Part IA/Digital Electronics/Lecture 8.md",
     "Part IA/Introduction to Graphics/Lecture 5.md",
@@ -196,16 +198,13 @@
     "Part IA/Object-Oriented Programming/Lecture 4.md",
     "Part IA/Object-Oriented Programming/Images",
     "Part IA/Object-Oriented Programming/Images/InterfacesVsClasses.png",
-    "Part IA/Discrete Maths/Lecture 6.md",
     "Part IA/Databases/Lecture 6.md",
     "Part IA/Introduction to Graphics/Lecture 4.md",
     "Part IA/Introduction to Graphics/Images/ProjectionMatrix.png",
     "Part IA/Introduction to Graphics/Lecture 3.md",
-    "Part IA/Discrete Maths/Lecture 5.md",
     "Part IA/Discrete Maths/Lecture 1.md",
     "Part IA/Discrete Maths/Images",
     "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
-    "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Discrete Maths/Lecture 2.md",
     "Part IA/Discrete Maths/Lecture 3.md",
     "Part IA/Introduction to Graphics/Images/MatrixTranslationHomogeneous.png",

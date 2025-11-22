@@ -9,3 +9,4 @@ Anything from the slides or exercises is quotable
 Remainder theorem relies on the fact that q and r are unique
 Use remainder notation over $\pmod m$
 
+# **Memorise the lemmas on the example sheets!**
