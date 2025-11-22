@@ -8,5 +8,5 @@ Anything from the slides or exercises is quotable
 
 Remainder theorem relies on the fact that q and r are unique
 Use remainder notation over $\pmod m$
-
+$[k]_{m}$ is the same as $k \pmod m$
 # **Memorise the lemmas on the example sheets!**
