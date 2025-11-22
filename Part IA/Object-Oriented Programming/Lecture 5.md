@@ -28,3 +28,10 @@ Resolution rules:
 - Classes always win
 - Otherwise subinterfaces win. The method with the same signature in the most specific interface is selected
 - If the choice is still ambiguous the class inheriting must override the method and be explicit
+
+### Principles of OOP
+#### Open-closed principle
+Make your classes open to extension but closed to modification, i.e. make it easy to add new behaviour but hard to change existing behaviour
+#### Liskov substitution principle
+- Subtypes must be behaviourally substitutable for their base types without negative side effects
+- In other words, replacing a base interface with an implemented class should not cause problems
