@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "be54dbc6e098d4d3",
+        "id": "4d8f4033638a2994",
         "type": "tabs",
         "children": [
           {
-            "id": "74f82c27309b79bd",
+            "id": "62cc4ea7ba4328c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Supervision Notes.md",
+                "file": "NST Maths/Supervision Notes.md",
                 "mode": "source",
                 "source": false
               },
@@ -180,10 +180,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "74f82c27309b79bd",
+  "active": "62cc4ea7ba4328c9",
   "lastOpenFiles": [
-    "Part IA/Discrete Maths/Lecture 7.md",
+    "NST Maths/Vectors.md",
+    "NST Maths/Infinite Series.md",
+    "NST Maths/Supervision Notes.md",
+    "NST Maths/Integration.md",
+    "NST Maths/Elementary Analysis.md",
+    "NST Maths/Chapter 2/Chapter2_to_annotate.pdf",
     "Part IA/Discrete Maths/Supervision Notes.md",
+    "Part IA/Discrete Maths/Lecture 7.md",
     "Part IA/Discrete Maths/Lecture 6.md",
     "Part IA/Discrete Maths/Lecture 4.md",
     "Part IA/Discrete Maths/Lecture 5.md",
@@ -212,15 +218,9 @@
     "Part IA/Introduction to Graphics/Images/MatrixTransformations.png",
     "Part IA/Introduction to Graphics/Lecture 2.md",
     "Part IA/Digital Electronics/Lecture 6.md",
-    "NST Maths/Supervision Notes.md",
-    "NST Maths/Chapter 6/Infinite Series.md",
-    "NST Maths/Chapter 5/Elementary Analysis.md",
     "NST Maths/Chapter 6",
-    "NST Maths/Chapter 4/Differentiation.md",
     "NST Maths/Chapter 5",
     "NST Maths/Chapter 4",
-    "NST Maths/Chapter 3/Hyperbolic Functions.md",
-    "NST Maths/Chapter 2/Chapter2_to_annotate.pdf",
     "NST Maths/Chapter 3",
     "Part IA/Object-Oriented Programming",
     "Part IA/Introduction to Graphics/Images/SpecularReflection.png",
