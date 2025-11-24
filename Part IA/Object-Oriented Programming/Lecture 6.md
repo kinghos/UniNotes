@@ -26,3 +26,11 @@
 - Can be used to free up resources or memory used by the object.
 - **Do not use `finalise()`**
 
+#### Copying
+- Shallow copying - copying reference
+- Deep copying - clear individual copies
+- Copy constructor - takes in an object of the same type and manually copies the data. Copies can be made as so
+```java
+Vehicle v = new Vehicle(5, 0.f, 5.f);
+Vehicle vcopy = new Vehicle(v);
+```
