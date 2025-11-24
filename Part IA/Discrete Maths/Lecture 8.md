@@ -18,4 +18,12 @@ that is $s\cdot m+t\cdot n=r$
 
 For all positive integers $m$ and $n$,
 1. $\text{gcd}(m,n)$ is a linear combination of m and n and
-2. a pair $\text{lc}_1(m_,n),$
+2. a pair $\text{lc}_1(m_,n),\text{lc}_{1}(m,n)$ of integer coefficients for it, such that
+$$\begin{bmatrix}
+\text{lc}_1(m_,n)&\text{lc}_{1}(m,n)
+\end{bmatrix}\cdot \begin{bmatrix}
+m \\ n
+\end{bmatrix} = \text{gcd}(m,n) $$
+can be efficiently computed.
+
+This extends Euclid's algorithm from computing on pairs of positive integers to computing on pairs of triples $((s,t),r)$ with $s,t$ integers and $r$ a positive integer satisfying the invariant that $s,t$ are coefficients expressing $r$ as an integer linear combination of $m$ and $n$.
