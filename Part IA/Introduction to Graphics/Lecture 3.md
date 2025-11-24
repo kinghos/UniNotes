@@ -36,7 +36,7 @@
 #### Matrix representations
 ![[MatrixTransformations.png]]
 
-#### Homogenous 2D coordinates
+#### Homogeneous 2D coordinates
 - Translations cannot be represented using simple 2D matrix multiplication on 2D vectors so we switch to homogeneous coordinates.
 $$(x,y,w)=\left( \frac{x}{w} , \frac{y}{w}\right)$$
 - An infinite number of homogeneous coordinates maps to every 2D point
