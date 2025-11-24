@@ -61,6 +61,7 @@ Empty interface used to label classes
 ```java
 LinkedList list = new LinkedList();
 for (Integer i : list) {
-...
+	...
 }
 ```
+
