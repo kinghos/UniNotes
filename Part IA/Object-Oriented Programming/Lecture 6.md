@@ -34,3 +34,33 @@
 Vehicle v = new Vehicle(5, 0.f, 5.f);
 Vehicle vcopy = new Vehicle(v);
 ```
+- Objects can be cloned with the `clone()` method and implementing the `Cloneable` interface - this is shallow copying
+- However, the clone method can be overridden to allow deep copying
+- Avoid cloning when possible, use copy constructors
+
+##### Covariant return types
+Recent versions of Java allow you to override a method in a subclass and change its return type to a subclass of the originals class. This can avoid the need to type cast.
+##### Marker interface
+Empty interface used to label classes
+
+### Collections
+- A grouping of objects
+- Two main interfaces: Iterable and Collection. They define a set of operations all classes in the Collections framework support
+#### Lists
+- An ordered collection of elements that may contain duplicates
+- LinkedList - linked list of elements
+	- Worse operation than ArrayList for many read opreations
+	- Useful when adding elements at start or adding/removing a lot
+- ArrayList - array of elements (efficient access)
+	- Good general purpose implementation
+	- Use as default
+	- More CPU cache sympathetic
+- Vector - **legacy class**
+
+##### foreach
+```java
+LinkedList list = new LinkedList();
+for (Integer i : list) {
+...
+}
+```
