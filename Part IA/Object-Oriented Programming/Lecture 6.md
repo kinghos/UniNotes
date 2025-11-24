@@ -15,3 +15,14 @@
 - If they survive a few GCs, they are promoted to Survivors
 - If they survive a few more GCs, they are promoted to Tenured
 - The GC runs frequently on Eden, less on Survivors and much less on Tenured.
+
+#### Different GCs
+- Serial GC - "stop-the-world" GC where the program stops executing while the GC runs
+- Parallel GC - also "stop-the-world" but the collection runs on multiple threads
+- Garbage first (G1) - modern default. GC monitors memory concurrently, doing as much as it can. Uses short stop-the-world events to do the deletions, creating regions in memory and prioritising based how much needs to be done.
+- Epsilon GC - do nothing (no-op GC)
+##### Destructor
+- Method that runs when an object is destroyed
+- Can be used to free up resources or memory used by the object.
+- **Do not use `finalise()`**
+
