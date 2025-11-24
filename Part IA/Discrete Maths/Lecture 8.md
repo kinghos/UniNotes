@@ -5,3 +5,5 @@ Euclid's algorithm relies on two properties:
 - Commutative
 - Associative
 - Linearity - $\text{gcd}(l\cdot m, l\cdot n)=l\cdot \text{gcd}(m, n)$
+
+- Two natural numbers are said to be coprime whenever their greatest common divisor is 1
