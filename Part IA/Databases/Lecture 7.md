@@ -1,0 +1,1 @@
+Worst case complexity of a join $R\bowtie S$ is $|R|\times|S|$
