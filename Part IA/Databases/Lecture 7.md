@@ -21,3 +21,13 @@ However, null can lead to ambiguity, due to there being multiple possible interp
 - No value is applicable
 - The value is known, but you are not allowed to see it
 Have to be careful with equality, but SQL considers the equality operation on NULL to always be false. You can use the `IS NULL` operation to check if a field is null.
+
+#### Compose operator
+If $f(g(x))=y$ then $(f\circ g)(x) = y$
+
+Given two binary relations
+$$R\subseteq S\times T$$
+$$Q\subseteq T\times U$$
+their composition is $Q\circ R\subseteq S\times U$
+
+####
