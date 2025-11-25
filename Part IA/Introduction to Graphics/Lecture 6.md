@@ -60,3 +60,25 @@ Drawing:
 Nearest neighbour - pick the nearest texel
 Bilinear interpolation - interpolate first along x-axis, then along y axis between interpolated points.
 If one pixel in the texture map covers several pictures in the final image, you get visible artefacts. High resolution textures are needed.
+
+#### Mipmaps
+- Textures are stored at multiple resolutions as a mipmap
+- Provides pre-filtered texture (area-averaged) when screen pixels are larger than full resolution texels
+- Only requires an extra 1/3 of the original texture size
+
+#### Textures
+- Textures can be tiled
+- A single texture is often used for multiple surfaces and objects
+- Bump mapping and normal mapping
+	- Special kind of texture that modifies surface normal
+	- The surface is still flat but shading appears as on an uneven surface
+	- Easily done in fragment shaders
+- Displacement mapping
+	- Texture that modifies surface
+	- Better results than bump mapping since the surface is not flat
+	- Requires geometry shaders
+- Environment mapping
+	- Shows environment reflected by object, assuming infinite distance to the source of reflection
+- Environment cube
+	- Each face captures environment in that direction
+- 
