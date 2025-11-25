@@ -9,4 +9,29 @@
 ![[OpenGLOO.png]]
 
 #### GLSL
-- Similar to C and
+- Similar to C and Java
+- Primitive and aggregate data types
+- Structures and arrays
+- Arithmetic operations on scalars, vectors and matrices
+- Flow control (if, switch, for, while)
+- Functions
+
+```c
+vec3 V = vec3( 1.0, 2.0, 3.0 ); 
+```
+Indexing and subscripting works the same as in C.
+Specific elements of an aggregate type can be selected.
+```c
+vec4 rgba_color( 1.0, 1.0, 0.0, 1.0 );
+vec3 rgb_color = rgba_color.rgb;
+vec3 bgr_color = rgba_color.bgr;
+vec3 grayscale = rgba_color.ggg;
+```
+##### Storage qualifiers
+- `const` - read only, fixed
+- `in` - input to the shader
+- `out` - output from the shader
+- `uniform` - parameter passed from the application, constant for the drawn geometry.
+- `buffer` - GPU memory buffer, read and write access
+- `shared` - shared with a local work group
+![[ShaderInputsOutputs.png]]
