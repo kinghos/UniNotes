@@ -81,4 +81,4 @@ If one pixel in the texture map covers several pictures in the final image, you 
 	- Shows environment reflected by object, assuming infinite distance to the source of reflection
 - Environment cube
 	- Each face captures environment in that direction
-- 
+
