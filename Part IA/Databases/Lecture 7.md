@@ -30,4 +30,16 @@ $$R\subseteq S\times T$$
 $$Q\subseteq T\times U$$
 their composition is $Q\circ R\subseteq S\times U$
 
-####
+### Directed graphs
+![[DirectedGraph.png]]
+- A is a binary relation over V: $A\subseteq V\times V$
+- The arc $(u,v)\in A$, then we have an arc from u to v, also known as a directed edge or a relationship
+![[GraphComposition.png]]
+Composition on the graph will look at each relationship within the graph, and join the outputs to their corresponding inputs.
+
+#### Iterated composition
+Defined as $R^1\triangleq R, R_{n+1}\triangleq R \circ R^n$
+Supposing $v_{1},v_{2},\dots,v_{k+1}$ is a sequence of vertices, then this sequence represents a path in G of length k when $(v_{i},v_{i+1})\in A$ for $i \in \{ 1,2,\dots,k \}$
+Often written as $v_{1} \to v_{2} \to\dots v_{k}$
+
+#### Transitive closure
