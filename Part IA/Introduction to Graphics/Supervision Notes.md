@@ -1,0 +1,2 @@
+- Ambient, diffuse and specular reflection in Phong's model are broad simplification.
+- The dot product of the normal and light vector represents the cosine of the angle between these two normalised vectors. It models the inverse of the projected area. The larger is the projected area, the more is the light energy spread over the surface and the smaller is the amount of light the surface receives
