@@ -9,3 +9,7 @@ By Fermat's Little Theorem:
 $$k^{1+c\cdot(p-1)}\equiv k \pmod p$$
 Consider $d,e,p$ such that $e\cdot d=1+c\cdot(p-1)$, equivalently
 $$d\cdot e\equiv 1 \pmod {p-1}$$
+
+### Induction
+Base case, inductive case
+Assuming $P(n)$ is the induction hypothesis
