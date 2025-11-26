@@ -25,4 +25,12 @@ for (; it.hasNext(); ) {Integer i = it.next();}
 `Collections.unmodifiableList(list);` makes a list unmodifiable.
 
 ### Comparing
-#### Primitives
+#### Value equality
+- Use the `equals()` method in Object
+- Default implementation is reference equality (`==`)
+- Java requires that if two objects are equal their hash codes must be equal
+#### Comparable
+- `Comparable` interface has `compareTo` method
+- Tells you which is bigger, smaller, equal, useful for sorting
+- Returns an integer r - <0 is smaller, 0 is equal, >0 is larger
+- `compare` can be used to specify a certain ordering
