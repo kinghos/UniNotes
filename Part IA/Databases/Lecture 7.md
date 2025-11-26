@@ -43,3 +43,4 @@ Supposing $v_{1},v_{2},\dots,v_{k+1}$ is a sequence of vertices, then this seque
 Often written as $v_{1} \to v_{2} \to\dots v_{k}$
 
 #### Transitive closure
+Suppose R is a binary relation over $S,R\subseteq S\times S$. The transitive closure of R, denoted $R^+$ is the smallest binary relation on S such that $R\subseteq R^+$ and $R^+$ is transitive. 
