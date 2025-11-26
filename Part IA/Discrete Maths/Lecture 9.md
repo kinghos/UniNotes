@@ -13,3 +13,10 @@ $$d\cdot e\equiv 1 \pmod {p-1}$$
 ### Induction
 Base case, inductive case
 Assuming $P(n)$ is the induction hypothesis
+Strong induction - Let $P(m)$ be a statement for $m$ ranging over the natural numbers greater than or equal a fixed natural number $\ell$. If both:
+- $P(\ell)$ and
+- $\forall n\geq\ell$ in $\mathbb{N}.\left((\forall k\in[\ell\dots n].P(k))\implies P(n+1)\right)$
+hold, then 
+$$\forall m\geq\ell \text{ in }\mathbb{N}.P(m) \text{ holds}$$
+#### Fundamental theorem of arithmetic
+Every positive integer greater than or equal to 2 is a prime or product of primes.
