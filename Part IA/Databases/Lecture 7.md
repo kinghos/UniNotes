@@ -42,5 +42,5 @@ Defined as $R^1\triangleq R, R_{n+1}\triangleq R \circ R^n$
 Supposing $v_{1},v_{2},\dots,v_{k+1}$ is a sequence of vertices, then this sequence represents a path in G of length k when $(v_{i},v_{i+1})\in A$ for $i \in \{ 1,2,\dots,k \}$
 Often written as $v_{1} \to v_{2} \to\dots v_{k}$
 
-#### Transitive closure
+#### Transitive closure (notes need updating)
 Suppose R is a binary relation over $S,R\subseteq S\times S$. The transitive closure of R, denoted $R^+$ is the smallest binary relation on S such that $R\subseteq R^+$ and $R^+$ is transitive. 
