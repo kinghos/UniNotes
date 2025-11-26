@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Lecture 7"
             }
+          },
+          {
+            "id": "b23b7f877029e63d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "62cc4ea7ba4328c9",
+  "active": "b23b7f877029e63d",
   "lastOpenFiles": [
     "Part IA/Introduction to Graphics/Lecture 5.md",
     "Part IA/Object-Oriented Programming/Lecture 7.md",

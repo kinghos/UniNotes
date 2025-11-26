@@ -34,3 +34,17 @@ for (; it.hasNext(); ) {Integer i = it.next();}
 - Tells you which is bigger, smaller, equal, useful for sorting
 - Returns an integer r - <0 is smaller, 0 is equal, >0 is larger
 - `compare` can be used to specify a certain ordering
+
+### Generics
+- Aim to allow a type or method to operate on objects of various types while providing compile-time type safety
+- aka parametric polymorphism
+- It stops a specific type of error at compile time
+- Prevents mixing of types and excessive casting
+Generics can be declared like:
+```java
+public class Box<T> {
+	private T t;
+	...
+}
+```
+where T acts as a sort of placeholder
