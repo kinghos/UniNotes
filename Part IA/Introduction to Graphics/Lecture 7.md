@@ -27,3 +27,16 @@ Front and back buffers:
 Most of the light we see is reflected from objects, which absorb a certain part of the light spectrum.
 $$L(\lambda)=I(\lambda)R(\lambda)$$
 Reflected light = illumination $\times$ reflectance
+Cone response = $\sum \text{sensitivity}\times \text{reflected  light}$
+Metamers - light spectra that appear to have the same colour
+Displays do not emit the same light spectra as real-world objects, yet the colours on a display look near identical - this is an application of metamerism
+
+#### Tristimulus Colour Representation
+- Any colour can be matched using three linear independent reference colours
+- May require negative contribution to test colour
+- Matching curves describe the value for matching monochromatic spectral colours of equal intensity
+#### Standard Colour Space CIE-XYZ
+- Can match all physically realisable colour stimuli
+- Cone sensitivity curves can be obtained by a linear transformation of CIE XYZ
+Chromaticity values are defined as
+$$x=\frac{X}{X+Y+Z}, y=\frac{Y}{X+Y+Z}$$
