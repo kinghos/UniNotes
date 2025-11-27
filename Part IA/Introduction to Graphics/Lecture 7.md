@@ -39,4 +39,21 @@ Displays do not emit the same light spectra as real-world objects, yet the colou
 - Can match all physically realisable colour stimuli
 - Cone sensitivity curves can be obtained by a linear transformation of CIE XYZ
 Chromaticity values are defined as
-$$x=\frac{X}{X+Y+Z}, y=\frac{Y}{X+Y+Z}$$
+$$x=\frac{X}{X+Y+Z}, y=\frac{Y}{X+Y+Z},z=\frac{Z}{X+Y+Z}$$
+$$x+y+z=1$$
+
+- The sum of M and L cones are sensitive to achromatic luminance
+- L - M is green-red chromatic
+- S - M is violet-yellow chromatic
+
+#### Luminance
+Measure of light weighted by the response of the achromatic mechanism - units are cd/m$^2$ or nits
+
+#### Visible vs displayable colours
+- All physically possible and visible colours form a solid in XYZ space
+- Each display device can reproduce a subspace of that space
+- A chromacity diagram is a slice taken from a 3D solid in XYZ space
+- Colour Gamut - the solid in a colour space
+#### SDR and HDR
+- HDR devices attempt to capture almost all visible colours
+- SDR cameras attempt to reproduce only colours of a standard sRGB colour gamut, mimicking the capabilities of CRT monitors
