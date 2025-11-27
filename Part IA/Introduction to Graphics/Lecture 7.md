@@ -21,4 +21,9 @@ Front and back buffers:
 
 - Rods - responsible for night vision
 - Cones - responsible for daylight vision and colour perception
-- 
+	- Three types, sensitive to short, medium and long wavelengths
+- The fovea has the highest density of cones, and provides the highest resolution vision
+
+Most of the light we see is reflected from objects, which absorb a certain part of the light spectrum.
+$$L(\lambda)=I(\lambda)R(\lambda)$$
+Reflected light = illumination $\times$ reflectance
