@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Introduction to Graphics/Lecture 7.md",
+                "file": "Part IA/Discrete Maths/Lecture 7.md",
                 "mode": "source",
                 "source": false
               },
@@ -183,14 +183,15 @@
   },
   "active": "62cc4ea7ba4328c9",
   "lastOpenFiles": [
-    "Part IA/Introduction to Graphics/Lecture 3.md",
+    "Part IA/Discrete Maths/Lecture 6.md",
+    "Part IA/Discrete Maths/Lecture 7.md",
+    "Part IA/Discrete Maths/Lecture 8.md",
+    "Part IA/Discrete Maths/Lecture 9.md",
     "Part IA/Introduction to Graphics/Lecture 7.md",
+    "Part IA/Introduction to Graphics/Lecture 3.md",
     "Part IA/Foundations of Computer Science/Lecture 10.md",
     "Part IA/Foundations of Computer Science/Lecture 7.md",
     "Part IA/Foundations of Computer Science/Lecture 4.md",
-    "Part IA/Discrete Maths/Lecture 6.md",
-    "Part IA/Discrete Maths/Lecture 7.md",
-    "Part IA/Discrete Maths/Lecture 9.md",
     "Part IA/Object-Oriented Programming/Lecture 6.md",
     "Part IA/Digital Electronics/Lecture 11.md",
     "Part IA/Digital Electronics/Lecture 10.md",
@@ -214,7 +215,6 @@
     "Part IA/Introduction to Graphics/Images/ShaderInputsOutputs.png",
     "Part IA/Introduction to Graphics/Images/OpenGLOO.png",
     "Part IA/Introduction to Graphics/Images/OpenGLRenderingPIpeline.png",
-    "Part IA/Object-Oriented Programming/Supervision Notes.md",
     "NST Maths/Chapter 2/Chapter2_to_annotate.pdf",
     "Part IA/Introduction to Graphics/Images/TriangleInterpolation.png",
     "Part IA/Object-Oriented Programming/Images",
