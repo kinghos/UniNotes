@@ -5,3 +5,5 @@ Consider $(p_{1}\cdot p_{2}\cdot\dots \cdot p_{n})+1$ which is not prime. So the
 ### Sets
 $\in$ is the membership predicate.
 $x\not\in A$ for $\lnot(x\in A)$
+##### Extensionality axiom
+Two sets are equal if they have the same elements
