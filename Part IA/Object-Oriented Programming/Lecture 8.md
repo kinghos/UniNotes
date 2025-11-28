@@ -39,4 +39,27 @@ void printAll (List<?> list) {
 Degree to which different parts of a program depend on each other
 High coupling - relying on internals/implementation details
 Loose coupling - relying on interface and defined behaviour
-high coupling is bad
+High coupling is bad
+
+#### Boxing
+Java automatically converts between primitives and their corresponding object wrapper - this is autoboxing
+Boxing - turn an int into an Integer
+Unboxing - turn an Integer into an int
+Boxed objects have more memory overhead
+Auto-unboxing fails with null (null pointer exception)
+
+#### Errors
+The traditional way to handle errors is to return a value that indicates success/failure/error
+However:
+- Could ignore the return value
+- You have to keep checking what the return values are meant to signify
+- The actual result often can't be returned in the same way
+- Error handling code is mixed in with normal execution - makes code harder to read and maintain
+A similar idea is to set some state in the system that needs to be checked for errors (deferred error handling)
+
+#### Exceptions
+Exceptions are events which occur during the execution of a program that disrupts the normal flow of the programs instructions
+In Java, this is handled with `try` and `catch`
+An exception is an object that has `Exception` as an ancestor, so it needs to be created with `new` before throwing.
+Multiple `catch` handlers are allowed to test different exceptions, and exceptions can be joined with `|`
+`finally` runs after any handlers
