@@ -7,3 +7,19 @@ $\in$ is the membership predicate.
 $x\not\in A$ for $\lnot(x\in A)$
 ##### Extensionality axiom
 Two sets are equal if they have the same elements
+
+#### Subsets and supersets
+$A\subseteq B$, means A is a subset of B whenever $\forall x.x\in A\implies x\in B$
+Also, B is a superset of A, $B\supseteq A$
+$\subseteq$ means they can be equal, $\subset$ means they cannot be equal.
+
+1. Reflexivity
+	For all sets A, $A\subseteq A$
+2. Transitivity
+	For all sets A, B, C, $(A\subseteq B\land B\subseteq C)\implies A\subseteq C$
+3. Antisymmetry
+	For all sets A, B, $(A\subseteq B\land B\subseteq A)\implies A=B$
+
+#### Separation principle
+For any set $A$ and any definable property $P$, there is a set containing precisely those elements of $A$ for which the property $P$ holds.
+$$\{ x\in A\mid P(x) \}$$
