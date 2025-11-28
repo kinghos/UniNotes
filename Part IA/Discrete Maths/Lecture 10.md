@@ -23,3 +23,16 @@ $\subseteq$ means they can be equal, $\subset$ means they cannot be equal.
 #### Separation principle
 For any set $A$ and any definable property $P$, there is a set containing precisely those elements of $A$ for which the property $P$ holds.
 $$\{ x\in A\mid P(x) \}$$
+#### Russell's paradox
+Definitions of sets $\{ x \mid P(x) \}$ should not be allowed (defining a set based on already constructed sets)
+If $u=\{ x\mid \lnot(x\in x) \}$ is a set, then $u\in u\iff \lnot(u\in u)$
+
+#### Empty set and cardinality
+Denoted $\emptyset$ or $\{  \}$
+The cardinality of a set specifies its size. If this is a natural number, then the set is said to be finite.
+Typical notations for the cardinality of a set S are $\#S$ or $|S|$
+e.g. $\#\emptyset=0$
+For $n\in\mathbb{N}$,
+$$[n]=\{ x\in\mathbb{N}\mid x <n \}$$
+#### Powerset axiom
+For any set, there is a set consisting of all its subsets, denoted $\mathcal{P(U)}$
