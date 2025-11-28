@@ -4,4 +4,19 @@ Adding generics while retaining backwards compatibility:
 2. Type erasure - At compile time, do all the type checks you can, then delete the type information in the compiler output. e.g. `ArrayList<Integer>` is checked, and then written to bytecode as plain ArrayList. The JVM will never know and so dynamic checks aren't possible. This is what Java implements. Primitives **cannot** be passed in
 Pros of type erasure:
 - Bytecode unchanged, hence backwards compatible
-- 
+- Compile time type checking reduces bugs
+- Avoids bloat of templates (all those extra classes)
+Cons:
+- No runtime checking
+- Cannot use primitive parameters - compiler replaces parameter with Object, which obviously cannot replace primitives
+- Creation is tricky - compiler is unsure how to deal with new, as `new Object()` is not useful
+- Method overloading is limited - type signatures will change to be the same if using generics e.g.
+```java
+void addAll(List<String> items) {...}
+void addAll(List)<Integer> items) {...}
+```
+This will not work because after discarding type information the signatures are the same.
+
+#### Covariance
+If B is a subtype of A, then i should be able to use B everywhere i expect an A (Liskov substitution principle)
+Java classes are covariant
