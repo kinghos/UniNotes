@@ -19,4 +19,5 @@ This will not work because after discarding type information the signatures are 
 
 #### Covariance
 If B is a subtype of A, then i should be able to use B everywhere i expect an A (Liskov substitution principle)
-Java classes are covariant
+Java classes are covariant, and so are arrays - but this can lead to runtime errors
+Arrays know their type at runtime - they are reified.
