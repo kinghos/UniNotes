@@ -21,3 +21,22 @@ This will not work because after discarding type information the signatures are 
 If B is a subtype of A, then i should be able to use B everywhere i expect an A (Liskov substitution principle)
 Java classes are covariant, and so are arrays - but this can lead to runtime errors
 Arrays know their type at runtime - they are reified.
+
+#### Wildcard
+Suppose you wanted to make a function to print every item in a list regardless of type
+```java
+void printAll (List<?> list) {
+	for (Object o : list)
+		System.out.println(o);
+}
+```
+`<? extends A>` matches anything that is type A or a subtype of it (covariance)
+`List<? extends Number>` - it is safe to read Number types from this, but not to write (you cannot tell if it is Double or Integer etc)
+`<? super A>` matches anything that is type A or a supertype of it (contravariance)
+`List<? super Number>` - It is only safe to read Objects from this, but safe to write Number or its subclasses
+
+#### Coupling
+Degree to which different parts of a program depend on each other
+High coupling - relying on internals/implementation details
+Loose coupling - relying on interface and defined behaviour
+high coupling is bad
