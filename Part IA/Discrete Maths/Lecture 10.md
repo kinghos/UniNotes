@@ -36,3 +36,9 @@ For $n\in\mathbb{N}$,
 $$[n]=\{ x\in\mathbb{N}\mid x <n \}$$
 #### Powerset axiom
 For any set, there is a set consisting of all its subsets, denoted $\mathcal{P(U)}$
+$$\forall X.X\in\mathcal{P(U)}\iff X\subseteq\mathcal{U}$$
+e.g. will include $\emptyset$ and $\mathcal{U}$
+The powerset construction can be iterated.
+$$\mathcal{F\in P(P(U))}\iff\mathcal{F\subseteq P(U)}$$
+that is, $\mathcal{F}$ is a set of subsets of $\mathcal{U}$, sometimes referred to as a family.
+
