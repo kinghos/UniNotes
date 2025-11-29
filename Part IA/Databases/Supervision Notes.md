@@ -14,4 +14,11 @@ Consider the schema of the table and the conditions for the primary key
 Single quotes on strings!
 Consider duplicate on join
 
-
+OLTP:
+- Concurrent
+- Correctness matters - priority of consistency
+- Simple queries touching few rows
+OLAP:
+- Sequential
+- Complex queries touching all rows
+- Adding not updating
