@@ -13,4 +13,5 @@ $[k]_{m}$ is the same as $k \pmod m$
 
 Divide through by gcd whenever possible
 
-#### Euclid
+The gcd is the divisor that is divisible by all other divisor
+Use laws of commutativity, associativity, linearity
