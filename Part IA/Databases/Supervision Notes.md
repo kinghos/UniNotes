@@ -22,3 +22,4 @@ OLAP:
 - Sequential
 - Complex queries touching all rows
 - Adding not updating
+Vertical vs horizontal scaling
