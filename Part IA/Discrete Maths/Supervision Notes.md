@@ -14,4 +14,4 @@ $[k]_{m}$ is the same as $k \pmod m$
 Divide through by gcd whenever possible
 
 The gcd is the divisor that is divisible by all other divisor
-Use laws of commutativity, associativity, linearity
+Use laws of commutativity, associativity, linearity - you can plug in gcd as in if gcd(a,b)=1 and then use laws from there
