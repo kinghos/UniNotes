@@ -43,3 +43,6 @@
 Remember the result $t=\tan \frac{x}{2}$ for integration of reciprocal functions. Draw out this triangle and use sin and cos derivations to integrate.
 Odd powers of sin - factor out a sin and then convert to cose
 Even powers of sin - DeMoivres
+
+
+Sums make inequality signs change from strict to not strict
