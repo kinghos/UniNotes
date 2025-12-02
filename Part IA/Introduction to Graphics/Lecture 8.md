@@ -43,4 +43,22 @@ R^{1/\gamma}&G^{1/\gamma}&B^{1/\gamma}
 #### RGB
 - Can be linear (RGB) or display encoded (R'G'B')
 - Can be scene referred (HDR) or display referred (SDR)
+- RGB space is a cube
+- Can be transformed into CIE XYZ by matrix transformation
+
+#### CMY
+- CMY is an inverse of RGB
+	- Lights emit light, inks absorb light so the inverse is needed
+- Black/Key is needed as inks are not perfect absorbers and mixing CMY gives a muddy grey
+
+#### Munsell's colour classification system
+- Three axes
+	- Hue - dominant colour
+	- Value - bright/dark colours
+	- Chroma - vivid/dull colours
+- Can be represented on a 3D graph
+- Any two adjacent colours are a standard "perceptual" distance apart
+
+#### HSV
+- Three axes, same as Munsell's except saturation replaces chroma
 - 
