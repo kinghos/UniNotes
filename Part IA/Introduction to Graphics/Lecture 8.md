@@ -61,4 +61,27 @@ R^{1/\gamma}&G^{1/\gamma}&B^{1/\gamma}
 
 #### HSV
 - Three axes, same as Munsell's except saturation replaces chroma
-- 
+
+### Tone-mapping
+Used to:
+- Reduce dynamic range
+- Customise look (colour grading)
+- Simulate human vision (e.g. night vision)
+- Simulate a camera (e.g. motion blur)
+- To adapt displayed images to a display and viewing conditions
+- Make rendered images look more realistic
+- **Map from scene to display-referred colours**
+
+##### Exposure/brightness adjustment
+$$R_{d}=\frac{R_{s}}{L_{white}}$$
+$R$ for red (so same for G and B)
+
+#### Tone curves
+OpenGL offers sRGB textures to automate RGB to/from sRGB conversion
+- sRGB textures store data in gamma-corrected space
+- sRGB colour values are converted to RGB colour values on texture lookup (inverse display coding)
+- RGB to sRGB conversion when writing to sRGB texture
+
+##### Sigmoidal tone-curves
+- Mimic the response of analog film
+- Fast to compute
