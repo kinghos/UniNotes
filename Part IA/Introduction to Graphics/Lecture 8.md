@@ -85,3 +85,7 @@ OpenGL offers sRGB textures to automate RGB to/from sRGB conversion
 ##### Sigmoidal tone-curves
 - Mimic the response of analog film
 - Fast to compute
+$$R'(x,y)=\frac{R(x,y)^b}{\left( \frac{L_{m}}{a} \right)^b+R(x,y)^b}$$
+Where $L_m$ is the geometric mean or mean of logarithms
+$$L_{m}=\exp\left( \frac{1}{N}\sum_{(x,y)}\ln(L(x,y)) \right)$$
+and $L(x,y)$ is the luminance of the pixel $(x,y)$
