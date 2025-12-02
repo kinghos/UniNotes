@@ -18,4 +18,4 @@
 Idempotent - repeating has no effect
 #### Pattern matching
 ![[PatternMatchingNeo4J.png]]
-The Kleene star matches a path of any length. Further syntax up and/or lower bounds the path length e.g. $$
+The Kleene star matches a path of any length. Further syntax up and/or lower bounds the path length e.g. `(a)-[*3..5]->(b)`
