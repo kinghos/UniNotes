@@ -1,0 +1,3 @@
+- Nodes have a type, a unique label, and properties
+- Edges are directed between two nodes. They have a type, optional label, and properties
+- Can collate by type to convert to rDBMS tables
