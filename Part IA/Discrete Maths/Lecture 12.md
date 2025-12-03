@@ -25,3 +25,10 @@ $$\mathcal{S}=\{ S \subseteq [5] \mid \text{Sum of elements is }6\}$$
 The big intersection of $\mathcal{S}$ is the set $\bigcap\mathcal{S}$ given by the intersections of the sets in $\mathcal{S}$:
 $$n\in\bigcap\mathcal{S}\iff\forall S\in \mathcal{S}.n\in S$$
 Hence, $\bigcap\mathcal{S}=\{ 2 \}$
+
+#### Union axiom
+Every collection of sets has a union
+
+#### Disjoint unions
+The disjoint union $A\uplus B$ of two sets $A$ and $B$ is the set.
+$$A\uplus B= (\{ 1 \}\times A)\cup(\{ 2 \}\times B)$$
