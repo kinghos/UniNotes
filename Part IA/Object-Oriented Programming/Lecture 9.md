@@ -31,4 +31,19 @@ General reusable solutions to commonly occurring problems in software design
 #### Open-Closed Principle
 Classes should be open for extension but closed for modification
 
-Composite - 
+#### Composite
+Lets you treat objects and groups of objects uniformly by inheriting and containing a class
+
+#### Decorator
+Way of adding functionality to a class, by containing and inheriting an object of that class.
+
+#### State
+Containing an object inside another so it is changeable, e.g. an Employee contains a Rank which can be a Manager or Assistant, rather than Manager and Assistant inheriting Employee.
+Never allow access to the reference of this contained object!
+
+#### Strategy
+Being able to choose an algorithm at runtime
+
+#### Singleton
+Ensuring only one instance of an object is created.
+`private` constructor, `static` reference to the own object stored as state. `public` method to access inside object, and creates it if it is null.
