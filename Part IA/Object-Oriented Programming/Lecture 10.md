@@ -1,2 +1,2 @@
 #### Observer
-Way of identifying when an object changes state
+Way of identifying when an object changes state. Works by having a method in the "subject" to attach/detach any observers. Then, a `notify()` method can be called to update the state of all observers to reflect the change of state in the subject.
