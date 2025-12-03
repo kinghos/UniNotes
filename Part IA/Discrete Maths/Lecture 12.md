@@ -11,3 +11,10 @@ The subset of ordered pairs from a set A with equal components is formally
 $$\{ x\in A\times A \mid \exists a_{1} \in A. \exists a_{2}\in A.x=(a_{1},a_{2})\land a_{1}=a_{2}\}$$
 but is often abbreviated with pattern-matching notation as
 $$\{ (a_{1},a_{2})\in A\times A\mid a_{1}=a_{2} \}$$
+
+#### Big union
+For the family of sets
+$$\mathcal{T}=\{ T\in[5] \mid \text{sum of elements of T }\leq 2 \}$$
+The big union of the family $\mathcal{T}$ is the set $\bigcup\mathcal{T}$ given by the union of the sets in $\mathcal{T}$:
+$$n\in\bigcup\mathcal{T}\iff \exists T\in\mathcal{T}.n\in T$$
+Hence $\bigcup\mathcal{T}=\{ 0,1,2 \}$
