@@ -23,4 +23,12 @@ Unchecked - not expected to be handled
 - Never use exceptions for control flow
 
 #### Assertions
-Check ba 
+Check a boolean statement. If the statement is false, the code crashes.
+
+### Design patterns
+General reusable solutions to commonly occurring problems in software design
+
+#### Open-Closed Principle
+Classes should be open for extension but closed for modification
+
+Composite - 
