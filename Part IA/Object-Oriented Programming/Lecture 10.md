@@ -23,7 +23,7 @@ In this example, the second argument to filter is an `ApplePredicate`. Despite n
 // or
 (parameters) -> {statements;}
 ```
-Generics can be used to parametrise the filter function and make it more generally useful.
+Generics can be used to parameterise the filter function and make it more generally useful.
 
 #### Method references
 Reuse existing method definitions and pass them like lambdas
@@ -33,3 +33,13 @@ e.g. `(Apple a) -> a.getWeight()` becomes `Apple::getWeight`
 A stream is a sequence of elements from a source that supports aggregate operations
 Intermediate operations return a stream and can be connected
 Terminal operations return a non-stream value
+
+```java
+List<String> lowCaloricDishesName =
+	dishes.stream()
+		  .filter(dish -> dish.getCalories() < 400)
+		  .sorted(comparing(Dish::getCalories))
+		  .map(Dish::getName)
+		  .collect(toList());
+```
+Intermediates are only evaluated when a terminal is connected.
