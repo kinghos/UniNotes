@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Object-Oriented Programming/Lecture 8.md",
+                "file": "Part IA/Databases/Lecture 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 8"
+              "title": "Lecture 3"
             }
           }
         ]
@@ -183,9 +183,13 @@
   },
   "active": "62cc4ea7ba4328c9",
   "lastOpenFiles": [
+    "Part IA/Databases/Lecture 2.md",
+    "Part IA/Databases/Lecture 1.md",
+    "NST Maths/Complex Numbers.md",
+    "Part IA/Object-Oriented Programming/Lecture 4.md",
+    "Part IA/Object-Oriented Programming/Lecture 8.md",
     "Part IA/Object-Oriented Programming/Lecture 7.md",
     "Part IA/Object-Oriented Programming/Lecture 5.md",
-    "Part IA/Object-Oriented Programming/Lecture 8.md",
     "Part IA/Introduction to Graphics/Lecture 7.md",
     "Part IA/Object-Oriented Programming/Lecture 2.md",
     "Part IA/Foundations of Computer Science/Lecture 7.md",
@@ -196,21 +200,17 @@
     "Part IA/Databases/Lecture 8.md",
     "Part IA/Databases/Lecture 7.md",
     "Part IA/Databases/Supervision Notes.md",
-    "Part IA/Databases/Lecture 1.md",
     "Part IA/Databases/Images/PatternMatchingNeo4J.png",
     "Part IA/Introduction to Graphics/Lecture 8.md",
     "Part IA/Introduction to Graphics/Images/LinearToDisplayEncoded.png",
     "NST Maths/Vectors.md",
-    "NST Maths/Complex Numbers.md",
     "NST Maths/Supervision Notes.md",
     "Part IA/Digital Electronics/Supervision Notes.md",
     "Part IA/Object-Oriented Programming/Lecture 6.md",
-    "Part IA/Object-Oriented Programming/Lecture 4.md",
     "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Discrete Maths/Lecture 10.md",
     "Part IA/Discrete Maths/Lecture 9.md",
     "Part IA/Discrete Maths/Lecture 8.md",
-    "Part IA/Discrete Maths/Lecture 7.md",
     "Part IA/Databases/Images/GraphComposition.png",
     "Part IA/Databases/Images/DirectedGraph.png",
     "Part IA/Databases/Images/NullTable.png",
