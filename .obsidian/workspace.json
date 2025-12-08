@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Lecture 1.md",
+                "file": "Part IA/Digital Electronics/Boolean Algebra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 1"
+              "title": "Boolean Algebra"
             }
           }
         ]
@@ -182,6 +182,9 @@
   },
   "active": "62cc4ea7ba4328c9",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Lecture 1.md",
+    "Part IA/Digital Electronics/Boolean Algebra.md",
+    "Part IA/Digital Electronics/Images/BasicPAL.png",
     "Part IA/Object-Oriented Programming/Lecture 9.md",
     "Part IA/Digital Electronics/Lecture 9.md",
     "Part IA/Object-Oriented Programming/Supervision Notes.md",
@@ -207,9 +210,6 @@
     "Part IA/Introduction to Graphics/Images/LinearToDisplayEncoded.png",
     "NST Maths/Vectors.md",
     "NST Maths/Supervision Notes.md",
-    "Part IA/Digital Electronics/Supervision Notes.md",
-    "Part IA/Object-Oriented Programming/Lecture 6.md",
-    "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Databases/Images/GraphComposition.png",
     "Part IA/Databases/Images/DirectedGraph.png",
     "Part IA/Databases/Images/NullTable.png",
@@ -219,7 +219,6 @@
     "NST Maths/Chapter 2/Chapter2_to_annotate.pdf",
     "Part IA/Introduction to Graphics/Images/TriangleInterpolation.png",
     "Part IA/Object-Oriented Programming/Images",
-    "Part IA/Object-Oriented Programming/Images/InterfacesVsClasses.png",
     "Part IA/Discrete Maths/Images",
     "NST Maths/Chapter 6",
     "NST Maths/Chapter 5",
