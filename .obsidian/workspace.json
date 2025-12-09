@@ -8,41 +8,32 @@
         "type": "tabs",
         "children": [
           {
-            "id": "62cc4ea7ba4328c9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "bd93f192bea41d91",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/2015p1q17.md"
+                "file": "Excalidraw/2013p2q13.md"
               },
               "icon": "excalidraw-icon",
-              "title": "2015p1q17"
+              "title": "2013p2q13"
             }
           },
           {
             "id": "83055af982ddfe52",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-12-09 19.13.45.excalidraw.md"
+                "file": "NST Maths/Questions for Bob.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-09 19.13.45.excalidraw"
+              "icon": "lucide-file",
+              "title": "Questions for Bob"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,11 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83055af982ddfe52",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-12-09 19.13.45.excalidraw.md",
-    "{859037B5-1492-450C-B5C3-1905904F070D}.png",
     "Excalidraw/2015p1q17.md",
+    "Excalidraw/2013p2q13.md",
+    "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
+    "NST Maths/Questions for Bob.md",
     "Excalidraw",
     "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
     "NST Maths/Supervision Notes.md",
@@ -232,7 +224,6 @@
     "Part IA/Object-Oriented Programming/Supervision Notes.md",
     "Part IA/Object-Oriented Programming/Lecture 10.md",
     "Part IA/Databases/Lecture 3.md",
-    "Part IA/Databases/Lecture 2.md",
     "Part IA/Databases/Images/PatternMatchingNeo4J.png",
     "Part IA/Introduction to Graphics/Images/LinearToDisplayEncoded.png",
     "Part IA/Databases/Images/GraphComposition.png",
