@@ -16,8 +16,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "bd93f192bea41d91",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Revision/Drawing 2025-12-09 15.42.28.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-12-09 15.42.28.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,8 +189,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62cc4ea7ba4328c9",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
+    "Revision/Drawing 2025-12-09 15.42.28.excalidraw.md",
+    "Excalidraw",
+    "Revision",
     "Part IA/Digital Electronics/Lecture 10.md",
     "Part IA/Digital Electronics/Lecture 9.md",
     "Part IA/Digital Electronics/Lecture 8.md",
@@ -204,7 +220,6 @@
     "Part IA/Introduction to Graphics/Lecture 7.md",
     "Part IA/Object-Oriented Programming/Lecture 2.md",
     "Part IA/Foundations of Computer Science/Lecture 7.md",
-    "Part IA/Discrete Maths/Lecture 12.md",
     "Part IA/Databases/Images/PatternMatchingNeo4J.png",
     "Part IA/Introduction to Graphics/Images/LinearToDisplayEncoded.png",
     "Part IA/Databases/Images/GraphComposition.png",
@@ -222,8 +237,6 @@
     "NST Maths/Chapter 4",
     "NST Maths/Chapter 3",
     "Part IA/Object-Oriented Programming",
-    "Part IA/Discrete Maths",
-    "Part IA/Introduction to Graphics/Images",
     "Untitled.canvas"
   ]
 }
