@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Lecture 10"
             }
+          },
+          {
+            "id": "a9326920eca5846d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62cc4ea7ba4328c9",
+  "active": "a9326920eca5846d",
   "lastOpenFiles": [
     "Part IA/Digital Electronics/Lecture 9.md",
     "Part IA/Digital Electronics/Lecture 8.md",
