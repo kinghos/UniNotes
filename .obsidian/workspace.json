@@ -174,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 202.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "bd93f192bea41d91",
   "lastOpenFiles": [
     "Revision/Drawing 2025-12-09 15.42.28.excalidraw.md",
     "Excalidraw",
