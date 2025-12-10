@@ -11,6 +11,20 @@
             "id": "62cc4ea7ba4328c9",
             "type": "leaf",
             "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
+            "id": "5f0141f29974a499",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
@@ -161,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,6 +192,14 @@
   },
   "active": "62cc4ea7ba4328c9",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Part IA/Digital Electronics/Boolean Algebra.md",
+    "NST Maths/Questions for Bob.md",
+    "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
+    "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
+    "Excalidraw/2015p1q17.md",
+    "Excalidraw/2013p2q13.md",
+    "Excalidraw",
     "Part IA/Object-Oriented Programming/Lecture 9.md",
     "Part IA/Digital Electronics/Lecture 9.md",
     "Part IA/Object-Oriented Programming/Supervision Notes.md",
@@ -202,11 +223,6 @@
     "Part IA/Databases/Images/PatternMatchingNeo4J.png",
     "Part IA/Introduction to Graphics/Lecture 8.md",
     "Part IA/Introduction to Graphics/Images/LinearToDisplayEncoded.png",
-    "NST Maths/Vectors.md",
-    "NST Maths/Supervision Notes.md",
-    "Part IA/Digital Electronics/Supervision Notes.md",
-    "Part IA/Object-Oriented Programming/Lecture 6.md",
-    "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Databases/Images/GraphComposition.png",
     "Part IA/Databases/Images/DirectedGraph.png",
     "Part IA/Databases/Images/NullTable.png",
@@ -214,9 +230,7 @@
     "Part IA/Introduction to Graphics/Images/OpenGLOO.png",
     "Part IA/Introduction to Graphics/Images/OpenGLRenderingPIpeline.png",
     "NST Maths/Chapter 2/Chapter2_to_annotate.pdf",
-    "Part IA/Introduction to Graphics/Images/TriangleInterpolation.png",
     "Part IA/Object-Oriented Programming/Images",
-    "Part IA/Object-Oriented Programming/Images/InterfacesVsClasses.png",
     "Part IA/Discrete Maths/Images",
     "NST Maths/Chapter 6",
     "NST Maths/Chapter 5",
@@ -224,7 +238,6 @@
     "NST Maths/Chapter 3",
     "Part IA/Object-Oriented Programming",
     "Part IA/Discrete Maths",
-    "Part IA/Introduction to Graphics/Images",
     "Untitled.canvas"
   ]
 }
