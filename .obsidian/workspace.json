@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Part IA/Digital Electronics/Lecture 1.md",
+                "file": "Part IA/Digital Electronics/Lecture 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture 1"
+              "title": "Outgoing links from Lecture 5"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Part IA/Databases/Lecture 6.md",
+                "file": "Part IA/Digital Electronics/Lecture 5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 6"
+              "title": "Outline of Lecture 5"
             }
           },
           {
@@ -180,7 +180,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6f0a2db7f35dfee4",
+  "active": "a091133855d8489a",
   "lastOpenFiles": [
     "Part IA/Digital Electronics/Transparent D Latch.md",
     "Part IA/Digital Electronics/Latches.md",
