@@ -1,4 +1,7 @@
-#### Latches
+---
+tags:
+  - sequentialCircuits
+---
 ![[RSLatch.png]]
 This is a memory element with 2 inputs, Reset and Set, and two outputs, $Q$ and $\bar{Q}$
 
