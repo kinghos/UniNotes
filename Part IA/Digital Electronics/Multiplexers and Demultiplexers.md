@@ -12,7 +12,7 @@ This is an 8:1 Mux, which needs 3 control inputs.
 The control inputs (in this case $x, y,z$) determine which input is output, e.g. $010$ would output $I_{2}$ which is 0.
 
 #### Demultiplexers
-A demultiplexer is the opposite of a Mux, i.e. a single output is directed to exactly one of its outputs
+A demultiplexer is the opposite of a Mux, i.e. a single input is directed to exactly one of its outputs
 
 This is a 1:2 Demux
 ![[DemultiplexerExample.png]]
