@@ -1,5 +1,3 @@
-
-
 #### Decoders
 A decoder is a similar function, where $g$ is permanently connected to logic 1. This yields a 1-of-2 decoder (1:2 decoder). This means only one output is logic 1 at a time.
 ![[DecoderExample.png]]
