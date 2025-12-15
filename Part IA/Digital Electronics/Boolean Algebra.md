@@ -17,7 +17,7 @@ $a+(a.c)=a$
 $a.(a+c)=a$
 
 ##### Consensus theorem
-$a.b. +\bar{a}.c + b.c =a.b +\bar{a}.c$
+$a.b +\bar{a}.c + b.c =a.b +\bar{a}.c$
 $(a+b).(\bar{a}+c).(b+c)=(a+b).(\bar{a}+c)$
 
 Try expanding each term until it includes one instance of each variable, then simplify.
