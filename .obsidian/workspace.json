@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fa1ae1118edb9155",
+        "id": "f86cba5d9780551c",
         "type": "tabs",
         "children": [
           {
-            "id": "5f0141f29974a499",
+            "id": "0c0a4528be214db6",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -176,7 +176,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5f0141f29974a499",
+  "active": "0c0a4528be214db6",
   "lastOpenFiles": [
     "Part IA/Databases/Lecture 6.md",
     "Part IA/Databases/Lecture 8.md",
