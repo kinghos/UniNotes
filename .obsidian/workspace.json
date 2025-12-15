@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Boolean Algebra.md",
+                "file": "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Boolean Algebra"
+              "title": "Quine-McCluskey Minimisation"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "0c0a4528be214db6",
   "lastOpenFiles": [
-    "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Digital Electronics/Boolean Algebra.md",
+    "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Digital Electronics/Lecture 1.md",
     "Part IA/Databases/Lecture 6.md",
     "Part IA/Databases/Lecture 8.md",
