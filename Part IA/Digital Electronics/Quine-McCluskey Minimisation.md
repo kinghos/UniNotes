@@ -1,3 +1,7 @@
+---
+tags:
+  - booleanAlgebra
+---
 Given a function and its minterms, the QM method is more effective at simplifying the linear algebra than Karnaugh maps
 
 1. Create a table with 3 columns:
