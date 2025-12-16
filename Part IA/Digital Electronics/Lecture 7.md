@@ -11,7 +11,7 @@ $$
 Clock period is often set by manufacturer, so the equation for propagation delay through combinational logic is $$
 t_{pd} \leq T_{c}-(t_{pc}+t_{su})
 $$
-![[Pasted image 20251024112730.png]]
+![[HoldTime.png]]
 D cannot change in a time shorter than $t_{hold}$. Therefore $$
 (t_{pc}+t_{pd})min \geq t_{hold}
 $$
@@ -30,7 +30,7 @@ where $T_c$ is the clock period, and $T_0$ and _$\tau$_ are characteristics of t
 $\frac{T_{0}}{T_{c}}$ can be seen as the probability that the input changes at a 'bad' time since it decreases with increasing $T_c$, and $\tau$ is a time constant indicating how fast the FF will exit the metastable state.
 
 A synchroniser can be used to to minimise metastability.
-![[Pasted image 20251024114802.png]]
+![[Delays.png]]
 Here, if $T_c$ is long enough, $D_1$ will resolve to a valid level with high probability. This means FF1 has a valid input that satisfies its setup and hold times and yields valid output Q. 
 The synchroniser fails if output Q becomes metastable. The probability of failure for a single input change is 
 $$
