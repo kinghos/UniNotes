@@ -11,4 +11,4 @@ Can be used for:
 - Producing delays of a particular duration
 - Sequences for control logic in a processor
 - Divide by m counter
-Two types: [[Ripple Counters|ripple]] and synchronous counters. Ripple counters should be avoided.
+Two types: [[Ripple Counters|ripple]] and [[Synchronous Counters|synchronous]] counters. Ripple counters should be avoided.
