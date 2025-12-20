@@ -1,4 +1,7 @@
-### Synchronous State Machines
+---
+tags:
+  - stateMachines
+---
 - Finite state machine - a deterministic machine that produces outputs which depend on its internal state and external inputs
 - States - The set of internal memorised values shown as circles on the state diagram
 - Inputs - External stimuli, labelled as arcs on the state diagram
@@ -20,11 +23,11 @@ D_{R}=R\oplus A
 $$
 $D_A$ is clearly $\overline{A}$ and $D_{G}=R.A$
 Now drawing the circuit:
-![[Pasted image 20251027111951.png]]
+![[TrafficLightCircuit.png]]
 ##### Problems
 - Check to see if the FSM can eventually reach a known state from any of the unused states
 - If not, add logic for this e.g. adding unused states to the transition table
-- Alternatively use Clear and Preset inputs to set a known state at power up
+- Alternatively use [[Asynchronous inputs|Clear and Preset inputs]] to set a known state at power up
 In this example, the FSM does self-start when powered on, as all unused states lead to used states.
 
 State assignment is rarely obvious or straightforward. Algorithms exist for optimising assignment but are not suitable for manual execution.
