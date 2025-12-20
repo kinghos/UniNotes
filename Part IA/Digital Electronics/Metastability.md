@@ -1,26 +1,7 @@
-#### Shift register
-
-#### System Timing
-The clock period, $T_c$, is the time between the rising edges of a repetitive clock signal. 
-Clock frequency is the reciprocal of the clock period.
-
-![[TimeConstraints.png]]
-Maximum propagation delay, $t_{pd}$ , enables the worst case setup time to be satisfied. Minimum clock period is given by $$
-T_{c}\geq t_{pc}+t_{pd}+t_{su}
-$$
-Clock period is often set by manufacturer, so the equation for propagation delay through combinational logic is $$
-t_{pd} \leq T_{c}-(t_{pc}+t_{su})
-$$
-![[HoldTime.png]]
-D cannot change in a time shorter than $t_{hold}$. Therefore $$
-(t_{pc}+t_{pd})min \geq t_{hold}
-$$
-A reliable FF must have a minimum hold time less than the minimum propagation delay time, as you would expect 2 FFs directed cascaded without any combinational logic between them to have no timing issues. Often FFs are designed with $t_{hold}=0$, satisfying this condition.
-
-Clock skew is the problem of clock edges reaching each FF at different times, owing to different wire lengths and other small delays.
-Clock stew reduces propagation delay (bad), but increases hold time (good).
-
-#### Metastability
+---
+tags:
+  - sequentialCircuits
+---
 It is not always possible to control when a FF input changes in relation to the clock edge. This can happen when the input signal comes from a user e.g. a button
 ![[Metastability.png]]
 This invalid state will eventually fall onto one of the two valid states. The time taken for this to happen can be modelled by this equation. $$
