@@ -22,20 +22,21 @@
             }
           },
           {
-            "id": "121fe4a91f0b35b8",
+            "id": "fa7d93fd6cbb150f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "p-Channel MOSFET.md",
+                "file": "Part IA/Digital Electronics/Supervision Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "p-Channel MOSFET"
+              "title": "Supervision Notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IA/Digital Electronics/Lecture 12.md",
+                "file": "Part IA/Digital Electronics/Supervision Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 12"
+              "title": "Backlinks for Supervision Notes"
             }
           },
           {
@@ -194,13 +195,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "24f40e38a732ba0b",
+  "active": "fa7d93fd6cbb150f",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Supervision Notes.md",
+    "Part IA/Digital Electronics/Lecture 12.md",
     "Part IA/Digital Electronics/CMOS Logic.md",
     "Part IA/Digital Electronics/Lecture 11.md",
     "Part IA/Digital Electronics/n-MOS Inverter.md",
     "Part IA/Digital Electronics/Latches.md",
-    "Part IA/Digital Electronics/Lecture 12.md",
     "Part IA/Digital Electronics/Transistors.md",
     "p-Channel MOSFET.md",
     "n-Channel MOSFET.md",
@@ -221,7 +223,6 @@
     "Part IA/Digital Electronics/Adders.md",
     "Part IA/Digital Electronics/Asynchronous inputs.md",
     "Part IA/Digital Electronics/Finite State Machines.md",
-    "Part IA/Digital Electronics/Supervision Notes.md",
     "Part IA/Digital Electronics/Images/Delays.png",
     "Part IA/Digital Electronics/Images/DecoderExample2.png",
     "Part IA/Digital Electronics/Images/DelayTimingFlipFlop.png",
