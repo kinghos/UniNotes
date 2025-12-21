@@ -1,7 +1,4 @@
-Transistors only dissipate power when switching.
-Tolerance to noise is quantified in terms of the noise margin
 
-![[NoiseMargin.png]]
 
 ### Computer Architecture
 A computer architecture is defined by its instruction set and architectural state e.g. for a MIPS processor, the architectural state comprised the program counter and the 32 registers
