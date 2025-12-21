@@ -35,8 +35,7 @@
               "title": "Supervision Notes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IA/Digital Electronics/Supervision Notes.md",
+                "file": "Part IA/Digital Electronics/Lecture 12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Supervision Notes"
+              "title": "Backlinks for Lecture 12"
             }
           },
           {
@@ -195,7 +194,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fa7d93fd6cbb150f",
+  "active": "24f40e38a732ba0b",
   "lastOpenFiles": [
     "Part IA/Digital Electronics/Supervision Notes.md",
     "Part IA/Digital Electronics/Lecture 12.md",
