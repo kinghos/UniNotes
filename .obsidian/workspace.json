@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "adders",
+                "query": "tag:#analogElectronics  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,11 +182,12 @@
   },
   "active": "24f40e38a732ba0b",
   "lastOpenFiles": [
-    "Part IA/Digital Electronics/Lecture 12.md",
-    "Part IA/Digital Electronics/Lecture 11.md",
+    "Part IA/Digital Electronics/Latches.md",
     "Part IA/Digital Electronics/Semiconductors.md",
-    "Part IA/Digital Electronics/Lecture 10.md",
     "Part IA/Digital Electronics/Basic Electricity.md",
+    "Part IA/Digital Electronics/Lecture 11.md",
+    "Part IA/Digital Electronics/Lecture 12.md",
+    "Part IA/Digital Electronics/Lecture 10.md",
     "Part IA/Digital Electronics/Implication Tables.md",
     "Part IA/Digital Electronics/Field Programmable Gate Array.md",
     "Part IA/Digital Electronics/Lecture 9.md",
@@ -198,7 +199,6 @@
     "Part IA/Digital Electronics/Boolean Algebra Laws.md",
     "Part IA/Digital Electronics/Adders.md",
     "Part IA/Digital Electronics/Asynchronous inputs.md",
-    "Part IA/Digital Electronics/Latches.md",
     "Part IA/Digital Electronics/Finite State Machines.md",
     "Part IA/Digital Electronics/Supervision Notes.md",
     "Part IA/Digital Electronics/Metastability.md",
