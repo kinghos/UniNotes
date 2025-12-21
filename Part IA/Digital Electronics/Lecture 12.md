@@ -1,12 +1,3 @@
-
-
-### Computer Architecture
-
-
-#### Simple computer
-
-
-
 #### Multicycle processor
 Single cycle processors have 3 main weaknesses:
 - Clock cycle needs to be long enough to cope with slowest instruction
