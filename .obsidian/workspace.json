@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 11.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 11"
+              "title": "Lecture 6"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 11.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 11"
+              "title": "Backlinks for Lecture 6"
             }
           },
           {
@@ -182,12 +182,14 @@
   },
   "active": "24f40e38a732ba0b",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Lecture 4.md",
+    "Part IA/Foundations of Computer Science/Lecture 7.md",
+    "Part IA/Foundations of Computer Science/Lecture 5.md",
+    "Part IA/Foundations of Computer Science/Lecture 11.md",
     "Part IA/Foundations of Computer Science/Lecture 3.md",
     "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Foundations of Computer Science/Lecture 1.md",
-    "Part IA/Foundations of Computer Science/Lecture 11.md",
     "Part IA/Foundations of Computer Science/Lecture 10.md",
-    "Part IA/Foundations of Computer Science/Lecture 4.md",
     "Part IA/Foundations of Computer Science/Intro.md",
     "Part IA/Foundations of Computer Science/Lecture 6.md",
     "Part IA/Digital Electronics/Pipelining.md",
@@ -206,8 +208,6 @@
     "n-Channel MOSFET.md",
     "Part IA/Digital Electronics/T Flip-Flop.md",
     "Part IA/Digital Electronics/Potential Dividers.md",
-    "Part IA/Digital Electronics/Semiconductors.md",
-    "Part IA/Digital Electronics/Basic Electricity.md",
     "Part IA/Digital Electronics/Images/Delays.png",
     "Part IA/Digital Electronics/Images/DecoderExample2.png",
     "Part IA/Digital Electronics/Images/DelayTimingFlipFlop.png",
