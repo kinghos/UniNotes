@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Pipelining.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pipelining"
+              "title": "Lecture 11"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#analogElectronics  ",
+                "query": "array path:\"Part IA/Foundations of Computer Science\"  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IA/Digital Electronics/Pipelining.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pipelining"
+              "title": "Backlinks for Lecture 11"
             }
           },
           {
@@ -182,6 +183,11 @@
   },
   "active": "24f40e38a732ba0b",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Lecture 3.md",
+    "Part IA/Foundations of Computer Science/Lecture 2.md",
+    "Part IA/Foundations of Computer Science/Lecture 4.md",
+    "Part IA/Foundations of Computer Science/Lecture 6.md",
+    "Part IA/Foundations of Computer Science/Intro.md",
     "Part IA/Digital Electronics/Pipelining.md",
     "Part IA/Digital Electronics/Supervision Notes.md",
     "Part IA/Digital Electronics/Multicycle Processor.md",
@@ -203,11 +209,6 @@
     "Part IA/Digital Electronics/Lecture 10.md",
     "Part IA/Digital Electronics/Implication Tables.md",
     "Part IA/Digital Electronics/Field Programmable Gate Array.md",
-    "Part IA/Digital Electronics/Lecture 9.md",
-    "Part IA/Digital Electronics/Generic Logic Array.md",
-    "Part IA/Digital Electronics/Elimination of Redundant States.md",
-    "Part IA/Digital Electronics/One Hot State Encoding.md",
-    "Part IA/Digital Electronics/Karnaugh Maps.md",
     "Part IA/Digital Electronics/Images/Delays.png",
     "Part IA/Digital Electronics/Images/DecoderExample2.png",
     "Part IA/Digital Electronics/Images/DelayTimingFlipFlop.png",
