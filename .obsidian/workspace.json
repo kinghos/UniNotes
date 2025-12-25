@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "array path:\"Part IA/Foundations of Computer Science\"  ",
+                "query": "*",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,11 +182,13 @@
   },
   "active": "24f40e38a732ba0b",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Lecture 10.md",
+    "Part IA/Foundations of Computer Science/Intro.md",
+    "Part IA/Foundations of Computer Science/Lecture 11.md",
     "Part IA/Foundations of Computer Science/Lecture 3.md",
     "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Foundations of Computer Science/Lecture 4.md",
     "Part IA/Foundations of Computer Science/Lecture 6.md",
-    "Part IA/Foundations of Computer Science/Intro.md",
     "Part IA/Digital Electronics/Pipelining.md",
     "Part IA/Digital Electronics/Supervision Notes.md",
     "Part IA/Digital Electronics/Multicycle Processor.md",
@@ -207,8 +208,6 @@
     "Part IA/Digital Electronics/Semiconductors.md",
     "Part IA/Digital Electronics/Basic Electricity.md",
     "Part IA/Digital Electronics/Lecture 10.md",
-    "Part IA/Digital Electronics/Implication Tables.md",
-    "Part IA/Digital Electronics/Field Programmable Gate Array.md",
     "Part IA/Digital Electronics/Images/Delays.png",
     "Part IA/Digital Electronics/Images/DecoderExample2.png",
     "Part IA/Digital Electronics/Images/DelayTimingFlipFlop.png",
