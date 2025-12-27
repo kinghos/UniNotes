@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,7 +180,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "054bd32d6c88a2c7",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
     "Part IA/Foundations of Computer Science/Lecture 11.md",
     "Excalidraw/2015p1q17.md",
