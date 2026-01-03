@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Glossary.md",
+                "file": "Part IA/Discrete Maths/Lecture 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Glossary"
+              "title": "Lecture 4"
             }
           }
         ]
@@ -182,13 +182,14 @@
   },
   "active": "d6b4ab7a891085c5",
   "lastOpenFiles": [
-    "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
-    "Part IA/Discrete Maths/Glossary.md",
+    "Part IA/Discrete Maths/Lecture 3.md",
+    "Part IA/Discrete Maths/Lecture 2.md",
     "Part IA/Discrete Maths/Lecture 1.md",
+    "Part IA/Discrete Maths/Glossary.md",
+    "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Part IA/Discrete Maths/Useful Lemmas.md",
     "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Discrete Maths/Modus Ponens.md",
-    "Part IA/Discrete Maths/Lecture 3.md",
     "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
     "Part IA/Digital Electronics/n-Channel MOSFET.md",
     "Part IA/Digital Electronics/p-Channel MOSFET.md",
