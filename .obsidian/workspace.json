@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Lecture 1.md",
+                "file": "Part IA/Discrete Maths/Glossary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 1"
+              "title": "Glossary"
+            }
+          },
+          {
+            "id": "e1dbacb51a375adb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Part IA/Discrete Maths/Glossary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glossary"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,8 +195,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "e1dbacb51a375adb",
   "lastOpenFiles": [
+    "Part IA/Discrete Maths/Modus Ponens.md",
+    "Part IA/Discrete Maths/Lecture 1.md",
+    "Part IA/Discrete Maths/Glossary.md",
+    "Part IA/Discrete Maths/Lecture 3.md",
     "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
     "Part IA/Digital Electronics/n-Channel MOSFET.md",
     "Part IA/Digital Electronics/p-Channel MOSFET.md",
@@ -205,9 +224,6 @@
     "Part IA/Digital Electronics/Multiplexers and Demultiplexers.md",
     "Part IA/Digital Electronics/Multicycle Processor.md",
     "Part IA/Digital Electronics/Microarchitecture.md",
-    "Part IA/Digital Electronics/Metastability.md",
-    "Part IA/Digital Electronics/Memory and Tristate Buffers.md",
-    "Part IA/Digital Electronics/Latches.md",
     "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
     "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
     "Excalidraw",
@@ -218,7 +234,6 @@
     "Part IA/Databases/Images/NullTable.png",
     "Part IA/Introduction to Graphics/Images/ShaderInputsOutputs.png",
     "Part IA/Introduction to Graphics/Images/OpenGLOO.png",
-    "Part IA/Introduction to Graphics/Images/OpenGLRenderingPIpeline.png",
     "NST Maths/Chapter 2/Chapter2_to_annotate.pdf",
     "Part IA/Object-Oriented Programming/Images",
     "Part IA/Discrete Maths/Images",
