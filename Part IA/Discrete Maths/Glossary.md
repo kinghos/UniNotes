@@ -1,3 +1,5 @@
+[[DiscMathSummaryNotes.pdf]]
+
 | Term             | Definition                                                                                          |
 | ---------------- | --------------------------------------------------------------------------------------------------- |
 | [[Modus Ponens]] | If $P$ and $P\implies Q$ then $Q$                                                                   |

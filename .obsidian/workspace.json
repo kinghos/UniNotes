@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Glossary"
             }
-          },
-          {
-            "id": "e1dbacb51a375adb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Part IA/Discrete Maths/Glossary.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Glossary"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,11 +180,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e1dbacb51a375adb",
+  "active": "d6b4ab7a891085c5",
   "lastOpenFiles": [
+    "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
+    "Part IA/Discrete Maths/Glossary.md",
     "Part IA/Discrete Maths/Lecture 1.md",
     "Part IA/Discrete Maths/Useful Lemmas.md",
-    "Part IA/Discrete Maths/Glossary.md",
     "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Discrete Maths/Modus Ponens.md",
     "Part IA/Discrete Maths/Lecture 3.md",
@@ -223,7 +209,6 @@
     "Part IA/Digital Electronics/Pipelining.md",
     "Part IA/Digital Electronics/PLAs.md",
     "Part IA/Digital Electronics/One Hot State Encoding.md",
-    "Part IA/Digital Electronics/Multiplexers and Demultiplexers.md",
     "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
     "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
     "Excalidraw",
@@ -242,7 +227,6 @@
     "NST Maths/Chapter 4",
     "NST Maths/Chapter 3",
     "Part IA/Object-Oriented Programming",
-    "Part IA/Discrete Maths",
     "Untitled.canvas"
   ]
 }
