@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,7 +180,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d6b4ab7a891085c5",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
     "Part IA/Object-Oriented Programming/Lecture 9.md",
     "Part IA/Object-Oriented Programming/Lecture 8.md",
