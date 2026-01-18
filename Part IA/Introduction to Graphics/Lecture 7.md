@@ -27,6 +27,12 @@ Front and back buffers:
 Most of the light we see is reflected from objects, which absorb a certain part of the light spectrum.
 $$L(\lambda)=I(\lambda)R(\lambda)$$
 Reflected light = illumination $\times$ reflectance
+
+Perceived light:
+With index S for S-cones:
+$$R_{S}=\int S_{S}(\lambda)\cdot L(\lambda)d\lambda$$
+This can also be expressed as a discrete sumc
+
 Cone response = $\sum \text{sensitivity}\times \text{reflected  light}$
 Metamers - light spectra that appear to have the same colour
 Displays do not emit the same light spectra as real-world objects, yet the colours on a display look near identical - this is an application of metamerism
