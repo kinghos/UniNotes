@@ -75,7 +75,10 @@ Used to:
 ##### Exposure/brightness adjustment
 $$R_{d}=\frac{R_{s}}{L_{white}}$$
 $R$ for red (so same for G and B)
-
+$L_{white}$ is the scene-referred luminance of white (i.e. the peak value of the display)
+##### Display coding
+$$R'=(R_{d})^\frac{1}{\gamma}$$
+This function will give the fully display encoded pixel value from the linear input colour value
 #### Tone curves
 OpenGL offers sRGB textures to automate RGB to/from sRGB conversion
 - sRGB textures store data in gamma-corrected space
