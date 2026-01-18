@@ -31,7 +31,7 @@ Reflected light = illumination $\times$ reflectance
 Perceived light:
 With index S for S-cones:
 $$R_{S}=\int S_{S}(\lambda)\cdot L(\lambda)d\lambda$$
-This can also be expressed as a discrete sumc
+This can also be expressed as a discrete sum
 
 Cone response = $\sum \text{sensitivity}\times \text{reflected  light}$
 Metamers - light spectra that appear to have the same colour
