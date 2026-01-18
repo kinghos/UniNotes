@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Fermat's Little Theorem.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fermat's Little Theorem"
+              "title": "Lecture 1"
             }
           }
         ]
@@ -183,9 +183,9 @@
   },
   "active": "d6b4ab7a891085c5",
   "lastOpenFiles": [
+    "Part IA/Discrete Maths/Fermat's Little Theorem.md",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Part IA/Discrete Maths/Lecture 9.md",
-    "Part IA/Discrete Maths/Fermat's Little Theorem.md",
     "Part IA/Discrete Maths/Lecture 4.md",
     "Part IA/Discrete Maths/Lecture 5.md",
     "Part IA/Discrete Maths/Lecture 6.md",
