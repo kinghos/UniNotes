@@ -24,7 +24,7 @@ $\beta=\frac{f_{ac}(x,y)}{f_{ac}(x_{a},y_{a})}$
 $f_{ab}(x,y)=(y_{a}-y_{b})x+(x_{b}-x_{a})y+x_{a}y_{b}-x_{b}y_{a}$
 
 ![[TriangleInterpolation.png]]
-#### Surface normal vector interpolaiton
+#### Surface normal vector interpolation
 - For a polygonal model, interpolate normal vector between the vertices
 	- Calculate colour for each pixel
 	- Diffuse component can be either interpolated or computed for each pixel
