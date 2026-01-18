@@ -26,4 +26,4 @@ $(m+1)^p =m^p+1(\mod p)$
 And by induction:
 $(m+i)^p=m^p+i(\mod p)$
 
-#### Fermat's Little Theorem
+#### [[Fermat's Little Theorem]]
