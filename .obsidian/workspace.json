@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "39a66d8f6b10a16a",
+        "id": "09429b719bc8f540",
         "type": "tabs",
         "children": [
           {
-            "id": "8f59e6d782b32c02",
+            "id": "94992fe0615a1283",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/2015p1q17.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "2015p1q17"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -179,7 +177,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8f59e6d782b32c02",
+  "active": "94992fe0615a1283",
   "lastOpenFiles": [
     "Excalidraw/2015p1q17.md",
     "Part IA/Object-Oriented Programming/Lecture 8.md",
