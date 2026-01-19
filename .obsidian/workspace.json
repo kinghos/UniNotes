@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Databases/Lecture 2.md",
+                "file": "Part IA/Databases/Lecture 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 2"
+              "title": "Lecture 6"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cohesio",
+                "query": "eventual consistency",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,10 +184,10 @@
   },
   "active": "94992fe0615a1283",
   "lastOpenFiles": [
+    "Part IA/Databases/Lecture 2.md",
     "Part IA/Databases/Lecture 5.md",
     "Part IA/Databases/Lecture 4.md",
     "Part IA/Databases/Lecture 3.md",
-    "Part IA/Databases/Lecture 2.md",
     "Part IA/Databases/Lecture 1.md",
     "Part IA/Digital Electronics/Counters.md",
     "Part IA/Digital Electronics/Implication Tables.md",
