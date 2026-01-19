@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Metastability.md",
+                "file": "Part IA/Digital Electronics/Multiplexers and Demultiplexers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Metastability"
+              "title": "Multiplexers and Demultiplexers"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "94992fe0615a1283",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Metastability.md",
     "Part IA/Digital Electronics/n-MOS Inverter.md",
     "Part IA/Digital Electronics/Elimination of Redundant States.md",
     "Part IA/Digital Electronics/D Flip-Flop.md",
@@ -208,7 +209,6 @@
     "Part IA/Databases/Lecture 6.md",
     "Part IA/Databases/Lecture 2.md",
     "Part IA/Databases/Lecture 5.md",
-    "Part IA/Databases/Lecture 4.md",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
     "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
