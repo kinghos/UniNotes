@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Lecture 8"
             }
+          },
+          {
+            "id": "e6dec22caeb8f2f8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d6b4ab7a891085c5",
+  "active": "e6dec22caeb8f2f8",
   "lastOpenFiles": [
     "Part IA/Object-Oriented Programming/Lecture 7.md",
     "Part IA/Object-Oriented Programming/Lecture 9.md",
