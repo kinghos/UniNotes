@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "024889062d05c867",
+        "id": "39a66d8f6b10a16a",
         "type": "tabs",
         "children": [
           {
-            "id": "d6b4ab7a891085c5",
+            "id": "8f59e6d782b32c02",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Part IA/Object-Oriented Programming/Lecture 8.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/2015p1q17.md"
               },
-              "icon": "lucide-file",
-              "title": "Lecture 8"
-            }
-          },
-          {
-            "id": "e6dec22caeb8f2f8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
+              "icon": "excalidraw-icon",
+              "title": "2015p1q17"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,12 +179,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e6dec22caeb8f2f8",
+  "active": "8f59e6d782b32c02",
   "lastOpenFiles": [
+    "Excalidraw/2015p1q17.md",
+    "Part IA/Object-Oriented Programming/Lecture 8.md",
     "Part IA/Object-Oriented Programming/Lecture 7.md",
     "Part IA/Object-Oriented Programming/Lecture 9.md",
     "Part IA/Object-Oriented Programming/Lecture 10.md",
-    "Part IA/Object-Oriented Programming/Lecture 8.md",
     "Part IA/Object-Oriented Programming/Lecture 2.md",
     "Part IA/Object-Oriented Programming/Lecture 6.md",
     "Part IA/Foundations of Computer Science/Lecture 3.md",
@@ -222,7 +208,6 @@
     "Part IA/Discrete Maths/Lecture 7.md",
     "Part IA/Discrete Maths/Lecture 10.md",
     "Part IA/Discrete Maths/Lecture 8.md",
-    "Part IA/Digital Electronics/Boolean Algebra Laws.md",
     "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
     "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
     "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
