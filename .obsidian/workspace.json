@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "94992fe0615a1283",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
     "Part IA/Introduction to Graphics/Lecture 5.md",
     "Part IA/Introduction to Graphics/Lecture 3.md",
