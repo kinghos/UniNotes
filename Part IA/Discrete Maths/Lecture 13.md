@@ -16,3 +16,5 @@ Relational composition is associative and unital
 
 #### Relations and matrices
 Given a semiring $(S,0,\oplus,1,\odot)$, an $(m\times n)$ matrix M over S is given by $M_{i,j}\in S$ for all $0\leq i<m,0\leq j<n$
+
+A relation can be written as a Boolean matrix and vice versa
