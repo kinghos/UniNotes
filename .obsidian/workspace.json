@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "09429b719bc8f540",
+        "id": "a2aa415713eb4f04",
         "type": "tabs",
         "children": [
           {
-            "id": "94992fe0615a1283",
+            "id": "db8d981775f41541",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "NST Maths/nst-IA-LT-courseB-part1.pdf"
+                "file": "Part IA/Algorithms 1/Lecture 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "nst-IA-LT-courseB-part1"
+              "icon": "lucide-file",
+              "title": "Lecture 1"
             }
           }
         ]
@@ -76,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -180,8 +181,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "94992fe0615a1283",
+  "active": "db8d981775f41541",
   "lastOpenFiles": [
+    "Part IA/Algorithms 1/Lecture 1.md",
+    "Part IA/Algorithms 1",
+    "NST Maths/nst-IA-LT-courseB-part1.pdf",
     "Part IA/Discrete Maths/Fermat's Little Theorem.md",
     "Part IA/Digital Electronics/Multiplexers and Demultiplexers.md",
     "Part IA/Digital Electronics/Metastability.md",
@@ -207,7 +211,6 @@
     "Part IA/Introduction to Graphics/Lecture 4.md",
     "Part IA/Introduction to Graphics/Lecture 5.md",
     "Part IA/Databases/Lecture 3.md",
-    "Part IA/Databases/Lecture 6.md",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
     "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
@@ -226,8 +229,6 @@
     "NST Maths/Chapter 6",
     "NST Maths/Chapter 5",
     "NST Maths/Chapter 4",
-    "NST Maths/Chapter 3",
-    "Part IA/Object-Oriented Programming",
     "Untitled.canvas"
   ]
 }
