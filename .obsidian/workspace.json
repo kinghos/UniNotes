@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 1/Lecture 1.md",
+                "file": "Part IA/Discrete Maths/Lecture 13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 1"
+              "title": "Lecture 13"
             }
           }
         ]
@@ -184,6 +184,7 @@
   "active": "db8d981775f41541",
   "lastOpenFiles": [
     "Part IA/Algorithms 1/Lecture 1.md",
+    "Part IA/Discrete Maths/Lecture 13.md",
     "Part IA/Algorithms 1",
     "NST Maths/nst-IA-LT-courseB-part1.pdf",
     "Part IA/Discrete Maths/Fermat's Little Theorem.md",
@@ -210,7 +211,6 @@
     "Part IA/Introduction to Graphics/Lecture 6.md",
     "Part IA/Introduction to Graphics/Lecture 4.md",
     "Part IA/Introduction to Graphics/Lecture 5.md",
-    "Part IA/Databases/Lecture 3.md",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
     "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
