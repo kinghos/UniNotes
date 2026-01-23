@@ -14,3 +14,9 @@ A | B will evaluate A and B whereas A || B is the lazy operator, and will only e
 Problem statement:
 Input - a sequence of numbers
 Output - a reordering of the input sequence
+
+#### Proving correctness
+A mathematical or logical statement, known as a property, that involves variables in the program has three characteristics:
+- Initialisation: it is true before the loop begins
+- Maintenance: each iteration of the loop changes variables in a way that preserves the truth of the statement (loop invariant)
+- Termination: when the loop terminates, the condition for termination combined with the mathematical statement proves correctness
