@@ -7,6 +7,10 @@ Think of it as problems are general e.g. can be written algebraically while prob
 ##### Correctness
 We say that an algorithm is correct if, for every input instance, the algorithm terminates with the correct output. An incorrect algorithm might not halt or could give a wrong answer.
 
-
 **Arrays in CLRS are 1-indexed**
-A | B will evaluate A and B whereas A || B is the lazy operator, and will
+A | B will evaluate A and B whereas A || B is the lazy operator, and will only evaluate B if A is false
+
+### Sorting
+Problem statement:
+Input - a sequence of numbers
+Output - a reordering of the input sequence
