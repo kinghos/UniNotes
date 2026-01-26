@@ -32,4 +32,6 @@ This gives $M^*$ as the adjacency matrix of $R^{\circ*}$ when M is the adjacency
 A preorder $(P,\sqsubseteq)$ consists of a set P and a relation $\sqsubseteq$ on P (i.e. $\sqsubseteq \in \mathcal{P}(P\times P)$) satisfying the following two axioms:
 - Reflexivity $\forall x\in P.x\sqsubseteq x$
 - Transitivity $\forall x,y,z \in P.(x\sqsubseteq y \land y\sqsubseteq z)\implies x \sqsubseteq z$
-- 
+
+A partial order or poset is a preoder that is also antisymmetric
+$\forall x,y\in P.(x\sqsubseteq y \land y \sqsubseteq x)\implies x=y$
