@@ -30,4 +30,26 @@ Usually we want the worst case running time/memory consumption
 #### Order of growth
 $\Theta(g(n))$ is the set of functions f(n) such that there exist positive constants $c_{1}, c_{2}$ and $n_0$ such that $0\leq c_{1}g(n)\leq f(n)\leq c_{2}g(n)$ for all $n>n_{0}
 $g(n)$ is an asymptotically tight bound for $f(n)$. This means, within a constant multiplicative factor.
-e.g. $$
+e.g. if the true cost is $10.3n^2 + 6.1n - 0.4$, then we can write $\Theta(n^2)$ but not $\Theta(n^4)$ or $\Theta(n)$
+
+$O(g(n))$ is the set of functions, $f(n)$ such that there exist positive constants $c$ and $n_0$ such that $0 \leq f(n)\leq cg(n)$ for all $n\geq n_0$
+$g(n)$ is an asymptotic upper bound for $f(n)$
+$\Theta(g(n))\subseteq O(g(n))$
+e.g. e.g. if the true cost is $10.3n^2 + 6.1n - 0.4$, then we can write $\Theta(n^2)$ and $\Theta(n^4)$ but not $\Theta(n)$
+
+$\Omega(g(n))$ is the set of functions, $f(n)$ such that there exist positive constants $c$ and $n_0$ such that $0 \leq cg(n)\leq f(n)$ for all $n\geq n_0$
+$g(n)$ is an asymptotic lower bound for $f(n)$
+
+Little-o and little-omega denote asymptotically non-tight versions of their big counterparts.
+
+##### Properties
+Transitivity - all four
+Reflexivity - $\Theta, O, \Omega$
+Symmetric - $\Theta$
+
+#### Divide and conquer sorting
+Insertion sort is an incremental algorithm - it builds a sorted version of the subarray `A[1..j-1]`, and inserts `A[j]` into the correct place to build `A[1..j]`.
+Another technique is divide and conquer
+1. Divide the original problem into two or more smaller instances of the same problem
+2. Conquer the subproblems by calling the same function recursively on each of them in turn
+3. Combine the solutions to the subproblems to build the solution to the original problem
