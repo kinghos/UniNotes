@@ -11,3 +11,12 @@ Considerations from pseudocode:
 - Arithmetic operations take 1 unit
 - Comparisons take 1 unit
 - Assignments to variables take 1 unit
+
+#### Cost of insertion-sort
+![[InsertionSortCost.png]]
+The running time, $T(n)$, on inputs of size n is the cost of each line multiplied by the number of times the line is executed.
+
+Best case: $T(n)=an+(b+c+g)(n-1)+d\sum^n_{j=2}t_{j}+(e+f)\sum^n_{j=2}(t_{j}-1)$
+This is when the data is in sorted order, i.e. $t_{j}=1$
+This leaves a linear time complexity of $O(n)$
+In the worst case, the data i
