@@ -23,3 +23,13 @@ In this case $R^{\circ*}=\bigcup_{m\in[n]}R^{\circ m}$
 Given $M\in Mat_{IB}(m,n)$
 Define $M^*\in Mat_{IB}(m,n)$
 $M^*=M_{n}$
+$M_{0}=I^n$ (the identity matrix)
+$M_{k+1}=I^n\oplus(M\otimes M_{k})$
+
+This gives $M^*$ as the adjacency matrix of $R^{\circ*}$ when M is the adjacency matrix of R
+
+#### Preorder
+A preorder $(P,\sqsubseteq)$ consists of a set P and a relation $\sqsubseteq$ on P (i.e. $\sqsubseteq \in \mathcal{P}(P\times P)$) satisfying the following two axioms:
+- Reflexivity $\forall x\in P.x\sqsubseteq x$
+- Transitivity $\forall x,y,z \in P.(x\sqsubseteq y \land y\sqsubseteq z)\implies x \sqsubseteq z$
+- 
