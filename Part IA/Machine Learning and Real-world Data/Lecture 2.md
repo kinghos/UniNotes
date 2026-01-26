@@ -22,4 +22,17 @@ A single class is decided by choosing the one with the highest probability given
 $$\hat{c}=\text{argmax}_{c\in C}P(c|O)$$
 #### Naive Bayes Classifier
 Simple probabalistic classifiers based on applying Bayes' theorem
-$$P(c|O)=\frac{P(c)P(O|c)}{}$$
+$$P(c|O)=\frac{P(c)P(O|c)}{P(O)}$$
+$c_{NB}=\text{argmax}P(c|O)=\text{argmax}P(c|O)\frac{P(c)P(O|c)}{P(O)}=\text{argmax}P(c)P(O|c)$
+We can remove $P(O)$ because it is constant during a given classification and does not affect the result of argmax
+
+Naive Bayes makes a strong (naive) independence assumption between the observed features. Hence,
+$$c_{NB}=\text{argmax}P(c)\prod^n_{i=1}P(w_{i}|c)$$
+
+In the training phase, we collect whatever information is needed to calculate $P(w_i|c)$ and $P(c)$
+In the testing phase we apply the above formula to derive $c_{NB}$, the classifiers decision.
+This is supervised ML because you use information about the classes during training.
+
+Training - making observations about some known data set
+Testing - the process of applying the knowledge obtained in the training stage to some new, unseen data
+**Never test on data that a system is trained on**
