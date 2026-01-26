@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 1/2 Algorithm analysis.md",
+                "file": "Part IA/Discrete Maths/Lecture 14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 Algorithm analysis"
+              "title": "Lecture 14"
             }
           }
         ]
@@ -181,12 +181,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "4d868cafd18ddc52",
   "lastOpenFiles": [
+    "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
+    "Part IA/Discrete Maths/Lecture 14.md",
+    "Part IA/Algorithms 1/2 Algorithm analysis.md",
     "Part IA/Algorithms 1/Images",
     "Part IA/Algorithms 1/Images/InsertionSortCost.png",
     "Part IA/Algorithms 1/1 Features of algorithms.md",
-    "Part IA/Algorithms 1/2 Algorithm analysis.md",
     "Part IA/Machine Learning and Real-world Data/Lecture 1.md",
     "Part IA/Machine Learning and Real-world Data",
     "NST Maths/Questions for Bob.md",
@@ -215,9 +217,7 @@
     "Part IA/Object-Oriented Programming/Lecture 9.md",
     "Part IA/Introduction to Graphics/Lecture 8.md",
     "Part IA/Introduction to Graphics/Lecture 1.md",
-    "Part IA/Introduction to Graphics/Lecture 2.md",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
-    "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
     "Excalidraw",
     "Part IA/Databases/Images/PatternMatchingNeo4J.png",
     "Part IA/Introduction to Graphics/Images/LinearToDisplayEncoded.png",
@@ -228,7 +228,6 @@
     "NST Maths/Chapter 2/Chapter2_to_annotate.pdf",
     "Part IA/Object-Oriented Programming/Images",
     "Part IA/Discrete Maths/Images",
-    "NST Maths/Chapter 6",
     "Untitled.canvas"
   ]
 }
