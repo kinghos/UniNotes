@@ -19,4 +19,15 @@ The running time, $T(n)$, on inputs of size n is the cost of each line multiplie
 Best case: $T(n)=an+(b+c+g)(n-1)+d\sum^n_{j=2}t_{j}+(e+f)\sum^n_{j=2}(t_{j}-1)$
 This is when the data is in sorted order, i.e. $t_{j}=1$
 This leaves a linear time complexity of $O(n)$
-In the worst case, the data i
+In the worst case, the data is in reverse sorted order, meaning each while loop performs $j-1$ iterations, meaning $t_{j}=j$ and $O(n^2)$ complexity.
+The average case is similarly $O(n^2)$.
+
+Usually we want the worst case running time/memory consumption
+- It gives an upper bound, so sufficient resources can be provided
+- The worst case may occur quite often
+- The average case is often the same as the worst case
+
+#### Order of growth
+$\Theta(g(n))$ is the set of functions f(n) such that there exist positive constants $c_{1}, c_{2}$ and $n_0$ such that $0\leq c_{1}g(n)\leq f(n)\leq c_{2}g(n)$ for all $n>n_{0}
+$g(n)$ is an asymptotically tight bound for $f(n)$. This means, within a constant multiplicative factor.
+e.g. $$
