@@ -21,3 +21,5 @@ Bezout theorem - use to express in algebra simply
 Solving congruence - give in general form, e.g. if x=23 in $\mathbb{Z}_{40}$ then say x=23 + 40k
 You can divide through in divisibility by the gcd of the numbers on the right.
 a number has multiplicative inverse in $\mathbb{Z}_m$ if n and m are coprime 
+
+For induction proofs with multiple unfixed variables, pick the one that occurs less often (or just try both!)
