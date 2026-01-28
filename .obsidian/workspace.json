@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Lecture 15.md",
+                "file": "Part IA/Digital Electronics/RS Latch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 15"
+              "title": "RS Latch"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ferma",
+                "query": "rs nor latch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,8 +184,8 @@
   },
   "active": "a5b71e4c8a271e7a",
   "lastOpenFiles": [
-    "Part IA/Algorithms 1/3 Divide and conquer.md",
     "Part IA/Discrete Maths/Lecture 15.md",
+    "Part IA/Algorithms 1/3 Divide and conquer.md",
     "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Machine Learning and Real-world Data/Lecture 2.md",
     "Part IA/Discrete Maths/Lecture 14.md",
