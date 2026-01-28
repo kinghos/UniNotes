@@ -42,8 +42,16 @@ $$\begin{align}
 \end{align}$$
 This is defined inductively.
 ##### Formal definition
-Let A be a set, and fix $a\in A$ and $f:\mathbb{N}\times A\to A$. The function inductively defined from a and f is defined to be the unique function $\rho_{a,f}:\mathbb{N}\to A$, which is defined inductively from a to f.
+Let A be a set, let $a_{0}\in A$ and fix $f:\mathbb{N}\times A\to A$. The function inductively defined from a and f is defined to be the unique function $\rho_{a,f}:\mathbb{N}\to A$, which is defined inductively from a to f.
 $$\begin{align}
-\rho_{a,f}(0)=a_{0} \\
-
+\rho_{a,f}(0)&=a_{0} \\
+\rho(n+1)&=f(n,\rho_{a,f}(n))
 \end{align}$$
+In other words, this is defining a base case and an inductive case, and given both of these a function can be defined inductively
+
+A relation $R:\mathbb{N}\mapsto A$ is $(a,f)$-closed whenever we have both $0\ R\ a$ and $n\ R\ x\implies(n+1)\ R\ f(n,x)$ for all $n\in \mathbb{N}$ and $x\in A$
+
+##### Proof of existence of inductively defined functions
+Given an element $a \in A$ and a function $f: \mathbb{N} \to A$, now let $\rho_{a,f}: \mathbb{N}\mapsto A$ be the intersection of all the $(a,f)$-closed relations $R:\mathbb{N}\mapsto A$
+1. The relation $\rho_{a,f}: \mathbb{N}\mapsto A$ is functional and total, and therefore a function
+2. The function $\rho_{a,f}:\mathbb{N}\to A$ is the unique $(a,f)$-closed function, i.e. it is the unique function satisfying both $\rho_{a,f}(0)=a$ and $\forall n\in \mathbb{N}.\rho_{a,f}(n+1)=f(n,\rho_{a,f}n)$
