@@ -55,3 +55,7 @@ A relation $R:\mathbb{N}\mapsto A$ is $(a,f)$-closed whenever we have both $0\ R
 Given an element $a \in A$ and a function $f: \mathbb{N} \to A$, now let $\rho_{a,f}: \mathbb{N}\mapsto A$ be the intersection of all the $(a,f)$-closed relations $R:\mathbb{N}\mapsto A$
 1. The relation $\rho_{a,f}: \mathbb{N}\mapsto A$ is functional and total, and therefore a function
 2. The function $\rho_{a,f}:\mathbb{N}\to A$ is the unique $(a,f)$-closed function, i.e. it is the unique function satisfying both $\rho_{a,f}(0)=a$ and $\forall n\in \mathbb{N}.\rho_{a,f}(n+1)=f(n,\rho_{a,f}n)$
+
+To prove that $\rho_{a,f}:\mathbb{N}\mapsto A$ is functional , we show that for all $n\in \mathbb{N}$ and $x,y\in A$, if $n\ \rho_{a,f}\ x$
+
+Base case: Fix $x,y\in A$ such that $0\ \rho\ x \land 0\ \rho\ y$ to show $x=y$
