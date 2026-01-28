@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rs nor latch",
+                "query": "transitio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,8 +181,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a5b71e4c8a271e7a",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Finite State Machines.md",
+    "Part IA/Digital Electronics/RS Latch.md",
     "Part IA/Discrete Maths/Lecture 15.md",
     "Part IA/Algorithms 1/3 Divide and conquer.md",
     "Part IA/Discrete Maths/Supervision Notes.md",
@@ -217,8 +218,6 @@
     "Part IA/Digital Electronics/Asynchronous inputs.md",
     "Part IA/Digital Electronics/p-Channel MOSFET.md",
     "Part IA/Digital Electronics/Pipelining.md",
-    "Part IA/Foundations of Computer Science/Lecture 11.md",
-    "Part IA/Object-Oriented Programming/Lecture 10.md",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Excalidraw",
     "Part IA/Databases/Images/PatternMatchingNeo4J.png",
