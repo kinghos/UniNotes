@@ -27,3 +27,11 @@ The $k_1$ term above is a geometric series with $a=1,r=2,n=\log_{2}n$
 An alternative method is to look at the call tree and look at each level.
 The $k_2$ terms are asymptotically dominant over the $k_1$ terms
 The $k_2$ terms are $k_{2}n+\frac{2k_{2}n}{2}+\frac{4k_{2}n}{4}+\dots$
+which is $k_{2}n\times\text{num levels}$
+The tree has $\log_{2}n+1$ levels since $\log_{2}1=0$
+Hence the total cost is $\Theta (n\log n)$
+_Note that an assumption was made that the array length was a power of 2. This can be dealt with using `floor` and `ceil` functions_
+$T(n)=T\left( \left\lceil  \frac{n}{2}  \right\rceil \right)+T\left( \left\lfloor  \frac{n}{2}  \right\rfloor \right)+k_{1}+k_{2}n$
+
+#### The Master Theorem
+Let $a\geq1$ and 
