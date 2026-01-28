@@ -18,5 +18,14 @@ f,g: A\rightharpoonup B, f=g \iff \\
 \forall a\in A. f(a)\downarrow\iff g(a)\downarrow\\ 
 \text{and } \forall a\in A.f(a)\downarrow \implies f(a)=g(a)
 \end{align}$$
-in other words, 
+in other words, the functions share a domain of definition, and all inputs have the same output.
 
+##### Cardinality
+For all finite sets $A,B$ we have $\#(A,\rightharpoonup B)=(\#B+1)^{\#A}$
+
+A total function has a domain of definition that coincides with its domain (source), i.e. $f(a)\downarrow$ for all $a \in A$. This is written $f:A\to B$ and is called a function or map.
+
+A relation is a function iff 
+$$\\begin{align}
+
+\end{align}$$
