@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "85dfedd11455b2e0",
+        "id": "1d10a27c9098de7a",
         "type": "tabs",
         "children": [
           {
-            "id": "4d868cafd18ddc52",
+            "id": "a5b71e4c8a271e7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Supervision Notes.md",
+                "file": "Part IA/Algorithms 1/3 Divide and conquer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "3 Divide and conquer"
             }
           }
         ]
@@ -181,8 +181,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4d868cafd18ddc52",
+  "active": "a5b71e4c8a271e7a",
   "lastOpenFiles": [
+    "Part IA/Algorithms 1/3 Divide and conquer.md",
+    "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Machine Learning and Real-world Data/Lecture 2.md",
     "Part IA/Discrete Maths/Lecture 14.md",
     "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
@@ -216,8 +218,6 @@
     "Part IA/Foundations of Computer Science/Lecture 11.md",
     "Part IA/Object-Oriented Programming/Lecture 10.md",
     "Part IA/Object-Oriented Programming/Lecture 9.md",
-    "Part IA/Introduction to Graphics/Lecture 8.md",
-    "Part IA/Introduction to Graphics/Lecture 1.md",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Excalidraw",
     "Part IA/Databases/Images/PatternMatchingNeo4J.png",
