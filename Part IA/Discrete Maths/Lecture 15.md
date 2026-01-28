@@ -7,3 +7,16 @@ Closure properties:
 1. The identity relation is functional
 2. If $f:A \rightharpoonup B$ and $g:B\rightharpoonup C$, the relational composite $g\circ f: A\mapsto C$ is functional
 Proof:
+
+For a function, we write $f(a)\downarrow$ to mean that f is defined at a, i.e. there exists some unique $b\in B$ such that $a\ f\  b$. When $f(a)\downarrow$ holds we may write $f(a)$ to mean the unique b such that $a\ f\ b$, i.e. the value of b.
+
+The domain of definition of a partial function is 
+$$\text{dom}(f)=\{ a\in A \mid f(a)\downarrow \}$$
+##### Extensionality
+$$\begin{align}
+f,g: A\rightharpoonup B, f=g \iff \\
+\forall a\in A. f(a)\downarrow\iff g(a)\downarrow\\ 
+\text{and } \forall a\in A.f(a)\downarrow \implies f(a)=g(a)
+\end{align}$$
+in other words, 
+
