@@ -42,4 +42,6 @@ where we interpret n/b to mean either floor(n/b) or ceil(n/b). Then T(n) has the
 2. If $f(n)\in \Theta (n^{\log _{b}a})$ for then $T(n)\in \Theta(n^{\log_{b}a}\cdot\log_{2}n)$
 	- When f(n) and $n^{\log_{b}a}$ are the same size, we multiply by a logarithmic factor so the solution is as given
 3. If $f(n)\in \Omega(n^{\epsilon+\log _{b}a})$ for some constant $\epsilon>0$, and if $f\left( \frac{n}{b} \right)\leq cf(n)$ for some constant $c<1$ and all sufficiently large n then $T(n)\in \Theta(f(n))$
-	- Again epsilon requires f(n) dominates $n^{\log_{b}a}$ by a polynomial factor of at least $n^\epsilon$ AND the regular
+	- Again epsilon requires f(n) dominates $n^{\log_{b}a}$ by a polynomial factor of at least $n^\epsilon$ AND the regularity condition that $f\left( \frac{n}{b} \right)\leq cf(n)$
+
+Applying this to merge sort gives the 2nd case.
