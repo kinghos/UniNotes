@@ -10,4 +10,16 @@ Every section retraction pair determines an idempotent. If $s$ is a section of $
 
 #### Bijections
 A function $f:A\to B$ is said to be a bijection or isomorphism when there exists a function $g:B\to A$ that is both a retraction and a section of $f$ in the sense that $g\circ f=\text{id}_{A}$ and $f\circ g=\text{id}_{B}$
-$f^{-1}A\to B$ is the inverse to a bijection $f:A\to B$
+$f^{-1}:A\to B$ is the inverse to a bijection $f:A\to B$
+
+$$\begin{equation}
+\#\text{Bij}(A,B)=
+\begin{cases}
+0 & \text{if }\#A\not=\#B \\
+n! & \text{if } \#A=\#B = n
+\end{cases}
+\end{equation}$$
+Bijections/isomorphisms are closed under identity and composition
+
+#### Equivalence relations
+A relation $E:A$
