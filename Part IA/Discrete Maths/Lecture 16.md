@@ -33,4 +33,4 @@ A partition of a set of $A$ is a set $P\in\mathcal{P}(A)$ of non empty subsets o
 2. the blocks are pairwise disjoint, i.e. for all $b_{1}\not=b_{2}\in P$ we have $b_{1}\cap b_{2}=\emptyset$
 We write $\text{Part}(A)$ for the set of partitions of A
 
-For every set A we can define a bijection $\Phi:\text{EqRel}(A)\to\text{Part}(A)$ sending every equivalence relation $E$ on $A$ to the partition $Φ(E)$
+For every set A we can define a bijection $\Phi:\text{EqRel}(A)\to\text{Part}(A)$ sending every equivalence relation $E$ on $A$ to the partition $\Phi(E)=\{ [a]_{E}\mid a \in A \}$ whose blocks consist of the equivalence classes of each element of A.
