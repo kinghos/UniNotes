@@ -22,4 +22,15 @@ n! & \text{if } \#A=\#B = n
 Bijections/isomorphisms are closed under identity and composition
 
 #### Equivalence relations
-A relation $E:A$
+A relation $E:A\mapsto A$ is called an equivalence relation when it is reflexive, transitive, and symmetric.
+$\text{EqRel}(A)$ is the set of all equivalence relations on A
+
+The equivalence class of a given element $a\in A$ in $E$ is the subset $[a]_{E}\subseteq A$ spanned by elements related to a in $E$, i.e. $[a]_{E}=\{ x\in A\mid x\ E\ a \}$
+
+#### Set partition
+A partition of a set of $A$ is a set $P\in\mathcal{P}(A)$ of non empty subsets of $A$ whose elements are referred to as blocks, satisfying the following conditions:
+1. the union of all blocks is all of A, $\bigcup P=A;$
+2. the blocks are pairwise disjoint, i.e. for all $b_{1}\not=b_{2}\in P$ we have $b_{1}\cap b_{2}=\emptyset$
+We write $\text{Part}(A)$ for the set of partitions of A
+
+For every set A we can define a bijection $\Phi:\text{EqRel}(A)\to\text{Part}(A)$ sending every equivalence relation $E$ on $A$ to the partition $Φ(E)$
