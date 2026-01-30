@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Shift Registers.md",
+                "file": "Part IA/Algorithms 1/4 Quicksort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shift Registers"
+              "title": "4 Quicksort"
             }
           }
         ]
@@ -74,13 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -185,6 +183,8 @@
   },
   "active": "a5b71e4c8a271e7a",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Shift Registers.md",
+    "Part IA/Algorithms 1/4 Quicksort.md",
     "Part IA/Digital Electronics/RS Latch.md",
     "Part IA/Digital Electronics/Finite State Machines.md",
     "Part IA/Discrete Maths/Lecture 15.md",
@@ -218,8 +218,6 @@
     "Part IA/Digital Electronics/Boolean Algebra Laws.md",
     "Part IA/Digital Electronics/Adders.md",
     "Part IA/Digital Electronics/Asynchronous inputs.md",
-    "Part IA/Digital Electronics/p-Channel MOSFET.md",
-    "Part IA/Digital Electronics/Pipelining.md",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Excalidraw",
     "Part IA/Databases/Images/PatternMatchingNeo4J.png",
