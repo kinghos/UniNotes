@@ -19,4 +19,6 @@ where:
 - n: total number of tokens, i.e. text size
 - $\beta,k$: constants (language-dependent)
 	- $\beta$ is around $\frac{1}{2}$
-	- 
+	- $30\leq k\leq 100$
+
+Heaps' law does not saturate, there will always be more types. Going through a text means it will take longer and longer to encounter a new type.
