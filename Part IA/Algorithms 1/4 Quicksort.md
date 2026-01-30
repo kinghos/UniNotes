@@ -13,3 +13,4 @@ Let P = at the beginning of each iteration of the for loop, for any array index 
 1. If $p\leq k\leq i$ then $A[k]\leq x$ (region known to be < pivot)
 2. If $i+1\leq k\leq j-1$ then $A[k]>x$ (region known to be > pivot)
 3. If $k=r$ then $A[k]=x$ (ensures pivot exists)
+hh
