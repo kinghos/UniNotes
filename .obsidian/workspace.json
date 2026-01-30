@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1d10a27c9098de7a",
+        "id": "d281fd61b98d4964",
         "type": "tabs",
         "children": [
           {
-            "id": "a5b71e4c8a271e7a",
+            "id": "ede99fa32a74265e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 1/4 Quicksort.md",
+                "file": "Part IA/Discrete Maths/Lecture 15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Quicksort"
+              "title": "Lecture 15"
             }
           }
         ]
@@ -181,10 +181,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a5b71e4c8a271e7a",
+  "active": "ede99fa32a74265e",
   "lastOpenFiles": [
-    "Part IA/Digital Electronics/Shift Registers.md",
+    "Part IA/Discrete Maths/Modus Ponens.md",
     "Part IA/Algorithms 1/4 Quicksort.md",
+    "Part IA/Digital Electronics/Shift Registers.md",
     "Part IA/Digital Electronics/RS Latch.md",
     "Part IA/Digital Electronics/Finite State Machines.md",
     "Part IA/Discrete Maths/Lecture 15.md",
@@ -217,7 +218,6 @@
     "Part IA/Digital Electronics/Basic Electricity.md",
     "Part IA/Digital Electronics/Boolean Algebra Laws.md",
     "Part IA/Digital Electronics/Adders.md",
-    "Part IA/Digital Electronics/Asynchronous inputs.md",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Excalidraw",
     "Part IA/Databases/Images/PatternMatchingNeo4J.png",
