@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "af473c84e3886b4f",
+        "id": "657194f6fef80ad0",
         "type": "tabs",
         "children": [
           {
-            "id": "313897f590928e66",
+            "id": "b374d865795ade35",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,8 +177,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "313897f590928e66",
+  "active": "b374d865795ade35",
   "lastOpenFiles": [
+    "Part IA/Object-Oriented Programming/Lecture 9.md",
     "Part IA/Machine Learning and Real-world Data/Lecture 3.md",
     "Part IA/Discrete Maths/Lecture 16.md",
     "Part IA/Discrete Maths/Lecture 15.md",
@@ -213,7 +214,6 @@
     "Part IA/Digital Electronics/Elimination of Redundant States.md",
     "Part IA/Digital Electronics/D Flip-Flop.md",
     "Part IA/Digital Electronics/Counters.md",
-    "Part IA/Digital Electronics/Basic Electricity.md",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Excalidraw",
     "Part IA/Databases/Images/PatternMatchingNeo4J.png",
