@@ -17,4 +17,18 @@ else if i < k return quickSelect(A, p, q-1, i)
 else return quickSelect(A, q+1, r, i-k)
 ```
 Using the pivot guarantees that you narrow down the region that the $i^{th}$ element lies in.
-This
+This can be further optimised by using minimum and maximum functions when the pivot is in position $i-1$ or $i+1$ respectively.
+Worst case:
+$$\begin{align}
+T(1)&=1 \\
+T(n)&=T(n-1)+kn
+\end{align}$$
+This leads to a cost of $\Theta(n^2)$
+Other standard improvements include:
+- Randomising input data
+- Taking out all values equal to the pivot
+	- Lots of values equal to the pivot means it is likely that the same pivot will be selected again (and be the smallest/largest value) leading to inefficiency
+- Picking the pivot randomly
+- Median-of-three pivot
+	- Pick three items, and take the median. This guaran
+- Median-of-medians pivot
