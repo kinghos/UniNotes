@@ -38,3 +38,8 @@ A&\cong[n] \\
 \#A&=n
 \end{align}$$
 For all $m,n\in \mathbb{N}$ we have $[m]\times[n]\cong[m\cdot n]$
+Similarly, $[m]+[n]\cong{m+n}$
+
+A set is infinite (has infinite cardinality) if it is not finite. This relies on the axiom of infinity:
+>The natural numbers form a set
+
