@@ -31,3 +31,10 @@ given by indicator functions and comprehension are mutually inverse.
 Thus, $\mathcal{P}(A)\cong(A\to[2])$
 
 For any set $X$, we have $\mathcal{P}(X+[1])\cong\mathcal{P}(X)+\mathcal{P}(X)$, where $+$ denotes disjoint union.
+
+A set A is finite or has finite cardinality when A is iso to $[n]$ for some $n\in \mathbb{N}$
+$$\begin{align}
+A&\cong[n] \\
+\#A&=n
+\end{align}$$
+For all $m,n\in \mathbb{N}$ we have $[m]\times[n]\cong[m\cdot n]$
