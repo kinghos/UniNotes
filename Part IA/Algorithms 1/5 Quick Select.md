@@ -43,3 +43,5 @@ Other standard improvements include:
 
 The median is considered to be the value in position $\frac{n+1}{2}$ when in sorted order. For an even n, we consider the lower median and upper median, on either side of the halfway point.
 The final pivot is the median of the $\left\lceil  \frac{n}{5}  \right\rceil$ medians. Half of the medians must be greater than the pivot, and for each median greater than the pivot, two of the five in its group are greater.
+This leads to quick select being $\Theta(n)$
+
