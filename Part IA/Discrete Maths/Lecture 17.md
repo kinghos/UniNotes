@@ -20,3 +20,14 @@ $$\begin{align}
 0 & \text{if }a \not \in S
 \end{cases}
 \end{align}$$
+Given a predicate $\phi: A\to[2]$, define the comprehension of $\phi$ to be the following subset $[\phi]\subseteq A$ spanned by elements at which $[\phi]$ holds.
+$$[\phi]=\{ a\in A\mid \phi(a)=1 \}$$
+The mappings (indicator and comprehension respectively)
+$$\begin{align} 
+\chi_{(-)}:\mathcal{P}(A)\to(A\to[2]) \\
+[-]:(A\to[2])\to\mathcal{P}(A)
+\end{align}$$
+given by indicator functions and comprehension are mutually inverse.
+Thus, $\mathcal{P}(A)\cong(A\to[2])$
+
+For any set $X$, we have $\mathcal{P}(X+[1])\cong\mathcal{P}(X)+\mathcal{P}(X)$, where $+$ denotes disjoint union.
