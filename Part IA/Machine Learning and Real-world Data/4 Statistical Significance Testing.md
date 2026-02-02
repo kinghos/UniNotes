@@ -25,3 +25,9 @@ A two tailed test is more effective
 
 Power issues can be fixed by using more data, or a more powerful test.
 Specificity issues should never happen, meaning the test was applied incorrectly or the wrong test was used.
+Common to ignore ties. Here ties will be treated by adding 0.5 events to the positive and 0.5 events to the negative side (and rounding up at the end)
+
+Effect size = difference in measured results between systems
+Significance = binary flag
+Report both, separately but in neighbouring tables
+Statements about differences should mention significance
