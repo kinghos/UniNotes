@@ -8,4 +8,20 @@
 #### Sign Test
 - The sign test uses a binary event model
 - Events correspond to documents
-- Events have binary outcomes
+- Events have binary outcomes:
+	- Positive: System 1 beats System 2
+	- Negative: System 2 beats System 1
+	- Tie: Equally well
+Binomial distribution used
+A two tailed test is more effective
+
+#### Errors
+- Type 1 - the test declares a difference when it doesn't exist
+	- $\alpha$ is the probability of this
+	- $1-\alpha$ is the specificity of a test
+- Type 2 - the test declares no difference when it does exist
+- $\beta$ is the probability of this
+- $1-\beta$ is called the power of a test
+
+Power issues can be fixed by using more data, or a more powerful test.
+Specificity issues should never happen, meaning the test was applied incorrectly or the wrong test was used.
