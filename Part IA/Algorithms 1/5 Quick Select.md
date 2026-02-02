@@ -30,5 +30,16 @@ Other standard improvements include:
 	- Lots of values equal to the pivot means it is likely that the same pivot will be selected again (and be the smallest/largest value) leading to inefficiency
 - Picking the pivot randomly
 - Median-of-three pivot
-	- Pick three items, and take the median. This guaran
-- Median-of-medians pivot
+	- Pick three items, and take the median. This reduces the chance that you pick the largest or smallest element as the pivot.
+
+ 
+ Median-of-medians pivot
+	
+#### Median-of-medians pivot
+- Change partition to work as follows:
+	- Split subarray into groups of 5
+	- For each group of 5, find the median of those groups
+	- Find the median of those medians using quick select, and use it as the pivot
+
+The median is considered to be the value in position $\frac{n+1}{2}$ when in sorted order. For an even n, we consider the lower median and upper median, on either side of the halfway point.
+The final pivot is the median of the $\left\lceil  \frac{n}{5}  \right\rceil$ medians. Half of the medians must be greater than the pivot, and for each median greater than the pivot, two of the five in its group are greater.
