@@ -9,8 +9,8 @@ $\text{Id}_{A}:A\mapsto A$ is the identity relation
 #### Relational composition
 $R:A\mapsto B$
 $S:B\mapsto C$
-$S\circ C: A\mapsto C$
-$S\circ C \subseteq A\times C$
+$S\circ R: A\mapsto C$
+$S\circ R \subseteq A\times C$
 
 Relational composition is associative and unital
 
