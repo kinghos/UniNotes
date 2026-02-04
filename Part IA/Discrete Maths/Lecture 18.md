@@ -25,3 +25,10 @@ Can be thought of as a listing of the elements of A.
 #### Countability
 A set A is countable when it is enumerable or it is empty. All finite sets are countable.
 Alternatively, A is countable iff $A+[1]$ is enumerable
+
+Non-empty subsets of enumerable sets are enumerable
+
+The Cartesian product of countable sets is countable
+
+#### The axiom of choice
+Every surjection as a section.
