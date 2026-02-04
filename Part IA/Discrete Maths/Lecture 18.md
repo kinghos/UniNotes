@@ -5,3 +5,9 @@ The following statements are equivalent for $f: A\to B$
 3. we have both $\forall b\in b.\exists a\in A.f(a)=b$ and $\forall a_{1},a_{2} \in A.f(a_{1})=f(a_{2})\implies a_{1}=a_{2}$
 
 The co-domain is the set the function maps to, whereas the range is the subset of the co-domain which contains all values that the domain of the function maps to.
+#### Surjective functions
+A function $f:A\to B$ is surjective when $\forall b\in B.\exists a\in A.f(a)=b$
+Let A be a set. We have a function
+$!A:A\to[1]$
+$!A$ is surjective **iff A non-empty!!**
+Denoted $f:A\twoheadrightarrow B$
