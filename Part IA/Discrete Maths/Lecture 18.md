@@ -11,3 +11,10 @@ Let A be a set. We have a function
 $!A:A\to[1]$
 $!A$ is surjective **iff A non-empty!!**
 Denoted $f:A\twoheadrightarrow B$
+
+Let E be an equivalence relation on a set A, and let $q:A\to A/E$ be the quotient function that sends $a\in A$ to its equivalence class $[a]_{E}$. Then $q:A\to A/E$ is surjective
+
+The projection function $\pi_{1}:A\times  B\to A$ sending $(a,b)$ to $a$ is surjective if and only if either $B\not=\emptyset$ or $A=\emptyset$
+
+The identity function is a surjection and the composition of surjections yields a surjection.
+
