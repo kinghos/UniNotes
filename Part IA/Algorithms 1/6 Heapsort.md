@@ -35,3 +35,16 @@ if largest != i
 	swap(A[i],A[largest])
 	max_reheapify(A, largest)
 ```
+
+#### Max-full-heapify
+Max-full-heapify notes that the bottom-level leaves are valid max-heaps.
+It calls max-reheapify on the last node that has at least one child then works its way back up to the root. This turns any array into a valid max-heap
+```
+A.heap_size = A.length
+for i = floor(A.length/2) downto 1
+	max-reheapify(A, i)
+```
+![[MaxFullReheapify.png]]
+#### Max-extract
+The largest key in a max-heap is the root. To extract the max we cannot simply remove it without violating the structural property of a heap.
+The only key that can be removed safely is the rightmost key on the bottom row. By swapping this with the root, and reducing the heap size by 1, the root can be extracted. Max-reheapify can be called at the root to fix the structure. This has a cost of $O(\log n)$
