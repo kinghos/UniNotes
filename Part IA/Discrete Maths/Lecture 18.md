@@ -29,6 +29,13 @@ Alternatively, A is countable iff $A+[1]$ is enumerable
 Non-empty subsets of enumerable sets are enumerable
 
 The Cartesian product of countable sets is countable
-
 #### The axiom of choice
 Every surjection as a section.
+
+#### Injective functions
+A function $f:A\to B$ is said to be injective, or an injection, whenever we have $\forall a_{1},a_{2}\in A.f(a_{1})=f(a_{2})\implies a_{1}=a_{2}$
+or equivalently $\forall a_{1},a_{2}\in A.a_{1}\not=a_{2}\implies f(a_{1})\not=f(a_{2})$
+Such a function is written $f:A↣B$
+
+Every section is injective
+Closed under composition and identity

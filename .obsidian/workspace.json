@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,7 +182,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b374d865795ade35",
+  "active": "b0e37daf9a5a4b7d",
   "lastOpenFiles": [
     "Part IA/Algorithms 1/6 Heaps.md",
     "Part IA/Discrete Maths/Lecture 18.md",
