@@ -18,3 +18,10 @@ The projection function $\pi_{1}:A\times  B\to A$ sending $(a,b)$ to $a$ is surj
 
 The identity function is a surjection and the composition of surjections yields a surjection.
 
+#### Enumerability
+A set A is said to be enumerable whenever there exists a surjection $e:\mathbb{N}\twoheadrightarrow A$, referred to as an enumeration.
+Can be thought of as a listing of the elements of A.
+
+#### Countability
+A set A is countable when it is enumerable or it is empty. All finite sets are countable.
+Alternatively, A is countable iff $A+[1]$ is enumerable
