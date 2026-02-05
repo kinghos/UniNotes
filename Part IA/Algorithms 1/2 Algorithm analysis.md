@@ -28,7 +28,7 @@ Usually we want the worst case running time/memory consumption
 - The average case is often the same as the worst case
 
 #### Order of growth
-$\Theta(g(n))$ is the set of functions $f(n)$ such that there exist positive constants $c_{1}, c_{2}$ and $n_0$ such that $0\leq c_{1}g(n)\leq f(n)\leq c_{2}g(n)$ for all $n>n_{0}
+$\Theta(g(n))$ is the set of functions $f(n)$ such that there exist positive constants $c_{1}, c_{2}$ and $n_0$ such that $0\leq c_{1}g(n)\leq f(n)\leq c_{2}g(n)$ for all $n>n_{0}$
 $g(n)$ is an asymptotically tight bound for $f(n)$. This means, within a constant multiplicative factor.
 e.g. if the true cost is $10.3n^2 + 6.1n - 0.4$, then we can write $\Theta(n^2)$ but not $\Theta(n^4)$ or $\Theta(n)$
 
