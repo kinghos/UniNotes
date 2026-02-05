@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Lecture 15.md",
+                "file": "Part IA/Algorithms 1/2 Algorithm analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 15"
+              "title": "2 Algorithm analysis"
             }
           }
         ]
@@ -183,6 +183,9 @@
   },
   "active": "cc631226c65d3765",
   "lastOpenFiles": [
+    "Part IA/Algorithms 1/1 Features of algorithms.md",
+    "Part IA/Algorithms 1/2 Algorithm analysis.md",
+    "Part IA/Discrete Maths/Lecture 15.md",
     "Part IA/Discrete Maths/Lecture 14.md",
     "Part IA/Discrete Maths/Lecture 13.md",
     "Part IA/Discrete Maths/Lecture 12.md",
@@ -201,7 +204,6 @@
     "Part IA/Algorithms 1/5 Quick Select.md",
     "Part IA/Algorithms 1/4 Quicksort.md",
     "Part IA/Object-Oriented Programming/Lecture 9.md",
-    "Part IA/Discrete Maths/Lecture 15.md",
     "Part IA/Discrete Maths/Modus Ponens.md",
     "Part IA/Digital Electronics/Shift Registers.md",
     "Part IA/Digital Electronics/RS Latch.md",
@@ -209,10 +211,8 @@
     "Part IA/Algorithms 1/3 Divide and conquer.md",
     "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
-    "Part IA/Algorithms 1/2 Algorithm analysis.md",
     "Part IA/Algorithms 1/Images",
     "Part IA/Algorithms 1/Images/InsertionSortCost.png",
-    "Part IA/Algorithms 1/1 Features of algorithms.md",
     "Part IA/Machine Learning and Real-world Data",
     "NST Maths/Questions for Bob.md",
     "Excalidraw/Drawing 2026-01-23 13.09.44.excalidraw.md",
