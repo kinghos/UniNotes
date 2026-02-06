@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Lecture 19"
             }
+          },
+          {
+            "id": "f3746bf6c52052f0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "cc631226c65d3765",
+  "active": "f3746bf6c52052f0",
   "lastOpenFiles": [
     "Part IA/Discrete Maths/Lecture 19.md",
     "Part IA/Algorithms 1/7 Linear time sorting.md",
