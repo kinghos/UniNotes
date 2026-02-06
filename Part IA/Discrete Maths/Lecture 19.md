@@ -21,4 +21,4 @@ $e_f$ is a surjection.
 The coimage of $f:A\to B$ is the quotient $A\twoheadrightarrow A/\tilde{\ }_{f}$
 
 #### Diagonalisation and Cantor's theorem
-There exists no surjection from $A$ to
+There exists no surjection from $A$ to $\mathcal{P}(A)$
