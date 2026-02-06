@@ -10,4 +10,15 @@ f_{*}(u)&=\{b\in B \mid \exists a \in u.f(a)=b  \}
 \end{align}$$
 Special case $u=A$.
 $f_{*}(A)=\{ b\in B\mid \exists a\in A.f(a)=b \}$ = $\text{Range}(f)$
-$
+A function $f:A\to B$ also restricts to a function onto its image. In particular, we have
+$$
+\begin{align}
+e_{f}&:A\to \text{Im}(f) \\
+e_{f}(x)&=f(x)
+\end{align}$$
+$e_f$ is a surjection.
+
+The coimage of $f:A\to B$ is the quotient $A\twoheadrightarrow A/\tilde{\ }_{f}$
+
+#### Diagonalisation and Cantor's theorem
+There exists no surjection from $A$ to
