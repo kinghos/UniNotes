@@ -48,3 +48,22 @@ where 1 is the least significant digit
 #### Stable sorts
 A stable sort guarantees to preserve the order of inputs when their sort keys are equal. This is useful if you want a secondary sort key, e.g. sort exam results by mark, but then if they have the same mark sort by alphabetical order. This is a sort by name first, then a stable sort by mark. This will preserve the sorting by name.
 
+#### Cost of radix-sort
+To sort n numbers of d digits each, where each digit can take on one of k different values, radix sort is $\Theta(d(n+k))$
+Each stable sort is applied to n keys using a key range of `[0..k-1]`. Counting sort is the obvious way to achieve that, taking $\Theta(n+k)$ time each.
+
+### Bucket sort
+```
+let n = A.length, B = new Array[0..n-1]
+for i = 0 to n-1
+	B[i] = empty_list
+for i = 1 to n
+	insert A[i] into list B[floor(n*A[i])]
+for i = 0 to n-1
+	insertion-sort(B[i])
+concatenate B[0], B[1], ... B[n-1]
+```
+
+#### Cost of bucket sort
+All the steps are trivially linear except the calls to insertion sort. It turns out that the complexity is $\Theta(n)$
+![[SortingSummary.png]]
