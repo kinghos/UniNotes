@@ -14,6 +14,8 @@ If something is known about input data, time complexity can be better than $\Ome
 2. Radix sort - sorting d-digit numbers
 3. Bucket sort - sorting data that is uniformly distributed over $[0,1)$
 
+### Counting sort
+
 ```
 let C = new Array[0..k]
 for i = 0 to k
@@ -30,3 +32,19 @@ A: input data
 B: array into which the output is written
 k: top limit of the range of values
 `C[i]` holds the number of instances of value i in the input array
+#### Cost of counting sort
+Initialising the C array takes $\Theta(k)$ time
+Counting items in the A array takes $\Theta(n)$ time
+Converting the count of key i to the index of the last instance of i in the output takes $\Theta(k)$ time
+Populating the output takes $\Theta(n)$ time
+Overall $\Theta(k+n)$
+
+### Radix-sort
+```
+for i = 1 to d
+	sort array A on digit i with any stable sort
+```
+where 1 is the least significant digit
+#### Stable sorts
+A stable sort guarantees to preserve the order of inputs when their sort keys are equal. This is useful if you want a secondary sort key, e.g. sort exam results by mark, but then if they have the same mark sort by alphabetical order. This is a sort by name first, then a stable sort by mark. This will preserve the sorting by name.
+
