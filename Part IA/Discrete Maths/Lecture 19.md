@@ -30,3 +30,8 @@ Let $\prec:A\nrightarrow A$ be a relation on a set A
 e.g. the strictly less than relation on the naturals is well-founded as there is a smallest natural number, but the strictly less than operator on the integers is not well-founded as there is no smallest integer.
 
 A relation is well-founded iff there are no infinite descending chains.
+
+#### The principle of well-founded induction
+Let $\prec: A\nrightarrow A$ be well founded. Fix $S \subseteq A$
+Then $S=A$ iff
+$$\forall x\in A.(\forall y \prec x.y \in S)\implies x\in S$$
