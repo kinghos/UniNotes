@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 1/5 Quick select.md",
+                "file": "Part IA/Algorithms 1/3 Divide and conquer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 Quick select"
+              "title": "3 Divide and conquer"
             }
           }
         ]
@@ -183,8 +183,8 @@
   },
   "active": "4183b1cde6dd7103",
   "lastOpenFiles": [
-    "Part IA/Algorithms 1/4 Quicksort.md",
     "Part IA/Algorithms 1/5 Quick select.md",
+    "Part IA/Algorithms 1/4 Quicksort.md",
     "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
     "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
     "Part IA/Machine Learning and Real-world Data/5 Overtraining and Cross-validation.md",
