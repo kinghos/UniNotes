@@ -26,4 +26,7 @@ Unweighted shortest path: find a path $u\to v$ consisting of the fewest edges
 ##### Virtual Machine Hosting Problem
 Analogous to the "rod cutting" problem - given a metal rod that can be subdivided and sold, with different lengths being worth different prices, what are the optimal subdivisions to make the greatest profit?
 In this case, it suffices to list every permutation for a given length, e.g. 4 VM cores can be split into 2 and 2, and 1 and 1 and 2, and 1 and 3, and etc.. Then, summing the prices will find the optimal permutation.
-This solution is inefficient and has a running time of $O(2^n)$, but can be improved with memoisation. This prevent the need to recompute sub
+This solution is inefficient and has a running time of $O(2^n)$, but can be improved with memoisation. This prevent the need to recompute subproblems that have already been seen.
+
+#### Greedy Algorithms
+Greedy algorithms are useful when we can choose between the subproblems without having to evaluate all of them, usually based on a static analysis of the problem that feeds into the algorithm design, making it more efficient.
