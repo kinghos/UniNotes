@@ -30,3 +30,4 @@ This solution is inefficient and has a running time of $O(2^n)$, but can be impr
 
 #### Greedy Algorithms
 Greedy algorithms are useful when we can choose between the subproblems without having to evaluate all of them, usually based on a static analysis of the problem that feeds into the algorithm design, making it more efficient.
+For example, if a problem requires taking the most valuable items from a set, you would take as much as possible of the most valuable item, followed by the next and so on. Any items left behind will be low-value and therefore not needed.
