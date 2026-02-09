@@ -18,3 +18,10 @@ Now solve two-step problems and add those to the table. Carry on until the desir
 No recursive stack space needed
 Solves subproblems that might not be useful
 
+#### Problems solvable by DP
+Longest Common Subsequence: a subsequence is a given sequence with zero or more elements removed (not necessarily consecutively). LCS is the problem to find the longest subsequence present in both of two input sequences. This is very common in bioinformatics
+Matrix multiplication chains: minimise the distinct scalar multiplications required to multiple a chain of matrices
+Unweighted shortest path: find a path $u\to v$ consisting of the fewest edges
+
+##### Virtual Machine Hosting Problem
+Analogous to the "rod cutting" problem - given a metal rod that can be subdivided and sold, with different lengths being worth different prices, what are the optimal subdivisions to make the greatest profit?
