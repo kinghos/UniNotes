@@ -19,3 +19,6 @@ $$\begin{align}
 \text{Cl}_{R}\subseteq \mathcal{P}(\Sigma^*)  \\
 \end{align}$$
 $\text{Cl}_{R}=$ intersection of all closure conditions indicated by the rules in $\mathcal{R}$
+
+A derivation in $\mathcal{R}$ is a tree whose root is the conclusion of a rule, and the subnodes are the conclusions of other rules, and so on. Leaves are axioms.
+A syntactic presentation of a formal language over $\Sigma$ is a set of rules $\mathcal{R}$ over $\Sigma^*$
