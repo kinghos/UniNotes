@@ -22,3 +22,17 @@ $\text{Cl}_{R}=$ intersection of all closure conditions indicated by the rules i
 
 A derivation in $\mathcal{R}$ is a tree whose root is the conclusion of a rule, and the subnodes are the conclusions of other rules, and so on. Leaves are axioms.
 A syntactic presentation of a formal language over $\Sigma$ is a set of rules $\mathcal{R}$ over $\Sigma^*$
+
+$$\frac{}{\quad (x,y) \quad}((x,y) \in R)$$
+This is called a side condition, as the rule only applies when $x\mathrel{R} y$
+
+#### Rule Induction
+Let $\mathcal{R}$ be a set of syntactic rules over a set $X$. Let $X_\mathcal{R}\subseteq X$ be the subset containing just those $x \in X$ such that there exists a derivation of $x$ in $\mathcal{R}$.
+1. $X_\mathcal{R}$ is closed under every rule $\mathcal{R}$ i.e. $X_{\mathcal{R}}\in\text{Cl}_{\mathcal{R}}$
+2. $X_\mathcal{R}$ is the smallest subset closed under every rule of $\mathcal{R}$ i.e. $X_{\mathcal{R}}=\cap \text{Cl}_{\mathcal{R}}$
+Proof:
+Fix a rule $\frac{{\quad u_{1}\dots}u_{n}\quad}{v}$. Given $u_{1}\dots u_{n}\in X_{\mathcal{R}}$, we need to verify $v\in X_{\mathcal{R}}$
+Derivations need to be combined to obtain a derivation of $v$:
+$$\frac{\frac{{\vdots}}{u_{1}}\quad\dots\quad \frac{{\vdots}}{u_{n}}}{v}$$
+This shows $X_{\mathcal{R}}\in\text{Cl}_{\mathcal{R}}$
+Now we want to prove statement 2. Fix $S \in \text{{Cl}}_{\mathcal{R}}$, and RTP $X_{\mathcal{R}} \in S$
