@@ -36,3 +36,11 @@ Derivations need to be combined to obtain a derivation of $v$:
 $$\frac{\frac{{\vdots}}{u_{1}}\quad\dots\quad \frac{{\vdots}}{u_{n}}}{v}$$
 This shows $X_{\mathcal{R}}\in\text{Cl}_{\mathcal{R}}$
 Now we want to prove statement 2. Fix $S \in \text{{Cl}}_{\mathcal{R}}$, and RTP $X_{\mathcal{R}} \in S$
+i.e. for any derivation in $\mathcal{R}$, its root lies in $S$.
+$$\forall n\in \mathbb{N}\text{, the root of any deriviation with height}\leq n  \text{ lies in }S$$
+
+Inductive case: Suppose that the root of every derivation of height $\leq n$ lies in $S$. We want to prove the same for derivatives of height $\leq n+1$
+Consider $$\frac{\frac{{\vdots}}{u_{1}}\quad\dots\quad \frac{{\vdots}}{u_{n}}}{v}$$
+This must come from the following rule 
+$$\frac{{\quad u_{1}\dots}u_{n}\quad}{v}$$
+We need to show $v$ lies in $S$. All of the subderivations of $u_i$ depicted above have height less than or equal to $n$, therefore the inductive hypothesis ensures each $u_i \in S$.
