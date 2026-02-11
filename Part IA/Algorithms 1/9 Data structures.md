@@ -20,3 +20,12 @@ Stacks are LIFO data structures.
 - Insert is called `push`
 - Delete is called `pop`
 - A stack with a fixed maximum capacity can be stored with an array. To store one with an unbounded capacity, a linked list can be used or an array with the capability of copying to a larger array if needed
+A variable called `top` can be used to track which index is the top of the array. This can either point to the item at the top of the stack, or the first empty space.
+
+#### Queues
+Queues are FIFO data structures.
+- Insert is called `enqueue`
+- Delete is called `dequeue`
+- Similarly to stacks, can be implemented with arrays.
+Two variables are needed, head and tail - enqueue at the tail, dequeue at the head.
+#
