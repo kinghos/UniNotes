@@ -1,2 +1,6 @@
 #### Concrete and abstract syntax
-Concrete syntax is usually defined as strings of symbols. Structured representations of sny
+Concrete syntax is usually defined as strings of symbols. Structured representation of syntax, such as trees, is abstract syntax.
+
+https://www.jonmsterling.com/0174/
+
+Regular expressions can be expressed by syntactic rules, or by abstract syntax
