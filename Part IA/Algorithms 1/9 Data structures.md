@@ -28,4 +28,13 @@ Queues are FIFO data structures.
 - Delete is called `dequeue`
 - Similarly to stacks, can be implemented with arrays.
 Two variables are needed, head and tail - enqueue at the tail, dequeue at the head.
-#
+
+#### Linked Lists
+A singly linked list has a pointer pointing to the head of the list, and cells of the list are tuples containing a value and a pointer to the next cell.
+Consider that a list could be cyclic - an algorithm to find a key in the list could run forever if it is not present and a cyclic list!
+A doubly linked list has a second pointer in each tuple, pointing to the previous element. A doubly linked list cannot be lollipop shaped.
+
+#### Doug Lea's malloc algorithm
+A program's memory ("virtual address space") contains the machine code, the stack and a very large area known as the heap.
+We wish to allocate and deallocate objects within the heap, in any order.
+We might allocate 
