@@ -4,3 +4,6 @@ Concrete syntax is usually defined as strings of symbols. Structured representat
 https://www.jonmsterling.com/0174/
 
 Regular expressions can be expressed by syntactic rules, or by abstract syntax
+
+#### Precedence parsing
+Parsing is described by a relation from concrete syntax to abstract syntax
