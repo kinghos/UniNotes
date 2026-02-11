@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 1/9 Data structures.md",
+                "file": "Part IA/Discrete Maths/Lecture 21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9 Data structures"
+              "title": "Lecture 21"
             }
           }
         ]
@@ -181,12 +181,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "4183b1cde6dd7103",
   "lastOpenFiles": [
+    "Part IA/Algorithms 1/9 Data structures.md",
+    "Part IA/Discrete Maths/Lecture 21.md",
     "Part IA/Algorithms 1/Images/MallocAlgo2.png",
     "Part IA/Algorithms 1/Images/MallocAlgo.png",
     "Part IA/Algorithms 1/8 Dynamic Programming.md",
-    "Part IA/Algorithms 1/9 Data structures.md",
     "Part IA/Machine Learning and Real-world Data/6 Uncertainty and Human Agreement.md",
     "Part IA/Discrete Maths/Lecture 20.md",
     "Part IA/Algorithms 1/3 Divide and conquer.md",
@@ -225,7 +226,6 @@
     "Part IA/Algorithms 1",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Excalidraw",
-    "Part IA/Databases/Images/PatternMatchingNeo4J.png",
     "NST Maths/Chapter 2/Chapter2_to_annotate.pdf",
     "Part IA/Object-Oriented Programming/Images",
     "Part IA/Discrete Maths/Images",
