@@ -37,4 +37,15 @@ A doubly linked list has a second pointer in each tuple, pointing to the previou
 #### Doug Lea's malloc algorithm
 A program's memory ("virtual address space") contains the machine code, the stack and a very large area known as the heap.
 We wish to allocate and deallocate objects within the heap, in any order.
-We might allocate 
+We might allocate a large number of small objects on the heap, or a small number of large objects. Metadata for each object needs to be stored. An array is not appropriate because we would either run out of slots or waste lots of memory on more slots than needed. This can be done with a doubly linked list.
+
+- Represent free and busy chunks, in the order they are found in memory, in a linked list.
+- To allocate, we search the list for a free chunk that is at least big enough and we split it into the amount we want and the remaining free space. First is marked as busy and second is free
+- To deallocate, we mark a busy chunk as free then merge it with either or both neighbours if they are also free. This coagulates free space.
+
+- Initially, the heap is represented as a single free chunk. A sentinel node sits at the end of the linked list.
+- `p = malloc(1000)` - This should set p to the base address of 1000 bytes of free space on the heap, and update the list to mark these bytes as busy. If there is not enough space anywhere in the heap, return NIL.
+![[MallocAlgo.png]]
+![[MallocAlgo2.png]]
+
+Many implementations round up requests for memory to the next multiple of 4 bytes. This is more efficient for many CPUs and memory chips. Now that we know each pointer will point to a multiple of 4, we know that the least significant 2 bits of each pointer must be zeros. The free/busy bit can be stored here. This avoids the need for an extra variable in the linked list nodes, and reduces the overhead of tracking memory.
