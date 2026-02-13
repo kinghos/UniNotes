@@ -30,3 +30,6 @@ A B-tree of minimum degree T, has five defining characteristics:
 - A node with $t$ keys must have $t+1$ children
 - Keyless leaves all exist at the same depth below the root
 - The keys in any internal node divide the ranges of keys in their children (generalising the binary search tree property)
+Because tree algorithms depend on the height of a tree, we want an
+upper bound on the height of a B-tree with N keys. The number of levels required to hold N keys is at most $O(\log n)$
+It is not permitted to maintain pointers to any internal nodes.
