@@ -11,4 +11,5 @@ Sometimes children need to be added and removed from tree nodes while an algorit
 - The key in node `i` is strictly less than all the keys in its right subtree
 - Any kind of search tree does not allow duplicate keys.
 - Supported operations include insert, delete, search, predecessor, successor, minimum, maximum, all in $O(\log n)$ time
+- Predecessor and successor require parent pointers
 - 
