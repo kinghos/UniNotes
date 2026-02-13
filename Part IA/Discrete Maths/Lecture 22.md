@@ -14,4 +14,8 @@ q \xrightarrow{\epsilon} q' &\iff q=q' \\
 q \xrightarrow{au}q' &\iff \exists q'' \in Q.q \xrightarrow{a}q'' \land q'' \xrightarrow{u} q' 
 \end{align}$$
 
-A deterministic finite automata or DFA is an NFA for which $\Delta:Q\times \Sigma \nrightarrow Q$ is a function. 
+#### Deterministic finite automata
+A deterministic finite automata or DFA is an NFA for which $\Delta:Q\times \Sigma \nrightarrow Q$ is a function. Here, each character can only move to one state.
+
+#### NFA-epsilon
+An $\text{NFA}^\epsilon$ $M$ is an NFA equipped with a relation $T:Q\nrightarrow Q$ called the $\epsilon$-transition relation. This allows automatons to transition states without consuming a symbol
