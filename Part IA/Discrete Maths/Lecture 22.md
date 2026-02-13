@@ -13,3 +13,5 @@ $$\begin{align}
 q \xrightarrow{\epsilon} q' &\iff q=q' \\
 q \xrightarrow{au}q' &\iff \exists q'' \in Q.q \xrightarrow{a}q'' \land q'' \xrightarrow{u} q' 
 \end{align}$$
+
+A deterministic finite automata or DFA is an NFA for which $\Delta:Q\times \Sigma \nrightarrow Q$ is a function. 
