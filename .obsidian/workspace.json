@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Lecture 16.md",
+                "file": "Part IA/Machine Learning and Real-world Data/8 Social Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 16"
+              "title": "8 Social Networks"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,6 +183,8 @@
   },
   "active": "4183b1cde6dd7103",
   "lastOpenFiles": [
+    "Part IA/Discrete Maths/Lecture 16.md",
+    "Part IA/Machine Learning and Real-world Data/8 Social Networks.md",
     "Part IA/Discrete Maths/Lecture 18.md",
     "Part IA/Algorithms 1/9 Data structures.md",
     "Part IA/Algorithms 1/10 Trees.md",
@@ -211,8 +212,6 @@
     "Part IA/Algorithms 1/Images/SortingSummary.png",
     "Part IA/Algorithms 1/1 Features of algorithms.md",
     "Part IA/Discrete Maths/Lecture 13.md",
-    "Part IA/Discrete Maths/Lecture 12.md",
-    "Part IA/Discrete Maths/Glossary.md",
     "Part IA/Algorithms 1/Images/MaxFullReheapify.png",
     "Part IA/Algorithms 1/Images/MaxReheapify.png",
     "Part IA/Algorithms 1/Images/HeapStructure.png",
