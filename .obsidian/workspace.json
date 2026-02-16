@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "8 Social Networks"
             }
+          },
+          {
+            "id": "f4332c58696b92c0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,10 +192,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4183b1cde6dd7103",
+  "active": "f4332c58696b92c0",
   "lastOpenFiles": [
-    "Part IA/Discrete Maths/Lecture 16.md",
     "Part IA/Machine Learning and Real-world Data/8 Social Networks.md",
+    "Part IA/Discrete Maths/Lecture 16.md",
     "Part IA/Discrete Maths/Lecture 18.md",
     "Part IA/Algorithms 1/9 Data structures.md",
     "Part IA/Algorithms 1/10 Trees.md",
