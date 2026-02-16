@@ -1,1 +1,23 @@
 ![[BTInsert.png]]
+#### BT-Insert
+- Start at the root. If root is a leaf, set root = new node and return
+- Walk down the tree, searching for key k. If a full node is encountered. split it
+- If k is found, replace the payload and return
+- If you reach the bottom level of internal nodes, then insert into this node and increase keycount
+- If it is full, split about the median key and insert the median into its parent.
+
+#### BT-Delete
+- Start a the root
+- Walk down the tree, searching for key k
+- If k is not found, then return
+- If it is the only key in the root, replace the root with a leaf node and return
+- If k is found but not at the bottom level, swap k with its predecessor
+- If the node is not minimum size, remove k from the node and decrease n.keycount
+- If the node containing k is minimum size, look at left and right siblings and redistribute into this node. Then delete k and decrease keycount
+- If both siblings are minimum size, or dont exist, then merge this node with the sibling and steal the seperator key from the parent. Delete k and decrease keycount
+- If the parent is minimum size, and cannot give us a key, recursively redistribute or merge it with its siblings first
+- If the root's last key is stolen by its merging children, update the root pointer
+
+### Red-Black Trees
+Binary search trees where each node has an additional colour attribute
+The colour is used by modified insert and delete algorithms to maintain approximate balance
