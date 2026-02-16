@@ -21,3 +21,20 @@
 ### Red-Black Trees
 Binary search trees where each node has an additional colour attribute
 The colour is used by modified insert and delete algorithms to maintain approximate balance
+- Every node is either red or black
+- The root is black
+- The leaves are black and contain no keys or payloads
+- Both children of a red node are black
+- For each node, all simple paths to descendant leaves contain the same number of black nodes (the tree is black-height balanced)
+
+Black height is counted as follows:
+- Do not count the node you start from
+- Do count black nodes below
+- Do count black leaves
+Minimum black-height occurs when all nodes are black
+Maximum black-height occurs when all black nodes have two red children
+A red-black tree wit n internal nodes (not counting leaves) has at most $\text{lg}(n+1)$ levels
+
+A B-tree with minimum degree T=2 (also known as a 2-3-4 tree) can be mapped to a red-black tree
+All leaves are turned black
+Internal nodes with 1 key are turned black
