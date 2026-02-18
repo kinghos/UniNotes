@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -182,8 +181,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f4332c58696b92c0",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
+    "Part IA/Algorithms 1/Images/PQCosts.png",
     "Part IA/Algorithms 1/11 Trees cont..md",
     "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
     "Part IA/Algorithms 1/Images/BTInsert.png",
@@ -212,7 +212,6 @@
     "Part IA/Discrete Maths/Lecture 17.md",
     "Part IA/Discrete Maths/Lecture 14.md",
     "Part IA/Discrete Maths/Lecture 15.md",
-    "Part IA/Discrete Maths/Lecture 19.md",
     "Part IA/Algorithms 1/Images/SortingSummary.png",
     "Part IA/Algorithms 1/Images/MaxFullReheapify.png",
     "Part IA/Algorithms 1/Images/MaxReheapify.png",
