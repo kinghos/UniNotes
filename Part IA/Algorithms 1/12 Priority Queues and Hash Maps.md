@@ -42,3 +42,8 @@ Alternatively, the key can be pushed onto the head of the list. The list can con
 
 #### Open Addressing
 Go down from the key, and keep going until an open slot is found. If an open slot is not found (you have wrapped around all the way to the key again), then fail.
+The build up of long probe sequences that do not even contain keys with the same hash value is called primary clustering
+An alternative probe sequence is
+$$\text{probe}(T,\text{key},i) =(h(key)+ai +bi^2) \mathrel{\%} \text{T.size}$$
+This hits every position provided at least one of a and b is non zero and less than the size, which is prime. This is prone to secondary clustering, which means keys which hash to the same value will collide with each other at every probe position.
+Double hashing solves this problem. Using two hash functions added together means their probe sequences step apart.
