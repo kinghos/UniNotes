@@ -1,4 +1,4 @@
-#### Priority Queues
+### Priority Queues
 A max priority queue provides insert, maximum, extract-max and increase-key operations
 Max PQs are useful for schedulers to select the most important job to run next.
 A min priority queue provides insert, minimum, extract-min and decrease-key operations
@@ -16,9 +16,21 @@ This can also be implemented with a [[11 Trees cont.#Red-Black Trees|Red-Black T
 - Inserting is simply using the insert function for RBTs.
 
 ![[PQCosts.png]]
-#### Hash Tables
+### Hash Tables
 **We will index hash tables from 0.**
-##### Direct addressing
+#### Direct addressing
 CPUs can LOAD data from memory and STORE data to memory but those machine code instructions need a memory address. The data type of array elements is fixed and known in advance. This tells us the size, X, in bytes of each entry. Direct addressing translates programming language syntax like `T[i]` into a CPU LOAD or STORE instruction
 
+#### Hashed addressing
 To support non-integers as the key, a hash function is used to convert it to an integer.
+
+Problems with hashed addressing:
+- Range: The integer output of the hash function is used as a table index. Often the size of a hash table needs to be changed. The solution is to require that across all possible inputs a hash function must output a uniformly distributed unsigned integer in some range. This can be done through modulo for instance
+- Performance: It is difficult to get a function that is uniformly distributed like this, especially when you know nothing about the inputs that a particular program might use as hash keys. Hence real world hash functions are very complex and slow-running
+- Collisions: if we are mapping strings of any length into 32 bit integers, there are necessarily collisions, by the pigeonhole principle: there are more possible hash keys than possible hash values so at least one hash value must be used more than once
+- Entropy: If keys are short or very similar, there is not enough entropy to map them to different places in the table. If the keys are simple letters of the alphabet, there are only 26 possible inputs, hence at most 26 different outputs, thus not giving a uniform distribution
+
+#### Solutions to collisions
+##### Chaining
+Entries in the hash table are pointers to linked lists, initialised as NIL.
+List cells are (key, payload, pointer) tuples where pointer is the pointer to the next cell
