@@ -35,6 +35,9 @@ Minimum black-height occurs when all nodes are black
 Maximum black-height occurs when all black nodes have two red children
 A red-black tree wit n internal nodes (not counting leaves) has at most $\text{lg}(n+1)$ levels
 
+#### Tree isomorphism
 A B-tree with minimum degree T=2 (also known as a 2-3-4 tree) can be mapped to a red-black tree
 All leaves are turned black
 Internal nodes with 1 key are turned black
+A node with 3 keys becomes a red node with 2 black children
+A tree rotation is a local restructuring that preserves the global ordering property
