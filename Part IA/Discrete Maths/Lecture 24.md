@@ -11,3 +11,5 @@ A number $\ell>1$ is said to have the pumping property with respect to $L$ when 
 
 #### The lemma
 Let $M$ be a DFA. Then the cardinality $\#Q_{M}$ of the set of states of $M$ satisfies the pumping property with respect to $\mathcal{L}(M)$ (in other words $\ell=\#Q_{M}$)
+
+For any regular language $L$ there exists a number $\ell >1$ satisfying the pumping property with respect to $L$.
