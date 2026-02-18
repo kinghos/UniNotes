@@ -38,3 +38,7 @@ List cells are (key, payload, pointer) tuples where pointer is the pointer to th
 The load factor, $\alpha=\frac{n}{T.size}$, where $n$ is the number of live keys stored in the table, and $T.size$ is the total size of the hash table.
 
 Lists can also be sorted by key. This requires the keys to be comparable.
+Alternatively, the key can be pushed onto the head of the list. The list can contain the same key repeatedly. Delete will now push a cell to the head with NIL as the payload. Or, delete can delete the first instance of the key. This means it will only undo the most recent insert
+
+#### Open Addressing
+Go down from the key, and keep going until an open slot is found. If an open slot is not found (you have wrapped around all the way to the key again), then fail.
