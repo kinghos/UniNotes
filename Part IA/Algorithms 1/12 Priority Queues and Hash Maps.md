@@ -34,3 +34,7 @@ Problems with hashed addressing:
 ##### Chaining
 Entries in the hash table are pointers to linked lists, initialised as NIL.
 List cells are (key, payload, pointer) tuples where pointer is the pointer to the next cell
+
+The load factor, $\alpha=\frac{n}{T.size}$, where $n$ is the number of live keys stored in the table, and $T.size$ is the total size of the hash table.
+
+Lists can also be sorted by key. This requires the keys to be comparable.
