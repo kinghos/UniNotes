@@ -23,3 +23,7 @@ You can divide through in divisibility by the gcd of the numbers on the right.
 a number has multiplicative inverse in $\mathbb{Z}_m$ if n and m are coprime 
 
 For induction proofs with multiple unfixed variables, pick the one that occurs less often (or just try both!)
+
+Idempotence means repeated application does nothing, NOT THE SAME AS IDENTITY
+A section retraction pair will always form an idempotent function, and the reverse composition will form an identity
+Equivalence classes essentially are sets of values that are "equal" to a given value through a relation
