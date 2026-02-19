@@ -27,3 +27,6 @@ For induction proofs with multiple unfixed variables, pick the one that occurs l
 Idempotence means repeated application does nothing, NOT THE SAME AS IDENTITY
 A section retraction pair will always form an idempotent function, and the reverse composition will form an identity
 Equivalence classes essentially are sets of values that are "equal" to a given value through a relation
+
+Cannot have smaller infnity than Naturals
+show sets are teh same size to show bijections
