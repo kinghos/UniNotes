@@ -4,3 +4,38 @@ Application programs - define how those resources are used to solve the computin
 Users - motivate the whole thing
 
 CPUs operate on data obtained from input devices and held in memory
+
+#### Fetch-execute cycle
+The CPU repeatedly fetches and decodes the next instruction, generating control signals and operand information
+Inside the execution unit, control signals select the functional unit and operation
+- If the ALU read one/two registers, perform operation, write result back
+- If Branch Unit, test condition and maybe add value to PC
+- If Memory Access Unit, generate address and use bus to read/write value
+
+#### Buses
+- Shared communication wires
+- Low cost and versatile, but a potential bottleneck
+- Typically comprises:
+	- address lines determining how many devices on a bus
+	- data lines determining how many bits transferred at once
+	- control lines indicating target devices and selected operations
+- Operates in an initiator-responder manner:
+	- Initiation decides to read data
+	- Initiator puts address onto bus and asserts read
+	- Responder reads address from bus, retrieves data, and puts onto bus
+	- Initiator reads data from bus
+##### Bus hierarchy
+- Different buses have different characteristics
+- Processor bus is often the fastest and widest so the CPU can talk to cache
+- Memory bus to communicate with memory
+- PCI buses to talk to other devices
+- Bridges forwards from one side to another
+
+#### Booting
+- Bootstrap program (bootloader) executes when machine powered on
+	- Traditionally BIOS in ROM, now more complex UEFI
+	- Initialises all parts of the system, memory, device controllers
+	- Finds, loads and executes the kernel, possibly in stages
+- Kernel enables processes to be created, devices to be read/written and file system to be accessed
+- System processes will then start
+
