@@ -49,3 +49,5 @@ This hits every position provided at least one of a and b is non zero and less t
 Double hashing solves this problem. Using two hash functions added together means their probe sequences step apart.
 ##### Deletion
 Deleting keys would break the probe sequence, so instead leave a marker behind: these are full and non-matching when searching (i.e. never what you seek but don't stop the search) and are empty when inserting (can be overwritten)
+
+Counters tracking the number of keys and the number of markers must be maintained. This allows resizing of the table.
