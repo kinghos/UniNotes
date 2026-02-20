@@ -39,3 +39,20 @@ Inside the execution unit, control signals select the functional unit and operat
 - Kernel enables processes to be created, devices to be read/written and file system to be accessed
 - System processes will then start
 
+#### System operation
+- I/O devices and CPU execute concurrently
+- Each device controller is responsible for a particular device type and has a local buffer
+- CPU moves data from/to main memory to/from local buffers
+- Device controller informs the CPU that it has finished its operation by raising an interrupt
+
+#### Interrupts
+- Device controllers communicate with CPU via interrupts
+	- Controller controls interaction between device and local buffer
+	- CPU moves data between main memory and device buffer
+- Interrupts decouple CPU requests from device responses
+- Controller informs CPU it is finished by raising an interrupt
+- A raised interrupt must be handled
+	- Transfer control to the ISR via the interrupt vector, a table containing addresses of all the ISRs
+	- Interrupt architecture saves the address of the interrupted instruction
+	- After reading from this device, CPU resumes using a special instruction
+- A trap or an exception is a software-generated interrupt
