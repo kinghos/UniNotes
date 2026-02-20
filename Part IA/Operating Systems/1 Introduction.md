@@ -72,3 +72,18 @@ Layering is a means to manage complexity by controlling interactions between com
 - Jitter is the variation in latency
 
 #### Caching
+Caching, where a small amount of higher-performance storage is used to mask the performance impact of a lower-performance component.
+Buffering, where memory of some kind is introduced between two components to soak up small, variable imbalances in bandwidth
+
+The bottleneck is typically the most constrained resource in a system.
+
+#### What is an operating system?
+- Provides
+	- Control over execution over all other programs
+	- Multiplexing of resources between programs
+	- Abstraction over the complexity and low-level details
+	- Extensibility, enabling evolution to meet changing demands and constraints
+- Typically involves libraries and tools provided as part of the OS
+	- This course focuses on the kernel
+- Provides mechanisms that are used to implement policies
+
