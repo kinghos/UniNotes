@@ -38,4 +38,5 @@ When running BFS on a graph, it can be optimised by using a pending flag. This e
 #### 2-Vertex Colourability
 Input: a connected, undirected graph
 Output: true if all of the vertices can be coloured using two colours, false otherwise
-Solutoi
+Solution: Pick an arbitrary vertex s. Set s.colour = BLACK. BFS from s, colouring the first level as red, the next level black, etc.
+When the BFS completes, scan over the edges checking whether any adjacent vertices have the same colour. Return true/false as appropriate
