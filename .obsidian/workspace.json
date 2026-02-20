@@ -181,8 +181,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f4332c58696b92c0",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
+    "Part IA/Operating Systems/Images",
+    "Part IA/Operating Systems/Images/StorageComparison.png",
     "Part IA/Operating Systems",
     "Part IA/Algorithms 2/1 Graphs.md",
     "Part IA/Operating Systems/1 Introduction.md",
@@ -220,7 +222,6 @@
     "Part IA/Algorithms 1/Images/HeapStructure.png",
     "Part IA/Discrete Maths/Images/LogicalEquivalences.png",
     "Part IA/Algorithms 1/Images",
-    "Part IA/Algorithms 1/Images/InsertionSortCost.png",
     "Part IA/Machine Learning and Real-world Data",
     "NST Maths/NST-IA-LT-examples1.pdf",
     "NST Maths/nst-IA-LT-courseB-part1.pdf",
@@ -228,7 +229,6 @@
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Excalidraw",
     "NST Maths/Chapter 2/Chapter2_to_annotate.pdf",
-    "Part IA/Object-Oriented Programming/Images",
     "Untitled.canvas"
   ]
 }

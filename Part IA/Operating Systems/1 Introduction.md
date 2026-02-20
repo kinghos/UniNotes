@@ -56,3 +56,19 @@ Inside the execution unit, control signals select the functional unit and operat
 	- Interrupt architecture saves the address of the interrupted instruction
 	- After reading from this device, CPU resumes using a special instruction
 - A trap or an exception is a software-generated interrupt
+
+#### Storage
+- A word is a given computer's native unit of data, one or more bytes, e.g. a 64-bit computer has 8-byte words
+- In this course, a kilobyte is considered to be 1024 bytes
+![[StorageComparison.png]]
+
+#### Layering
+Layering is a means to manage complexity by controlling interactions between components
+- Arrange components in a stack and restrict a component at layer X from relying on any other component except the one at the later below, and providing service to any component except the one at the layer above
+- Multiplexing is where one resource is being consumed by multiple consumers at once
+#### Latency
+- Latency is how long something takes
+- Bandwidth is the rate at which something occurs (throughput)
+- Jitter is the variation in latency
+
+#### Caching
