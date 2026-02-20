@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 1/11 Trees cont..md",
+                "file": "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 Trees cont."
+              "title": "12 Priority Queues and Hash Maps"
             }
           }
         ]
@@ -183,9 +183,11 @@
   },
   "active": "f4332c58696b92c0",
   "lastOpenFiles": [
+    "Part IA/Algorithms 2/Lecture 1.md",
+    "Part IA/Algorithms 1/11 Trees cont..md",
+    "Part IA/Algorithms 2",
     "Part IA/Algorithms 1/10 Trees.md",
     "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
-    "Part IA/Algorithms 1/11 Trees cont..md",
     "Part IA/Digital Electronics/Finite State Machines.md",
     "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Algorithms 1/2 Algorithm analysis.md",
@@ -212,7 +214,6 @@
     "Part IA/Algorithms 1/6 Heaps.md",
     "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
     "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
-    "Part IA/Machine Learning and Real-world Data/5 Overtraining and Cross-validation.md",
     "Part IA/Algorithms 1/Images/SortingSummary.png",
     "Part IA/Algorithms 1/Images/MaxFullReheapify.png",
     "Part IA/Algorithms 1/Images/MaxReheapify.png",
@@ -228,7 +229,6 @@
     "Excalidraw",
     "NST Maths/Chapter 2/Chapter2_to_annotate.pdf",
     "Part IA/Object-Oriented Programming/Images",
-    "Part IA/Discrete Maths/Images",
     "Untitled.canvas"
   ]
 }

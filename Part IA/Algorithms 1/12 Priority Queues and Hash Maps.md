@@ -47,3 +47,5 @@ An alternative probe sequence is
 $$\text{probe}(T,\text{key},i) =(h(key)+ai +bi^2) \mathrel{\%} \text{T.size}$$
 This hits every position provided at least one of a and b is non zero and less than the size, which is prime. This is prone to secondary clustering, which means keys which hash to the same value will collide with each other at every probe position.
 Double hashing solves this problem. Using two hash functions added together means their probe sequences step apart.
+##### Deletion
+Deleting keys would break the probe sequence, so instead leave a marker behind: these are full and non-matching when searching (i.e. never what you seek but don't stop the search) and are empty when inserting (can be overwritten)
