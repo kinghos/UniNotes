@@ -11,3 +11,5 @@ Ready - all of the programs that could be run. Can be returned from the run stat
 Run - scheduling one of the ready processes
 Blocking - waits for event, then returns to ready state
 Exit - comes from run, program finishes execution and does not want to return to the queue, returns process status code
+Preemption - Forcefully taking a process off CPU, triggered by hardware interrupts
+
