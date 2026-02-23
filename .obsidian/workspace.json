@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
+                "file": "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Zipf's and Heap's Laws"
+              "title": "2 Naive Bayes Classifier"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "f4332c58696b92c0",
   "lastOpenFiles": [
+    "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
     "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
     "Part IA/Machine Learning and Real-world Data/1 Sentiment Classification.md",
     "Part IA/Operating Systems/2 Protection.md",
@@ -214,7 +215,6 @@
     "Part IA/Algorithms 1/9 Data structures.md",
     "Part IA/Algorithms 1/8 Dynamic Programming.md",
     "Part IA/Algorithms 1/7 Linear time sorting.md",
-    "Part IA/Discrete Maths/Lecture 22.md",
     "Part IA/Algorithms 1/Images/MallocAlgo2.png",
     "Part IA/Algorithms 1/Images/MallocAlgo.png",
     "Part IA/Algorithms 1/Images/SortingSummary.png",
