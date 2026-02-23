@@ -52,4 +52,33 @@ Containers expose functionality in the kernel so that each container acts as a s
 
 #### Security
 - Defence of the system against internal and external attacks
-- 
+- Systems generally distinguish among users, to determine who can do what
+	- User IDs are used to associate files and processors with users to determine what they can access
+	- Group identifiers allow sets of users to be defined and controls managed
+- Privilege escalation allows users to gain more rights
+
+#### Principle of least privilege
+- Objects should be given just enough privileges to perform their tasks
+	- Applies to software and hardware
+- Properly set permissions can limit damage if object has a bug and gets abused
+	- Can be static (during life of system/process)
+	- Can be dynamic (changed by process as needed) by domain switching, privilege escalation
+- Compartmentalisation
+	- Process of protecting each individual concept regarding access to data
+- Covert channels leak information using side-effects
+	- Hardware include wire tapping or EM radiation
+	- Software include page fault statistics or input dependent timing
+- Domain of protection - domain limits access to (and operations on) objects
+	- A domain is a set of access rights, where an access right is an object corresponding to its set of valid operations that can be performed on that object
+
+#### Access matrix 
+- A matrix of domains against objects.
+- Shows which operations can be performed on what objects
+- Separation of policy from mechanism
+- Can be represented in two ways:
+	- By object, as an Access Control List
+	- By domain, storing as Capabilities
+##### ACLs
+- Each column is an access list for one object
+- Often used in storage system
+- If stored on disk, check performed
