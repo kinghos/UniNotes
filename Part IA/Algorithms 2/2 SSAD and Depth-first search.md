@@ -12,4 +12,10 @@ The total cost of this algorithm is $O(|V|+|E|)$
 Breadth-first tree - all vertices and edges reachable by breadth first search
 
 ### Depth First Search
-Let "time" be a global clock that e
+Let "time" be a global clock that effectively numbers events in exploration order.
+The running time is $\Theta(|V|+|E|)$
+
+An edge is a tree edge if the destination vertex was discovered by taking this edge
+An edge is a back edge if it connects a node to an ancestor
+An edge is a forward edge if it connects a node to a descendant
+All other edges are cross edges
