@@ -1,5 +1,5 @@
 Problems with lexicons:
-- Limited to human inuition
+- Limited to human intuition
 - Static and cannot react to language change (e.g. "sick!")
 - Requires many hours of human labour to build
 
@@ -21,7 +21,7 @@ $$P(pos|w_{1},w_{2}\dots w_{n})$$
 A single class is decided by choosing the one with the highest probability given the features
 $$\hat{c}=\text{argmax}_{c\in C}P(c|O)$$
 #### Naive Bayes Classifier
-Simple probabalistic classifiers based on applying Bayes' theorem
+Simple probabilistic classifiers based on applying Bayes' theorem
 $$P(c|O)=\frac{P(c)P(O|c)}{P(O)}$$
 $c_{NB}=\text{argmax}P(c|O)=\text{argmax}P(c|O)\frac{P(c)P(O|c)}{P(O)}=\text{argmax}P(c)P(O|c)$
 We can remove $P(O)$ because it is constant during a given classification and does not affect the result of argmax
