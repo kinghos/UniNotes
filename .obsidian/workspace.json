@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Operating Systems/Briefing.md",
+                "file": "Part IA/Operating Systems/2 Depth-first search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Briefing"
+              "title": "2 Depth-first search"
             }
           }
         ]
@@ -183,9 +183,10 @@
   },
   "active": "f4332c58696b92c0",
   "lastOpenFiles": [
-    "Part IA/Operating Systems/0 Briefing.md",
-    "Part IA/Operating Systems/Briefing.md",
     "Part IA/Operating Systems/1 Introduction.md",
+    "Part IA/Operating Systems/2 Depth-first search.md",
+    "Part IA/Operating Systems/Briefing.md",
+    "Part IA/Operating Systems/0 Briefing.md",
     "Part IA/Operating Systems/Images",
     "Part IA/Operating Systems/Images/StorageComparison.png",
     "Part IA/Operating Systems",
@@ -216,7 +217,6 @@
     "Part IA/Machine Learning and Real-world Data/6 Uncertainty and Human Agreement.md",
     "Part IA/Algorithms 1/3 Divide and conquer.md",
     "Part IA/Algorithms 1/4 Quicksort.md",
-    "Part IA/Algorithms 1/5 Quick select.md",
     "Part IA/Algorithms 1/Images/SortingSummary.png",
     "Part IA/Algorithms 1/Images/MaxFullReheapify.png",
     "Part IA/Algorithms 1/Images/MaxReheapify.png",
