@@ -38,4 +38,18 @@ Single tasking OS
 - Latter two are preferred, as registers are limited in number and size
 #### Microkernels
 - OS interfaces must be extremely stable, making it difficult to add new system calls or remove system calls
-- Microkernels are
+- Microkernels are an alternative, where by moving OS services into local, sometimes privileged servers, it increases modularity and extensibility
+- Message passing is used to access servers, replacing trapping
+- Many common OSes blur the distinction between kernel and microkernel, e.g. Linux
+
+#### Virtualisation
+Allows operating systems to be run alongside each other above a hypervisor
+- Type 1 runs directly on the host hardware, possibly using hardware extensions
+- Type 2 runs above a full OS kernel
+- Can support cross-architecture using emulation (slow) or interpretation (if not natively compiled)
+VMs encapsulate an entire system and boot the VM over a hypervisor
+Containers expose functionality in the kernel so that each container acts as a separate entity even though they all share the same kernel functionality, e.g. Docker
+
+#### Security
+- Defence of the system against internal and external attacks
+- 
