@@ -20,8 +20,22 @@ Single tasking OS
 - The kernel sits between the hardware and the higher level application software - the kernel is more privileged
 - Protection prevents applications from doing I/O
 	- Unprivileged instruction to transition from user to kernel mode - usually called a trap or software interrupt
-- OS services are accessibly via system calls
-	-  Invoked by a trap with OS having vectors to handle
-	- Enforces the code run when mode switch occurs
-	- Prevents an application from switching to kernel mode and then just doing as it likes
-- 
+
+#### System calls
+- Invoked by a trap with OS having vectors to handle
+- Enforces the code run when mode switch occurs
+- Prevents an application from switching to kernel mode and then just doing as it likes
+- Provide a language agnostic standard interface to the OS services
+- Usually accessed via a high-level API e.g. glibc
+- Each system call is identified by a number that indexes a system call table
+	- Invoked by putting the relevant number and parameters in the right place and trapping
+	- Return status and any values made available to application in user space
+	- Usually managed by a built-in runtime support library
+- Three ways to pass parameters:
+	- Load into registers
+	- Place onto stack for the kernel to pop off
+	- Place into a block of memory and put the block's address into a register
+- Latter two are preferred, as registers are limited in number and size
+#### Microkernels
+- OS interfaces must be extremely stable, making it difficult to add new system calls or remove system calls
+- Microkernels are
