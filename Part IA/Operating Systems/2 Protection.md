@@ -81,4 +81,23 @@ Containers expose functionality in the kernel so that each container acts as a s
 ##### ACLs
 - Each column is an access list for one object
 - Often used in storage system
-- If stored on disk, check performed
+- If stored on disk, check performed in software so use only on low-duty cycle, for higher duty cycle must cache results of check, e.g. ACL checked when file opened for read or write or when code file is to be executed
+##### Capabilities
+- Each row is a capability for one domain, indicating the permitted operations on a set of objects
+- To execute operation M on object O, process requests the operation and passes the capability as a parameter
+	- Possession of a capability means operation is allowed
+	- Capability is a protected object, maintained by the OS and unmodifiable by the application, like a secure pointer
+- Hardware capabilities, e.g. CHERI
+	- Have special machine instructions to modify capabilities
+	- Support passing of capabilities on procedure call
+- Software capabilities are protected by encryption
+
+#### Authentication
+- User to system: required as protection systems depent on user ID
+	- Usually established through a password
+	- Needs to be managed and kept secure
+	- Multi-factor authentication
+	- Failed access attempts logged
+- System to user: avoid user talking to the wrong computer/program (e.g. how do you know that it is your bank talking to you) 
+	- Ctrl + alt + delete to login
+	- Terminal attention before login
