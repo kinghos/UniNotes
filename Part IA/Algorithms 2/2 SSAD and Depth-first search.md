@@ -9,3 +9,7 @@ For the source, distance = 0 and path = `[]`
 Unreachable vertices have distances of $\infty$
 
 The total cost of this algorithm is $O(|V|+|E|)$
+Breadth-first tree - all vertices and edges reachable by breadth first search
+
+### Depth First Search
+Let "time" be a global clock that e
