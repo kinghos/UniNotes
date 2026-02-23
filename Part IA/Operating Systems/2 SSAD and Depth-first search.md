@@ -7,3 +7,5 @@ Consider:
 - and we want this for every destination
 For the source, distance = 0 and path = `[]`
 Unreachable vertices have distances of $\infty$
+
+The total cost of this algorithm is $O(|V|+|E|)$
