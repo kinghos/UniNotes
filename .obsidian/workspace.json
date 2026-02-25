@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Machine Learning and Real-world Data/Supervision Notes.md",
+                "file": "Part IA/Machine Learning and Real-world Data/6 Uncertainty and Human Agreement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "6 Uncertainty and Human Agreement"
             }
           }
         ]
@@ -183,9 +183,10 @@
   },
   "active": "f4332c58696b92c0",
   "lastOpenFiles": [
-    "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
-    "Part IA/Machine Learning and Real-world Data/Supervision Notes.md",
     "Part IA/Machine Learning and Real-world Data/5 Overtraining and Cross-validation.md",
+    "Part IA/Machine Learning and Real-world Data/4 Statistical Significance Testing.md",
+    "Part IA/Machine Learning and Real-world Data/Supervision Notes.md",
+    "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
     "Part IA/Discrete Maths/Lecture 20.md",
     "Part IA/Discrete Maths/Lecture 21.md",
     "Part IA/Operating Systems/3 Processes.md",
@@ -198,7 +199,6 @@
     "Part IA/Operating Systems/2 Protection.md",
     "Part IA/Machine Learning and Real-world Data/6 Uncertainty and Human Agreement.md",
     "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
-    "Part IA/Machine Learning and Real-world Data/4 Statistical Significance Testing.md",
     "Part IA/Machine Learning and Real-world Data/1 Sentiment Classification.md",
     "Part IA/Machine Learning and Real-world Data/8 Social Networks.md",
     "Part IA/Introduction to Graphics/Lecture 6.md",
