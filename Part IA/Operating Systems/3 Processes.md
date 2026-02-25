@@ -43,3 +43,28 @@ Terminated: process has finished executing
 
 #### Process creation
 Most systems are hierarchical, forming a tree
+- Resource sharing options:
+	- Parent and children share all resouces
+	- Subset of resources
+	- No resources
+- Memory initialisation options:
+	-  Child starts with duplicate of the parent and then modifies it
+	- Child explicitly has a program loaded into it
+- Execution:
+	- Parent and children execute concurrently
+	- Parent waits until children terminate
+On Unix:
+- `fork` clones a child process from parent
+- Then `execve` replaces child's memory space with a new program
+- While the parent waits until the child exits
+
+#### Process termination
+1. Process performs an illegal operation
+2. Parent terminates child
+	- Child has exceeded allocated resources
+	- Task assigned to child is no longer required
+	- Cascading termination (parent is exiting)
+3. Process executes last statement and asks the OS to delete it (exit
+	- Parent waits and obtains status data from child
+	- If parent didn't wait, process is a zombie
+	- If parent terminated without waiting, process is an orphan
