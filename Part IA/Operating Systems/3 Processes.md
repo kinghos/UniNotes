@@ -21,3 +21,25 @@ Processes contain:
 - Process context is the machine environment while the process is running
 	- Program counter
 	- CPU registers
+
+#### Threads
+- A thread represents an individual execution context
+- Each thread has an associated Thread Control Block
+- A scheduler determines which thread to run
+	- Changing the running thread involves a context switch
+
+#### Context switching
+- Switching between processes means saving context of the current process, and restoring the context of the process being resumed
+- No useful work is carried out while switching
+- Varies in time depending on hardware support
+
+#### Process states
+![[ProcessStates.png]]
+New: process is being created
+Ready: process is ready to run and waiting for CPU
+Running: process' instructions are being executed on the CPU
+Waiting/Blocked: process has stopped executing and is waiting for an event to occur
+Terminated: process has finished executing
+
+#### Process creation
+Most systems are hierarchical, forming a tree
