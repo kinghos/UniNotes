@@ -68,3 +68,20 @@ On Unix:
 	- Parent waits and obtains status data from child
 	- If parent didn't wait, process is a zombie
 	- If parent terminated without waiting, process is an orphan
+#### Inter-Process Communication
+- All communications require some protocol with data transfer
+	- in a commonly-understood format (syntax)
+	- having mutually-agreed meaning (semantics)
+	- taking place according to agreed rules (synchronisation)
+- IPC basic requirement: access to shared memory on same host
+
+#### Message passing vs shared memory
+- Shared memory:
+	- Communicating processes establish some part of memory both can access
+	- Requires removing usual restriction that processes have memory protection
+- Message passing
+	- Processes send messages to each other mediated by the kernel
+	- Requires support for processes to
+		- name each other or a shared mailbox
+		- send and receive synchronously or asynchronously (blocking vs non-blocking)
+		- buffer messages to match rates if non-blocking
