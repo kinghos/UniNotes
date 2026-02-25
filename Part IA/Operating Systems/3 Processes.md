@@ -9,3 +9,15 @@ Processes contain:
 - One or more threads containing
 	- Program counter
 	- Stack for variables, parameters, addresses, etc.
+
+#### Process Control Block
+- Data structure representing a process containing:
+	- Process ID
+	- Current process state
+	- CPU scheduling information
+	- Memory-management information
+	- Accounting information, e.g. CPU used, clock time elapsed
+	- I/O status information
+- Process context is the machine environment while the process is running
+	- Program counter
+	- CPU registers
