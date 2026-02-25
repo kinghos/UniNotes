@@ -85,3 +85,21 @@ On Unix:
 		- name each other or a shared mailbox
 		- send and receive synchronously or asynchronously (blocking vs non-blocking)
 		- buffer messages to match rates if non-blocking
+#### Signals
+- Simple message passing: asynchronous notifications on another process
+	- `kill` system call sends a signal to a specified process
+	- `sigaction` examines or changes a signal handler disposition
+	- `pause` suspends process until signal is caught
+- Each signal mapped to an integer (differs by architecture)
+- e.g. SIGINT, SIGILL, SIGKILL
+#### Pipes
+- Simple form of shared memory IPC
+	- `pipe` returns a pair of file descriptors
+	- `fork` creates child process
+- Parent and child can now communicate, reading and writing on hte pair of (read, write) file descriptors
+- Named pipes extend beyond parent/child relation
+#### Shared memory segments
+- Obtain a segment of memory shared between two or more processes
+- Simply read and write via pointers into the shared memory segment
+- Controls are needed to avoid collisions when simultaneously reading and writing
+- When finished, detatch or destroy
