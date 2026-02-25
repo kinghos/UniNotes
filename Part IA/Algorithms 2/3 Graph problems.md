@@ -34,4 +34,4 @@ Single-Source Shortest Paths: Find the shortest paths through a directed, weight
 Finds shortest paths from every vertex in the graph that is reachable from s (SSSP) in $O(|V||E|)$ time
 It returns false if it finds a negative weight cycle, otherwise true. All paths are acyclic (excluding zero-weight cycles)
 
-
+Directed Acyclic Graphs (DAGs) can be solved in $\Theta(|V|+|E|)$ time, using a topological sort.
