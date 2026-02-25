@@ -26,3 +26,12 @@ The shortest path weight is $\infty$ if there is no path from u to v, and otherw
 
 Single-Source Shortest Paths: Find the shortest paths through a directed, weighted graph from a specified source to all destinations
 
+##### Complications
+- Negative-weight edges and cycles
+- Zero-weight cycles - make sure to exclude these cycles
+
+#### Bellman-Ford
+Finds shortest paths from every vertex in the graph that is reachable from s (SSSP) in $O(|V||E|)$ time
+It returns false if it finds a negative weight cycle, otherwise true. All paths are acyclic (excluding zero-weight cycles)
+
+
