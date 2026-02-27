@@ -9,3 +9,16 @@ $$\phi:v.d= \delta(s,v).\forall v\in S$$
 At the start of the first iteration, $S=\emptyset$ so $\phi$ is vacuously true
 
 The cost of Dijkstra depends on the type of priority queue used. Initialisation of the queue varies between $O(1)$ and $O(|V|)$
+
+For an array/hash table implementation, the final cost is 
+$O(|V|1+|V||V| +|V|1+|E|1)=O(|V|^2+|E|)$
+(initialisation + extractions + empty checks + decrease keys)
+
+With a min heap, the final cost is 
+$$O(|V|+|V|\log|V|+|V|1+|E|\log|V|)=O((|V|+|E|)\log|V|)$$
+If every vertex is reachable from s, this is $O(|E|\log|V|)$
+
+#### All-Pairs Shortest Paths
+Input: a weighted graph
+Ouptut: a $|V|\times|V|$ matrix $D=d_{ij}$, where $d_{ij}=\delta(i,j)$ is the shortest path weight from i to j.
+Repeating Bellman-Ford for every vertex yields a complexity of $O()$
