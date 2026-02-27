@@ -10,4 +10,9 @@ Can be viewed as a probabilistic finite-state automaton. States are fully observ
 
 Hidden states need to be inferred from the sequence of observations
 
-Markov (Limited Horizon) Assumption: Probability of an output observation depends only on the current state and not on any other states or any other observa
+Markov (Limited Horizon) Assumption: Probability of an output observation depends only on the current state and not on any other states or any other observations.
+
+$a_{ij}$ is the probability of moving from state $s_{i}$ to state $s_{j}$
+$$a_{ij}=P(X_{t}=s_{j}\mid X_{t-1}=s_{i})$$
+$$\forall_{i}\sum^{N+1}_{j=0}a_{ij}=1$$
+Special start state and end state are not associated with real observations
