@@ -37,3 +37,10 @@ The decision can be made when:
 4. a waiting process unblocks
 For 1 and 2, the scheduler is non-preemptive, otherwise it is.
 
+#### Scheduling Criteria
+- Turnaround time, minimising time for any process to complete
+- Waiting time, minimising the time a process sits in the Ready queue
+- Response time, minimising the time to start responding
+- CPU utilisation, maximising the time the CPU is actively in use
+- Throughput, maximising the rate at which processes complete execution
+Typically, we want to maximise utilisation and throughput, and minimise turnaround, waiting and response time.
