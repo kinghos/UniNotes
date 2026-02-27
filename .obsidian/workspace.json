@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Operating Systems/4 Scheduling.md",
+                "file": "Part IA/Machine Learning and Real-world Data/11 Hidden Markov Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Scheduling"
+              "title": "11 Hidden Markov Models"
             }
           }
         ]
@@ -183,9 +183,12 @@
   },
   "active": "f4332c58696b92c0",
   "lastOpenFiles": [
+    "Part IA/Machine Learning and Real-world Data/Images/MarkovModels.png",
+    "Part IA/Machine Learning and Real-world Data/11 Hidden Markov Models.md",
+    "Part IA/Machine Learning and Real-world Data/Images",
+    "Part IA/Operating Systems/4 Scheduling.md",
     "Part IA/Operating Systems/3 Processes.md",
     "Part IA/Operating Systems/2 Protection.md",
-    "Part IA/Operating Systems/4 Scheduling.md",
     "Part IA/Algorithms 2/4 Dijkstra.md",
     "Part IA/Algorithms 2/3 Graph problems.md",
     "Part IA/Discrete Maths/Lecture 3.md",
@@ -211,8 +214,6 @@
     "Part IA/Operating Systems/Images",
     "Part IA/Operating Systems/Images/StorageComparison.png",
     "Part IA/Operating Systems",
-    "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
-    "Part IA/Algorithms 1/11 Trees cont..md",
     "Part IA/Algorithms 2",
     "Part IA/Algorithms 1/Images/PQCosts.png",
     "Part IA/Algorithms 1/Images/BTInsert.png",
@@ -221,14 +222,12 @@
     "Part IA/Algorithms 1/Images/SortingSummary.png",
     "Part IA/Algorithms 1/Images/MaxFullReheapify.png",
     "Part IA/Algorithms 1/Images/MaxReheapify.png",
-    "Part IA/Algorithms 1/Images/HeapStructure.png",
     "Part IA/Algorithms 1/Images",
     "Part IA/Machine Learning and Real-world Data",
     "NST Maths/NST-IA-LT-examples1.pdf",
     "NST Maths/nst-IA-LT-courseB-part1.pdf",
     "Part IA/Algorithms 1",
     "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
-    "Excalidraw",
     "Untitled.canvas"
   ]
 }
