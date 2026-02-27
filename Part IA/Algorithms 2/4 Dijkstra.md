@@ -8,3 +8,4 @@ Correctness is proved via induction on the cardinality of set S.
 $$\phi:v.d= \delta(s,v).\forall v\in S$$
 At the start of the first iteration, $S=\emptyset$ so $\phi$ is vacuously true
 
+The cost of Dijkstra depends on the type of priority queue used. Initialisation of the queue varies between $O(1)$ and $O(|V|)$
