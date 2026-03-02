@@ -9,4 +9,4 @@ Shortest-run jobs run behind longest-run jobs, increasing average waiting time
 
 #### Shortest Remaining Time First
 - Preemptive version of SJF
-- Not optimal like SJF, as frequent context switching will lead to CPU thrashing.
+- Not optimal like SJF, as frequent context switching will lead to CPU thrashing
