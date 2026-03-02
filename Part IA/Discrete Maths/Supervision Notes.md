@@ -30,3 +30,6 @@ Equivalence classes essentially are sets of values that are "equal" to a given v
 
 Cannot have smaller infnity than Naturals
 show sets are teh same size to show bijections
+
+rule induction set to "normal" set -> rule induction
+"normal" set to inductively defined set -> maths induction (on path length)
