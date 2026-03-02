@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Operating Systems/Supervision Notes.md",
+                "file": "Part IA/Algorithms 2/5 Dynamic Programming on Graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "5 Dynamic Programming on Graphs"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -183,8 +184,9 @@
   },
   "active": "f4332c58696b92c0",
   "lastOpenFiles": [
-    "Part IA/Operating Systems/4 Scheduling.md",
     "Part IA/Operating Systems/Supervision Notes.md",
+    "Part IA/Algorithms 2/5 Dynamic Programming on Graphs.md",
+    "Part IA/Operating Systems/4 Scheduling.md",
     "Part IA/Operating Systems/2 Protection.md",
     "Part IA/Operating Systems/1 Introduction.md",
     "Part IA/Algorithms 2/1 Graphs.md",
@@ -211,7 +213,6 @@
     "Part IA/Operating Systems/Briefing.md",
     "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
     "Part IA/Machine Learning and Real-world Data/1 Sentiment Classification.md",
-    "Part IA/Machine Learning and Real-world Data/8 Social Networks.md",
     "Part IA/Operating Systems/Images",
     "Part IA/Operating Systems/Images/StorageComparison.png",
     "Part IA/Operating Systems",
