@@ -32,3 +32,9 @@ $\alpha \approx 1$ implies past history is irrelevant, and vice versa
 
 #### Multilevel Feedback Queues
 - Partition the ready queue into many queues for different types of process
+- Each process is permanently assigned a given queue
+- Each queue has its own scheduling algorithm
+- Scheduling must be done between the queues
+	- Fixed priority
+	- Time slices
+- Processes can move between queues (example of ageing)
