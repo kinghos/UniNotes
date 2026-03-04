@@ -38,3 +38,11 @@ If f is a flow in a flow network, with source s and sink t, then the following c
 2. The residual network $G_f$ contains no augmenting paths, and
 3. $|f|=c(S,T)$ for some cut $(S,T)$ of G.
 Can be proved with a cyclic proof $1\implies 2 \implies 3 \implies 1$
+
+With irrational edge capacities, Ford-Fulkerson does not terminate
+$O(|V||E|^2)$ running time.
+
+#### Maximum Bipartite Matchings
+A matching $M\subseteq E$ contains at most one edge that is incident at each vertex $v\in V$
+A vertex is matched if some edge in M is incident in v
+A maximum matching is a matching of maximum cardinality
