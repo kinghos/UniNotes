@@ -81,4 +81,4 @@
 - Protection provided by giving each entry a validation bit, read/write/execute privileges
 - Segments vary in length so memory allocation is a dynamic storage-allocation problem
 
-When sharing segments, all processes need to use the same number to refer to it. Give each segment a unique System Segment Number
+When sharing segments, all processes need to use the same number to refer to it. Give each segment a unique System Segment Number, then the process segment table can mope from a process segment number to this SSN.
