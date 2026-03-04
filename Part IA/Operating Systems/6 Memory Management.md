@@ -35,3 +35,24 @@
 	- Requires they be compiled with relocatable addresses
 	- Useful when large amounts of code are needed infrequently
 - OS can help by providing libraries to implement dynamic loading.
+
+#### Memory allocation
+- Main memory must support both kernel and user processes
+	- Limited resource, must allocate efficiently
+	- Contiguous allocation is early method putting each process in one chunk of memory
+- Multiple fixed-sized partitions limits the degree of multiprogramming - variable partitioning is preferred
+- Main memory usually partitioned into two
+	- Resident kernel, held in low memory alongside interrupt vectors
+	- User processes held in high memory, each in a single contiguous section
+- Relocation registers used to protect user processes from each other, and OS code and data from being modified
+
+#### Swapping
+- When physical memory requested exceeds physical memory in machine, temporarily swap processes out to storage
+- Significant performance impact
+- Swapping is default disabled - only enabled while allocated memory exceeds threshold
+#### Dynamic allocation
+- Holes, blocks of available memory of various sizes are scattered throughout memory
+- Processes are allocated memory from a hole large enough to accommodate it
+- OS maintains information about allocated partitions and holes
+- Fits:
+	- First-fit - allocate the first h
