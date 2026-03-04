@@ -5,3 +5,5 @@ on tilt
 Consider NOT features - not having a feature has an impact
 
 
+precision: how many retrieved enemies are relevant
+recall:
