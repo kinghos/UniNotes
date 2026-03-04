@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -183,6 +184,9 @@
   },
   "active": "f4332c58696b92c0",
   "lastOpenFiles": [
+    "Part IA/Algorithms 2/Images/SuperSource.png",
+    "Part IA/Algorithms 2/Images",
+    "Part IA/Algorithms 2/Images/AntiparallelFlow.png",
     "Part IA/Algorithms 2/5 More Graph Algorithms.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Algorithms 1/11 Trees cont..md",
@@ -210,7 +214,6 @@
     "Part IA/Discrete Maths/Lecture 21.md",
     "Part IA/Machine Learning and Real-world Data/6 Uncertainty and Human Agreement.md",
     "Part IA/Machine Learning and Real-world Data/5 Overtraining and Cross-validation.md",
-    "Part IA/Machine Learning and Real-world Data/Supervision Notes.md",
     "Part IA/Operating Systems/Images/ProcessStates.png",
     "Part IA/Operating Systems/Images",
     "Part IA/Operating Systems/Images/StorageComparison.png",
@@ -222,13 +225,11 @@
     "Part IA/Algorithms 1/Images/MallocAlgo.png",
     "Part IA/Algorithms 1/Images/SortingSummary.png",
     "Part IA/Algorithms 1/Images/MaxFullReheapify.png",
-    "Part IA/Algorithms 1/Images/MaxReheapify.png",
     "Part IA/Algorithms 1/Images",
     "Part IA/Machine Learning and Real-world Data",
     "NST Maths/NST-IA-LT-examples1.pdf",
     "NST Maths/nst-IA-LT-courseB-part1.pdf",
     "Part IA/Algorithms 1",
-    "Part IA/Discrete Maths/DiscMathSummaryNotes.pdf",
     "Untitled.canvas"
   ]
 }
