@@ -55,4 +55,30 @@
 - Processes are allocated memory from a hole large enough to accommodate it
 - OS maintains information about allocated partitions and holes
 - Fits:
-	- First-fit - allocate the first h
+	- First-fit - allocate the first hole that is big enough
+	- Best-fit - allocate the smallest hole that is big enough
+		- Requires searching entire list
+	- Worst-fit - allocate the largest hole
+		- Also requires searching entire list
+
+#### Fragmentation
+- Fragmentation results in memory being unused and unusable
+- External fragmentation occurs when free memory exists to satisfy a request but is not contiguous
+	- Can eventually result in blocking as there is not enough contiguous memory to swap any process in
+- Internal fragmentation occurs when allocated memory is slightly larger than requested memory
+- External fragmentation can be reduced by compaction - shuffle memory contents to place all free memory together in one large block
+	- Only possible if relocation is dynamic and done at execution time
+
+#### Segmentation
+- Memory-management scheme supporting user view of memory
+- View a program as a collection of segments, logical program units such as the program, a procedure, an array etc.
+- Accessing memory requires user program to specify
+	- Segment name (number) and
+	- Offset within segment
+- Segment table maps to physical addresses via entries having a base and limit
+- Segment-table base register points to the segment tables location in memory
+- Segment-table length register indicates number of segments used by a program
+- Protection provided by giving each entry a validation bit, read/write/execute privileges
+- Segments vary in length so memory allocation is a dynamic storage-allocation problem
+
+When sharing segments, all processes need to use the same number to refer to it. Give each segment a unique System Segment Number
