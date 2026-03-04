@@ -46,3 +46,7 @@ $O(|V||E|^2)$ running time.
 A matching $M\subseteq E$ contains at most one edge that is incident at each vertex $v\in V$
 A vertex is matched if some edge in M is incident in v
 A maximum matching is a matching of maximum cardinality
+An undirected bipartite graph has $V=V_{1}\cup V_{2}$ and $E \subseteq V_{1}\times V_{2}$
+e.g. room ballots
+An augmenting path is an alternating path that starts at an unmatched vertex in $V_{1}$ and ends at an unmatched vertex in $V_{2}$
+An alternating path with respect to a matching M in a bipartite graph G is a sequence of edges that are all in the graph's edge set and are alternately in the matching, not in, in, not in ...
