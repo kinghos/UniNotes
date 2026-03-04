@@ -18,6 +18,7 @@ Any flow $f'$ in the residual network $G_f$ can be added to the flow to make a v
 $$|f\uparrow f'|=|f|+|f'|$$
 An augmenting path is a simple path from s to t in the residual network.
 The maximum amount by which we can increase the flow along each edge in p is called the residual capacity of the path p.
+##### Ford-Fulkerson
 ```
 initialise flow f to 0 on all edges
 while there exists an augmenting path in p the residual network G
@@ -30,3 +31,10 @@ Net flow across the cut is
 $$f(S,T)=\sum_{u\in S}\sum _{v\in T}f(u,v)-\sum _{u\in S}\sum_{v\in T}f(v,u)$$
 In other words, $f(S,T)=|f|$
 A minimum cut is a cut whose capacity is minimum over all cuts of the network.
+
+#### Max-Flow Min-Cut Theorem
+If f is a flow in a flow network, with source s and sink t, then the following conditions are equivalent:
+1. f is a maximum flow in G
+2. The residual network $G_f$ contains no augmenting paths, and
+3. $|f|=c(S,T)$ for some cut $(S,T)$ of G.
+Can be proved with a cyclic proof $1\implies 2 \implies 3 \implies 1$
