@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Machine Learning and Real-world Data/9 Clique Finding and Betweenness Centrality.md",
+                "file": "Part IA/Algorithms 2/2 SSAD and Depth-first search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9 Clique Finding and Betweenness Centrality"
+              "title": "2 SSAD and Depth-first search"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "f4332c58696b92c0",
   "lastOpenFiles": [
-    "Part IA/Machine Learning and Real-world Data/8 Social Networks.md",
+    "Part IA/Algorithms 2/1 Graphs.md",
     "Part IA/Machine Learning and Real-world Data/9 Clique Finding and Betweenness Centrality.md",
+    "Part IA/Machine Learning and Real-world Data/8 Social Networks.md",
     "Part IA/Machine Learning and Real-world Data/13 Clustering (NON EXAMINABLE).md",
     "Part IA/Machine Learning and Real-world Data/11 Hidden Markov Models.md",
     "Part IA/Machine Learning and Real-world Data/12 Decoding.md",
@@ -206,7 +207,6 @@
     "Part IA/Operating Systems/3 Processes.md",
     "Part IA/Operating Systems/1 Introduction.md",
     "Part IA/Operating Systems/Supervision Notes.md",
-    "Part IA/Algorithms 2/1 Graphs.md",
     "Part IA/Machine Learning and Real-world Data/Images/MarkovModels.png",
     "Part IA/Machine Learning and Real-world Data/Images",
     "Part IA/Algorithms 2/4 Dijkstra.md",
