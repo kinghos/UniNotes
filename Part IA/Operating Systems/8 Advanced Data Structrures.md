@@ -57,3 +57,21 @@ Six attributes:
 4. Parent pointer
 5. Child pointer (to one child)
 6. Degree (number of children)
+
+#### Destructive-union(bh1, bh2)
+- bt2 becomes the first child of bt1 (increasing bt1.degree). This is $O(1)$
+- bh1 and bh2 each has a root lits that is sorted by increasing order of degree
+- We merge these in order, using BH-merge when we encounter two degrees of the same degree (smaller key remains in the root list)
+- Resulting binomial heap has at most one binomial tree of each degree and preserves the property that the root list contains at most $\lfloor \log n \rfloor+1$ binomial trees
+- The running time is hence $O(\lfloor \log n \rfloor)$ where n is the total number of nodes in the merged binomial heap
+
+#### BH-insert
+- Create a new node with nil child, nil parent, nil sibling, degree 0
+- 
+
+| Operation         | Time complexity             |
+| ----------------- | --------------------------- |
+| Create            | $O(1)$                      |
+| Peek-min          | $O(\lfloor \log n \rfloor)$ |
+| Destructive-union | $O(\lfloor \log n \rfloor)$ |
+|                   |                             |
