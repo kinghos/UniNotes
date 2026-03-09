@@ -62,4 +62,27 @@ $$\text{EAT}=(1-p)\times\text{memory access time} + p\times\text{page fault serv
 - Paging in from disk requires a free frame, but physical memory is limited
 - Either unused pages are discarded or swap out an entire process
 - Page fault handler must
-	1. Locate the desir
+	1. Locate the desired replacement page on disk
+	2. Select a free frame for the incoming page (or if there is none select a victim)
+	3. Read desired page into the new free frame
+	4. Restart the faulting process
+- No free frames - doubles page fault service time
+
+#### Algorithms
+- Want the lowest page fault on both first and subsequent access
+- Evaluate using a sequence of page numbers, noting repeated access to the same page does not trigger a fault
+- Assume three frames are available (for this example)
+- Belady's anomaly - increase in page frames results in an increase in page faults
+##### FIFO
+- Susceptible to Belady's anomaly
+##### OPT
+- Replace page that will not be used for the longest time
+- Not obvious: hard to predict
+- Useful as a benchmark
+##### LRU
+- Approximate OPT
+- Assume that the recent past is a good predictor of the future
+- Replace the page not used for the longest time
+- Better than FIFO but worse than OPT
+- Is not susceptible to Belady's anomaly
+- Can be implemented with counter based on clock, or with a stack
