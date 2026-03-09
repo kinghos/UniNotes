@@ -20,5 +20,27 @@
 - OS handles the trap by examining another table
 	- If invalid memory reference, then abort
 	- If valid but not resident, find a free frame and swap the page in
-	- Entry is now marked valid a
+	- Entry is now marked valid as page is in memory
 - After handling the fault, restart the instruction that caused the fault
+
+#### Instruction restart
+- For a complex instruction, the instruction cannot be restarted from the state if it has already modified state
+- Handle by going across each block, touching every page to ensure valid so no fault can occur
+- If the page fault handler triggers a fault, just give up (double fault)
+
+#### Locality of reference
+- In a short time interval, the locations referenced by a process tend to group into a few regions of its address space
+- e.g. procedure being executed, sub-procedures, data access, stack variables
+
+#### Demand paging
+- Could bring entire process into memory at load time, or bring pages into memory as needed
+	- Reduces I/O and memory needed and response time
+	- Supports more running processes
+	- Pure demand paging starts with every page marked invalid
+- Hardware support required
+	- Page table with valid/invalid bit
+	- Secondary memory (swap device with swap space)
+	- Ability to restart instruction
+- Lazy swapper or pager never swaps a page into memory unless page will be needed
+
+In the worst case, there is a page fault, and the cause of the page fault needs to be found. This involves an interrupt so that another process can run while the fault is being found. This leads to lots of co
