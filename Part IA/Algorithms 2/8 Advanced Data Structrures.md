@@ -67,11 +67,23 @@ Six attributes:
 
 #### BH-insert
 - Create a new node with nil child, nil parent, nil sibling, degree 0
-- 
+- Return the result of a call to BH-destructive-union with this and the binomial heap
+
+#### Extract-min
+1. Cut the binomial tree containing the old minimum out of the root list
+2. Reverse the list of the old minimum's child list
+3. Destructive-union the reversed child list and the root list
+
+#### Decrease-key
+1. Decrease the key to new-key
+2. If ptr.parent isn't nil, access the parent and swap the keys and payloads if the new child key compares as smaller in the key sort order
+3. Recurse up the tree until either the bubbling stops or we attempt to go to the root's parent. Max height is $O(\log n)$, giving the cost
 
 | Operation         | Time complexity             |
 | ----------------- | --------------------------- |
 | Create            | $O(1)$                      |
 | Peek-min          | $O(\lfloor \log n \rfloor)$ |
 | Destructive-union | $O(\lfloor \log n \rfloor)$ |
-|                   |                             |
+| Insert            | $O(\log n)$                 |
+| Extract-min       | $O(\log n)$                 |
+| Decrease-key      | $O(\log n)$                 |
