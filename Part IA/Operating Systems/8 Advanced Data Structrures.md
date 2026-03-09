@@ -17,4 +17,17 @@ The aggregate cost is found by considering how many operations are needed as the
 
 #### Potential method
 - Similar but does not attribute credit to particular operations or items
-- Instead, measures the potential of te
+- Instead, measures the potential of the whole data structure
+- $\phi(d_{i})$ is the potential of the data structure in each state $i$ it can get into through sequences of the supported operations. We require that $\phi(\text{initial})=0$ and that $\phi(d_{i})\geq 0$ for all states
+- Each operations amortised cost is the sum of the actual cost and the change in potential caused by the operation
+
+#### Abstract Data Types
+- To data structures what a Java interface is to an algorithm
+- Provides a list of the operations that must be supported but without a specific implementation
+- e.g. a stack
+- Can extend another ADT
+
+#### Binomial Heaps
+Implement the mergeable priority queue ADT
+- Has destructive-union function which merges two binomial heaps
+- 
