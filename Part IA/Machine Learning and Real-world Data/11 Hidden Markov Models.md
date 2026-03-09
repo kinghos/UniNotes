@@ -1,4 +1,4 @@
-Two types of weather: rainy and cloudy. The weather doesn't change during the day.
+can you Two types of weather: rainy and cloudy. The weather doesn't change during the day.
 We can use a history of weather observations
 $P(w_{t}=Rainy\mid w_{t-1}=Rainy, w_{t-2}=Cloudy, \dots)$
 Markov assumption (first order) $P(w_{t}\mid w_{t-1}, w_{t-2}\dots w_{1})\approx P(w_{t}\mid w_{t-1})$
