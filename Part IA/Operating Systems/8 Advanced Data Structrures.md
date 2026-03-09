@@ -30,4 +30,30 @@ The aggregate cost is found by considering how many operations are needed as the
 #### Binomial Heaps
 Implement the mergeable priority queue ADT
 - Has destructive-union function which merges two binomial heaps
-- 
+- Takes $\Theta(\log(n_{1}+n_{2}))$
+- No search operation
+
+#### Binomial trees
+- A binomial heap is a collection of binomial trees
+- Each node keeps its children in a strictly ordered list - not binary trees
+- A binomial tree $B_{k}$ is formed by linking two $B_{k-1}$ trees together such that the root of one is the leftmost child of the other. $B_{0}$ is a single node
+The characteristics are:
+1. There are $2^k$ nodes in the tree
+2. The height of the tree is k
+3. There are exactly $k\choose i$ nodes at depth i, for $i\in[0,k]$
+4. The root has degree k, which is greater than that of any other node
+5. The children of the root are ordered $k-1, k-2,\dots 0$ and child i is the root of a subtree $B_{i}$ obeying these characteristics
+![[BinomialTree.png|554]]
+A binomial heap is build out of binomial trees:
+- Each binomial tree in H obeys the min-heap property: each node's key is greater than or equal to that of its parent
+- For any non-negative integer k, there is at most one binomial tree in H with root node having degree k
+Because the Binomial Tree $B_{i}$ has $2^i$ nodes, it follows that a heap with n nodes must contain trees $B_{i}$ corresponding to the 1s in the binary representation of n
+
+#### Binomial heap data structure
+Six attributes:
+1. Key
+2. Payload
+3. Next sibling pointer
+4. Parent pointer
+5. Child pointer (to one child)
+6. Degree (number of children)
