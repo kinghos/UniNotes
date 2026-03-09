@@ -114,4 +114,13 @@ Page replacement performance can be minimised by considering a curve of page-fau
 - Objectives: fairness, minimise system-wide page-fault rate, maximise level of multiprogramming
 #### Global/local allocation
 - Most replacement schemes are global, so any page could be a victim
-- Alternatively, local replacement means each process selects only from its 
+- Alternatively, local replacement means each process selects only from its own set of allocated frames
+- More consistent per-process performance but possibly underutilised memory
+#### Thrashing
+- A process without "enough" pages has high page-fault rate
+- Occurs when size of locality > total memory
+#### Working set
+- Avoid thrashing by considering the working set
+	- Pages required at the same time for a process to make progress
+- If total number of pages referenced in the most recent window is greater than the number of frames, suspend/swap out a process
+- Pre-paging: bring in working set pages when starting a process
