@@ -86,3 +86,32 @@ $$\text{EAT}=(1-p)\times\text{memory access time} + p\times\text{page fault serv
 - Better than FIFO but worse than OPT
 - Is not susceptible to Belady's anomaly
 - Can be implemented with counter based on clock, or with a stack
+
+#### Approximating LRU
+- Use a reference bit in the PTE, initially 0 and set to 1 when page touched
+- Not Recently Used replacement
+	- Periodically clear reference bits
+	- Victimise pages according to reference bits
+- Second-chance clock algorithm
+	- Store pages in queue as per FIFO, often with a circular queue and a current pointer
+	- Discard current if reference bit is 0 else reset reference bit and increment current
+	- Guaranteed to terminate after at most one cycle, devolves into a FIFO if all pages are referenced
+- Can emulate reference bit if no hardware support
+	- Mark the page as no access to clear the reference bit
+
+Other algorithms include Least Frequently Used and Most Frequently Used
+
+#### Page buffering algorithms
+- Keep a minimum sized pool of free frames, always available
+- Possibly keep list of modified pages
+- Possibly keep free frame contents intact and note what is in them
+- Alternatively stop having the OS guess about future page access
+
+Page replacement performance can be minimised by considering a curve of page-fault rate against number of physical frames and minimising the area under the curve.
+
+#### Frame allocation
+- Need an allocation policy to determine how to distribute frames
+- Objectives: fairness, minimise system-wide page-fault rate, maximise level of multiprogramming
+#### Global/local allocation
+- Most replacement schemes are global, so any page could be a victim
+- Alternatively, local replacement means each process selects only from its 
