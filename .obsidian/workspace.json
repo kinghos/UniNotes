@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Operating Systems/7 Paging.md",
+                "file": "Part IA/Operating Systems/8 Advanced Data Structrures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 Paging"
+              "title": "8 Advanced Data Structrures"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "f4332c58696b92c0",
   "lastOpenFiles": [
-    "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
     "Part IA/Operating Systems/7 Paging.md",
+    "Part IA/Operating Systems/8 Advanced Data Structrures.md",
+    "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Algorithms 2/2 SSAD and Depth-first search.md",
     "Part IA/Algorithms 2/1 Graphs.md",
@@ -213,7 +214,6 @@
     "Part IA/Machine Learning and Real-world Data/Images/MarkovModels.png",
     "Part IA/Machine Learning and Real-world Data/Images",
     "Part IA/Algorithms 2/4 Dijkstra.md",
-    "Part IA/Algorithms 2/3 Graph problems.md",
     "Part IA/Operating Systems/Images/ProcessStates.png",
     "Part IA/Operating Systems/Images",
     "Part IA/Operating Systems/Images/StorageComparison.png",
