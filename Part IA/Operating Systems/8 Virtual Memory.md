@@ -43,4 +43,23 @@
 	- Ability to restart instruction
 - Lazy swapper or pager never swaps a page into memory unless page will be needed
 
-In the worst case, there is a page fault, and the cause of the page fault needs to be found. This involves an interrupt so that another process can run while the fault is being found. This leads to lots of co
+In the worst case, there is a page fault, and the cause of the page fault needs to be found. This involves an interrupt so that another process can run while the fault is being found. This leads to lots of context switching.
+
+#### Effective Access Time
+Let $p$ be he probability of a page fault, 0 being no page faults and 1 being every reference causes a page fault
+$$\text{EAT}=(1-p)\times\text{memory access time} + p\times\text{page fault service time}$$
+#### Demand paging optimisations
+- Swap space I/O can be faster than file system I/O even on the same device
+- Demand page program from binary on disk - discard when freeing unmodified frame
+- Copy-on-write
+	- Both parent and child processes initially share the same pages in memory
+	- Only when a process actually modifies a shared page is the page copied
+	- COW allows more efficient process creation as only modified pages are copied
+- Allocate free pages from a pool of zero-fill on-demand pages
+- vfork variation of fork has child created as copy-on-write address space of parent
+
+#### Page replacement
+- Paging in from disk requires a free frame, but physical memory is limited
+- Either unused pages are discarded or swap out an entire process
+- Page fault handler must
+	1. Locate the desir
