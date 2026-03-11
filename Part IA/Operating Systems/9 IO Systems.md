@@ -79,3 +79,35 @@ Used for high-speed I/O devices able to transmit information at close to memory 
 - Asynchronous
 	- Process continues running while I/O executes with I/O subsystem explicitly signalling I/O completion
 	- Most flexible and potentially most efficient, but also most complex to use.
+
+#### I/O structure
+- Synchronous
+	- After I/O starts, control returns to user program only upon I/O completion
+	- Wait instruction idles the CPU until the next interrupt
+	- Wait loop (contention for memory access)
+	- At most one I/O request is outstanding at a time per thread
+- Asynchronous
+	- After I/O starts, control returns to user program without waiting for I/O completion
+	- System call allows application to request to the OS to allow user to wait for I/O completion
+	- Device status table contains entry for each I/O device indicating type, address and state
+	- OS indexes into I/O device table to determine device status and to modify table entry to include interrupt
+
+#### Kernel data structures
+- To manage all this, the OS kernel must maintain state for I/O components
+	- Open file tables
+	- Network connections
+	- Character device states
+- Results in many complex and performance critical data structures to track buffers, memory allocation, "dirty" blocks
+#### Vectored I/O
+- Enable one system call to perform multiple I/O operations
+- This scatter-gather method better than multiple individual I/O calls
+- Some versions provide atomicity
+
+#### Buffering
+- Single buffering: OS assigns a system buffer to the user request
+- Double buffering: process consumes from one buffer while system fills the next
+- Circular buffering: most useful for bursty I/O
+- Can smooth peaks/troughs in data rate but can't help if on average
+	- Process demand > data rate
+	- Data rate > capability of the system
+- Buffering can introduce jitter which is bad for real-time or multimedia applications
