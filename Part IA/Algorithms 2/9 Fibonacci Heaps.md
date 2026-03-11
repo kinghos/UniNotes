@@ -28,3 +28,8 @@ For a 1-item fib heap:
 - Degree = 0
 
 Insertion is done with a destructive union
+When extracting the minimum, the new minimum key has to be one of the children of the old minimum, or one of the other keys in the root list.
+
+To clean up the array after extracting the minimum an array is needed with size
+$$D(n)+1=\lfloor \log_{\phi }n \rfloor +1 $$
+where $\phi=\frac{1+\sqrt{ 5 }}{2}$
