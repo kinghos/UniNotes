@@ -26,3 +26,5 @@ For a 1-item fib heap:
 - Child = NIL
 - Marked = false
 - Degree = 0
+
+Insertion is done with a destructive union
