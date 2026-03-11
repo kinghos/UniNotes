@@ -31,3 +31,23 @@ Waiting for device-busy to be clear is polling, a busy-wait cycle
 - Interrupt vector dispatches interrupt to correct handler
 	- Context switch required before and after
 	- Priorities applied, and some interrupts may be non-maskable
+#### Handling interrupts
+- Spit into two parts:
+	- Bottom half, the interrupt handler
+	- Top half, interrupt service routines
+- Processor-dependent interrupt handler may
+	- Save more registers and establish a language environment
+	- Demultiplex interrupt in software and invoke relevant ISR
+- Device-dependent ISR will:
+	- For programmed I/O device: transfer data and clear interrupt
+	- For DMA devices: acknowledge transfer, request any more pending, signal waiting processes, and finally enter the scheduler or return
+
+#### Direct Memory Access
+Used for high-speed I/O devices able to transmit information at close to memory speeds
+- Interrupts are good but livelock a problem
+- Better if devices can read and write processor memory directly (DMA)
+- Device controller transfers blocks of data from buffer storage directly to main memory without CPU intervention with generic DMA command
+	- Source address plus increment/decrement/do nothing
+	- Sink address plus increment/decrement/do nothing
+	- Transfer size
+- 
