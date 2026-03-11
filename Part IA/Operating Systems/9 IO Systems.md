@@ -1,0 +1,13 @@
+- Range of IO devices
+	- Human readable e.g. displays, keyboards, mice
+	- Machine readable e.g. disks, tapes, CDs
+	- Communications e.g. modems, network interfaces
+- Each has its own data rate, control complexity, transfer unit and direction, data representation, error handling
+#### I/O Subsystem
+- Signals from I/O devices interface with computer
+- A device has at least one connection point known as a port
+- Devices interconnect via a bus, either daisy chained or shared direct access
+- Devices have integrated or separated controllers containing processor, microcode, private memory, etc. that operate the device, handle bus connections and any ports
+- Typically device will have registers to hold commands addresses, data
+- Devices have addresses and are used by either direct I/O instructions, usually privileged
+- Memory mapp
