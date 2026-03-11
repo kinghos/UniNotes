@@ -50,4 +50,32 @@ Used for high-speed I/O devices able to transmit information at close to memory 
 	- Source address plus increment/decrement/do nothing
 	- Sink address plus increment/decrement/do nothing
 	- Transfer size
-- 
+- Only generate one interrupt per block rather than one per byte
+- DMA channels may be provided by dedicated DMA controller or by devices themselves
+- All that's required is that a device can become a bus master
+- Scatter/Gather DMA chains multiple requests of disk reads into set of buffers
+
+#### I/O Device Characteristics
+- Block devices, e.g. disk drives
+	- Commands include read, write, seek
+	- Can have raw access via filesystem or memory-mapped
+- Character devices, e.g. mice and keyboards
+	- Commands include get, put
+	- Layer libraries on top for line editing, etc.
+- Network devices
+	- Vary enough from block and character devices to get their own interface
+	- Unix and Windows NT use the Berkeley Socket interface
+- Misc
+	- Current time, elapsed time, timers, clocks
+
+#### Blocking, non blocking and asynchronous I/O
+- Blocking
+	- Process suspended until I/O completed
+- Non blocking
+	- I/O call returns all available data, immediately
+	- Returns count of bytes read/written, maybe 0
+	- select following read/write
+	- Relies on multi threading
+- Asynchronous
+	- Process continues running while I/O executes with I/O subsystem explicitly signalling I/O completion
+	- Most flexible and potentially most efficient, but also most complex to use.
