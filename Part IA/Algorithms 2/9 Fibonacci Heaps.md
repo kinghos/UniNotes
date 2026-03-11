@@ -14,3 +14,15 @@ A reference to the root of a Fib Heap is a 2-tuple `(r,n)`
 - n is the number of keys currently present in the Fib Heap
 It is permitted to keep pointers to nodes within the heap structure
 Creation initialises the heap as `(nil, 0)`
+Collection of binomial min-heaps, held unordered in a doubly linked cyclic list
+If a node's key is decreased and becomes smaller than the parent's key then it violates the heap property and cannot remain in its current place in the heap
+
+For a 1-item fib heap:
+- Key = k
+- Payload = p
+- Left = this
+- Right = this
+- Parent = NIL
+- Child = NIL
+- Marked = false
+- Degree = 0
