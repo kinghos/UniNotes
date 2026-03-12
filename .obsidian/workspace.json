@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "address binding",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,7 +182,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f4332c58696b92c0",
+  "active": "b0e37daf9a5a4b7d",
   "lastOpenFiles": [
     "Part IA/Operating Systems/7 Paging.md",
     "Part IA/Operating Systems/2 Protection.md",
