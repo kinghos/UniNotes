@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 2/3 Graph problems.md",
+                "file": "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Graph problems"
+              "title": "7 Minimum Spanning Trees"
             }
           }
         ]
@@ -184,6 +184,7 @@
   },
   "active": "f4332c58696b92c0",
   "lastOpenFiles": [
+    "Part IA/Algorithms 2/3 Graph problems.md",
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
     "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
@@ -197,7 +198,6 @@
     "Part IA/Operating Systems/9 IO Systems.md",
     "Part IA/Operating Systems/8 Virtual Memory.md",
     "Part IA/Algorithms 2/9 Fibonacci Heaps.md",
-    "Part IA/Algorithms 2/3 Graph problems.md",
     "Part IA/Algorithms 1/11 Trees cont..md",
     "Part IA/Algorithms 1/9 Data structures.md",
     "Part IA/Algorithms 1/8 Dynamic Programming.md",
