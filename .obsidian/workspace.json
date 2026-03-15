@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Operating Systems/6 Memory Management.md",
+                "file": "Part IA/Algorithms 2/3 Graph problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 Memory Management"
+              "title": "3 Graph problems"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "address binding",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -182,19 +182,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b0e37daf9a5a4b7d",
+  "active": "f4332c58696b92c0",
   "lastOpenFiles": [
+    "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
+    "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
+    "Part IA/Algorithms 2/6 Flow Networks.md",
+    "Part IA/Algorithms 2/4 Dijkstra.md",
+    "Part IA/Algorithms 2/5 More Graph Algorithms.md",
+    "Part IA/Operating Systems/6 Memory Management.md",
     "Part IA/Operating Systems/7 Paging.md",
     "Part IA/Operating Systems/2 Protection.md",
     "Part IA/Operating Systems/4 Scheduling.md",
-    "Part IA/Operating Systems/6 Memory Management.md",
     "Part IA/Operating Systems/3 Processes.md",
     "Part IA/Operating Systems/9 IO Systems.md",
     "Part IA/Operating Systems/8 Virtual Memory.md",
     "Part IA/Algorithms 2/9 Fibonacci Heaps.md",
-    "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
     "Part IA/Algorithms 2/3 Graph problems.md",
-    "Part IA/Algorithms 2/4 Dijkstra.md",
     "Part IA/Algorithms 1/11 Trees cont..md",
     "Part IA/Algorithms 1/9 Data structures.md",
     "Part IA/Algorithms 1/8 Dynamic Programming.md",
@@ -204,13 +207,10 @@
     "Part IA/Machine Learning and Real-world Data/13 Clustering (NON EXAMINABLE).md",
     "Part IA/Machine Learning and Real-world Data/12 Decoding.md",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
-    "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
-    "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Algorithms 2/2 SSAD and Depth-first search.md",
     "Part IA/Machine Learning and Real-world Data/9 Clique Finding and Betweenness Centrality.md",
     "Part IA/Machine Learning and Real-world Data/8 Social Networks.md",
     "Part IA/Machine Learning and Real-world Data/Supervision Notes.md",
-    "Part IA/Algorithms 2/5 More Graph Algorithms.md",
     "Part IA/Algorithms 2/Images/SuperSource.png",
     "Part IA/Algorithms 2/Images",
     "Part IA/Algorithms 2/Images/AntiparallelFlow.png",
