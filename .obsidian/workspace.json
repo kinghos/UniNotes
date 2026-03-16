@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -182,8 +181,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f4332c58696b92c0",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
+    "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/11 Disjoint Sets.md",
     "Part IA/Operating Systems/11 Unix Case Study 1.md",
     "Part IA/Algorithms 2/10 Fib Heaps cont..md",
@@ -209,7 +209,6 @@
     "Part IA/Algorithms 1/8 Dynamic Programming.md",
     "Part IA/Algorithms 2/1 Graphs.md",
     "Part IA/Machine Learning and Real-world Data/11 Hidden Markov Models.md",
-    "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
     "Part IA/Algorithms 2/Images",

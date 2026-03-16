@@ -13,3 +13,10 @@
 	- Define standard functions apps use to interact with the kernel
 - System utilities
 	- Perform individual specialised management tasks (user mode)
+
+#### Processes and threads
+- Both are called tasks by Linux - threads are new processes that share its parent's address space
+	- fork creates a task with an entirely new task context
+	- clone creates a new task with its own identity, but sharing parent's data structures
+
+![[LinuxProcesses.png]]
