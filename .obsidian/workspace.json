@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Operating Systems/11 Unix Case Study 1.md",
+                "file": "Part IA/Discrete Maths/Supervision Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 Unix Case Study 1"
+              "title": "Supervision Notes"
             }
           }
         ]
@@ -181,11 +181,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "f4332c58696b92c0",
   "lastOpenFiles": [
+    "Part IA/Operating Systems/11 Unix Case Study 1.md",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/11 Disjoint Sets.md",
-    "Part IA/Operating Systems/11 Unix Case Study 1.md",
     "Part IA/Algorithms 2/10 Fib Heaps cont..md",
     "Part IA/Operating Systems/10 Storage and File Management.md",
     "Part IA/Machine Learning and Real-world Data/14 Clustering Evaluation.md",
@@ -223,7 +223,6 @@
     "Part IA/Algorithms 1/Images/PQCosts.png",
     "Part IA/Algorithms 1/Images/BTInsert.png",
     "Part IA/Algorithms 1/Images/MallocAlgo2.png",
-    "Part IA/Algorithms 1/Images/MallocAlgo.png",
     "Part IA/Algorithms 1/Images",
     "Part IA/Machine Learning and Real-world Data",
     "NST Maths/NST-IA-LT-examples1.pdf",

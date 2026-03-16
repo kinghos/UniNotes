@@ -33,3 +33,7 @@ show sets are teh same size to show bijections
 
 rule induction set to "normal" set -> rule induction
 "normal" set to inductively defined set -> maths induction (on path length)
+
+Any NFA can be made into a DFA
+
+DFA to reg lang - consider all paths to end state from each node, considering every node as an intermediary state, then ignore some intermediary state. union these reg langs together
