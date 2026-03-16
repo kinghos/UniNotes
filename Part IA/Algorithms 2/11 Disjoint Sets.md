@@ -11,4 +11,9 @@
 
 #### Path Compression and union by rank
 - Create: create a tree node for each key. This yields n separate trees. The data stored in each tree node is a pointer to another tree node, initialised to NIL. Each node also contains an integer estimating the depth of the subtree rooted at itself, initialised to 0
-- Chase: starting for the node for key k, follow the pointers until you reach the root of its tree. Change the pointer of each node you went through to r. This ensures that the next time we chase, we jump straihgt 
+- Chase: starting for the node for key k, follow the pointers until you reach the root of its tree. Change the pointer of each node you went through to r. This ensures that the next time we chase, we jump straight from k to r. This is path compression, and reduces the cost of walking up as it is only done fully once
+- Union: $r_{a}=$ chase(a), $r_{b}=$ chase(b). If the estimated depth of $r_{a}$ is strictly greater than that of $r_b$ then change $r_b$ to point to $r_{a}$, and vice versa. If both depths are equal, make either point to the other and increment the estimated depth of the root (the one pointed to). This is union-by-rank
+- In-same-set: return chase(a)==chase(b). If the roots of the trees are the same then the keys are in the same set.
+All sort with $O(|E|\lg|V|)$ with Kruskal's algorithm
+
+
