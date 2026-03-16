@@ -40,4 +40,41 @@
 #### Files
 - The basic abstraction for non-volatile storage
 - Many different types: data, program, documents
-- Can have varied interna
+- Can have varied internal structure
+#### File system
+- Directory service maps names to file identifies and metadata
+- Storage service stores data on disk, including storing directories
+- Director maps human name to system file ID
+- The mapping from SFID to File Control Block is filesystem specific
+- Metadata:
+	- Type
+	- Location
+	- Size
+	- Protection
+	- Time, date and user identification
+- Must track open files in open-file table
+	- File pointer to last read/written location
+	- File-open count: how often is it open, remove when last process closes it
+	- On-disk location
+	- Access rights
+- Directory operations to manage lifetime of a file
+	- Create, open, close, delete, stat (retrieves file status)
+- File operations to interact with file (write, read, truncate)
+
+
+#### Directories
+- Grouping to enable related files to be kept together
+- Naming so different files can have the same names/many names
+- Efficiency to find files quickly
+- Single level directory is simplest
+- Two level directory (FAT) has same names for different users via paths
+
+#### Tree structured directories
+- Provide naming convenience, efficient search and grouping
+- Introduce notion of Current Working Directory
+- Gives rise to absolute or relative path names
+- Acyclic graph structured directories
+	- Generalise to a DAG so can share subdirectories and files
+	- Need to know when to actually delete a file
+	- Need to know how to account storage
+	- Need to avoid creating cycles
