@@ -14,3 +14,9 @@ Virtual address spaces are created for two reasons:
 - Process creates a new process via fork
 	- Copy of the parent's virtual address space
 	- Copies parent's page tables into the child's
+#### File system
+- The inode object structure represents an individual file
+- The file object represents an open file
+- The superblock object represents an entire file system
+- A dentry object represents an individual directory entry
+- Files can have object IDs matching either a UID or a GID
