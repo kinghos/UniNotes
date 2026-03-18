@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 2/11 Disjoint Sets.md",
+                "file": "Part IA/Operating Systems/12 Unix Case Study 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 Disjoint Sets"
+              "title": "12 Unix Case Study 2"
             }
           }
         ]
@@ -183,6 +183,8 @@
   },
   "active": "f4332c58696b92c0",
   "lastOpenFiles": [
+    "Part IA/Algorithms 2/11 Disjoint Sets.md",
+    "Part IA/Operating Systems/12 Unix Case Study 2.md",
     "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
     "Part IA/Machine Learning and Real-world Data/8 Social Networks.md",
     "Part IA/Machine Learning and Real-world Data/6 Uncertainty and Human Agreement.md",
@@ -195,7 +197,6 @@
     "Part IA/Discrete Maths/Supervision Notes.md",
     "Part IA/Operating Systems/11 Unix Case Study 1.md",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
-    "Part IA/Algorithms 2/11 Disjoint Sets.md",
     "Part IA/Algorithms 2/10 Fib Heaps cont..md",
     "Part IA/Operating Systems/10 Storage and File Management.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
@@ -209,7 +210,6 @@
     "Part IA/Operating Systems/4 Scheduling.md",
     "Part IA/Operating Systems/3 Processes.md",
     "Part IA/Operating Systems/9 IO Systems.md",
-    "Part IA/Operating Systems/8 Virtual Memory.md",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
     "Part IA/Algorithms 2/Images",
