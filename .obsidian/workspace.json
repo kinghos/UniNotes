@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "6368f5b83000c4b8",
+        "id": "3b93fcb139f1bd19",
         "type": "tabs",
         "children": [
           {
-            "id": "054bd32d6c88a2c7",
+            "id": "af3bb6266a906445",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lecture 2"
-            }
-          },
-          {
-            "id": "56aca4507d01c4ae",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 2"
+              "title": "Backlinks"
             }
           },
           {
@@ -193,8 +175,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "56aca4507d01c4ae",
+  "active": "af3bb6266a906445",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Operating Systems/Images/StorageComparison.png",
     "Part IA/Operating Systems/Images/ProcessStates.png",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
@@ -236,7 +219,6 @@
     "Part IA/Algorithms 1/Images/SortingSummary.png",
     "Part IA/Algorithms 1/Images/PQCosts.png",
     "Part IA/Algorithms 1/Images/MaxReheapify.png",
-    "Part IA/Algorithms 1/Images/MallocAlgo2.png",
     "Part IA/Algorithms 1/Images",
     "Part IA/Algorithms 1",
     "NST Maths/nst-IA-LT-courseB-part1.pdf",
