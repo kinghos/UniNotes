@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3b93fcb139f1bd19",
+        "id": "2b49a0d3799177fa",
         "type": "tabs",
         "children": [
           {
-            "id": "af3bb6266a906445",
+            "id": "1c35d641abf3001b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -175,7 +175,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "af3bb6266a906445",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
     "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Operating Systems/Images/StorageComparison.png",
