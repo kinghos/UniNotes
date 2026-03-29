@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b49a0d3799177fa",
+        "id": "5fd7be1bfbecbd22",
         "type": "tabs",
         "children": [
           {
-            "id": "1c35d641abf3001b",
+            "id": "282c666f2ab52b22",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -175,8 +175,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "282c666f2ab52b22",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Multiplexers and Demultiplexers.md",
     "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Operating Systems/Images/StorageComparison.png",
     "Part IA/Operating Systems/Images/ProcessStates.png",
@@ -209,7 +210,6 @@
     "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
     "Part IA/Machine Learning and Real-world Data/13 Clustering (NON EXAMINABLE).md",
     "Part IA/Machine Learning and Real-world Data/14 Clustering Evaluation.md",
-    "Part IA/Machine Learning and Real-world Data/12 Decoding.md",
     "Part IA/Machine Learning and Real-world Data",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
