@@ -44,6 +44,7 @@ Using the Z-Buffer algorithm:
 			  depth(x,y) = z
 			  colour(x,y) = fragment_colour(x,y)
 ```
+Essentially, if the z for a given fragment position is closer than what is stored in the buffer, update the buffer and set the colour at this position to the fragment colour.
 The Z-Buffer must store depth with sufficient precision
 - Consider bit depth/and float/int
 - Often it is stored as $\frac{1}{z}$ so there is risk of zero division
