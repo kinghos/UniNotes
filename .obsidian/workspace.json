@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "9 IO Systems"
             }
+          },
+          {
+            "id": "7cbefe90358377ef",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +195,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f4332c58696b92c0",
+  "active": "7cbefe90358377ef",
   "lastOpenFiles": [
     "Part IA/Operating Systems/12 Unix Case Study 2.md",
     "Part IA/Algorithms 2/11 Disjoint Sets.md",
