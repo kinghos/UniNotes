@@ -92,7 +92,6 @@ aa.(3) <- 90 (*set shorthand*)
 ```
 
 #### Mutable linked lists
-
 ```ocaml
 type 'a mlist =
   | Nil
