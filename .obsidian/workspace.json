@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "else if",
+                "query": "path:Excalidraw nil ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "282c666f2ab52b22",
+  "active": "b0e37daf9a5a4b7d",
   "lastOpenFiles": [
     "Part IA/Foundations of Computer Science/Lecture 6.md",
     "Part IA/Foundations of Computer Science/Lecture 8.md",
