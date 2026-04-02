@@ -13,7 +13,7 @@ Cons:
 - Method overloading is limited - type signatures will change to be the same if using generics e.g.
 ```java
 void addAll(List<String> items) {...}
-void addAll(List)<Integer> items) {...}
+void addAll((List)<Integer> items) {...}
 ```
 This will not work because after discarding type information the signatures are the same.
 
