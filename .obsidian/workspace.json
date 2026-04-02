@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Object-Oriented Programming/Lecture 5.md",
+                "file": "Part IA/Object-Oriented Programming/Lecture 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 5"
+              "title": "Lecture 7"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IA/Object-Oriented Programming/Lecture 5.md",
+                "file": "Part IA/Object-Oriented Programming/Lecture 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 5"
+              "title": "Backlinks for Lecture 7"
             }
           },
           {
@@ -182,6 +182,8 @@
   },
   "active": "282c666f2ab52b22",
   "lastOpenFiles": [
+    "Part IA/Object-Oriented Programming/Lecture 6.md",
+    "Part IA/Object-Oriented Programming/Lecture 5.md",
     "Part IA/Object-Oriented Programming/Lecture 4.md",
     "Part IA/Object-Oriented Programming/Lecture 3.md",
     "Part IA/Object-Oriented Programming/Lecture 2.md",
@@ -210,8 +212,6 @@
     "Part IA/Operating Systems/8 Virtual Memory.md",
     "Part IA/Operating Systems/7 Paging.md",
     "Part IA/Operating Systems/6 Memory Management.md",
-    "Part IA/Operating Systems/5 Scheduling Algorithms.md",
-    "Part IA/Operating Systems/4 Scheduling.md",
     "Part IA/Operating Systems",
     "Part IA/Machine Learning and Real-world Data/Images/MarkovModels.png",
     "Part IA/Machine Learning and Real-world Data/Images",
