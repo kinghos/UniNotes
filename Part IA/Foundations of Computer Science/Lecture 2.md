@@ -36,7 +36,7 @@ let rec summing n total =
     total
   else
     summing (n - 1) (n + total)
-    ```
+```
 The argument "total" here acts as an accumulator to keep track of the total without using the stack. This is an *iterative* or *tail recursive* algorithm.
 What makes this algorithm tail recursive is that the last thing it does is call itself - in the first example, the function adds `n` after calling itself, hence it is not tail recursive.
 

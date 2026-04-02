@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 11.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 11"
+              "title": "Lecture 3"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 11.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 11"
+              "title": "Backlinks for Lecture 3"
             }
           },
           {
@@ -182,11 +182,13 @@
   },
   "active": "282c666f2ab52b22",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Lecture 2.md",
+    "Part IA/Foundations of Computer Science/Lecture 1.md",
+    "Part IA/Foundations of Computer Science/Lecture 11.md",
     "Part IA/Foundations of Computer Science/Lecture 8.md",
     "Part IA/Foundations of Computer Science/Lecture 9.md",
     "Part IA/Foundations of Computer Science/Lecture 7.md",
     "Part IA/Foundations of Computer Science/Lecture 6.md",
-    "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Introduction to Graphics/Lecture 5.md",
     "Part IA/Introduction to Graphics/Lecture 4.md",
     "Part IA/Introduction to Graphics/Lecture 3.md",
@@ -210,11 +212,9 @@
     "Part IA/Operating Systems/2 Protection.md",
     "Part IA/Operating Systems/11 Unix Case Study 1.md",
     "Part IA/Operating Systems/10 Storage and File Management.md",
-    "Part IA/Operating Systems/1 Introduction.md",
     "Part IA/Operating Systems",
     "Part IA/Machine Learning and Real-world Data/Images/MarkovModels.png",
     "Part IA/Machine Learning and Real-world Data/Images",
-    "Part IA/Machine Learning and Real-world Data/Supervision Notes.md",
     "Part IA/Machine Learning and Real-world Data",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
