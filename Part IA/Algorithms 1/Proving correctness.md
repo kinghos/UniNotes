@@ -1,0 +1,1 @@
+A loop invariant is a property that remains true before, during and after a loop. In other words, it must fulfil the initialisation, maintenance and termination properties 
