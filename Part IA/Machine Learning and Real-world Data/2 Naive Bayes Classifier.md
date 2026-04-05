@@ -27,7 +27,7 @@ $c_{NB}=\text{argmax}P(c|O)=\text{argmax}P(c|O)\frac{P(c)P(O|c)}{P(O)}=\text{arg
 We can remove $P(O)$ because it is constant during a given classification and does not affect the result of argmax
 
 Naive Bayes makes a strong (naive) independence assumption between the observed features. Hence,
-$$c_{NB}=\text{argmax}P(c)\prod^n_{i=1}P(w_{i}|c)$$
+$$c_{NB}=\text{argmax}_{c\in C}P(c)\prod^n_{i=1}P(w_{i}|c)$$
 
 In the training phase, we collect whatever information is needed to calculate $P(w_i|c)$ and $P(c)$
 In the testing phase we apply the above formula to derive $c_{NB}$, the classifiers decision.
