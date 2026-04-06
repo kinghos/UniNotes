@@ -11,10 +11,14 @@
             "id": "9d44cdef42f5336a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Part IA/Discrete Maths/Lecture 17.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lecture 17"
             }
           }
         ]
@@ -177,8 +181,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "9d44cdef42f5336a",
   "lastOpenFiles": [
+    "Part IA/Discrete Maths/Lecture 16.md",
+    "Part IA/Discrete Maths/Lecture 17.md",
+    "Part IA/Discrete Maths/Lecture 18.md",
+    "Part IA/Discrete Maths/Lecture 14.md",
+    "Part IA/Discrete Maths/Lecture 15.md",
     "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
     "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
     "Part IA/Algorithms 1/Proving correctness.md",
@@ -200,11 +209,6 @@
     "Part IA/Algorithms 1/11 Trees cont..md",
     "Part IA/Algorithms 1/10 Trees.md",
     "Part IA/Algorithms 1/4 Quicksort.md",
-    "Part IA/Algorithms 1/3 Divide and conquer.md",
-    "Part IA/Databases/Lecture 8.md",
-    "Part IA/Databases/Lecture 7.md",
-    "Part IA/Databases/Lecture 6.md",
-    "Part IA/Databases/Lecture 5.md",
     "Part IA/Operating Systems/Images/StorageComparison.png",
     "Part IA/Operating Systems/Images/ProcessStates.png",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
