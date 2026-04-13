@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 9.md",
+                "file": "Part IA/Digital Electronics/Decoders.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 9"
+              "title": "Decoders"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "f79101d6061e19c1",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Lecture 9.md",
     "Part IA/Databases/Lecture 5.md",
     "Part IA/Algorithms 1/Proving correctness.md",
     "Part IA/Databases/Lecture 4.md",
@@ -208,7 +209,6 @@
     "Part IA/Algorithms 2/11 Disjoint Sets.md",
     "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
     "Part IA/Machine Learning and Real-world Data/8 Social Networks.md",
-    "Part IA/Machine Learning and Real-world Data/6 Uncertainty and Human Agreement.md",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
