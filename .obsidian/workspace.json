@@ -11,10 +11,14 @@
             "id": "15c5d7457e5c4644",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Part IA/Machine Learning and Real-world Data/Supervision Notes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Supervision Notes"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mermaid",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -178,8 +181,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "15c5d7457e5c4644",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
+    "Part IA/Machine Learning and Real-world Data/1 Sentiment Classification.md",
+    "Part IA/Machine Learning and Real-world Data/5 Overtraining and Cross-validation.md",
+    "Part IA/Machine Learning and Real-world Data/4 Statistical Significance Testing.md",
+    "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
+    "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
     "Part IA/Operating Systems/Briefing.md",
     "Part IA/Discrete Maths/Lecture 22.md",
     "Part IA/Discrete Maths/Lecture 23.md",
@@ -201,11 +209,6 @@
     "Part IA/Introduction to Graphics/Lecture 3.md",
     "Part IA/Introduction to Graphics/Lecture 1.md",
     "Part IA/Foundations of Computer Science/Lecture 8.md",
-    "Part IA/Foundations of Computer Science/Lecture 6.md",
-    "Part IA/Foundations of Computer Science/Lecture 3.md",
-    "Part IA/Foundations of Computer Science/Lecture 2.md",
-    "Part IA/Foundations of Computer Science/Lecture 1.md",
-    "Part IA/Discrete Maths/Lecture 15.md",
     "Part IA/Operating Systems/Images/StorageComparison.png",
     "Part IA/Operating Systems/Images/ProcessStates.png",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
