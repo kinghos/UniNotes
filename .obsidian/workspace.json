@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "precision",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,7 +182,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "b0e37daf9a5a4b7d",
   "lastOpenFiles": [
     "Part IA/Machine Learning and Real-world Data/1 Sentiment Classification.md",
     "Part IA/Machine Learning and Real-world Data/5 Overtraining and Cross-validation.md",
