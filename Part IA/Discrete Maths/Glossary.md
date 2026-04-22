@@ -7,3 +7,5 @@
 | Natural number   | Integers of the set $\{ 0,1,2,\dots \}$                                                             |
 | Monoid           | A set with a binary operator and neutral element                                                    |
 | Family           | A set of subsets $\mathcal{F(P(P(U)))}$                                                             |
+| Injection        | one-to-one: $\forall x_{1},x_{2}\in X.f(x_{1})=f(x_{2})\implies x_{1}=x_{2}$                        |
+
