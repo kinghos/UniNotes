@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Operating Systems/Supervision Notes.md",
+                "file": "Part IA/Databases/Lecture 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "Lecture 1"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "15c5d7457e5c4644",
   "lastOpenFiles": [
+    "Part IA/Operating Systems/Supervision Notes.md",
     "Part IA/Operating Systems/11 Unix Case Study 1.md",
     "Part IA/Operating Systems/9 IO Systems.md",
     "Part IA/Operating Systems/5 Scheduling Algorithms.md",
@@ -208,7 +209,6 @@
     "Part IA/Object-Oriented Programming/Lecture 3.md",
     "Part IA/Object-Oriented Programming/Lecture 2.md",
     "Part IA/Object-Oriented Programming/Lecture 1.md",
-    "Part IA/Introduction to Graphics/Lecture 8.md",
     "Part IA/Operating Systems/Images/StorageComparison.png",
     "Part IA/Operating Systems/Images/ProcessStates.png",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
