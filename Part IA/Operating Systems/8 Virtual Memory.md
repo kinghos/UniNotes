@@ -76,6 +76,7 @@ $$\text{EAT}=(1-p)\times\text{memory access time} + p\times\text{page fault serv
 ##### FIFO
 - Susceptible to Belady's anomaly
 ##### OPT
+- OPTimal
 - Replace page that will not be used for the longest time
 - Not obvious: hard to predict
 - Useful as a benchmark
