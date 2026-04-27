@@ -20,6 +20,7 @@ The aggregate cost is found by considering how many operations are needed as the
 - Instead, measures the potential of the whole data structure
 - $\phi(d_{i})$ is the potential of the data structure in each state $i$ it can get into through sequences of the supported operations. We require that $\phi(\text{initial})=0$ and that $\phi(d_{i})\geq 0$ for all states
 - Each operations amortised cost is the sum of the actual cost and the change in potential caused by the operation
+Often uses a potential function that is the size of the data strucutre
 
 #### Abstract Data Types
 - To data structures what a Java interface is to an algorithm
