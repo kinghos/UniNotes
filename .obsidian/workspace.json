@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
+                "file": "Part IA/Algorithms 1/2 Algorithm analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quine-McCluskey Minimisation"
+              "title": "2 Algorithm analysis"
             }
           }
         ]
@@ -183,6 +183,8 @@
   },
   "active": "b030219f70668508",
   "lastOpenFiles": [
+    "Part IA/Algorithms 1/1 Features of algorithms.md",
+    "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
     "Part IA/Operating Systems/8 Virtual Memory.md",
     "Part IA/Operating Systems/7 Paging.md",
@@ -201,9 +203,7 @@
     "Untitled.md",
     "Part IA/Algorithms 2/11 Disjoint Sets.md",
     "Part IA/Algorithms 1/2 Algorithm analysis.md",
-    "Part IA/Algorithms 1/1 Features of algorithms.md",
     "Part IA/Algorithms 2/9 Fibonacci Heaps.md",
-    "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Databases/PPQ Notes.md",
     "Part IA/Digital Electronics/Boolean Algebra Laws.md",
     "Part IA/Digital Electronics/Decoders.md",
