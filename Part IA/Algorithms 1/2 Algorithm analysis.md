@@ -35,7 +35,7 @@ e.g. if the true cost is $10.3n^2 + 6.1n - 0.4$, then we can write $\Theta(n^2)$
 $O(g(n))$ is the set of functions, $f(n)$ such that there exist positive constants $c$ and $n_0$ such that $0 \leq f(n)\leq cg(n)$ for all $n\geq n_0$
 $g(n)$ is an asymptotic upper bound for $f(n)$
 $\Theta(g(n))\subseteq O(g(n))$
-e.g. if the true cost is $10.3n^2 + 6.1n - 0.4$, then we can write $\Theta(n^2)$ and $\Theta(n^4)$ but not $\Theta(n)$
+e.g. if the true cost is $10.3n^2 + 6.1n - 0.4$, then we can write $O(n^2)$ and $O(n^4)$ but not $O(n)$
 
 $\Omega(g(n))$ is the set of functions, $f(n)$ such that there exist positive constants $c$ and $n_0$ such that $0 \leq cg(n)\leq f(n)$ for all $n\geq n_0$
 $g(n)$ is an asymptotic lower bound for $f(n)$
