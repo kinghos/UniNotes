@@ -1,6 +1,24 @@
 #### Partitioning
 Partitioning reorders a list by placing items smaller than the pivot to the left of the pivot, and items larger than the pivot to the right of the pivot.
 
+```
+def quicksort(A, p, r)
+	if p < r:
+		q = partition(A, p, r)
+		quicksort(A, p, q-1)
+		quicksort(A, q+1, r)
+
+def partition(A, p, r)
+	x = A[r]
+	i = p - 1
+	for j = p to r - 1
+		if A[j] <= x
+			i = i + 1
+			swap A[i], A[j]
+	swap A[i+1], A[r]
+	return i+1
+```
+
 ##### Proof
 To prove that `partition` works, it must:
 1. Rearrange the elements of `A[p..r]` into two (possibly empty) subarrays `A[p..q-1]` and `A[q+1..r]` such that
