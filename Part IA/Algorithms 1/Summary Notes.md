@@ -3,7 +3,16 @@ Recurrence relations - substitution method, or draw out the tree, starting with 
 Master theorem - what you are looking for is which is polynomially larger - $n^{\log_{b}a}$ or $f(n)$. If they are of the same order, then $T(n) \in \Theta(n^{\log_{b}a} \lg n)$
 
 #### Algorithms
-
+##### Insertion sort
+```
+for j = 2 to A.length
+	key = A[j]
+	i = j - 1
+	while i > 0 and A[i] > key
+		A[i+1] = A[i]
+		i = i - 1
+	A[i + 1] = key
+```
 ##### Quicksort
 ```
 def quicksort(A, p, r)
