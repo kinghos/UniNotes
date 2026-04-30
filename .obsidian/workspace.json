@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3966b1a798c3fa2b",
+        "id": "8ad439962f33a49b",
         "type": "tabs",
         "children": [
           {
-            "id": "a81a50714cb64781",
+            "id": "93c891466c49094e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Part IA/Interaction Design/1 Intro to Interaction Design.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1 Intro to Interaction Design"
+              "title": "New tab"
             }
           }
         ]
@@ -181,7 +177,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a81a50714cb64781",
+  "active": "93c891466c49094e",
   "lastOpenFiles": [
     "Part IA/Interaction Design/1 Intro to Interaction Design.md",
     "Part IA/Interaction Design/Images",
