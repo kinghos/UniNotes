@@ -27,22 +27,24 @@ Its purpose is to build a single, large, max-heap out of two existing max-heaps 
 - If not, swap with the larger of the two sub-heap roots and recurse on the node you swapped with.
 ![[MaxReheapify.png]]
 ```
-l = 2i
-r = 2i + 1
-largest = (l <= A.heap_size && A[l] > A[i]) ? l : i
-if (r <= A.heap_size && A[r] > A[largest]) largest = r
-if largest != i
-	swap(A[i],A[largest])
-	max_reheapify(A, largest)
+def max_reheapify(A, i)
+	l = 2i
+	r = 2i + 1
+	largest = (l <= A.heap_size && A[l] > A[i]) ? l : i
+	if (r <= A.heap_size && A[r] > A[largest]) largest = r
+	if largest != i
+		swap(A[i],A[largest])
+		max_reheapify(A, largest)
 ```
 
 #### Max-full-heapify
 Max-full-heapify notes that the bottom-level leaves are valid max-heaps.
 It calls max-reheapify on the last node that has at least one child then works its way back up to the root. This turns any array into a valid max-heap
 ```
-A.heap_size = A.length
-for i = floor(A.length/2) downto 1
-	max-reheapify(A, i)
+def max-full-reheapify(A)
+	A.heap_size = A.length
+	for i = floor(A.length/2) downto 1
+		max-reheapify(A, i)
 ```
 ![[MaxFullReheapify.png]]
 #### Max-extract
@@ -51,9 +53,11 @@ The only key that can be removed safely is the rightmost key on the bottom row. 
 
 #### Heapsort
 ```
-max_full_heapify(A)
-for i = A.length downto 2
-	swap(A[1], A[i])
-	A.heap_size = A.heap_size - 1
-	max_reheapify(A,1)
+def heapsort(A)
+	max_full_heapify(A)
+	for i = A.length downto 2
+		swap(A[1], A[i])
+		A.heap_size = A.heap_size - 1
+		max_reheapify(A,1)
 ```
+Essentially, calling max-reheapify sorts the array as a heap, and then the largest element is extracted and stored at $i$, which sorts A into ascending order.
