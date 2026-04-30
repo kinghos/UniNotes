@@ -14,3 +14,6 @@ Provides a structured way of building empathy for people who will be affected by
 - Develop requirements
 - Iterative design process
 - Costs of changes rise with each phase
+
+#### User research
+Collect quantitative and qualitative research
