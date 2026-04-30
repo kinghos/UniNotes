@@ -7,3 +7,8 @@ Approaches include
 - Contextual design
 
 #### UCD
+Provides a structured way of building empathy for people who will be affected by software
+
+![[SDLC.png]]
+- Identify target users and stakeholders
+- Develop requirements
