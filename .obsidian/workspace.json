@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 1/Summary Notes.md",
+                "file": "Part IA/Interaction Design/1 Intro to Interaction Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary Notes"
+              "title": "1 Intro to Interaction Design"
             }
           }
         ]
@@ -183,11 +183,13 @@
   },
   "active": "a81a50714cb64781",
   "lastOpenFiles": [
+    "Part IA/Algorithms 1/Summary Notes.md",
+    "Part IA/Interaction Design/1 Intro to Interaction Design.md",
+    "Part IA/Interaction Design",
     "Part IA/Algorithms 1/4 Quicksort.md",
     "Part IA/Algorithms 1/3 Divide and conquer.md",
     "Part IA/Algorithms 1/2 Algorithm analysis.md",
     "Part IA/Algorithms 1/5 Quick select.md",
-    "Part IA/Algorithms 1/Summary Notes.md",
     "Part IA/Algorithms 1/7 Linear time sorting.md",
     "Part IA/Algorithms 1/10 Trees.md",
     "Part IA/Algorithms 1/1 Features of algorithms.md",
@@ -208,7 +210,6 @@
     "Part IA/Discrete Maths/Glossary.md",
     "Part IA/Operating Systems/1 Introduction.md",
     "Untitled.md",
-    "Part IA/Algorithms 2/11 Disjoint Sets.md",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
@@ -228,7 +229,6 @@
     "Part IA/Machine Learning and Real-world Data",
     "NST Maths/NST-IA-LT-examples1.pdf",
     "NST Maths/nst-IA-LT-courseB-part1.pdf",
-    "Part IA/Algorithms 1",
     "Untitled.canvas"
   ]
 }
