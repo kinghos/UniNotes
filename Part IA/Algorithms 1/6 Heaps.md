@@ -50,6 +50,7 @@ def max-full-reheapify(A)
 #### Max-extract
 The largest key in a max-heap is the root. To extract the max we cannot simply remove it without violating the structural property of a heap.
 The only key that can be removed safely is the rightmost key on the bottom row. By swapping this with the root, and reducing the heap size by 1, the root can be extracted. Max-reheapify can be called at the root to fix the structure. This has a cost of $O(\log n)$
+The same follows for min-extract
 
 #### Heapsort
 ```
