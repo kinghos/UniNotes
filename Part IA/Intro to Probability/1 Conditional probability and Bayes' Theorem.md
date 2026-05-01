@@ -14,5 +14,8 @@ $$P[E]=\sum^n_{i=1}P[E|F_{i}]P[F_{i}]$$
 $$P[F|E]=\frac{P[E|F]P[F]}{P[E]}$$
 In expanded form:
 $$P[F|E]=\frac{P[E|F]P[F]}{\sum^n_{i=1}P[E|F_{i}]P[F_{i}]}$$
-For $P[F|E]$,
-F is known as the hypothesis
+- F is the hypothesis, E is the evidence
+- $P[F|E]$ is known as the posterior
+- $P[E|F]$ is known as the likelihood (probability of evidence given hypothesis)
+- $P[F]$ is known as the prior (probability of hypothesis)
+- $P[E]$ is known as the normalisation constant (ensures sum to 1)
