@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 1/7 Linear time sorting.md",
+                "file": "Part IA/Algorithms 1/9 Data structures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 Linear time sorting"
+              "title": "9 Data structures"
             }
           }
         ]
@@ -183,9 +183,10 @@
   },
   "active": "1dc11adf249e8703",
   "lastOpenFiles": [
+    "Part IA/Algorithms 1/8 Dynamic Programming.md",
+    "Part IA/Algorithms 1/7 Linear time sorting.md",
     "Part IA/Algorithms 1/5 Quick select.md",
     "Part IA/Algorithms 1/4 Quicksort.md",
-    "Part IA/Algorithms 1/7 Linear time sorting.md",
     "Part IA/Algorithms 1/6 Heaps.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Intro to Probability/1 Conditional probability and Bayes' Theorem.md",
@@ -212,7 +213,6 @@
     "Part IA/Operating Systems/11 Unix Case Study 1.md",
     "Part IA/Operating Systems/12 Unix Case Study 2.md",
     "Part IA/Operating Systems/Supervision Notes.md",
-    "Part IA/Operating Systems/6 Memory Management.md",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
