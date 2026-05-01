@@ -6,3 +6,13 @@ This assumes all outcomes are equally likely
 
 ##### Generalised chain rule
 $$P[E_{1}E_{2}\dots E_{n}]=P[E_{1}]P[E_{2}|E_{1}]P[E_{3}|E_{2}E_{1}]\dots P[E_{n}|E_{1}\dots E_{n-1}]$$
+
+##### Law of total probability
+For disjoint events $F_{1},F_{2},\dots F_{n}$ such that $\bigcup F_{i}=S$,
+$$P[E]=\sum^n_{i=1}P[E|F_{i}]P[F_{i}]$$
+##### Bayes' theorem
+$$P[F|E]=\frac{P[E|F]P[F]}{P[E]}$$
+In expanded form:
+$$P[F|E]=\frac{P[E|F]P[F]}{\sum^n_{i=1}P[E|F_{i}]P[F_{i}]}$$
+For $P[F|E]$,
+F is known as the hypothesis
