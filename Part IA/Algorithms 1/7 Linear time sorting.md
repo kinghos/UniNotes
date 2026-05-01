@@ -56,8 +56,10 @@ To sort n numbers of d digits each, where each digit can take on one of k differ
 Each stable sort is applied to n keys using a key range of `[0..k-1]`. Counting sort is the obvious way to achieve that, taking $\Theta(n+k)$ time each.
 
 ### Bucket sort
+Assuming input array `A`, which is 1-indexed, contains only numbers distributed in the range $[0,1)$:
 ```
-let n = A.length, B = new Array[0..n-1]
+let n = A.length
+B = new Array[0..n-1]
 for i = 0 to n-1
 	B[i] = empty_list
 for i = 1 to n

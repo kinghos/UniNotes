@@ -31,10 +31,6 @@ Other standard improvements include:
 - Picking the pivot randomly
 - Median-of-three pivot
 	- Pick three items, and take the median. This reduces the chance that you pick the largest or smallest element as the pivot.
-
- 
- Median-of-medians pivot
-	
 #### Median-of-medians pivot
 - Change partition to work as follows:
 	- Split subarray into groups of 5
