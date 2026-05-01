@@ -31,7 +31,10 @@ for j = A.length downto 1
 A: input data
 B: array into which the output is written
 k: top limit of the range of values
-`C[i]` holds the number of instances of value i in the input array
+
+Line 5: `C[i]` holds the number of instances of value i in the input array
+Line 7: `C[i]` holds the number of elements less than or equal to i
+Lines 9 and 10 put the data into the correct order in the output array. Line 10 makes sure if elements aren't distinct they are ordered consecutively.
 #### Cost of counting sort
 Initialising the C array takes $\Theta(k)$ time
 Counting items in the A array takes $\Theta(n)$ time

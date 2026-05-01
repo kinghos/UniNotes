@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Intro to Probability/1 Conditional probability and Bayes' Theorem.md",
+                "file": "Part IA/Algorithms 1/7 Linear time sorting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Conditional probability and Bayes' Theorem"
+              "title": "7 Linear time sorting"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -184,9 +183,11 @@
   },
   "active": "1dc11adf249e8703",
   "lastOpenFiles": [
+    "Part IA/Algorithms 1/6 Heaps.md",
+    "Part IA/Algorithms 1/4 Quicksort.md",
+    "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Intro to Probability/1 Conditional probability and Bayes' Theorem.md",
     "Part IA/Intro to Probability",
-    "Part IA/Algorithms 1/6 Heaps.md",
     "Part IA/Algorithms 1/5 Quick select.md",
     "Part IA/Algorithms 1/7 Linear time sorting.md",
     "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
@@ -195,7 +196,6 @@
     "Part IA/Interaction Design/Images/SDLC.png",
     "Part IA/Algorithms 1/Summary Notes.md",
     "Part IA/Interaction Design",
-    "Part IA/Algorithms 1/4 Quicksort.md",
     "Part IA/Algorithms 1/3 Divide and conquer.md",
     "Part IA/Algorithms 1/2 Algorithm analysis.md",
     "Part IA/Algorithms 1/10 Trees.md",
@@ -213,7 +213,6 @@
     "Part IA/Operating Systems/12 Unix Case Study 2.md",
     "Part IA/Operating Systems/Supervision Notes.md",
     "Part IA/Operating Systems/6 Memory Management.md",
-    "Part IA/Discrete Maths/Fermat's Little Theorem.md",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
