@@ -12,4 +12,9 @@
 - Figure out requirements from the mark count
 - Point-Proof-Comment format to match solution notes
 - Make marks visible e.g. draw box around final solution
+- Make your answer "look correct" - if you held it at arms length, would it seem visibly correct
+
+##### Precision, structure, avoiding waffle
+- Plan before you write - particularly for algorithmic/design questions
+- Use diagrams and ALWAYS label axes and components
 - 
