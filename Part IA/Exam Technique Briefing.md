@@ -21,4 +21,9 @@
 
 ##### Time management
 - Spend 10 minutes choosing questions
+- Aim for 14.5 for a first - the more marks you get in the upper areas has a stronger effect on your ranking
+- **Only cross out if you have fully written a better version**
+
+##### Revision
+- Write improved versions of answers to questions already attempted
 - 
