@@ -17,4 +17,4 @@
 ##### Precision, structure, avoiding waffle
 - Plan before you write - particularly for algorithmic/design questions
 - Use diagrams and ALWAYS label axes and components
-- 
+- Be really specific, state lots of detail even for things that may seem obvious
