@@ -9,4 +9,7 @@
 
 ##### What the examiner means
 - Try and figure out what specific topic the examiner is talking about
+- Figure out requirements from the mark count
+- Point-Proof-Comment format to match solution notes
+- Make marks visible e.g. draw box around final solution
 - 
