@@ -23,3 +23,21 @@ Anscombe quartet - regression is not always the best metric, vastly different da
 Present as an evidence chain - how the derived findings arise from the underlying data
 
 #### Stakeholders
+People who aren't the main user group but
+- may influence the target user's interaction
+- may be affected by the target user's interaction
+- support the interaction
+
+- Primary - the people who will use the system
+- Secondary - people who will produce input or receive output from the system but are not direct users
+- Tertiary - people affected by its introduction or influence its purchase
+- Facilitating - people involved in design, development and maintenance
+- Internal - the people who work for the organisation
+- External - people outside the organisation
+
+#### Personas
+- Focal - primary users of the product
+- Secondary - less important primary users
+- Unimportant - low priority users
+- Affected
+- Exclusionary - someone we're not designing for
