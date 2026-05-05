@@ -11,14 +11,10 @@
             "id": "51471ba8b14580d7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Part IA/Exam Technique Briefing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Exam Technique Briefing"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -183,8 +179,9 @@
   },
   "active": "51471ba8b14580d7",
   "lastOpenFiles": [
-    "Part IA/Introduction to Graphics/Lecture 1.md",
+    "Part IA/Interaction Design/2 Data Analysis.md",
     "Part IA/Exam Technique Briefing.md",
+    "Part IA/Introduction to Graphics/Lecture 1.md",
     "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
     "Part IA/Algorithms 1/9 Data structures.md",
     "Part IA/Algorithms 1/6 Heaps.md",
@@ -212,7 +209,6 @@
     "Part IA/Operating Systems/7 Paging.md",
     "Part IA/Operating Systems/Summary notes.md",
     "Part IA/Operating Systems/3 Processes.md",
-    "Part IA/Operating Systems/4 Scheduling.md",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
