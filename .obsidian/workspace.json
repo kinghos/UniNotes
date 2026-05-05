@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aff3c8814723b26e",
+        "id": "b0cb8bce1fc45664",
         "type": "tabs",
         "children": [
           {
-            "id": "51471ba8b14580d7",
+            "id": "120d3b1da902753e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Part IA/Interaction Design/2 Data Analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2 Data Analysis"
             }
           }
         ]
@@ -177,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "51471ba8b14580d7",
+  "active": "120d3b1da902753e",
   "lastOpenFiles": [
     "Part IA/Interaction Design/2 Data Analysis.md",
     "Part IA/Exam Technique Briefing.md",
