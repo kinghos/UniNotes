@@ -21,3 +21,5 @@ Anscombe quartet - regression is not always the best metric, vastly different da
 	- Categorisation scheme pre-configured
 	- Deductive analysis
 Present as an evidence chain - how the derived findings arise from the underlying data
+
+#### Stakeholders
