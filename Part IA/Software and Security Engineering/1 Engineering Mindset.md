@@ -47,4 +47,15 @@ Takeaways
 - Goal was to automate ambulance dispatch to improve response times across London
 - The contract was awarded to a company with no prior experience because they underbid the competition
 - System was overloaded, ambulances were sent to the wrong locations and some places didn't get any
-- Within 36 hours the system locked up entirely and many people died 
+- Within 36 hours the system locked up entirely and many people died in the process
+Takeaways
+- Phase our roll-outs
+- Users must be involved in the design process
+- Test systems under extreme loads
+#### Horizon
+- Horizon by Fujitsu was meant to automate accounting for thousands of local post offices
+- Subpostmasters began reporting inexplicable financial shortfalls in their accounts
+- The Post Office insisted Horizon was robust and effectively infallible, and blamed the subpostmasters for missing money
+Takeaways
+- Audit trails in financial or legal systems - actions should be transparent
+- Management
