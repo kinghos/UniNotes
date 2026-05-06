@@ -19,3 +19,11 @@ $$P[F|E]=\frac{P[E|F]P[F]}{\sum^n_{i=1}P[E|F_{i}]P[F_{i}]}$$
 - $P[E|F]$ is known as the likelihood (probability of evidence given hypothesis)
 - $P[F]$ is known as the prior (probability of hypothesis)
 - $P[E]$ is known as the normalisation constant (ensures sum to 1)
+#### Independence
+Events $E$ and $F$ are independent if and only if $P[EF]=P[E]P[F]$
+In general $n$ events are mutually independent if for every subset of these events with $r$ events where $r\leq n$
+$$P[E_{a}E_{b}\dots E_{r}]=P[E_{a}]P[E_{b}]\dots P[E_{r}]$$
+and $$P[E|F]=P[E]$$
+Two events are conditionally independent given a third event $G$ if
+$$P[EF|G]=P[E|G]P[F|G]$$
+or equivalently $P[E|FG]$
