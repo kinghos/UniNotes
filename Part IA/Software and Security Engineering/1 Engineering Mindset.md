@@ -24,4 +24,18 @@ Methodology and planning helps survive the complexity
 
 ### Failures
 #### Therac-25
-Medical linear accelerator used for radiation therapy, designed to destroy tumours
+- Medical linear accelerator used for radiation therapy, designed to destroy tumours
+- Its predecessor, Therac-20, had hardware interlocks that prevented the electron beam from firing. This was replaced by software control
+- Pressing X to go into high-power X-ray mode, and then quickly pressing up and E to switch to electron mode, it caused a race condition that configured the beam but did not deploy the shield
+- A malfunction error was displayed but it was cryptic, and simply offered an option to proceed
+Takeaways:
+ - Never rely on a single software check for safety
+ - Concurrency is dangerous
+ - UX is safety
+#### Mars Climate Orbiter
+- Space probe launched by NASA and Lockheed Martin to study Martian climate and atmosphere
+- Once the spacecraft passed Mars its radio signal was lost
+- Lockheed wrote the thruster software using Imperial units, while NASA wrote the navigation software expecting metric units
+- The specification explicitly required metric units - but NASA did not test this
+- Each component was tested in isolation but did not run end-to-end simulations together
+- 
