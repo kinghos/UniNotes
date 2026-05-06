@@ -26,4 +26,4 @@ $$P[E_{a}E_{b}\dots E_{r}]=P[E_{a}]P[E_{b}]\dots P[E_{r}]$$
 and $$P[E|F]=P[E]$$
 Two events are conditionally independent given a third event $G$ if
 $$P[EF|G]=P[E|G]P[F|G]$$
-or equivalently $P[E|FG]$
+or equivalently $P[E|FG]=P[E|G]$

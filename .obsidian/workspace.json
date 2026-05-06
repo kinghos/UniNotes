@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Intro to Probability/1 Conditional probability and Bayes' Theorem.md",
+                "file": "Part IA/Intro to Probability/2 Random Variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Conditional probability and Bayes' Theorem"
+              "title": "2 Random Variables"
             }
           }
         ]
@@ -183,6 +183,8 @@
   },
   "active": "120d3b1da902753e",
   "lastOpenFiles": [
+    "Part IA/Intro to Probability/1 Conditional probability and Bayes' Theorem.md",
+    "Part IA/Intro to Probability/2 Random Variables.md",
     "Part IA/Interaction Design/2 Data Analysis.md",
     "Part IA/Exam Technique Briefing.md",
     "Part IA/Introduction to Graphics/Lecture 1.md",
@@ -197,7 +199,6 @@
     "Part IA/Algorithms 1/5 Quick select.md",
     "Part IA/Algorithms 1/4 Quicksort.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
-    "Part IA/Intro to Probability/1 Conditional probability and Bayes' Theorem.md",
     "Part IA/Intro to Probability",
     "Part IA/Interaction Design/1 Intro to Interaction Design.md",
     "Part IA/Interaction Design/Images",
@@ -212,7 +213,6 @@
     "Part IA/Operating Systems/8 Virtual Memory.md",
     "Part IA/Operating Systems/7 Paging.md",
     "Part IA/Operating Systems/Summary notes.md",
-    "Part IA/Operating Systems/3 Processes.md",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
