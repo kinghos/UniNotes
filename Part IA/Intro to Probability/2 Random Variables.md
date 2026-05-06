@@ -18,4 +18,13 @@ Let possible values of $X=\{ a_{1},a_{2},a_{3},\dots \}$
 #### Cumulative Distribution Functions
 The CDF of a random variable X is defined as 
 $$F(a)=F_{X}(a)=P[X\leq a],-\infty<a<\infty$$
-For a discrete variable $X$ the CD
+For a discrete variable $X$ the CDF is 
+$$F(a)=P[X\leq a]=\sum_{\text{all }x\leq a}p(x)$$
+1. $0\leq F(x)\leq{1}$ for all $x$
+2. $\lim_{ x \to -\infty }F(x)=0$
+3. $\lim_{ x \to \infty }F(x)=1$
+4. $F(x)$ is a non-decreasing function of $x$
+
+#### Expectation
+Expectation of a discrete variable $X$ is defined as
+$$E[X]=\sum_{x:P[x]>0}xP[x]$$
