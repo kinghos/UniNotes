@@ -38,4 +38,13 @@ Takeaways:
 - Lockheed wrote the thruster software using Imperial units, while NASA wrote the navigation software expecting metric units
 - The specification explicitly required metric units - but NASA did not test this
 - Each component was tested in isolation but did not run end-to-end simulations together
-- 
+Takeaways
+- Type safety - modern programming practices catch unit errors
+- Integration Testing - boundaries between teams are where systems fail
+- Process over Blame - systemic process breakdown, not just one person's mistake
+#### London Ambulance Service
+- Roll-out of Computer Aided Dispatch system for the LAS
+- Goal was to automate ambulance dispatch to improve response times across London
+- The contract was awarded to a company with no prior experience because they underbid the competition
+- System was overloaded, ambulances were sent to the wrong locations and some places didn't get any
+- Within 36 hours the system locked up entirely and many people died 
