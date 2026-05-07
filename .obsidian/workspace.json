@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Software and Security Engineering/1 Engineering Mindset.md",
+                "file": "Part IA/Interaction Design/3 Requirements.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Engineering Mindset"
+              "title": "3 Requirements"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "120d3b1da902753e",
   "lastOpenFiles": [
-    "Part IA/Intro to Probability/2 Random Variables.md",
     "Part IA/Software and Security Engineering/1 Engineering Mindset.md",
+    "Part IA/Interaction Design/3 Requirements.md",
+    "Part IA/Intro to Probability/2 Random Variables.md",
     "Part IA/Software and Security Engineering",
     "Part IA/Intro to Probability/1 Conditional probability and Bayes' Theorem.md",
     "Part IA/Interaction Design/2 Data Analysis.md",
@@ -213,7 +214,6 @@
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
     "Part IA/Operating Systems/8 Virtual Memory.md",
-    "Part IA/Operating Systems/7 Paging.md",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
