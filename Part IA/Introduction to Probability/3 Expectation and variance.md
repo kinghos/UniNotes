@@ -24,4 +24,12 @@ $$V[aX+b]=a^2V[X]$$
 
 #### Bernoulli
 A Bernoulli RV $X$ maps success of an experiment to 1 and failure to 0.
-$$X\sim \text{Ber}$$
+$$X\sim \text{Ber}(p)$$
+Range is $\{ 0,1 \}$, where $p$ is the probability of 1.
+$E[V]=p, V[X]=p(1-p)$
+
+#### Binomial
+$$X\sim\text{Bin}(n, p)$$
+$E[X]=np, V[X]=np(1-p)$
+$$P[X=k]=p(k)={n\choose k} p^k(1-p)^{n-k}$$
+Binomial RV is the sum of n independent Bernoulli RVs
