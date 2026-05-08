@@ -20,3 +20,11 @@ Fit criterion - a measure to see if an NFR is met
 #### UML
 Used as blueprints rarely, mainly as sketches, informally used to sketch concepts
 Composition vs aggregation: both "has a" relationships, but composition means they are linked - if the parent dies the child dies
+
+#### Product managers
+They run everything - intersection of business, UX, technology
+MoSCoW
+Must have
+Should have
+Could have
+Won't have
