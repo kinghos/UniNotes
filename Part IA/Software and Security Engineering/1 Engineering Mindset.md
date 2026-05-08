@@ -59,3 +59,5 @@ Takeaways
 Takeaways
 - Audit trails in financial or legal systems - actions should be transparent
 - Management
+
+Choice of two from Fast, Good, and Cheap
