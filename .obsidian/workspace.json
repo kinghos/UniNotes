@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Interaction Design/3 Requirements.md",
+                "file": "Part IA/Introduction to Probability/3 Expectation and variance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Requirements"
+              "title": "3 Expectation and variance"
             }
           }
         ]
@@ -183,11 +183,12 @@
   },
   "active": "120d3b1da902753e",
   "lastOpenFiles": [
-    "Part IA/Software and Security Engineering/1 Engineering Mindset.md",
     "Part IA/Interaction Design/3 Requirements.md",
-    "Part IA/Intro to Probability/2 Random Variables.md",
+    "Part IA/Introduction to Probability/3 Expectation and variance.md",
+    "Part IA/Software and Security Engineering/1 Engineering Mindset.md",
+    "Part IA/Introduction to Probability/2 Random Variables.md",
     "Part IA/Software and Security Engineering",
-    "Part IA/Intro to Probability/1 Conditional probability and Bayes' Theorem.md",
+    "Part IA/Introduction to Probability/1 Conditional probability and Bayes' Theorem.md",
     "Part IA/Interaction Design/2 Data Analysis.md",
     "Part IA/Exam Technique Briefing.md",
     "Part IA/Introduction to Graphics/Lecture 1.md",
@@ -202,7 +203,7 @@
     "Part IA/Algorithms 1/5 Quick select.md",
     "Part IA/Algorithms 1/4 Quicksort.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
-    "Part IA/Intro to Probability",
+    "Part IA/Introduction to Probability",
     "Part IA/Interaction Design/1 Intro to Interaction Design.md",
     "Part IA/Interaction Design/Images",
     "Part IA/Interaction Design/Images/SDLC.png",
@@ -213,7 +214,6 @@
     "Part IA/Algorithms 1/1 Features of algorithms.md",
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
-    "Part IA/Operating Systems/8 Virtual Memory.md",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
