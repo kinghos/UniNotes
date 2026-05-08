@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Software and Security Engineering/2 Requirements and specifications.md",
+                "file": "Part IA/Interaction Design/3 Requirements.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 Requirements and specifications"
+              "title": "3 Requirements"
             }
           }
         ]
@@ -183,8 +183,8 @@
   },
   "active": "120d3b1da902753e",
   "lastOpenFiles": [
-    "Part IA/Software and Security Engineering/1 Engineering Mindset.md",
     "Part IA/Software and Security Engineering/2 Requirements and specifications.md",
+    "Part IA/Software and Security Engineering/1 Engineering Mindset.md",
     "Part IA/Introduction to Probability/3 Expectation and variance.md",
     "Part IA/Interaction Design/3 Requirements.md",
     "Part IA/Introduction to Probability/2 Random Variables.md",

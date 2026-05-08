@@ -8,3 +8,5 @@ Non-functional requirements - what are the constraints on the system/development
 	- ICT related abilities, age, nationality, education, disabliity
 - Usability goals and user experience requirements
 	- Effectiveness of usability, entertainment factor of UX
+
+Prototyping is developing an early unfinished version of the project
