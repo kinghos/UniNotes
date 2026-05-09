@@ -79,7 +79,7 @@ Containers expose functionality in the kernel so that each container acts as a s
 	- By object, as an Access Control List
 	- By domain, storing as Capabilities
 ##### ACLs
-- Each column is an access list for one object
+- Each column is an access list for one object - e.g. a file
 - Often used in storage system
 - If stored on disk, check performed in software so use only on low-duty cycle, for higher duty cycle must cache results of check, e.g. ACL checked when file opened for read or write or when code file is to be executed
 ##### Capabilities
