@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Operating Systems/3 Processes.md",
+                "file": "Part IA/Operating Systems/4 Scheduling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Processes"
+              "title": "4 Scheduling"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "468c8bd24b787daf",
   "lastOpenFiles": [
+    "Part IA/Operating Systems/3 Processes.md",
     "Part IA/Operating Systems/2 Protection.md",
     "Pasted image 20260509125025.png",
     "Part IA/Operating Systems/1 Introduction.md",

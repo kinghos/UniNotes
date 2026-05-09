@@ -44,7 +44,7 @@ Terminated: process has finished executing
 #### Process creation
 Most systems are hierarchical, forming a tree
 - Resource sharing options:
-	- Parent and children share all resouces
+	- Parent and children share all resources
 	- Subset of resources
 	- No resources
 - Memory initialisation options:
