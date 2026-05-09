@@ -82,7 +82,6 @@ Containers expose functionality in the kernel so that each container acts as a s
 - Each column is an access list for one object
 - Often used in storage system
 - If stored on disk, check performed in software so use only on low-duty cycle, for higher duty cycle must cache results of check, e.g. ACL checked when file opened for read or write or when code file is to be executed
-![[Pasted image 20260509125025.png]]
 ##### Capabilities
 - Each row is a capability for one domain, indicating the permitted operations on a set of objects
 - To execute operation M on object O, process requests the operation and passes the capability as a parameter
