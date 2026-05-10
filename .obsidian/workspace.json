@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Operating Systems/4 Scheduling.md",
+                "file": "Part IA/Interaction Design/Supervision Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Scheduling"
+              "title": "Supervision Notes"
             }
           }
         ]
@@ -181,8 +181,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "468c8bd24b787daf",
   "lastOpenFiles": [
+    "Part IA/Operating Systems/4 Scheduling.md",
+    "Part IA/Interaction Design/Supervision Notes.md",
     "Part IA/Operating Systems/3 Processes.md",
     "Part IA/Operating Systems/2 Protection.md",
     "Pasted image 20260509125025.png",
@@ -212,9 +214,7 @@
     "Part IA/Interaction Design/1 Intro to Interaction Design.md",
     "Part IA/Interaction Design/Images",
     "Part IA/Interaction Design/Images/SDLC.png",
-    "Part IA/Algorithms 1/Summary Notes.md",
     "Part IA/Interaction Design",
-    "Part IA/Algorithms 1/3 Divide and conquer.md",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
