@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Introduction to Probability/3 Expectation and variance.md",
+                "file": "Part IA/Introduction to Probability/4 Discrete Distributions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Expectation and variance"
+              "title": "4 Discrete Distributions"
             }
           }
         ]
@@ -183,6 +183,8 @@
   },
   "active": "468c8bd24b787daf",
   "lastOpenFiles": [
+    "Part IA/Introduction to Probability/3 Expectation and variance.md",
+    "Part IA/Introduction to Probability/4 Discrete Distributions.md",
     "Part IA/Interaction Design/Supervision Notes.md",
     "Part IA/Interaction Design/3 Requirements.md",
     "Part IA/Operating Systems/4 Scheduling.md",
@@ -192,7 +194,6 @@
     "Part IA/Operating Systems/1 Introduction.md",
     "Part IA/Software and Security Engineering/2 Requirements and specifications.md",
     "Part IA/Software and Security Engineering/1 Engineering Mindset.md",
-    "Part IA/Introduction to Probability/3 Expectation and variance.md",
     "Part IA/Introduction to Probability/2 Random Variables.md",
     "Part IA/Software and Security Engineering",
     "Part IA/Introduction to Probability/1 Conditional probability and Bayes' Theorem.md",
@@ -211,7 +212,6 @@
     "Part IA/Algorithms 1/4 Quicksort.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Introduction to Probability",
-    "Part IA/Interaction Design/1 Intro to Interaction Design.md",
     "Part IA/Interaction Design/Images",
     "Part IA/Interaction Design/Images/SDLC.png",
     "Part IA/Interaction Design",
