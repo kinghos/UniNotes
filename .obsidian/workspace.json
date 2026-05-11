@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Introduction to Probability/4 Discrete Distributions.md",
+                "file": "Part IA/Software and Security Engineering/3 Engineering Process.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Discrete Distributions"
+              "title": "3 Engineering Process"
             }
           }
         ]
@@ -183,10 +183,11 @@
   },
   "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
+    "Part IA/Introduction to Probability/4 Discrete Distributions.md",
+    "Part IA/Software and Security Engineering/3 Engineering Process.md",
     "Part IA/Introduction to Probability/Images",
     "Part IA/Introduction to Probability/Images/DistSummary.png",
     "Part IA/Introduction to Probability/3 Expectation and variance.md",
-    "Part IA/Introduction to Probability/4 Discrete Distributions.md",
     "Part IA/Interaction Design/Supervision Notes.md",
     "Part IA/Interaction Design/3 Requirements.md",
     "Part IA/Operating Systems/4 Scheduling.md",
@@ -228,7 +229,6 @@
     "Part IA/Operating Systems/Images/StorageComparison.png",
     "Part IA/Operating Systems",
     "Part IA/Algorithms 2",
-    "Part IA/Algorithms 1/Images",
     "Untitled.canvas"
   ]
 }
