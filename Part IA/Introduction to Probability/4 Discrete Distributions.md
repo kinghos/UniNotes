@@ -16,3 +16,11 @@ $V[X]=\frac{1-p}{p^2},E[X]=\frac{1}{p}$
 $X$ is the number of independent Bernoulli trials until r successes and $p$ is the probability of a success.
 Its PMF is $$P[X=n]={{n-1}\choose{r-1}}(1-p)^{n-r}p^r$$
 $V[X]=\frac{r(1-p)}{p^2}, E[X]=\frac{r}{p}$
+
+#### Hypergeometric
+Samples $n$ objects, without replacement, with $i$ successes (drawing objects with a certain feature), from a finite population of size $N$ that contains $m$ objects with that feature: $X\sim  \text{Hyp}(N,n,m)$
+Its PMF is
+$$P[X=i]=\frac{{m\choose i}{N-m\choose n-i}}{N\choose n}$$
+$V[X]=\frac{nm}{N}\left( 1-\frac{m}{N} \right)\left( 1-\frac{{n-1}}{N-1} \right), E[X]=\frac{nm}{N}$
+
+![[Pasted image 20260511105212.png]]
