@@ -35,6 +35,18 @@ Iterative version of waterfall
 - User stories 
 - Sprint backlog - the set of product backlog items selected for the current sprint, plus a plan for delivering them
 - The increment: the sum of all completed work during a sprint
-- A sprint is a fixed timebox during which a "done", useable and potentially releasable product Increment is created
+- A sprint is a fixed timebox during which a "done", usable and potentially releasable product Increment is created
 	- No changes are made during the sprint that would endanger the sprint goal, instead they go into the backlog
+- Daily scrum, where developers inspect progress towards the sprint goal
+- Sprint reviews at the end of sprints, where the team presents results of their work to key stakeholders
+- The scrum master facilitates scrum events, removes blockers, and protects the team from external interruptions
+- The product owner represents the business and the customer
+- The cross-team coordinator manages complex dependencies across multiple teams and aligns engineering work with broad company timelines
+Scrum is very strict - any changes to core principles is not scrum
+
+#### Kanban
+- Visualises work on a board (To do, in progress, in review, done)
+- Enforces strict limits on columns
+- If the limit is reached, developers must stop pulling new work and help their teammates finish existing tasks to clear the bottleneck
+- Optimises for flow and fast delivery
 - 
