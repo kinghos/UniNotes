@@ -25,3 +25,16 @@ Iterative version of waterfall
 - Pair programming - two developers, one keyboard
 - Test-driven development - write the test before the code
 - Continuous integration - merge code into main branch many times a day
+
+#### Scrum
+- Master to-do list
+	- Ordered list of everything that is known to be needed in the product
+	- Replaces the 500-page waterfall specification document
+	- Never complete; evolves as the product changes
+	- Items at the top are highly detailed, items at the bottom are vague ideas
+- User stories 
+- Sprint backlog - the set of product backlog items selected for the current sprint, plus a plan for delivering them
+- The increment: the sum of all completed work during a sprint
+- A sprint is a fixed timebox during which a "done", useable and potentially releasable product Increment is created
+	- No changes are made during the sprint that would endanger the sprint goal, instead they go into the backlog
+- 
