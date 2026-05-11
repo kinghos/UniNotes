@@ -7,3 +7,10 @@ Stages of:
 - Implementation and unit testing
 - Integration and system testing
 - Operation and maintenance
+If changes are made to the milestones, then the whole thing needs to be redone. Waterfall assumes requirements are frozen
+
+#### Spiral model
+Iterative version of waterfall
+
+#### The Agile Manifesto
+1. I
