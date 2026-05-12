@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Software and Security Engineering/3 Engineering Process.md",
+                "file": "Part IA/Interaction Design/4 Cognitive Aspects for Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Engineering Process"
+              "title": "4 Cognitive Aspects for Design"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5730f0a3af2f939d",
@@ -184,8 +183,9 @@
   },
   "active": "468c8bd24b787daf",
   "lastOpenFiles": [
-    "Part IA/Introduction to Probability/4 Discrete Distributions.md",
     "Part IA/Software and Security Engineering/3 Engineering Process.md",
+    "Part IA/Interaction Design/4 Cognitive Aspects for Design.md",
+    "Part IA/Introduction to Probability/4 Discrete Distributions.md",
     "Part IA/Introduction to Probability/Images",
     "Part IA/Introduction to Probability/Images/DistSummary.png",
     "Part IA/Introduction to Probability/3 Expectation and variance.md",
@@ -213,7 +213,6 @@
     "Part IA/Algorithms 1/10 Trees.md",
     "Part IA/Algorithms 1/8 Dynamic Programming.md",
     "Part IA/Algorithms 1/5 Quick select.md",
-    "Part IA/Algorithms 1/4 Quicksort.md",
     "Part IA/Introduction to Probability",
     "Part IA/Interaction Design/Images",
     "Part IA/Interaction Design/Images/SDLC.png",
