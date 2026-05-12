@@ -49,4 +49,3 @@ Scrum is very strict - any changes to core principles is not scrum
 - Enforces strict limits on columns
 - If the limit is reached, developers must stop pulling new work and help their teammates finish existing tasks to clear the bottleneck
 - Optimises for flow and fast delivery
-- 
