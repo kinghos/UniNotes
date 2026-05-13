@@ -11,3 +11,12 @@ $$E[g(x)]=\int^\infty_{-\infty}g(x)f(x)\,dx$$
 $X \sim \text{Uni}(\alpha,\beta)$
 PDF is $\frac{1}{\beta-\alpha}$
 $E[X]=\frac{{~a+\beta}}{2}$
+
+#### Exponential
+$X\sim \text{Exp}(\lambda)$
+PDF is $\lambda e^{-\lambda x}$
+$E[X]=\frac{1}{\lambda}, V[X]=\frac{1}{\lambda^2}$
+
+#### Normal
+$X\sim \mathcal{N}(\mu,\sigma^2)$
+PDF is $\frac{1}{\sigma \sqrt{ 2\pi }}e^{-(x-\mu)^2/2\sigma^2}$
