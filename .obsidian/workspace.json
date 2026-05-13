@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "468c8bd24b787daf",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
     "Part IA/Software and Security Engineering/3 Engineering Process.md",
     "Part IA/Interaction Design/4 Cognitive Aspects for Design.md",
