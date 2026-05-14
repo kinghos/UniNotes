@@ -1,8 +1,9 @@
 #### Software Engineering
 Software engineering relies on teams of developers at a massive scale, with a long lifespan and a focus on maintainability and security.
 
+Brooks' Law:
 *"Adding manpower to a late software project makes it later"*
-Increasing team size means you need to spend time training new hires and communication gets vastly harder
+Increasing team size means you need to spend time training new hires and communication gets vastly harder (quadratic increase)
 It is extremely difficult to predict software as anything could happen; there is no way to predict and test every state
 
 Effect of Moore's Law - humans could not keep up with the rate of improvement while managing complexity
