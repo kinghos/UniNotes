@@ -20,3 +20,8 @@ Continuous deployment - automated path from code to customer
 Manual deployment - human oversight feels safer, but risk of error and hard to roll back
 
 Blue/Green deployment - switch between the latest version and a rollback. Canary is similar except some users are on the latest build instead of all on one or the other
+
+#### Cloud
+No one buys the hardware anymore - they rent it
+Raw compute - e.g. AWS. Lots of control but lots of management overhead
+Platform as a service - Heroku, Google App Engine - the provide handles runtime, OS and scaling. Problems with vendor lock in
