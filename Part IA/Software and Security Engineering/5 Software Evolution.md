@@ -23,4 +23,15 @@ Ensures the API contract is stuck to
 
 Major version bumps are bad as not everyone will move, meaning you need to maintain multiple versions
 
-#### Deprecation 
+#### Deprecation Cycles
+- Announce to users that a feature will be removed
+- Mark as deprecated
+- Wait, before removing in a major version
+
+#### Characterisation tests
+When refactoring, if code has no tests, write a test that checks the output for a given input is the same as before refactoring
+
+#### Strangler Fig Pattern
+- Write a proxy/facade that "wraps around" old legacy code
+- Gradually redirect traffic to this new proxy, any new functionality should point directly to this
+- Eventually the original code has no traffic and can be deprecated
