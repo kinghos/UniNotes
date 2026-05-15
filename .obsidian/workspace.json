@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
+                "file": "Part IA/Introduction to Probability/6 Marginals and Joint Distributions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 Continuous Random Variables"
+              "title": "6 Marginals and Joint Distributions"
             }
           }
         ]
@@ -183,13 +183,14 @@
   },
   "active": "468c8bd24b787daf",
   "lastOpenFiles": [
+    "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
+    "Part IA/Introduction to Probability/6 Marginals and Joint Distributions.md",
     "Part IA/Introduction to Probability/3 Expectation and variance.md",
     "Part IA/Introduction to Probability/4 Discrete Distributions.md",
     "Part IA/Interaction Design/5 Designing Content.md",
     "Part IA/Software and Security Engineering/1 Engineering Mindset.md",
     "Part IA/Software and Security Engineering/2 Requirements and specifications.md",
     "Part IA/Software and Security Engineering/4 Quality Assurance and Reliable Delivery.md",
-    "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
     "Part IA/Introduction to Probability/1 Conditional probability and Bayes' Theorem.md",
     "Part IA/Introduction to Probability/2 Random Variables.md",
     "Part IA/Interaction Design/4 Cognitive Aspects for Design.md",
@@ -212,7 +213,6 @@
     "Part IA/Algorithms 1/6 Heaps.md",
     "Part IA/Algorithms 1/7 Linear time sorting.md",
     "Part IA/Algorithms 1/Proving correctness.md",
-    "Part IA/Algorithms 1/11 Trees cont..md",
     "Part IA/Introduction to Probability",
     "Part IA/Interaction Design/Images",
     "Part IA/Interaction Design/Images/SDLC.png",
