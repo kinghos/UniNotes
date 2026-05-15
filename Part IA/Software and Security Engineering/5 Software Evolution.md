@@ -8,3 +8,19 @@ Legacy code - without tests or afraid to modify
 git blame - shows who changed what line and when
 git log -S - search history for when a specific string was added or removed
 
+#### SemVer
+Major.Minor.Patch versioning
+Major - Breaking changes
+Minor - new features
+Patch - Bug fixes
+Zero versioning - 0.x.y is for initial versioning, where anything may change at any time
+Bump to 1.0.0 as soon as the software is used in production
+SemVer is important for package managers
+
+#### Robustness Principle (Postel's Law)
+"Be conservative in what you send, be liberal in what you accept"
+Ensures the API contract is stuck to
+
+Major version bumps are bad as not everyone will move, meaning you need to maintain multiple versions
+
+#### Deprecation 
