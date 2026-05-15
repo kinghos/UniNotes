@@ -25,3 +25,9 @@ Blue/Green deployment - switch between the latest version and a rollback. Canary
 No one buys the hardware anymore - they rent it
 Raw compute - e.g. AWS. Lots of control but lots of management overhead
 Platform as a service - Heroku, Google App Engine - the provide handles runtime, OS and scaling. Problems with vendor lock in
+
+SaaS - fully functional applications through web
+Provider is responsible for security of the cloud
+Customer is responsible for security in the cloud
+Docker - packages code and dependencies into a single image that works on many machines
+Kubernetes - self healing, auto-scaling, load-balancing containers
