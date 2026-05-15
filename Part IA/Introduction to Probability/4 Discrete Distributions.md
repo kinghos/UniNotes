@@ -23,4 +23,4 @@ Its PMF is
 $$P[X=i]=\frac{{m\choose i}{N-m\choose n-i}}{N\choose n}$$
 $V[X]=\frac{nm}{N}\left( 1-\frac{m}{N} \right)\left( 1-\frac{{n-1}}{N-1} \right), E[X]=\frac{nm}{N}$
 
-![[Pasted image 20260511105212.png]]
+![[DistSummary.png]]
