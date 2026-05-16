@@ -31,9 +31,6 @@ The state of an object is defined through its fields, the behaviours of an objec
 	- View - the code that deals with how to draw the state to the screen
 	- Controller - the code that sequences everything together, handling input such as clicks, updating the view code when it needs to be updated.
 
-#### Cohesion
-- Cohesion measures how strongly grouped the responsibilities of a class are
-
 #### Encapsulation
 By setting state as private, you can control how that field is modified. In other words, encapsulation decouples behaviour from state.
 
