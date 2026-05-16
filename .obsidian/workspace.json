@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4e5276f637f8bccc",
+        "id": "d378942dbbe6536e",
         "type": "tabs",
         "children": [
           {
-            "id": "468c8bd24b787daf",
+            "id": "91e7fe87d466de1e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Part IA/Introduction to Probability/Supervision Notes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "New tab"
             }
           }
         ]
@@ -62,6 +58,16 @@
               },
               "icon": "lucide-search",
               "title": "Search"
+            }
+          },
+          {
+            "id": "366f80a110068c5e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -171,10 +177,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "468c8bd24b787daf",
+  "active": "91e7fe87d466de1e",
   "lastOpenFiles": [
-    "Part IA/Introduction to Probability/6 Marginals and Joint Distributions.md",
     "Part IA/Introduction to Probability/Supervision Notes.md",
+    "Part IA/Introduction to Probability/6 Marginals and Joint Distributions.md",
     "Part IA/Software and Security Engineering/5 Software Evolution.md",
     "Part IA/Software and Security Engineering/4 Quality Assurance and Reliable Delivery.md",
     "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
