@@ -39,7 +39,7 @@ In other words, you treat objects and a container of objects the same, by implem
 Way of adding functionality to a class, by containing and inheriting an object of that class. Delegate the inherited methods to the wrapped object
 
 #### State
-Containing an object inside another so it is changeable, e.g. an Employee contains a Rank which can be a Manager or Assistant, rather than Manager and Assistant inheriting Employee.
+Containing an object inside another so it is changeable, e.g. an Employee contains a Rank which can be a Manager or Assistant, rather than Manager and Assistant inheriting Employee. All work is done through this Rank object.
 Never allow access to the reference of this contained object!
 
 #### Strategy
