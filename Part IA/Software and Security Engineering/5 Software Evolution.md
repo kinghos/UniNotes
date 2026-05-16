@@ -35,3 +35,13 @@ When refactoring, if code has no tests, write a test that checks the output for 
 - Write a proxy/facade that "wraps around" old legacy code
 - Gradually redirect traffic to this new proxy, any new functionality should point directly to this
 - Eventually the original code has no traffic and can be deprecated
+
+#### Site Reliability Engineering
+- Treat operations as a software problem - if a task is repetitive, automate it
+- SRE assumes things will fail - focus on mean time to recovery over time between failures
+- Chaos Monkey - Netflix built a tool to randomly kill production servers, to see if engineers could build systems that recovered automatically
+- Chaos engineering is experimenting on a software system in order to build confidence in its capability to withstand turbulent conditions in production
+
+#### Dependencies
+Avoid transitive dependencies that may be hard to track
+Use a SBOM (software bill of materials). Tracks all components of a program - if a bug is found, you can instantly see if you are affected
