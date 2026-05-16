@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Software and Security Engineering/5 Software Evolution.md",
+                "file": "Part IA/Introduction to Probability/Supervision Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 Software Evolution"
+              "title": "Supervision Notes"
             }
           }
         ]
@@ -62,16 +62,6 @@
               },
               "icon": "lucide-search",
               "title": "Search"
-            }
-          },
-          {
-            "id": "2fcbb545a4f25611",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
             }
           }
         ]
@@ -183,8 +173,9 @@
   },
   "active": "468c8bd24b787daf",
   "lastOpenFiles": [
-    "Part IA/Software and Security Engineering/4 Quality Assurance and Reliable Delivery.md",
     "Part IA/Software and Security Engineering/5 Software Evolution.md",
+    "Part IA/Introduction to Probability/Supervision Notes.md",
+    "Part IA/Software and Security Engineering/4 Quality Assurance and Reliable Delivery.md",
     "Part IA/Introduction to Probability/6 Marginals and Joint Distributions.md",
     "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
     "Part IA/Introduction to Probability/3 Expectation and variance.md",
@@ -212,7 +203,6 @@
     "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
     "Part IA/Algorithms 1/9 Data structures.md",
     "Part IA/Algorithms 1/6 Heaps.md",
-    "Part IA/Algorithms 1/7 Linear time sorting.md",
     "Part IA/Introduction to Probability",
     "Part IA/Interaction Design/Images",
     "Part IA/Interaction Design/Images/SDLC.png",
