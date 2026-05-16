@@ -29,6 +29,8 @@ Resolution rules:
 - Otherwise subinterfaces win. The method with the same signature in the most specific interface is selected
 - If the choice is still ambiguous the class inheriting must override the method and be explicit
 
+Diamond problem - it is unclear how many copies of the parent should be shared in multiple inheritance (such as when calling `super()`)
+
 ### Principles of OOP
 #### Open-closed principle
 Make your classes open to extension but closed to modification, i.e. make it easy to add new behaviour but hard to change existing behaviour
