@@ -32,10 +32,11 @@ General reusable solutions to commonly occurring problems in software design
 Classes should be open for extension but closed for modification
 
 #### Composite
-Lets you treat objects and groups of objects uniformly by inheriting and containing a class
+Lets you treat objects and groups of objects uniformly by inheriting and containing a class.
+In other words, you treat objects and a container of objects the same, by implementing the operation for the box of objects class with a foreach loop.
 
 #### Decorator
-Way of adding functionality to a class, by containing and inheriting an object of that class.
+Way of adding functionality to a class, by containing and inheriting an object of that class. Delegate the inherited methods to the wrapped object
 
 #### State
 Containing an object inside another so it is changeable, e.g. an Employee contains a Rank which can be a Manager or Assistant, rather than Manager and Assistant inheriting Employee.
