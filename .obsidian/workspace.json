@@ -11,10 +11,14 @@
             "id": "91e7fe87d466de1e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Part IA/Object-Oriented Programming/Lecture 8.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lecture 8"
             }
           }
         ]
@@ -179,6 +183,13 @@
   },
   "active": "91e7fe87d466de1e",
   "lastOpenFiles": [
+    "Part IA/Object-Oriented Programming/Lecture 7.md",
+    "Part IA/Object-Oriented Programming/Lecture 6.md",
+    "Part IA/Object-Oriented Programming/Lecture 5.md",
+    "Part IA/Object-Oriented Programming/Lecture 4.md",
+    "Part IA/Object-Oriented Programming/Lecture 3.md",
+    "Part IA/Object-Oriented Programming/Lecture 2.md",
+    "Part IA/Object-Oriented Programming/Lecture 1.md",
     "Part IA/Introduction to Probability/Supervision Notes.md",
     "Part IA/Introduction to Probability/6 Marginals and Joint Distributions.md",
     "Part IA/Software and Security Engineering/5 Software Evolution.md",
@@ -201,14 +212,7 @@
     "Part IA/Operating Systems/3 Processes.md",
     "Part IA/Operating Systems/2 Protection.md",
     "Pasted image 20260509125025.png",
-    "Part IA/Operating Systems/1 Introduction.md",
     "Part IA/Software and Security Engineering",
-    "Part IA/Interaction Design/2 Data Analysis.md",
-    "Part IA/Exam Technique Briefing.md",
-    "Part IA/Introduction to Graphics/Lecture 1.md",
-    "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
-    "Part IA/Algorithms 1/9 Data structures.md",
-    "Part IA/Algorithms 1/6 Heaps.md",
     "Part IA/Introduction to Probability",
     "Part IA/Interaction Design/Images",
     "Part IA/Interaction Design/Images/SDLC.png",
