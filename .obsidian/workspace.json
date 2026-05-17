@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Setup and Hold Conditions.md",
+                "file": "Part IA/Digital Electronics/Multiplexers and Demultiplexers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Setup and Hold Conditions"
+              "title": "Multiplexers and Demultiplexers"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IA/Digital Electronics/Setup and Hold Conditions.md",
+                "file": "Part IA/Digital Electronics/Multiplexers and Demultiplexers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Setup and Hold Conditions"
+              "title": "Backlinks for Multiplexers and Demultiplexers"
             }
           },
           {
@@ -114,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Part IA/Digital Electronics/Setup and Hold Conditions.md",
+                "file": "Part IA/Digital Electronics/Multiplexers and Demultiplexers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Setup and Hold Conditions"
+              "title": "Outgoing links from Multiplexers and Demultiplexers"
             }
           },
           {
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Part IA/Digital Electronics/Setup and Hold Conditions.md",
+                "file": "Part IA/Digital Electronics/Multiplexers and Demultiplexers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Setup and Hold Conditions"
+              "title": "Outline of Multiplexers and Demultiplexers"
             }
           },
           {
@@ -183,6 +182,7 @@
   },
   "active": "91e7fe87d466de1e",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/Setup and Hold Conditions.md",
     "Part IA/Digital Electronics/One Hot State Encoding.md",
     "Part IA/Digital Electronics/n-Channel MOSFET.md",
     "Part IA/Digital Electronics/Multicycle Processor.md",
@@ -201,7 +201,6 @@
     "Part IA/Digital Electronics/Supervision Notes.md",
     "Part IA/Digital Electronics/T Flip-Flop.md",
     "Part IA/Digital Electronics/Simple Computer.md",
-    "Part IA/Digital Electronics/Setup and Hold Conditions.md",
     "Part IA/Digital Electronics/Semiconductors.md",
     "Part IA/Digital Electronics/ROM.md",
     "Part IA/Digital Electronics/Ripple Counters.md",
