@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Metastability.md",
+                "file": "Part IA/Digital Electronics/Synchronous Counters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Metastability"
+              "title": "Synchronous Counters"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IA/Digital Electronics/Metastability.md",
+                "file": "Part IA/Digital Electronics/Synchronous Counters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Metastability"
+              "title": "Backlinks for Synchronous Counters"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Part IA/Digital Electronics/Metastability.md",
+                "file": "Part IA/Digital Electronics/Synchronous Counters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Metastability"
+              "title": "Outgoing links from Synchronous Counters"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Part IA/Digital Electronics/Metastability.md",
+                "file": "Part IA/Digital Electronics/Synchronous Counters.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Metastability"
+              "title": "Outline of Synchronous Counters"
             }
           },
           {
@@ -182,32 +182,32 @@
   },
   "active": "91e7fe87d466de1e",
   "lastOpenFiles": [
+    "Part IA/Digital Electronics/T Flip-Flop.md",
+    "Part IA/Digital Electronics/Synchronous Counters.md",
+    "Part IA/Digital Electronics/Supervision Notes.md",
+    "Part IA/Digital Electronics/Simple Computer.md",
+    "Part IA/Digital Electronics/Setup and Hold Conditions.md",
+    "Part IA/Digital Electronics/Semiconductors.md",
+    "Part IA/Digital Electronics/ROM.md",
+    "Part IA/Digital Electronics/Ripple Counters.md",
+    "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
+    "Part IA/Digital Electronics/Propagation Delay and Hazards.md",
+    "Part IA/Digital Electronics/Potential Dividers.md",
+    "Part IA/Digital Electronics/Multicycle Processor.md",
+    "Part IA/Digital Electronics/Implication Tables.md",
+    "Part IA/Digital Electronics/Generic Logic Array.md",
+    "Part IA/Digital Electronics/Flip-Flops.md",
+    "Part IA/Digital Electronics/Metastability.md",
     "Part IA/Digital Electronics/Memory and Tristate Buffers.md",
     "Part IA/Digital Electronics/Latches.md",
     "Part IA/Digital Electronics/Karnaugh Maps.md",
-    "Part IA/Digital Electronics/Generic Logic Array.md",
-    "Part IA/Digital Electronics/Implication Tables.md",
-    "Part IA/Digital Electronics/Flip-Flops.md",
     "Part IA/Digital Electronics/RS Latch.md",
     "Part IA/Digital Electronics/Transparent D Latch.md",
     "Part IA/Digital Electronics/J-K Flip-Flop.md",
-    "Part IA/Digital Electronics/T Flip-Flop.md",
     "Part IA/Digital Electronics/D Flip-Flop.md",
-    "Part IA/Digital Electronics/Synchronous Counters.md",
     "Part IA/Digital Electronics/Counters.md",
-    "Part IA/Digital Electronics/Ripple Counters.md",
     "Part IA/Digital Electronics/CMOS Logic.md",
     "Part IA/Digital Electronics/Boolean Algebra Laws.md",
-    "Part IA/Digital Electronics/Basic Electricity.md",
-    "Part IA/Digital Electronics/Asynchronous inputs.md",
-    "Part IA/Digital Electronics/Adders.md",
-    "Part IA/Foundations of Computer Science/Lecture 5.md",
-    "Part IA/Foundations of Computer Science/Lecture 4.md",
-    "Part IA/Foundations of Computer Science/Lecture 3.md",
-    "Part IA/Foundations of Computer Science/Lecture 2.md",
-    "Part IA/Foundations of Computer Science/Lecture 11.md",
-    "Part IA/Foundations of Computer Science/Lecture 6.md",
-    "Part IA/Foundations of Computer Science/Lecture 7.md",
     "Part IA/Introduction to Probability/Images",
     "Part IA/Introduction to Probability/Images/DistSummary.png",
     "Pasted image 20260509125025.png",
