@@ -18,3 +18,9 @@ Consider algorithmic bias - the training data affects the LLM
 Can be used in the design stages to help with brainstorming
 Can summarise discussion threads
 Automated code review
+
+#### Building for AI
+Prompt engineering - guiding AI towards the right direction
+Put guardrails in place
+AI APIs charge per word, so be careful how much it's being used
+
