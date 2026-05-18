@@ -11,3 +11,10 @@ Rubber duck debugging
 #### Risks
 Some models are faster/slower/better/worse than others
 Never submit code that you don't understand
+Use the LLM to check its own code
+Consider algorithmic bias - the training data affects the LLM
+
+#### AI throughout the workflow
+Can be used in the design stages to help with brainstorming
+Can summarise discussion threads
+Automated code review
