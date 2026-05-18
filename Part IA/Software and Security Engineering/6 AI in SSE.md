@@ -3,3 +3,11 @@ LLMs have semantic understanding - it can understand intent and complete logic
 LLMs can read greater context from within the context, and provide useful suggestions from this
 Quickly writes boilerplate
 Can translate between languages
+Can write tests comprehensively - good at writing random and plausible but wrong data
+Can identify failing lines when a test fails, and fix them.
+Very good at finding errors from a stack trace
+Rubber duck debugging
+
+#### Risks
+Some models are faster/slower/better/worse than others
+Never submit code that you don't understand
