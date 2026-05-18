@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Introduction to Probability/7 Independence, Covariance and Correlation.md",
+                "file": "Part IA/Software and Security Engineering/6 AI in SSE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 Independence, Covariance and Correlation"
+              "title": "6 AI in SSE"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IA/Introduction to Probability/7 Independence, Covariance and Correlation.md",
+                "file": "Part IA/Software and Security Engineering/6 AI in SSE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 7 Independence, Covariance and Correlation"
+              "title": "Backlinks for 6 AI in SSE"
             }
           },
           {
@@ -182,6 +182,7 @@
   "active": "98aa5a5e6e84f981",
   "lastOpenFiles": [
     "Part IA/Introduction to Probability/7 Independence, Covariance and Correlation.md",
+    "Part IA/Software and Security Engineering/6 AI in SSE.md",
     "Part IA/Digital Electronics/CMOS Logic.md",
     "Part IA/Digital Electronics/Asynchronous inputs.md",
     "Part IA/Digital Electronics/Basic Electricity.md",
@@ -206,7 +207,6 @@
     "Part IA/Digital Electronics/Simple Computer.md",
     "Part IA/Digital Electronics/Semiconductors.md",
     "Part IA/Digital Electronics/ROM.md",
-    "Part IA/Digital Electronics/Ripple Counters.md",
     "Part IA/Introduction to Probability/Images",
     "Part IA/Introduction to Probability/Images/DistSummary.png",
     "Pasted image 20260509125025.png",
