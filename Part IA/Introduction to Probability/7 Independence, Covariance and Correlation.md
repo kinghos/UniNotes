@@ -16,3 +16,7 @@ $$V[X+Y]=V[X]+V[Y]+2\cdot\text{Cov}[X,Y]$$
 If $X,Y$ are uncorrelated the covariance term disappears
 For any random variables $X_{1},X_{2},\dots,X_{n}$
 $$V\left[ \sum^n_{i=1}X_{i} \right]=\sum^n_{i=1}V[X_{i}]+2\cdot \sum^n_{i=1}\sum^n_{j=i+1}\text{Cov}[X_{i}X_{j}]$$
+The correlation coefficient is normalised, so
+$$\rho(X,Y)=\frac{\text{Cov[X,Y]}}{\sqrt{ V[X]\cdot V[Y] }}$$
+$$\rho(X,Y)=\rho(\alpha X,\beta Y)$$
+$$\rho\in[-1,1]$$
