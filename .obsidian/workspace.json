@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Databases/Summary Notes.md",
+                "file": "Part IA/Databases/Lecture 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary Notes"
+              "title": "Lecture 1"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "propag",
+                "query": "partition tolera",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,6 +182,7 @@
   },
   "active": "98aa5a5e6e84f981",
   "lastOpenFiles": [
+    "Part IA/Databases/Summary Notes.md",
     "Part IA/Databases/Lecture 1.md",
     "Part IA/Software and Security Engineering/6 AI in SSE.md",
     "Part IA/Software and Security Engineering/5 Software Evolution.md",
@@ -208,7 +210,6 @@
     "Part IA/Digital Electronics/Memory and Tristate Buffers.md",
     "Part IA/Digital Electronics/Transistors.md",
     "Part IA/Digital Electronics/Synchronous Counters.md",
-    "Part IA/Digital Electronics/Propagation Delay and Hazards.md",
     "Part IA/Introduction to Probability/Images",
     "Part IA/Introduction to Probability/Images/DistSummary.png",
     "Pasted image 20260509125025.png",
