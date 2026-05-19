@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Software and Security Engineering/Supervision Notes.md",
+                "file": "Part IA/Discrete Maths/Lecture 10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "Lecture 10"
             }
           }
         ]
@@ -181,8 +181,18 @@
   },
   "active": "98aa5a5e6e84f981",
   "lastOpenFiles": [
-    "Part IA/Databases/Lecture 1.md",
+    "Part IA/Discrete Maths/Lecture 12.md",
+    "Part IA/Discrete Maths/Lecture 13.md",
+    "Part IA/Discrete Maths/Lecture 11.md",
+    "Part IA/Discrete Maths/Lecture 10.md",
+    "Part IA/Discrete Maths/Lecture 8.md",
+    "Part IA/Discrete Maths/Lecture 14.md",
+    "Part IA/Discrete Maths/Lecture 16.md",
+    "Part IA/Discrete Maths/Lecture 22.md",
+    "Part IA/Discrete Maths/Lecture 9.md",
+    "Part IA/Discrete Maths/Lecture 5.md",
     "Part IA/Software and Security Engineering/Supervision Notes.md",
+    "Part IA/Databases/Lecture 1.md",
     "Part IA/Databases/Summary Notes.md",
     "Part IA/Software and Security Engineering/6 AI in SSE.md",
     "Part IA/Software and Security Engineering/5 Software Evolution.md",
@@ -199,16 +209,6 @@
     "Part IA/Digital Electronics/Multiplexers and Demultiplexers.md",
     "Part IA/Digital Electronics/Setup and Hold Conditions.md",
     "Part IA/Digital Electronics/One Hot State Encoding.md",
-    "Part IA/Digital Electronics/n-Channel MOSFET.md",
-    "Part IA/Digital Electronics/Multicycle Processor.md",
-    "Part IA/Digital Electronics/Finite State Machines.md",
-    "Part IA/Digital Electronics/Elimination of Redundant States.md",
-    "Part IA/Digital Electronics/Field Programmable Gate Array.md",
-    "Part IA/Digital Electronics/Karnaugh Maps.md",
-    "Part IA/Digital Electronics/Pipelining.md",
-    "Part IA/Digital Electronics/Metastability.md",
-    "Part IA/Digital Electronics/Memory and Tristate Buffers.md",
-    "Part IA/Digital Electronics/Transistors.md",
     "Part IA/Introduction to Probability/Images",
     "Part IA/Introduction to Probability/Images/DistSummary.png",
     "Pasted image 20260509125025.png",
