@@ -12,3 +12,4 @@
 | Bézout's identity | $\exists x,y\in \mathbb{Z}.ax+by=gcd(a,b)$                                                          |
 |                   |                                                                                                     |
 
+A set is countable if a surjection exists to that set
