@@ -13,3 +13,8 @@ or equivalently
 $$P[|X-E[X]]|\geq \sqrt{ \delta \cdot V[X] }\leq \frac{1}{\delta}$$
 Unlike Markov, this is two-sided and holds for random variables with negative values, and yields stronger bounds
 This is also known as the Second Moment Method
+
+### Law of Large Numbers
+#### Weak Law
+Let $\overline{X}_{n} := \frac{1}{n}\cdot \sum^n_{i=1}X_{i}$, where the $X_{i}$s are independent and identically distributed with finite expectation $\mu$ and finite variance $\sigma^2$. Then, for any $\epsilon>0$,
+$$\lim_{ n \to \infty }P[] $$
