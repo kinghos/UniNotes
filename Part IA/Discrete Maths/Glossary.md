@@ -13,3 +13,9 @@
 |                   |                                                                                                     |
 
 A set is countable if a surjection exists to that set
+
+#### Subset Construction
+- Table of states to characters in the alphabet
+- Start at the start of the NFA and consider the states which are reached immediately (this includes ones connected by $\epsilon$ from the start state)
+- Consider what the inputs will do, write the set of outputs on the respective cell
+- Repeat in lexicographic order for all sets of states reachable 
