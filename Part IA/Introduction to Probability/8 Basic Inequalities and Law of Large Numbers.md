@@ -17,4 +17,6 @@ This is also known as the Second Moment Method
 ### Law of Large Numbers
 #### Weak Law
 Let $\overline{X}_{n} := \frac{1}{n}\cdot \sum^n_{i=1}X_{i}$, where the $X_{i}$s are independent and identically distributed with finite expectation $\mu$ and finite variance $\sigma^2$. Then, for any $\epsilon>0$,
-$$\lim_{ n \to \infty }P[] $$
+$$\lim_{ n \to \infty }P[|\overline{X}_{n}-\mu|>\epsilon]=0 $$
+#### Strong Law
+$$P[\lim_{ n \to \infty }\overline{X}_{n}=\mu ]=1$$
