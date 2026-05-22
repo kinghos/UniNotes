@@ -14,3 +14,19 @@ Adding more evaluators will cost more and not necessarily find more problems
 
 #### Cognitive Walkthrough
 A task-centred evaluation performed by experts in order to find usability problems for first-time users
+Focuses on problems that users will have wen they first use an interface
+1. Define inputs
+	- Who the users are, sample tasks for evaluation, action sequences, descriptions e.g. storyboards
+2. Get the analysts
+	- Usability experts, or team members
+3. Walk through the action sequences for each task
+	- Tell a credible story for each action
+4. Record important information
+5. Revise the interface to solve the problems found
+
+#### Evaluation with users
+- Usability testing - observing real users using the system
+- Controlled experiments 
+Usability testing - testing a product with representative users to collect feedback towards improving the design
+Ethical considerations
+Dogfooding - asking your own employees to use your own product
