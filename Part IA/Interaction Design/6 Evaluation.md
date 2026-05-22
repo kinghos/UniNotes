@@ -1,6 +1,6 @@
 #### Heuristic Evaluation
 1. Visibility of system status - designs should keep users informed about what is going on through appropriate, timely feedback
-2. Match to real world - designs should use concepts familiar to the user rather than jargon
+2. Match to real world - designs should use concepts familiar to the user rather Match to the real world --- The website follows the familiar layout of similar online shopping website. There is a search bar at the top of the screen, with the user account, likes, and basket in the top right. Some categories for navigation are listed at the top, and more products are listed as you scroll down the page.than jargon
 3. User control and freedom - the user should be able to backtrack from unwanted actions
 4. Consistency and standards - users should not have to wonder whether different words, situations or actions mean the same thing - use platform conventions
 5. Error prevention - prevent problems from occurring in the first place
