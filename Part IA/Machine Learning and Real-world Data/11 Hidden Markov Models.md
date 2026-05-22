@@ -1,4 +1,4 @@
-can you Two types of weather: rainy and cloudy. The weather doesn't change during the day.
+Two types of weather: rainy and cloudy. The weather doesn't change during the day.
 We can use a history of weather observations
 $P(w_{t}=Rainy\mid w_{t-1}=Rainy, w_{t-2}=Cloudy, \dots)$
 Markov assumption (first order) $P(w_{t}\mid w_{t-1}, w_{t-2}\dots w_{1})\approx P(w_{t}\mid w_{t-1})$
@@ -11,6 +11,7 @@ Can be viewed as a probabilistic finite-state automaton. States are fully observ
 Hidden states need to be inferred from the sequence of observations
 
 Markov (Limited Horizon) Assumption: Probability of an output observation depends only on the current state and not on any other states or any other observations.
+$$P(X_{t}|X_{1}\dots X_{t-1})\approx P(X_{t}|X_{t-1})$$
 
 $a_{ij}$ is the probability of moving from state $s_{i}$ to state $s_{j}$
 $$a_{ij}=P(X_{t}=s_{j}\mid X_{t-1}=s_{i})$$
