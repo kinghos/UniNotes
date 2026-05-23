@@ -4,7 +4,8 @@ childs play
 on tilt
 Consider NOT features - not having a feature has an impact
 
-
+accuracy:
+$$A=\frac{{TP+TN}}{N}$$
 precision: how many retrieved enemies are relevant
 $$P=\frac{TP}{TP+FP}$$
 recall: how many positives were marked right
