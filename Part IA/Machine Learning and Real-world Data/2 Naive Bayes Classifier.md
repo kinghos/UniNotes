@@ -29,7 +29,7 @@ We can remove $P(O)$ because it is constant during a given classification and do
 Naive Bayes makes a strong (naive) independence assumption between the observed features. Hence,
 $$c_{NB}=\text{argmax}_{c\in C}P(c)\prod^n_{i=1}P(w_{i}|c)$$
 
-In the training phase, we collect whatever information is needed to calculate $P(w_i|c)$ and $P(c)$
+In the training phase, we collect whatever information is needed to calculate $P(w_i|c)$ and $P(c)$ - done by calculating total occurrences of word for a given class over the total number of occurrences. Similar for classes
 In the testing phase we apply the above formula to derive $c_{NB}$, the classifiers decision.
 This is supervised ML because you use information about the classes during training.
 
