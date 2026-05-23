@@ -5,3 +5,7 @@ $$\begin{align}
 \end{align}$$
 
 
+#### Viterbi
+- Generate transition matrix
+- Generate emission probability matrix
+- Draw up table, where rows are hidden states and columns are observations
