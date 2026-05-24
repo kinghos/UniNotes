@@ -30,3 +30,9 @@ Focuses on problems that users will have wen they first use an interface
 Usability testing - testing a product with representative users to collect feedback towards improving the design
 Ethical considerations
 Dogfooding - asking your own employees to use your own product
+
+
+
+|          | Heuristic Evaluation | C   |
+| -------- | -------------------- | --- |
+| Findings |                      |     |
