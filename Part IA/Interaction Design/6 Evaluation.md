@@ -33,6 +33,9 @@ Dogfooding - asking your own employees to use your own product
 
 
 
-|          | Heuristic Evaluation | C   |
-| -------- | -------------------- | --- |
-| Findings |                      |     |
+|             | Heuristic Evaluation                 | Cognitive Walkthrough                          |
+| ----------- | ------------------------------------ | ---------------------------------------------- |
+| Findings    | General                              | Task-specific                                  |
+| Benefits    | Quick and adaptable                  | More thorough                                  |
+| Costs       | Cheaper                              | More time and cost                             |
+| Limitations | Specific to the evaluated heuristics | Task specific and specific to the user journey |
