@@ -31,8 +31,6 @@ Usability testing - testing a product with representative users to collect feedb
 Ethical considerations
 Dogfooding - asking your own employees to use your own product
 
-
-
 |             | Heuristic Evaluation                 | Cognitive Walkthrough                          |
 | ----------- | ------------------------------------ | ---------------------------------------------- |
 | Findings    | General                              | Task-specific                                  |
