@@ -34,7 +34,7 @@ E can be represented in two ways: adjacency lists and matrices
 BFS can be used on directed and undirected graphs
 On a graph it is slightly more complex than on a tree, because we have to worry about duplicate discoveries of a vertex
 When running BFS on a graph, it can be optimised by using a pending flag. This ensures that a node who's neighbours are being searched isn't put into the queue twice by mistake
-
+$O(|V|+|E|)$
 #### 2-Vertex Colourability
 Input: a connected, undirected graph
 Output: true if all of the vertices can be coloured using two colours, false otherwise
