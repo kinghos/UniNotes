@@ -22,14 +22,3 @@ $X\sim \mathcal{N}(\mu,\sigma^2)$
 PDF is $\frac{1}{\sigma \sqrt{ 2\pi }}e^{-(x-\mu)^2/2\sigma^2}$
 
 
-$$\begin{align}
-
-F_T(t) &= P\left( \frac{X}{Y}\leq t \right)\\
-&=\int^0_{-\infty}P\left( \frac{X}{Y}\leq t\mid Y=y \right)\phi(y)\,dy+\int^\infty_{0}P\left( \frac{X}{Y}\geq t\mid Y=y \right)\phi(y)\,dy \\
-&=\int^0_{-\infty}P\left( \frac{X}{y}\leq t \right)\phi(y)\,dy+\int^\infty_{0}P\left( \frac{X}{y}\geq t \right)\phi(y)\,dy \\
-&=\int^0_{-\infty}P(X\leq yt)\phi(y)\,dy + \int^\infty_{0}P(X\geq yt)\phi(y)\,dy \\
-&=\int^0_{-\infty}(1-\Phi(yt))\phi(y)\,dy + \int^\infty_{0}\Phi(yt)\phi(y)\,dy \\
-&= \int^0_{-\infty}\Phi(-yt)\phi(y)\,dy+\int^\infty_{0}\Phi(yt)\phi(y)\,dy \\
-u&=-y,dy=-du \\
-&=2\int ^\infty_{0}\phi
-\end{align}$$
