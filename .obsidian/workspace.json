@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "abceeaf966592426",
+        "id": "82714cfc3a9a176d",
         "type": "tabs",
         "children": [
           {
-            "id": "6c9d6a6ae72e939f",
+            "id": "be970f30c3bc4f07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Interaction Design/6 Evaluation.md",
+                "file": "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 Evaluation"
+              "title": "5 Continuous Random Variables"
             }
           }
         ]
@@ -179,8 +179,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6c9d6a6ae72e939f",
+  "active": "be970f30c3bc4f07",
   "lastOpenFiles": [
+    "Part IA/Introduction to Probability/6 Marginals and Joint Distributions.md",
+    "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
+    "Part IA/Introduction to Probability/7 Independence, Covariance and Correlation.md",
+    "Part IA/Introduction to Probability/9 Central Limit Theorem.md",
+    "Part IA/Introduction to Probability/8 Basic Inequalities and Law of Large Numbers.md",
+    "Part IA/Interaction Design/6 Evaluation.md",
     "Part IA/Interaction Design/Supervision Notes.md",
     "Part IA/Interaction Design/4 Cognitive Aspects for Design.md",
     "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
@@ -192,7 +198,6 @@
     "Part IA/Algorithms 2/2 SSAD and Depth-first search.md",
     "Part IA/Algorithms 2/1 Graphs.md",
     "Part IA/Machine Learning and Real-world Data/Supervision Notes.md",
-    "Part IA/Interaction Design/6 Evaluation.md",
     "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
     "Part IA/Machine Learning and Real-world Data/6 Uncertainty and Human Agreement.md",
     "Part IA/Machine Learning and Real-world Data/5 Overtraining and Cross-validation.md",
@@ -202,11 +207,6 @@
     "Part IA/Machine Learning and Real-world Data/11 Hidden Markov Models.md",
     "Part IA/Machine Learning and Real-world Data/9 Clique Finding and Betweenness Centrality.md",
     "Part IA/Machine Learning and Real-world Data/8 Social Networks.md",
-    "Part IA/Software and Security Engineering/1 Engineering Mindset.md",
-    "Part IA/Software and Security Engineering/4 Quality Assurance and Reliable Delivery.md",
-    "Part IA/Software and Security Engineering/3 Engineering Process.md",
-    "Part IA/Machine Learning and Real-world Data/1 Sentiment Classification.md",
-    "Part IA/Machine Learning and Real-world Data/13 Clustering (NON EXAMINABLE).md",
     "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
     "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
     "Part IA/Introduction to Probability/Images",
