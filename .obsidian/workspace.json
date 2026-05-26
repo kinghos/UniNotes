@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 2/5 More Graph Algorithms.md",
+                "file": "Part IA/Introduction to Probability/8 Basic Inequalities and Law of Large Numbers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 More Graph Algorithms"
+              "title": "8 Basic Inequalities and Law of Large Numbers"
             }
           }
         ]
@@ -181,8 +181,8 @@
   },
   "active": "be970f30c3bc4f07",
   "lastOpenFiles": [
-    "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Algorithms 2/5 More Graph Algorithms.md",
+    "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Algorithms 2/4 Dijkstra.md",
     "Part IA/Algorithms 2/3 Graph problems.md",
     "Part IA/Algorithms 2/2 SSAD and Depth-first search.md",
