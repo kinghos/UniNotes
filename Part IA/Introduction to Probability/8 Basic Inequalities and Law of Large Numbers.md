@@ -11,7 +11,7 @@ For any random variable $X$ with finite $E[X]$ and $V[X]$, for any $a>0$,
 $$P[|X-E[X]|\geq a]\leq \frac{V[X]}{a^2}$$
 or equivalently
 $$P[|X-E[X]|]\geq \sqrt{ \delta \cdot V[X] }\leq \frac{1}{\delta}$$
-Unlike Markov, this is two-sided and holds for random variables with negative values, and yields stronger bounds
+Unlike Markov, this is two-sided (reversing the inequality inside the P means you flip the inequality and get 1-RHS on the right) and holds for random variables with negative values, and yields stronger bounds
 This is also known as the Second Moment Method
 
 ### Law of Large Numbers
