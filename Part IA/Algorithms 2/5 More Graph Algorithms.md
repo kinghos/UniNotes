@@ -25,8 +25,6 @@ All vertices are on some path $s\leadsto b\leadsto t$ so $|E|>|V|-1$ (every vert
 In other words, we can delete any vertex v if v is not reachable from s or t is not reachable from v.
 A flow is a function of type $V \times V \to \mathbb{R}$
 1. Flows are subject to the capacity constraint $0\leq f(u,v)\leq c(u,v)$
-
-▼
-1. At every vertex $u\in V \backslash \{s,t\}$ we have flow conservation
+2. At every vertex $u\in V \backslash \{s,t\}$ we have flow conservation
 $$\sum_{v\in V}f(v,u)=\sum_{v\in V}f(u,v)$$
 So except the source and sink, the sum of flow is the same
