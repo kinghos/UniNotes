@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 2/4 Dijkstra.md",
+                "file": "2026-05-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Dijkstra"
+              "title": "2026-05-27"
             }
           }
         ]
@@ -179,10 +179,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "256fb4ac86a55f1c",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
-    "Part IA/Algorithms 2/5 More Graph Algorithms.md",
     "Part IA/Algorithms 2/4 Dijkstra.md",
+    "2026-05-27.md",
+    "Part IA/Algorithms 2/5 More Graph Algorithms.md",
     "Part IA/Algorithms 2/3 Graph problems.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
@@ -206,7 +207,6 @@
     "Part IA/Interaction Design/Supervision Notes.md",
     "Part IA/Interaction Design/4 Cognitive Aspects for Design.md",
     "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
-    "Part IA/Interaction Design/Untitled.md",
     "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
     "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
     "Part IA/Introduction to Probability/Images",
