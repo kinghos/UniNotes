@@ -10,3 +10,5 @@ E[\overline{X}_{n}]&=\frac{n\cdot E[X_{1}]}{n}=E[X_{1}] \\
 Thus $T_{1}:=2\overline{X}_{n}-1$
 
 This estimator will often underestimate N. Finding an estimator which returns a value at least as big as the maximum value of $X_i$
+Calculate expectation of the maximum:
+$$$$
