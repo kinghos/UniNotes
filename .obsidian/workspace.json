@@ -176,16 +176,21 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-importer:Open Importer": false
     }
   },
   "active": "256fb4ac86a55f1c",
   "lastOpenFiles": [
+    "HTML import/all_pairs_shortest_paths_notes.md",
+    "Part IA/Algorithms 2/5 More Graph Algorithms.md",
+    "HTML import",
+    "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
+    "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
     "Part IA/Algorithms 2/9 Fibonacci Heaps.md",
     "Part IA/Algorithms 2/10 Fib Heaps cont..md",
     "2026-05-27.md",
     "Part IA/Algorithms 2/4 Dijkstra.md",
-    "Part IA/Algorithms 2/5 More Graph Algorithms.md",
     "Part IA/Algorithms 2/3 Graph problems.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
@@ -206,7 +211,6 @@
     "Part IA/Interaction Design/6 Evaluation.md",
     "Part IA/Interaction Design/Supervision Notes.md",
     "Part IA/Interaction Design/4 Cognitive Aspects for Design.md",
-    "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
     "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
     "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
     "Part IA/Introduction to Probability/Images",
@@ -224,9 +228,6 @@
     "Part IA/Algorithms 2/Images/AntiparallelFlow.png",
     "Part IA/Machine Learning and Real-world Data/Images/MarkovModels.png",
     "Part IA/Machine Learning and Real-world Data/Images",
-    "Part IA/Operating Systems/Images",
-    "Part IA/Operating Systems",
-    "Part IA/Algorithms 2",
     "Untitled.canvas"
   ]
 }
