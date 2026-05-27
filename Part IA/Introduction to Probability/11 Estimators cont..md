@@ -11,4 +11,12 @@ Thus $T_{1}:=2\overline{X}_{n}-1$
 
 This estimator will often underestimate N. Finding an estimator which returns a value at least as big as the maximum value of $X_i$
 Calculate expectation of the maximum:
-$$$$
+$$E[\max(X_{1},\dots,X_{n})]=\dots=\frac{n}{n+1}\cdot N + \frac{n}{n+1}=\frac{n}{n+1}\cdot(N+1)$$
+$$T_{2}:=\frac{{n+1}}{n}\cdot \max(X_{1},\dots,X_{n})-1$$
+#### Mean Squared Error
+$$\mathbf{MSE}[T]=E[(T-\theta)^2]$$
+where $T$ is an estimator for parameter $\theta$
+Lower mean square error is better
+This can be decomposed into 
+$$\mathbf{MSE}[T]=(E[T]-\theta)^2+V[T]$$
+The first term is bias squared
