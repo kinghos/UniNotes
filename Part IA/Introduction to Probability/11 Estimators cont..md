@@ -20,3 +20,7 @@ Lower mean square error is better
 This can be decomposed into 
 $$\mathbf{MSE}[T]=(E[T]-\theta)^2+V[T]$$
 The first term is bias squared
+
+#### Collisions
+Population $|S|=N$
+We take uniform samples from $S$ with replacement
