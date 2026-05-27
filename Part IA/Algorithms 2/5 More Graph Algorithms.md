@@ -21,10 +21,12 @@ Two properties are needed for the edges:
 - No self-loops at any vertex $\forall v\in V.(v,v)\not\in E$
 - No antiparallel edges $\forall u,v\in V.(u,v)\in E\to(v,u)\not\in E$
 The weights, known as capacities, are non-negative
-All vertices are on some path $s\leadsto b\leadsto t$ so $|E|>|V|-1$ (every vertex other than S must have at least one inbound edge)
+All vertices are on some path $s\leadsto b\leadsto t$ so $|E|>|V|-1$ (every vertex other than $s$ must have at least one inbound edge)
 In other words, we can delete any vertex v if v is not reachable from s or t is not reachable from v.
 A flow is a function of type $V \times V \to \mathbb{R}$
 1. Flows are subject to the capacity constraint $0\leq f(u,v)\leq c(u,v)$
-2. At every vertex $u\in V \backslash \{s,t\}$ we have flow conservation
+
+▼
+1. At every vertex $u\in V \backslash \{s,t\}$ we have flow conservation
 $$\sum_{v\in V}f(v,u)=\sum_{v\in V}f(u,v)$$
 So except the source and sink, the sum of flow is the same
