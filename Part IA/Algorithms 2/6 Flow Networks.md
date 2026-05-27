@@ -21,12 +21,12 @@ The maximum amount by which we can increase the flow along each edge in p is cal
 ##### Ford-Fulkerson
 ```
 initialise flow f to 0 on all edges
-while there exists an augmenting path in p the residual network G
+while there exists an augmenting path p in the residual network G
 	augment the flow f along p
 return f
 ```
 
-A cut of a flow network is a partition of V into S and T = V \ S such that $s \in S,t \in T$
+A cut of a flow network is a partition of $V$ into $S$ and $T = V \setminus S$ such that $s \in S,t \in T$
 Net flow across the cut is
 $$f(S,T)=\sum_{u\in S}\sum _{v\in T}f(u,v)-\sum _{u\in S}\sum_{v\in T}f(v,u)$$
 In other words, $f(S,T)=|f|$
