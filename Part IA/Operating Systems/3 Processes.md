@@ -66,7 +66,7 @@ On Unix:
 	- Cascading termination (parent is exiting)
 3. Process executes last statement and asks the OS to delete it (exit
 	- Parent waits and obtains status data from child
-	- If parent didn't wait, process is a zombie
+	- If parent didn't wait, process is a zombie - process needs to wait to collect data from zombie child
 	- If parent terminated without waiting, process is an orphan
 #### Inter-Process Communication
 - All communications require some protocol with data transfer

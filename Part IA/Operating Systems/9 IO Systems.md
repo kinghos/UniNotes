@@ -107,7 +107,8 @@ Used for high-speed I/O devices able to transmit information at close to memory 
 - Single buffering: OS assigns a system buffer to the user request
 - Double buffering: process consumes from one buffer while system fills the next
 - Circular buffering: most useful for bursty I/O
-- Can smooth peaks/troughs in data rate but can't help if on average
+- Can **smooth peaks/troughs in data rate** but can't help if on average
 	- Process demand > data rate
 	- Data rate > capability of the system
+	- If one component has higher average transfer speed than the other, both buffering and caching won't help
 - Buffering can introduce jitter which is bad for real-time or multimedia applications

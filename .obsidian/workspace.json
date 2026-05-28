@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-05-27.md",
+                "file": "Part IA/Operating Systems/3 Processes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-27"
+              "title": "3 Processes"
             }
           }
         ]
@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "orphan",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,11 +181,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "256fb4ac86a55f1c",
+  "active": "b0e37daf9a5a4b7d",
   "lastOpenFiles": [
+    "Part IA/Operating Systems/8 Virtual Memory.md",
+    "Part IA/Operating Systems/9 IO Systems.md",
+    "2026-05-27.md",
     "Part IA/Introduction to Probability/11 Estimators cont..md",
     "Part IA/Introduction to Probability/10 Estimators.md",
-    "2026-05-27.md",
     "Part IA/Algorithms 2/5 More Graph Algorithms.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
@@ -209,8 +212,6 @@
     "Part IA/Introduction to Probability/8 Basic Inequalities and Law of Large Numbers.md",
     "Part IA/Algorithms 2/1 Graphs.md",
     "Part IA/Introduction to Probability/3 Expectation and variance.md",
-    "Part IA/Introduction to Probability/6 Marginals and Joint Distributions.md",
-    "Part IA/Introduction to Probability/7 Independence, Covariance and Correlation.md",
     "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
     "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
     "Part IA/Introduction to Probability/Images",
