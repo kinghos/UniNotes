@@ -9,3 +9,5 @@ which is optimised for $k=5,6$
 - Interviewing n candidates for one job in a sequential, random order
 - A candidate must be accepted (STOP) or rejected immediately after the interview and cannot be recalled
 - Maximise the probability of hiring the best candidate
+Picking any candidate: $P[\text{hire best candidate}]=\frac{1}{n}$
+Better approach: Reject the first n/2 candidates, then pick the first one better than the first n/2. $P[\text{hire best candidate}]\geq \frac{1}{4}$
