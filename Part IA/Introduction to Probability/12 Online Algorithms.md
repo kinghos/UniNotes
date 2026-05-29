@@ -11,3 +11,4 @@ which is optimised for $k=5,6$
 - Maximise the probability of hiring the best candidate
 Picking any candidate: $P[\text{hire best candidate}]=\frac{1}{n}$
 Better approach: Reject the first n/2 candidates, then pick the first one better than the first n/2. $P[\text{hire best candidate}]\geq \frac{1}{4}$
+Optimal strategy: Explore but reject the first $x-1$ candidates, accept the first candidate $i\geq x$ which is better than all candidates before
