@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 2.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 2"
+              "title": "Lecture 8"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "map path:\"Part IA/Foundations of Computer Science\"  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,8 +181,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "f8021bd0dc1086ec",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Intro.md",
+    "Part IA/Foundations of Computer Science/Lecture 8.md",
+    "Part IA/Foundations of Computer Science/Lecture 2.md",
     "Part IA/Introduction to Probability/10 Estimators.md",
     "Part IA/Introduction to Probability/9 Central Limit Theorem.md",
     "Part IA/Introduction to Probability/11 Estimators cont..md",
@@ -205,9 +209,6 @@
     "Part IA/Introduction to Graphics/Lecture 4.md",
     "Part IA/Operating Systems/3 Processes.md",
     "Part IA/Operating Systems/Briefing.md",
-    "Part IA/Object-Oriented Programming/Lecture 10.md",
-    "Part IA/Algorithms 1/2 Algorithm analysis.md",
-    "Part IA/Algorithms 1/3 Divide and conquer.md",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
