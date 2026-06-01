@@ -12,7 +12,7 @@ which is called an estimator
 
 An estimator $T$ is called an unbiased estimator for the parameter $\theta$ if 
 $$E[T]=\theta$$
-irrespective of the value $\theta$
+for all values of $\theta$
 The bias is defined as 
 $$E[T]-\theta=E[T-\theta]$$
 
