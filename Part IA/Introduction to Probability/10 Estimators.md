@@ -20,3 +20,9 @@ $$E[T]-\theta=E[T-\theta]$$
 For any random variable $X$ and any convex function $g: \mathbb{R}\to \mathbb{R}$, we have
 $$E[g(X)]\geq g(E[X])$$
 If g is strictly convex and $X$ is not constant, then the inequality is strict
+
+
+#### Unbiased Estimators
+$$\overline{X}_{n}:=X_{1}+X_{2}+\dots+X_{n}$$
+$$S_{n}=S_{n}(X_{1},\dots,X_{n}):=\frac{1}{n-1}\sum^n_{i=1}(X_{i}-\overline{X}_{n})^2$$
+Estimators for $\mu$ and $\sigma^2$ respectively

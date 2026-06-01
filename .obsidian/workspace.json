@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Introduction to Probability/11 Estimators cont..md",
+                "file": "Part IA/Introduction to Probability/10 Estimators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 Estimators cont."
+              "title": "10 Estimators"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "f8021bd0dc1086ec",
   "lastOpenFiles": [
+    "Part IA/Introduction to Probability/11 Estimators cont..md",
     "Part IA/Introduction to Probability/10 Estimators.md",
     "Part IA/Foundations of Computer Science/Lecture 11.md",
     "Part IA/Exam Technique Briefing.md",
@@ -207,7 +208,6 @@
     "Part IA/Object-Oriented Programming/Lecture 10.md",
     "Part IA/Algorithms 1/2 Algorithm analysis.md",
     "Part IA/Algorithms 1/3 Divide and conquer.md",
-    "Part IA/Algorithms 1/1 Features of algorithms.md",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
