@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f1c8f0fa3518bd01",
+        "id": "6dd0c085421f60fd",
         "type": "tabs",
         "children": [
           {
-            "id": "435eba7f0970fe66",
+            "id": "5279033b1abc11c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,8 +180,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "435eba7f0970fe66",
+  "active": "5279033b1abc11c6",
   "lastOpenFiles": [
+    "Part IA/Introduction to Probability/3 Expectation and variance.md",
+    "Part IA/Introduction to Probability/11 Estimators cont..md",
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Algorithms 1/7 Linear time sorting.md",
     "Part IA/Algorithms 1/2 Algorithm analysis.md",
@@ -196,12 +198,10 @@
     "Part IA/Algorithms 2/9 Fibonacci Heaps.md",
     "Part IA/Algorithms 2/10 Fib Heaps cont..md",
     "2026-05-27.md",
-    "Part IA/Introduction to Probability/11 Estimators cont..md",
     "Part IA/Introduction to Probability/7 Independence, Covariance and Correlation.md",
     "Part IA/Introduction to Probability/6 Marginals and Joint Distributions.md",
     "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
     "Part IA/Introduction to Probability/4 Discrete Distributions.md",
-    "Part IA/Introduction to Probability/3 Expectation and variance.md",
     "Part IA/Introduction to Probability/8 Basic Inequalities and Law of Large Numbers.md",
     "Part IA/Introduction to Probability/10 Estimators.md",
     "Part IA/Introduction to Probability/9 Central Limit Theorem.md",
