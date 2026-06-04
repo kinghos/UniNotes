@@ -8,10 +8,11 @@ tags:
 - Outputs - results from FSM
 
 Two types of FSM - Moore and Mealy machines
-- Outputs from Mealy machines depend upon the timing of the inputs
+- Outputs from Mealy machines depend upon the timing of the inputs, outputs go on transitions
 - Outputs from Moore machines come directly from clocked FFs so
 	- They have guaranteed timing characteristics
 	- They are glitch free
+	- Write outputs in the state
 - Any Mealy machine can be converted to a Moore machine and vice versa, though their timing properties will be different.
 
 #### Traffic light controller example
