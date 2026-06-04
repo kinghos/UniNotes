@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "boxed",
+                "query": "wildca",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,7 +181,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "5279033b1abc11c6",
+  "active": "b0e37daf9a5a4b7d",
   "lastOpenFiles": [
     "Part IA/Object-Oriented Programming/Lecture 5.md",
     "Part IA/Object-Oriented Programming/Lecture 7.md",
