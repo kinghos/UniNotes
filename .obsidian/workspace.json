@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Finite State Machines.md",
+                "file": "Part IA/Object-Oriented Programming/Lecture 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finite State Machines"
+              "title": "Lecture 2"
             }
           }
         ]
@@ -182,6 +182,8 @@
   },
   "active": "5279033b1abc11c6",
   "lastOpenFiles": [
+    "Part IA/Object-Oriented Programming/Lecture 3.md",
+    "Part IA/Digital Electronics/Finite State Machines.md",
     "Part IA/Operating Systems/9 IO Systems.md",
     "Part IA/Operating Systems/10 Storage and File Management.md",
     "Part IA/Operating Systems/8 Virtual Memory.md",
@@ -196,7 +198,6 @@
     "Part IA/Object-Oriented Programming/Lecture 8.md",
     "Part IA/Object-Oriented Programming/Lecture 5.md",
     "Part IA/Object-Oriented Programming/Lecture 7.md",
-    "Part IA/Object-Oriented Programming/Lecture 3.md",
     "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
     "Part IA/Object-Oriented Programming/Lecture 6.md",
     "Part IA/Object-Oriented Programming/Lecture 10.md",
@@ -204,7 +205,6 @@
     "Part IA/Object-Oriented Programming/Lecture 4.md",
     "Part IA/Digital Electronics/Setup and Hold Conditions.md",
     "Part IA/Digital Electronics/Metastability.md",
-    "Part IA/Digital Electronics/Finite State Machines.md",
     "Part IA/Introduction to Probability/3 Expectation and variance.md",
     "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "Part IA/Algorithms 1/7 Linear time sorting.md",
