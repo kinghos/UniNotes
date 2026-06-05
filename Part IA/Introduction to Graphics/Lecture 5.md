@@ -19,7 +19,7 @@ Vertex attributes inside the triangle are interpolated
 - Homogeneous barycentric coordinates are used to interpolate colours, normals, texture coordinates and other attributes inside the triangle.
 - Think of it as coordinates within a triangle, through proportions based on the vertices - $\alpha, \beta, \gamma$ are bound between 0 and 1 and can give any fragment within the triangle
 $\alpha=\frac{f_{cb}(x,y)}{f_{cb}(x_{a},y_{a})}$
-$\beta=\frac{f_{ac}(x,y)}{f_{ac}(x_{a},y_{a})}$
+$\beta=\frac{f_{ac}(x,y)}{f_{ac}(x_{b},y_{b})}$
 $f_{ab}(x,y)=(y_{a}-y_{b})x+(x_{b}-x_{a})y+x_{a}y_{b}-x_{b}y_{a}$
 
 ![[TriangleInterpolation.png]]
