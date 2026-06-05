@@ -1,4 +1,3 @@
-
 ### Entity relationship diagrams
 Entities - squares
 Attributes - ovals
