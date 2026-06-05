@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Object-Oriented Programming/Lecture 8.md",
+                "file": "Part IA/Introduction to Probability/4 Discrete Distributions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 8"
+              "title": "4 Discrete Distributions"
             }
           }
         ]
@@ -182,6 +182,8 @@
   },
   "active": "5279033b1abc11c6",
   "lastOpenFiles": [
+    "Part IA/Introduction to Probability/7 Independence, Covariance and Correlation.md",
+    "Part IA/Object-Oriented Programming/Lecture 8.md",
     "Part IA/Object-Oriented Programming/Lecture 7.md",
     "Part IA/Object-Oriented Programming/Lecture 6.md",
     "Part IA/Object-Oriented Programming/Lecture 5.md",
@@ -199,7 +201,6 @@
     "Part IA/Introduction to Probability/8 Basic Inequalities and Law of Large Numbers.md",
     "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
     "Part IA/Introduction to Probability/4 Discrete Distributions.md",
-    "Part IA/Object-Oriented Programming/Lecture 8.md",
     "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
     "Part IA/Object-Oriented Programming/Lecture 10.md",
     "Part IA/Object-Oriented Programming/Lecture 9.md",
@@ -207,7 +208,6 @@
     "Part IA/Digital Electronics/Setup and Hold Conditions.md",
     "Part IA/Digital Electronics/Metastability.md",
     "Part IA/Introduction to Probability/3 Expectation and variance.md",
-    "Part IA/Digital Electronics/Quine-McCluskey Minimisation.md",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
