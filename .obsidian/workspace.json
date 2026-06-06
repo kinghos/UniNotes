@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Object-Oriented Programming/Lecture 2.md",
+                "file": "Part IA/Introduction to Probability/4 Discrete Distributions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 2"
+              "title": "4 Discrete Distributions"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "package",
+                "query": "hyperge",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,6 +183,7 @@
   },
   "active": "580887f4add152e2",
   "lastOpenFiles": [
+    "Part IA/Object-Oriented Programming/Lecture 2.md",
     "Part IA/Foundations of Computer Science/Intro.md",
     "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
@@ -208,7 +209,6 @@
     "Part IA/Interaction Design/5 Designing Content.md",
     "Part IA/Interaction Design/4 Cognitive Aspects for Design.md",
     "Part IA/Databases/Lecture 2.md",
-    "Part IA/Databases/Lecture 3.md",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
