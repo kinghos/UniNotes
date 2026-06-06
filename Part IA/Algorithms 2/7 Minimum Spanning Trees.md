@@ -24,6 +24,7 @@ These can be computed by having a set A of edges, and each time an edge is added
 #### Kruskal's Algorithm
 Finds safe edges to add to a growing forest of trees by finding least weight edges that connect any two trees in the forest
 Sort edges in ascending order, scan - check each edge, check if two are already connected (can be done with a disjoint)
+$O(E\lg V)$
 
 #### Prim's Algorithm
 Maintains that A is a single tree and adds safe edges between the tree and an isolated vertex, to increase the size of the tree until $A=|V|$. Resembles Dijkstra
