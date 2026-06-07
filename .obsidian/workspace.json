@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Introduction to Probability/8 Basic Inequalities and Law of Large Numbers.md",
+                "file": "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8 Basic Inequalities and Law of Large Numbers"
+              "title": "5 Continuous Random Variables"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "580887f4add152e2",
   "lastOpenFiles": [
+    "Part IA/Introduction to Probability/8 Basic Inequalities and Law of Large Numbers.md",
     "Part IA/Object-Oriented Programming/Lecture 2.md",
     "Part IA/Object-Oriented Programming/Lecture 1.md",
     "Part IA/Operating Systems/2 Protection.md",
@@ -207,7 +208,6 @@
     "Part IA/Machine Learning and Real-world Data/1 Sentiment Classification.md",
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
     "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
-    "Part IA/Interaction Design/6 Evaluation.md",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
