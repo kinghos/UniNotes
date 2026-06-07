@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Introduction to Probability/10 Estimators.md",
+                "file": "Part IA/Introduction to Probability/3 Expectation and variance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 Estimators"
+              "title": "3 Expectation and variance"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "580887f4add152e2",
   "lastOpenFiles": [
+    "Part IA/Introduction to Probability/10 Estimators.md",
     "Part IA/Introduction to Probability/11 Estimators cont..md",
     "Part IA/Introduction to Probability/4 Discrete Distributions.md",
     "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
@@ -207,7 +208,6 @@
     "Part IA/Algorithms 1/6 Heaps.md",
     "Part IA/Algorithms 1/5 Quick select.md",
     "Part IA/Algorithms 1/4 Quicksort.md",
-    "Part IA/Algorithms 1/1 Features of algorithms.md",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
