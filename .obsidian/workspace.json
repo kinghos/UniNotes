@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 1/2 Algorithm analysis.md",
+                "file": "Part IA/Foundations of Computer Science/Lecture 11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 Algorithm analysis"
+              "title": "Lecture 11"
             }
           }
         ]
@@ -182,6 +182,17 @@
   },
   "active": "580887f4add152e2",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Lecture 10.md",
+    "Part IA/Foundations of Computer Science/Lecture 9.md",
+    "Part IA/Foundations of Computer Science/Lecture 8.md",
+    "Part IA/Foundations of Computer Science/Lecture 7.md",
+    "Part IA/Foundations of Computer Science/Lecture 6.md",
+    "Part IA/Foundations of Computer Science/Lecture 5.md",
+    "Part IA/Foundations of Computer Science/Lecture 4.md",
+    "Part IA/Foundations of Computer Science/Lecture 3.md",
+    "Part IA/Foundations of Computer Science/Lecture 2.md",
+    "Part IA/Foundations of Computer Science/Lecture 1.md",
+    "Part IA/Algorithms 1/2 Algorithm analysis.md",
     "Part IA/Algorithms 1/1 Features of algorithms.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
@@ -197,17 +208,6 @@
     "Part IA/Introduction to Probability/8 Basic Inequalities and Law of Large Numbers.md",
     "Part IA/Object-Oriented Programming/Lecture 2.md",
     "Part IA/Object-Oriented Programming/Lecture 1.md",
-    "Part IA/Operating Systems/2 Protection.md",
-    "Part IA/Algorithms 2/4 Dijkstra.md",
-    "Part IA/Algorithms 2/3 Graph problems.md",
-    "Part IA/Foundations of Computer Science/Intro.md",
-    "Part IA/Algorithms 2/2 SSAD and Depth-first search.md",
-    "Part IA/Algorithms 1/7 Linear time sorting.md",
-    "Part IA/Algorithms 2/1 Graphs.md",
-    "Part IA/Algorithms 1/3 Divide and conquer.md",
-    "Part IA/Algorithms 1/2 Algorithm analysis.md",
-    "Part IA/Algorithms 1/10 Trees.md",
-    "Part IA/Algorithms 1/9 Data structures.md",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
