@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Introduction to Probability/3 Expectation and variance.md",
+                "file": "Part IA/Introduction to Probability/7 Independence, Covariance and Correlation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Expectation and variance"
+              "title": "7 Independence, Covariance and Correlation"
             }
           }
         ]
@@ -182,10 +182,12 @@
   },
   "active": "580887f4add152e2",
   "lastOpenFiles": [
-    "Part IA/Introduction to Probability/10 Estimators.md",
-    "Part IA/Introduction to Probability/11 Estimators cont..md",
     "Part IA/Introduction to Probability/4 Discrete Distributions.md",
     "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
+    "Part IA/Introduction to Probability/6 Marginals and Joint Distributions.md",
+    "Part IA/Introduction to Probability/3 Expectation and variance.md",
+    "Part IA/Introduction to Probability/10 Estimators.md",
+    "Part IA/Introduction to Probability/11 Estimators cont..md",
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
     "Part IA/Introduction to Probability/8 Basic Inequalities and Law of Large Numbers.md",
     "Part IA/Object-Oriented Programming/Lecture 2.md",
@@ -206,8 +208,6 @@
     "Part IA/Algorithms 1/9 Data structures.md",
     "Part IA/Algorithms 1/8 Dynamic Programming.md",
     "Part IA/Algorithms 1/6 Heaps.md",
-    "Part IA/Algorithms 1/5 Quick select.md",
-    "Part IA/Algorithms 1/4 Quicksort.md",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
