@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Introduction to Probability/4 Discrete Distributions.md",
+                "file": "Part IA/Introduction to Probability/10 Estimators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Discrete Distributions"
+              "title": "10 Estimators"
             }
           }
         ]
@@ -182,6 +182,8 @@
   },
   "active": "580887f4add152e2",
   "lastOpenFiles": [
+    "Part IA/Introduction to Probability/11 Estimators cont..md",
+    "Part IA/Introduction to Probability/4 Discrete Distributions.md",
     "Part IA/Introduction to Probability/5 Continuous Random Variables.md",
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
     "Part IA/Introduction to Probability/8 Basic Inequalities and Law of Large Numbers.md",
@@ -190,7 +192,6 @@
     "Part IA/Operating Systems/2 Protection.md",
     "Part IA/Algorithms 2/4 Dijkstra.md",
     "Part IA/Algorithms 2/3 Graph problems.md",
-    "Part IA/Introduction to Probability/4 Discrete Distributions.md",
     "Part IA/Foundations of Computer Science/Intro.md",
     "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
@@ -207,7 +208,6 @@
     "Part IA/Algorithms 1/5 Quick select.md",
     "Part IA/Algorithms 1/4 Quicksort.md",
     "Part IA/Algorithms 1/1 Features of algorithms.md",
-    "Part IA/Machine Learning and Real-world Data/1 Sentiment Classification.md",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
