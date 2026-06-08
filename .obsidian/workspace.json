@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
+                "file": "Part IA/Algorithms 2/10 Fib Heaps cont..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 Minimum Spanning Trees"
+              "title": "10 Fib Heaps cont."
             }
           }
         ]
@@ -180,14 +180,22 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "52354ed09f353b17",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
+    "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
+    "Part IA/Algorithms 2/9 Fibonacci Heaps.md",
+    "Part IA/Algorithms 2/11 Disjoint Sets.md",
+    "Part IA/Algorithms 2/10 Fib Heaps cont..md",
+    "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
+    "Part IA/Algorithms 2/4 Dijkstra.md",
+    "Part IA/Algorithms 2/2 SSAD and Depth-first search.md",
+    "Part IA/Algorithms 2/3 Graph problems.md",
+    "Part IA/Algorithms 2/1 Graphs.md",
+    "Part IA/Algorithms 1/2 Algorithm analysis.md",
+    "Part IA/Algorithms 1/1 Features of algorithms.md",
+    "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
     "Part IA/Algorithms 2/5 More Graph Algorithms.md",
-    "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
-    "Part IA/Algorithms 2/11 Disjoint Sets.md",
-    "Part IA/Algorithms 2/9 Fibonacci Heaps.md",
-    "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
     "Part IA/Object-Oriented Programming/Lecture 9.md",
     "Part IA/Object-Oriented Programming/Lecture 8.md",
     "Part IA/Object-Oriented Programming/Lecture 7.md",
@@ -200,14 +208,6 @@
     "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
     "Part IA/Algorithms 1/11 Trees cont..md",
     "Part IA/Algorithms 1/10 Trees.md",
-    "Part IA/Algorithms 1/9 Data structures.md",
-    "Part IA/Algorithms 1/8 Dynamic Programming.md",
-    "Part IA/Algorithms 1/7 Linear time sorting.md",
-    "Part IA/Algorithms 1/6 Heaps.md",
-    "Part IA/Algorithms 1/5 Quick select.md",
-    "Part IA/Algorithms 1/4 Quicksort.md",
-    "Part IA/Algorithms 1/3 Divide and conquer.md",
-    "Part IA/Algorithms 1/2 Algorithm analysis.md",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
