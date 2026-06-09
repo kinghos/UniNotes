@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 2/6 Flow Networks.md",
+                "file": "Part IA/Object-Oriented Programming/Lecture 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 Flow Networks"
+              "title": "Lecture 5"
             }
           }
         ]
@@ -182,8 +182,13 @@
   },
   "active": "52354ed09f353b17",
   "lastOpenFiles": [
-    "Part IA/Algorithms 2/5 More Graph Algorithms.md",
+    "Part IA/Object-Oriented Programming/Lecture 4.md",
+    "Part IA/Object-Oriented Programming/Lecture 5.md",
+    "Part IA/Object-Oriented Programming/Lecture 3.md",
+    "Part IA/Object-Oriented Programming/Lecture 2.md",
+    "Part IA/Object-Oriented Programming/Lecture 1.md",
     "Part IA/Algorithms 2/6 Flow Networks.md",
+    "Part IA/Algorithms 2/5 More Graph Algorithms.md",
     "Part IA/Algorithms 2/10 Fib Heaps cont..md",
     "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
     "Part IA/Algorithms 2/9 Fibonacci Heaps.md",
@@ -200,14 +205,10 @@
     "Part IA/Object-Oriented Programming/Lecture 8.md",
     "Part IA/Object-Oriented Programming/Lecture 7.md",
     "Part IA/Object-Oriented Programming/Lecture 6.md",
-    "Part IA/Object-Oriented Programming/Lecture 5.md",
     "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
     "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
     "Part IA/Machine Learning and Real-world Data/1 Sentiment Classification.md",
     "Part IA/Algorithms 1/Summary Notes.md",
-    "Part IA/Algorithms 1/12 Priority Queues and Hash Maps.md",
-    "Part IA/Algorithms 1/11 Trees cont..md",
-    "Part IA/Algorithms 1/10 Trees.md",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes.html",
