@@ -21,7 +21,7 @@ For deleting items:
 
 #### Balanced Trees
 BSTs have average-case $O(\log n)$ performance but the worst case is $O(n)$ when every tree node has exactly one child.
-TO achieve $O(\log n)$ in the worst case, we need to ensure that our trees remain balanced, regardless of the order in which keys are inserted or deleted.
+To achieve $O(\log n)$ in the worst case, we need to ensure that our trees remain balanced, regardless of the order in which keys are inserted or deleted.
 
 B-trees are made of leaf nodes and internal nodes. Leaf nodes hold no keys or payloads, Internal nodes hold varying numbers of keys and payloads.
 A B-tree of minimum degree T, has five defining characteristics:
