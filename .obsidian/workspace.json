@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
+                "file": "Part IA/Algorithms 2/6 Flow Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 Minimum Spanning Trees"
+              "title": "6 Flow Networks"
             }
           }
         ]
@@ -182,8 +182,14 @@
   },
   "active": "52354ed09f353b17",
   "lastOpenFiles": [
-    "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
+    "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
+    "Part IA/Algorithms 2/6 Flow Networks.md",
+    "Part IA/Algorithms 2/4 Dijkstra.md",
+    "Part IA/Algorithms 2/5 More Graph Algorithms.md",
+    "Part IA/Algorithms 2/11 Disjoint Sets.md",
+    "Part IA/Algorithms 2/10 Fib Heaps cont..md",
     "Part IA/Algorithms 2/9 Fibonacci Heaps.md",
+    "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
     "Part IA/Object-Oriented Programming/Lecture 9.md",
     "Part IA/Object-Oriented Programming/Lecture 8.md",
     "Part IA/Introduction to Probability/4 Discrete Distributions.md",
@@ -195,18 +201,12 @@
     "Part IA/Object-Oriented Programming/Lecture 3.md",
     "Part IA/Object-Oriented Programming/Lecture 2.md",
     "Part IA/Object-Oriented Programming/Lecture 1.md",
-    "Part IA/Algorithms 2/6 Flow Networks.md",
-    "Part IA/Algorithms 2/5 More Graph Algorithms.md",
-    "Part IA/Algorithms 2/10 Fib Heaps cont..md",
     "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
-    "Part IA/Algorithms 2/11 Disjoint Sets.md",
-    "Part IA/Algorithms 2/4 Dijkstra.md",
     "Part IA/Algorithms 2/2 SSAD and Depth-first search.md",
     "Part IA/Algorithms 2/3 Graph problems.md",
     "Part IA/Algorithms 2/1 Graphs.md",
     "Part IA/Algorithms 1/2 Algorithm analysis.md",
     "Part IA/Algorithms 1/1 Features of algorithms.md",
-    "Part IA/Algorithms 2/7 Minimum Spanning Trees.md",
     "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
     "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
     "HTML import",

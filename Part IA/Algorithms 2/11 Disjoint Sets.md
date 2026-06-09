@@ -18,4 +18,3 @@
 - In-same-set: return chase(a)==chase(b). If the roots of the trees are the same then the keys are in the same set.
 All sort with $O(|E|\lg|V|)$ with Kruskal's algorithm
 
-
