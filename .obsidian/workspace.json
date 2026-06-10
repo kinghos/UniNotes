@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Discrete Maths/Lecture 10.md",
+                "file": "Part IA/Discrete Maths/Lecture 14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 10"
+              "title": "Lecture 14"
             }
           }
         ]
@@ -182,6 +182,9 @@
   },
   "active": "3a91e399ba9095b0",
   "lastOpenFiles": [
+    "Part IA/Discrete Maths/Lecture 13.md",
+    "Part IA/Discrete Maths/Lecture 12.md",
+    "Part IA/Discrete Maths/Lecture 10.md",
     "Part IA/Discrete Maths/Lecture 9.md",
     "Part IA/Discrete Maths/Lecture 8.md",
     "Part IA/Discrete Maths/Lecture 5.md",
@@ -205,9 +208,6 @@
     "Part IA/Software and Security Engineering/2 Requirements and specifications.md",
     "Part IA/Software and Security Engineering/1 Engineering Mindset.md",
     "Part IA/Operating Systems/8 Virtual Memory.md",
-    "Part IA/Operating Systems/7 Paging.md",
-    "Part IA/Operating Systems/12 Unix Case Study 2.md",
-    "Part IA/Operating Systems/11 Unix Case Study 1.md",
     "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
