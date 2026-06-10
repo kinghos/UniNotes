@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Software and Security Engineering/Supervision Notes.md",
+                "file": "Part IA/Discrete Maths/Lecture 9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "Lecture 9"
             }
           }
         ]
@@ -182,6 +182,16 @@
   },
   "active": "3a91e399ba9095b0",
   "lastOpenFiles": [
+    "Part IA/Discrete Maths/Lecture 8.md",
+    "Part IA/Discrete Maths/Lecture 7.md",
+    "Part IA/Discrete Maths/Lecture 6.md",
+    "Part IA/Discrete Maths/Lecture 4.md",
+    "Part IA/Discrete Maths/Lecture 3.md",
+    "Part IA/Discrete Maths/Lecture 1.md",
+    "Part IA/Discrete Maths/Lecture 2.md",
+    "Part IA/Discrete Maths/Fermat's Little Theorem.md",
+    "Part IA/Discrete Maths/Glossary.md",
+    "Part IA/Software and Security Engineering/Supervision Notes.md",
     "Part IA/Software and Security Engineering/5 Software Evolution.md",
     "Part IA/Software and Security Engineering/6 AI in SSE.md",
     "Part IA/Software and Security Engineering/4 Quality Assurance and Reliable Delivery.md",
@@ -198,16 +208,6 @@
     "Part IA/Operating Systems/1 Introduction.md",
     "Part IA/Algorithms 2/3 Graph problems.md",
     "Part IA/Algorithms 2/5 More Graph Algorithms.md",
-    "Part IA/Algorithms 1/3 Divide and conquer.md",
-    "Part IA/Algorithms 1/2 Algorithm analysis.md",
-    "Part IA/Object-Oriented Programming/Lecture 10.md",
-    "Part IA/Introduction to Probability/10 Estimators.md",
-    "Part IA/Introduction to Probability/11 Estimators cont..md",
-    "Part IA/Introduction to Probability/7 Independence, Covariance and Correlation.md",
-    "Part IA/Introduction to Probability/9 Central Limit Theorem.md",
-    "Part IA/Introduction to Probability/8 Basic Inequalities and Law of Large Numbers.md",
-    "Part IA/Introduction to Probability/12 Online Algorithms.md",
-    "Part IA/Introduction to Probability/4 Discrete Distributions.md",
     "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
