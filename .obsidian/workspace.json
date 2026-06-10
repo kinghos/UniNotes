@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Digital Electronics/Setup and Hold Conditions.md",
+                "file": "Part IA/Discrete Maths/Lecture 10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Setup and Hold Conditions"
+              "title": "Lecture 10"
             }
           }
         ]
@@ -182,11 +182,13 @@
   },
   "active": "3a91e399ba9095b0",
   "lastOpenFiles": [
+    "Part IA/Discrete Maths/Lecture 9.md",
+    "Part IA/Discrete Maths/Lecture 8.md",
+    "Part IA/Discrete Maths/Lecture 5.md",
+    "Part IA/Digital Electronics/Setup and Hold Conditions.md",
     "Part IA/Digital Electronics/Metastability.md",
     "Part IA/Digital Electronics/Memory and Tristate Buffers.md",
     "Part IA/Digital Electronics/Implication Tables.md",
-    "Part IA/Discrete Maths/Lecture 9.md",
-    "Part IA/Discrete Maths/Lecture 8.md",
     "Part IA/Discrete Maths/Lecture 7.md",
     "Part IA/Discrete Maths/Lecture 6.md",
     "Part IA/Discrete Maths/Lecture 4.md",
@@ -206,8 +208,6 @@
     "Part IA/Operating Systems/7 Paging.md",
     "Part IA/Operating Systems/12 Unix Case Study 2.md",
     "Part IA/Operating Systems/11 Unix Case Study 1.md",
-    "Part IA/Operating Systems/6 Memory Management.md",
-    "Part IA/Operating Systems/3 Processes.md",
     "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
