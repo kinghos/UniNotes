@@ -8,3 +8,11 @@ Practice improves memory, so does surprise
 We tend to group similar elements into one perceptual unit
 Close in space, same shape, colour, enclosed by a border
 Foreground, background, filling in the gaps
+
+similarity
+proximity
+enclosure
+common fate
+figure/ground
+closure
+good continuation
