@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Interaction Design/1 Intro to Interaction Design.md",
+                "file": "Part IA/Machine Learning and Real-world Data/3 Zipf's and Heap's Laws.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Intro to Interaction Design"
+              "title": "3 Zipf's and Heap's Laws"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "3a91e399ba9095b0",
   "lastOpenFiles": [
+    "Part IA/Interaction Design/1 Intro to Interaction Design.md",
     "Part IA/Interaction Design/4 Cognitive Aspects for Design.md",
     "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
     "Part IA/Machine Learning and Real-world Data/11 Hidden Markov Models.md",
@@ -207,7 +208,6 @@
     "Part IA/Digital Electronics/Metastability.md",
     "Part IA/Digital Electronics/Memory and Tristate Buffers.md",
     "Part IA/Digital Electronics/Implication Tables.md",
-    "Part IA/Discrete Maths/Lecture 7.md",
     "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
