@@ -178,8 +178,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "cbfc22df875b0f71",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-01-23 13.09.44.excalidraw.md",
+    "Excalidraw/2015p1q17.md",
+    "Excalidraw/2013p2q13.md",
+    "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
+    "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
+    "2026-05-27.md",
     "Part IA/Discrete Maths/Glossary.md",
     "Part IA/Software and Security Engineering/Supervision Notes.md",
     "Part IA/Software and Security Engineering/6 AI in SSE.md",
@@ -208,13 +214,9 @@
     "Part IA/NST Maths/Infinite Series.md",
     "Part IA/NST Maths/Hyperbolic Functions.md",
     "Part IA/NST Maths/Elementary Analysis.md",
-    "Part IA/NST Maths/Differentiation.md",
-    "Part IA/NST Maths/Complex Numbers.md",
     "Part IA/NST Maths",
     "Part IA/Introduction to Probability/Images/DistSummary.png",
-    "Part IA/Introduction to Probability/Supervision Notes.md",
     "Part IA/Introduction to Probability/Images",
-    "Part IA/Introduction to Probability/9 Central Limit Theorem.md",
     "Part IA/Introduction to Probability",
     "Part IA/Operating Systems/Images/StorageComparison.png",
     "Part IA/Operating Systems/Images/ProcessStates.png",
@@ -224,8 +226,6 @@
     "Part IA/Machine Learning and Real-world Data/Images/MarkovModels.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
-    "Part IA/Algorithms 2/Images/AntiparallelFlow.png",
-    "Part IA/Algorithms 1/Images/SortingSummary.png",
     "Untitled.canvas"
   ]
 }
