@@ -12,3 +12,6 @@ stateDiagram-v2
 	
 	Linker/Loader --> [*]: target machine code
 ```
+
+Lexers/lexical analysis entails chopping source code into `<token-name, attribute-value>` pairs, where attribute value points to an entry in the symbol table.
+Parsers take the tokens and generate a grammatical structure e.g. a syntax tree
