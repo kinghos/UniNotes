@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b480b924ff5bb074",
+        "id": "4e7f51f162601a76",
         "type": "tabs",
         "children": [
           {
-            "id": "e7f58fc214d52358",
+            "id": "a2261fb610800003",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.7"
+                "file": "Part IB/Compiler Construction/Chapter 1-4 Summary.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
+              "icon": "lucide-file",
+              "title": "Chapter 1-4 Summary"
             }
           }
         ]
@@ -181,8 +183,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e7f58fc214d52358",
+  "active": "a2261fb610800003",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Part IB/Compiler Construction/Chapter 1-4 Summary.md",
+    "Part IB/Compiler Construction",
+    "Part IB",
     "conflict-files-obsidian-git.md",
     "Part IA/Interaction Design/6 Evaluation.md",
     "Part IA/Interaction Design/5 Designing Content.md",
@@ -206,9 +212,6 @@
     "Part IA/Discrete Maths/Lecture 16.md",
     "Part IA/Discrete Maths/Lecture 15.md",
     "Part IA/Discrete Maths/Lecture 14.md",
-    "Part IA/Discrete Maths/Lecture 13.md",
-    "Part IA/Discrete Maths/Lecture 12.md",
-    "Part IA/Discrete Maths/Lecture 10.md",
     "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
@@ -226,9 +229,7 @@
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
     "Part IA/Algorithms 2/Images/SuperSource.png",
-    "Part IA/Algorithms 2/Images",
     "Part IA/Algorithms 2/Images/AntiparallelFlow.png",
-    "Part IA/Machine Learning and Real-world Data/Images",
     "Untitled.canvas"
   ]
 }
