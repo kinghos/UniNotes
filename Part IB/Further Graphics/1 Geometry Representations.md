@@ -8,3 +8,5 @@ Bezier curves are a weighted combination of basis functions. The weights are vec
 $$\mathbf{p}(t)=\sum^n_{i=0}\mathbf{p}_{i}B^n_{i}(t)$$
 $$B_{i}^n(t)={{n}\choose{i}}t^i(1-t)^{n-i}$$
 When $m=2$, there are two degrees of freedom, which defines a surface
+
+#### Polygonal Meshes
