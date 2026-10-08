@@ -11,12 +11,14 @@
             "id": "66c30b0bdf12065a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Part IB/Compiler Construction/Compilers Principles Techniques and Tools (2nd Edition) .pdf"
+                "file": "Part IB/Further Graphics/1 Geometry Representations.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Compilers Principles Techniques and Tools (2nd Edition)"
+              "icon": "lucide-file",
+              "title": "1 Geometry Representations"
             }
           }
         ]
@@ -184,6 +186,8 @@
   "active": "66c30b0bdf12065a",
   "lastOpenFiles": [
     "Part IB/Compiler Construction/Compilers Principles Techniques and Tools (2nd Edition) .pdf",
+    "Part IB/Further Graphics/1 Geometry Representations.md",
+    "Part IB/Further Graphics",
     "Part IA/NST Maths/NST-IA-LT-examples1.pdf",
     "Part IB/Compiler Construction/Chapter 1-4 Summary.md",
     "Part IA/Operating Systems/Briefing.md",
@@ -212,7 +216,6 @@
     "Part IA/Software and Security Engineering/3 Engineering Process.md",
     "Part IA/Software and Security Engineering/2 Requirements and specifications.md",
     "Part IA/Software and Security Engineering/1 Engineering Mindset.md",
-    "Part IA/Discrete Maths/Lecture 16.md",
     "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
     "HTML import",
     "Part IA/Algorithms 2/all_pairs_shortest_paths_notes 1.html",
@@ -223,8 +226,6 @@
     "Part IA/Introduction to Probability/Images/DistSummary.png",
     "Pasted image 20260509125025.png",
     "Part IA/Software and Security Engineering",
-    "Part IA/Introduction to Probability",
-    "Part IA/Interaction Design/Images",
     "Part IA/Interaction Design/Images/SDLC.png",
     "Part IA/Operating Systems/Images/LinuxProcesses.png",
     "Part IA/Algorithms 2/Images/BinomialTree.png",
