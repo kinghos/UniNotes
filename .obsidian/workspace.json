@@ -13,11 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Part IB/Compiler Construction/Compilers Principles Techniques and Tools (2nd Edition) .pdf",
-                "page": 1,
-                "left": -4,
-                "top": 470,
-                "zoom": 2.9738750721509777
+                "file": "Part IB/Compiler Construction/Compilers Principles Techniques and Tools (2nd Edition) .pdf"
               },
               "icon": "lucide-file-text",
               "title": "Compilers Principles Techniques and Tools (2nd Edition)"
@@ -182,10 +178,7 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-importer:Open Importer": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "obsidian-importer:Open Importer": false
     }
   },
   "active": "66c30b0bdf12065a",
