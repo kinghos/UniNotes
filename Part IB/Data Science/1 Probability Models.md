@@ -15,3 +15,4 @@ Machine learning is interested in application, while data science is interested 
 - $X_{1},X_{2}\sim U[0,1]$ declares two independent variables
 - $(Y,Z) \sim\dots$ indicates that $Y$ and $Z$ 
 - Saying two variables are independent implicitly assumes parameters are true
+- $=$ means "always equal when I run it" whereas $\sim$ means they are distributed the same
