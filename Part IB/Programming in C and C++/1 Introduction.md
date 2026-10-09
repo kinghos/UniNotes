@@ -43,3 +43,8 @@ Numbering defaults from 0 counting up
 - A block or compound statement is formed when multiple statements are surrounded with braces: `{s1;s2;s3}`
 - This is then equivalent to a single statement
 
+#### Definition and Declaration
+- A variable can be declared without defining it using the `extern` keyword
+- The declaration tells the compiler that storage has been allocated elsewhere (usually in another source file)
+- If a variable is declared and used but not defined, there is a link error
+- A static modifier prevents a declaration from being accessed elsewhere and, creates exactly one persistent instance regardless of recursion or re-entrance by threads
