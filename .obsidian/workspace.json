@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "1 Geometry Representations"
             }
+          },
+          {
+            "id": "9969a99cd285ad1e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,7 +196,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "66c30b0bdf12065a",
+  "active": "9969a99cd285ad1e",
   "lastOpenFiles": [
     "Part IB/Further Graphics/1 Geometry Representations.md",
     "Part IB/Compiler Construction/Compilers Principles Techniques and Tools (2nd Edition) .pdf",
