@@ -48,3 +48,8 @@ Numbering defaults from 0 counting up
 - The declaration tells the compiler that storage has been allocated elsewhere (usually in another source file)
 - If a variable is declared and used but not defined, there is a link error
 - A static modifier prevents a declaration from being accessed elsewhere and, creates exactly one persistent instance regardless of recursion or re-entrance by threads
+
+#### Arrays
+- Contiguous memory block assigned
+- Zero-indexed with **no bounds checking**
+- Strings are an array of `char` terminated by the special `\0` character
