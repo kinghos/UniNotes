@@ -5,4 +5,10 @@
 	- The greater the chip area, the lower the yield
 - Non-recurrent costs (i.e. in the design phase) are increasing
 - Transistor density doubling does not necessarily mean performance is doubling
-- 
+- Wire speed is dependent on length and height
+	- Making wires skinnier and taller can cause issues when grouped together due to capacitance
+	- Halving length makes the wire go 4x faster, adding buffers and repeaters helps
+- Moore's law still holds today, but the number of switching transistors needs to be constrained
+	- Move to multicore: small efficient cores and larger cores for heavy workloads
+	- Race-to-dark: Turning a core off saves static and dynamic power, so racing to turn-off is another goal
+- Adjusting frequency with voltage can trade off performance/power, usually marketed 
