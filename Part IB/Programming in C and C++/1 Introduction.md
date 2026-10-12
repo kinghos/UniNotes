@@ -56,4 +56,8 @@ Numbering defaults from 0 counting up
 
 #### Static vs Dynamic
 - Static variables have their quantity and layout known at compile time
+	- Global variables
 - Dynamic variables have quantity varying one run to another
+	- Local variables, stored in the stack
+	- In C++, can be found in the stack, heap or statically
+- 
