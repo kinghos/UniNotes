@@ -14,4 +14,3 @@
 - Adjusting frequency with voltage can trade off performance/power, usually marketed as "turbo"
 - To cope with the design and verification scale associated with Moore's law:
 	- Components are used like libraries; different companies will produce components which can be copy-and-pasted into a new design where needed
-	- 

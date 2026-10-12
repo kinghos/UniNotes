@@ -10,9 +10,8 @@ Machine learning is interested in application, while data science is interested 
 #### Views of probability models
 - Code e.g. NumPy 
 - Random variable notation e.g. $\text{Temp}_{i}\sim \alpha \sin(t_{i})+\text{Normal}(0,\sigma^2)$
-
-- Convention states that uppercase letters are random variables and lowercase are constants or data points
-- $X_{1},X_{2}\sim U[0,1]$ declares two independent variables
-- $(Y,Z) \sim\dots$ indicates that $Y$ and $Z$ 
-- Saying two variables are independent implicitly assumes parameters are true
-- $=$ means "always equal when I run it" whereas $\sim$ means they are distributed the same
+	- Convention states that uppercase letters are random variables and lowercase are constants or data points
+	- $X_{1},X_{2}\sim U[0,1]$ declares two independent variables
+	- $(Y,Z) \sim\dots$ indicates that $Y$ and $Z$ 
+	- Saying two variables are independent implicitly assumes parameters are true
+	- $=$ means "always equal when I run it" whereas $\sim$ means they are distributed the same
