@@ -9,3 +9,7 @@ Based on an observation (e.g. flipping a coin 10 times and getting 6 heads), fin
 
 When there are many independent datapoints, the log-likelihood is useful as it turns products into sums.
 $$\text{lik}(\text{data})=\prod^n_{i=1}\text{lik}(x_{i})$$
+With continuous distributions ensure to use the PDF
+Taking the derivative can be used, as the likelihoods are not expected to change.
+$$\frac{d}{d\sigma}\text{loglik}\dots=0$$
+When there are multiple unknowns, solve for them all simultaneously.
