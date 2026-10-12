@@ -53,3 +53,7 @@ Numbering defaults from 0 counting up
 - Contiguous memory block assigned
 - Zero-indexed with **no bounds checking**
 - Strings are an array of `char` terminated by the special `\0` character
+
+#### Static vs Dynamic
+- Static variables have their quantity and layout known at compile time
+- Dynamic variables have quantity varying one run to another
