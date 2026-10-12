@@ -11,4 +11,7 @@
 - Moore's law still holds today, but the number of switching transistors needs to be constrained
 	- Move to multicore: small efficient cores and larger cores for heavy workloads
 	- Race-to-dark: Turning a core off saves static and dynamic power, so racing to turn-off is another goal
-- Adjusting frequency with voltage can trade off performance/power, usually marketed 
+- Adjusting frequency with voltage can trade off performance/power, usually marketed as "turbo"
+- To cope with the design and verification scale associated with Moore's law:
+	- Components are used like libraries; different companies will produce components which can be copy-and-pasted into a new design where needed
+	- 
