@@ -34,4 +34,13 @@ With a single CPU, this interleaving of processes is unpredictable and hence non
 #### Critical Sections and Mutual Exclusion
 - When two threads try to solve the same problem, that is a critical section
 - Ensuring a piece of code is never concurrently executed by multiple threads is called mutual exclusion
+- If a sequence of operations are made to occur as one operation, we call them atomic
+
+#### Implementing mutual exclusion
+- Define a region of code as the critical section
+- One option is to disable context switches in this region
+	- Can cause issues as it blocks all other threads, not just those who want to enter
+	- Doesn't work across multiple CPUs
+- Another option is to associate a mutual exclusion lock with each critical section, e.g. through a variable
+	- Known as a spin lock
 - 
