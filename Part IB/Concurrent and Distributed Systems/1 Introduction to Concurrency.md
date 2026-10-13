@@ -43,4 +43,3 @@ With a single CPU, this interleaving of processes is unpredictable and hence non
 	- Doesn't work across multiple CPUs
 - Another option is to associate a mutual exclusion lock with each critical section, e.g. through a variable
 	- Known as a spin lock
-- 

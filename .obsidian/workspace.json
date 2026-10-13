@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Concurrent and Distributed Systems/1 Introduction to Concurrency.md",
+                "file": "Part IB/Concurrent and Distributed Systems/2 Hardware and Operating System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Introduction to Concurrency"
+              "title": "2 Hardware and Operating System"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "66c30b0bdf12065a",
   "lastOpenFiles": [
-    "Part IB/Programming in C and C++/1 Introduction.md",
     "Part IB/Concurrent and Distributed Systems/1 Introduction to Concurrency.md",
+    "Part IB/Concurrent and Distributed Systems/2 Hardware and Operating System.md",
+    "Part IB/Programming in C and C++/1 Introduction.md",
     "Part IB/Concurrent and Distributed Systems",
     "Part IB/Untitled.md",
     "Part IB/Data Science/2 Probability Models cont..md",
@@ -220,7 +221,6 @@
     "Part IA/Machine Learning and Real-world Data/11 Hidden Markov Models.md",
     "Part IA/Operating Systems/2 Protection.md",
     "Part IA/Operating Systems/1 Introduction.md",
-    "Part IA/Software and Security Engineering/6 AI in SSE.md",
     "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
     "HTML import",
     "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
