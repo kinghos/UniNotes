@@ -25,4 +25,9 @@ With a single CPU, this interleaving of processes is unpredictable and hence non
 - Heap and code are shared between all threads
 - Access to another thread's stack is possible in some languages, but discouraged
 
-#### User-
+| User-level threading                                                                        | Kernel-level threading                                                                                      | Hybrid threading                                                                |
+| ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Kernel only knows about and schedules processes                                             | Kernel provides threads directly - a process has a thread by default, but can add more through system calls | Lightweight thread switching entirely in userspace                              |
+| A userspace library implements threads, context switching, scheduling, synchronisation, ... | Kernel implements threads, context switching, scheduling, etc...                                            | Custom scheduler can understand userspace inter-thread communication primitives |
+| Lightweight creation/termination and context switch                                         | Userspace thread maps user threads into kernel threads                                                      | Need a timer signal to implement time sharing                                   |
+| Awkward to handle blocking system calls or page faults, cannot use multiple CPUs            | Handles preemption, straightforward to use multiple CPUs, but has higher overhead                           | Kernel threads are the only ones that can block in a system call                |
