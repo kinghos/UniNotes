@@ -31,3 +31,7 @@ With a single CPU, this interleaving of processes is unpredictable and hence non
 | A userspace library implements threads, context switching, scheduling, synchronisation, ... | Kernel implements threads, context switching, scheduling, etc...                                            | Custom scheduler can understand userspace inter-thread communication primitives |
 | Lightweight creation/termination and context switch                                         | Userspace thread maps user threads into kernel threads                                                      | Need a timer signal to implement time sharing                                   |
 | Awkward to handle blocking system calls or page faults, cannot use multiple CPUs            | Handles preemption, straightforward to use multiple CPUs, but has higher overhead                           | Kernel threads are the only ones that can block in a system call                |
+#### Critical Sections and Mutual Exclusion
+- When two threads try to solve the same problem, that is a critical section
+- Ensuring a piece of code is never concurrently executed by multiple threads is called mutual exclusion
+- 
