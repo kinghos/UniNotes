@@ -15,4 +15,14 @@
 	- Process X runs for a while, then OS; then Process Y; then OS, then Process Z, etc.
 - Intra-process concurrency
 	- Process X has multiple threads X1, X2, etc.
-	- X1 runs for a while, then X3, then X1, then 
+	- X1 runs for a while, then X3, then X1, then X2, then...
+With a single CPU, this interleaving of processes is unpredictable and hence non-deterministic
+
+#### Threads in a process
+- Additional threads in a program introduce their own registers and stacks
+	- Per-thread program counters
+	- Per-thread stack pointers
+- Heap and code are shared between all threads
+- Access to another thread's stack is possible in some languages, but discouraged
+
+#### User-
