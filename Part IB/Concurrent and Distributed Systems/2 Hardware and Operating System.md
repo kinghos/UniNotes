@@ -18,6 +18,5 @@
 	- Optimistic concurrency
 - Doesn't lock up whole memory system while one core does one atomic operation
 
-#### [[Finite State Machines]]
+#### Fairness and Livelock in [[Finite State Machines]]
 - Livelock can be defined as when non-fair states are forced to loop
-- 
