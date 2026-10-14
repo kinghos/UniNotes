@@ -16,3 +16,6 @@ $$
 \text{Pr}(x_{1},\dots,x_{n})=\text{Pr}_{X}(x_{1})\times\dots \times  \text{Pr}_{X}(x_{n})
 $$
 Sequential generation of $X$, then $Y$, based on $X$ (i.e. $X$ and $Y$ are not independent, as $Y$ is calculated from $X$)
+$$
+\text{Pr}_{X,Y}(x,y)=\text{Pr}_{X}(x)\text{Pr}_{Y}(y;x)
+$$
