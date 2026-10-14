@@ -44,4 +44,9 @@ endmodule
 - Given the netlist and a physical model, determine the longest combinatorial paths in a circuit
 	- Uses the same constraints as place and route
 - Use to determine whether maximum clock frequency is safe
+
+#### Synchronisation and metastability
+- External inputs e.g. a push button will not be synchronised to the clock
+- A changing input violating setup and hold times can cause [[Metastability|metastability]]
+- Two flip-flop synchroniser is used to synchronise is often used to synchronise asynchronous inputs. 
 - 
