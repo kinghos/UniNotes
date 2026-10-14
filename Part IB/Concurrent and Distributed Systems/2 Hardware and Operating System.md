@@ -19,4 +19,8 @@
 - Doesn't lock up whole memory system while one core does one atomic operation
 
 #### Fairness and Livelock in [[Finite State Machines]]
-- Livelock can be defined as when non-fair states are forced to loop
+- A live state is one that can be returned to infinitely often in the future
+- A dead(lock) state has no successors, machine stops if it is entered
+- Startup states are those before live behaviour
+- Bad states lead away from live states
+- Livelock can be defined as when non-fair states are forced to loop - not deadlocked but no useful progress can be made
