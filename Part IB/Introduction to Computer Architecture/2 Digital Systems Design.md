@@ -50,6 +50,3 @@ endmodule
 - A changing input violating setup and hold times can cause [[Metastability|metastability]]
 - Two flip-flop synchroniser is used to synchronise is often used to synchronise asynchronous inputs. 
 
-#### Simulation
-- Circuits are inherently parallel
-
