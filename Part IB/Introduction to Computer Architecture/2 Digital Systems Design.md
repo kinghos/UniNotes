@@ -27,4 +27,21 @@ endmodule
 		- You can run a gate-level simulation
 
 #### Synthesis
+- SystemVerilog compiled or synthesised into a lower-level description, typically a gate-level netlist
+- Can be optimised via boolean optmisation, optimal state assignment and retiming for timing closure
+
+#### Place and Route
+- Starts with a netlist (directed graph) of components linked by wires
+- Places components onto physical locations on a chip or FPGA
+- Routing wires between these components to complete a physical netlist
+- Needs constraints:
+	- Area constraints
+	- Location constraints, e.g. a wire needing to connect to a physical pin on or off the chip
+	- Timing constraints
+- Automated processes are effective but can be time consuming
+
+#### Timing analysis
+- Given the netlist and a physical model, determine the longest combinatorial paths in a circuit
+	- Uses the same constraints as place and route
+- Use to determine whether maximum clock frequency is safe
 - 
