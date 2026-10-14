@@ -11,4 +11,9 @@ For independent random variables,
 $$
 \text{Pr}_{X,Y}(x,y)=\text{Pr}_{X}(x)\text{Pr}_{Y}(y)
 $$
-Independently identically-distributed (iid) a
+Independently identically-distributed (IID) sample from $X$:
+$$
+\text{Pr}(x_{1},\dots,x_{n})=\text{Pr}_{X}(x_{1})\times\dots \times  \text{Pr}_{X}(x_{n})
+$$
+#### Maximum Likelihood Estimation
+
