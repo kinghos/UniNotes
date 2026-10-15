@@ -18,3 +18,12 @@ signal(sem) {
 	} else wake up some thread on queue
 }
 ```
+#### Inter-Processor Interrupts
+- Mark thread as runnable
+- Send an interrupt to the target CPU
+- IPI handler runs thread scheduler, preempts running thread, triggers context switch.
+
+#### Mutual exclusion with a semaphore
+- Initialise semaphore to 1, `wait()` is lock, `signal()` is unlock
+#### Condition synchronisation
+- Initialise semaphore to 0, A proceeds only after B signals
