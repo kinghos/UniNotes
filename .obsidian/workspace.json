@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Concurrent and Distributed Systems/3 Mutual Exclusion.md",
+                "file": "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Mutual Exclusion"
+              "title": "4 Monitors"
             }
           }
         ]
@@ -185,6 +185,8 @@
   },
   "active": "7d900ca2f0dbb258",
   "lastOpenFiles": [
+    "Part IB/Concurrent and Distributed Systems/3 Mutual Exclusion.md",
+    "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
     "Part IB/Data Science/3 Likelihood notation.md",
     "Part IB/Data Science/2 Maximum Likelihood Estimation.md",
     "Ink/Drawing/2026.10.14 - 11.26am.svg",
@@ -197,7 +199,6 @@
     "Part IA/Digital Electronics/Asynchronous inputs.md",
     "Part IB/Introduction to Computer Architecture/1 Technology Trends and Design Challenges.md",
     "Part IB/Concurrent and Distributed Systems/2 Hardware and Operating System.md",
-    "Part IB/Concurrent and Distributed Systems/3 Mutual Exclusion.md",
     "Part IA/Digital Electronics/Finite State Machines.md",
     "Part IB/Concurrent and Distributed Systems/1 Introduction to Concurrency.md",
     "Part IB/Programming in C and C++/1 Introduction.md",
