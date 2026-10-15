@@ -27,3 +27,19 @@ signal(sem) {
 - Initialise semaphore to 1, `wait()` is lock, `signal()` is unlock
 #### Condition synchronisation
 - Initialise semaphore to 0, A proceeds only after B signals
+#### N-resource allocation
+- Suppose there are N instances of a resource
+- Initialise a semaphore `sem`, initialised to N
+	- Any job wanting a resource uses `wait`
+	- After N jobs get a printer, the next sleeps.
+	- To release a resource, `signal`
+
+#### Producer-consumer problem
+- Shared buffer `B[]` with N slots
+- Producer thread wants to
+	- Produce an item
+	- If there's room, insert it into next slot
+	- Otherwise, wait until there is room
+- Consumer thread wants to:
+	- If there's anything in buffer, remove an item (consume it)
+	- Otherwise, wait until there is something
