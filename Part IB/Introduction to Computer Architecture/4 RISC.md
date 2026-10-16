@@ -17,3 +17,8 @@
 	- Fixed-length instructions
 - Modular
 	- Standard extensions
+
+#### Features
+- Integer registers `x0...x32`
+	- `x0` is always 0
+- 
