@@ -15,3 +15,5 @@
 	- All arithmetic operations use the same operands
 - Simple instruction decode
 	- Fixed-length instructions
+- Modular
+	- Standard extensions
