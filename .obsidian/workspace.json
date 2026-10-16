@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "af4fd48eebcc02be",
+        "id": "958cc682d88ab28e",
         "type": "tabs",
         "children": [
           {
-            "id": "e97c00bfd583ea0c",
+            "id": "90f016fe25ec5e45",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Part IB/Data Science/4.md",
-                "mode": "source",
-                "source": false
+                "file": "Part IB/Data Science/4 Exam Q + Neural Networks (non-examinable).md"
               },
-              "icon": "lucide-file",
-              "title": "4"
+              "icon": "excalidraw-icon",
+              "title": "4 Exam Q + Neural Networks (non-examinable)"
             }
           }
         ]
@@ -171,6 +169,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -183,13 +184,20 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e97c00bfd583ea0c",
+  "active": "90f016fe25ec5e45",
   "lastOpenFiles": [
+    "Pasted Image 20261016112129_165.png",
+    "Pasted Image 20261016112123_941.png",
+    "Part IB/Data Science/3 Likelihood notation.md",
+    "Part IB/Data Science/4 Exam Q + Neural Networks (non-examinable).md",
+    "Part IB/Data Science/4 Neural Networks (Non-Examinable).md",
+    "Excalidraw",
+    "Ink/Drawing/2026.10.16 - 11.18am.svg",
+    "Part IB/Data Science/exam1.pdf",
+    "Excalidraw/Drawing 2026-10-16 11.15.06.excalidraw.md",
     "Part IB/Introduction to Computer Architecture/4 RISC.md",
-    "Part IB/Data Science/4.md",
     "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
     "Part IB/Concurrent and Distributed Systems/3 Mutual Exclusion.md",
-    "Part IB/Data Science/3 Likelihood notation.md",
     "Part IB/Data Science/2 Maximum Likelihood Estimation.md",
     "Ink/Drawing/2026.10.14 - 11.26am.svg",
     "Ink/Drawing",
@@ -212,25 +220,18 @@
     "Part IB/Data Science",
     "Part IB/Compiler Construction/Compilers Principles Techniques and Tools (2nd Edition) .pdf",
     "Part IB/Further Graphics",
-    "Part IA/NST Maths/NST-IA-LT-examples1.pdf",
     "Part IB/Compiler Construction/Chapter 1-4 Summary.md",
     "Part IA/Operating Systems/Briefing.md",
     "Part IA/Operating Systems/3 Processes.md",
     "Part IA/Operating Systems/Images/ProcessStates.png",
     "Untitled.md",
-    "Part IB/Compiler Construction",
     "conflict-files-obsidian-git.md",
     "Part IA/Interaction Design/6 Evaluation.md",
     "Part IA/Interaction Design/5 Designing Content.md",
-    "Part IA/Databases/Lecture 4.md",
-    "Part IA/Databases/Lecture 3.md",
-    "Part IA/Databases/Lecture 2.md",
     "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
     "Excalidraw/{733647F6-4682-4CA0-A55F-1F94E4488C11}.png",
     "Excalidraw/{859037B5-1492-450C-B5C3-1905904F070D}.png",
     "Part IA/Introduction to Probability/Images/DistSummary.png",
-    "Pasted image 20260509125025.png",
-    "Part IA/Interaction Design/Images/SDLC.png",
     "Untitled.canvas"
   ]
 }
