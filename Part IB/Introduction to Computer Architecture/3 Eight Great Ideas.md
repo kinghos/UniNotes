@@ -18,8 +18,17 @@
 - Performance via prediction
 	- Predict what might happen next to make the pipeline and memory subsystem more efficient
 	- Control-flow prediction
+		- Predict what will be executed next, e.g. outcome of conditional branch
+	- Data-value prediction - predicting if a value will not change
+	- Data-access pattern prediction
+		- Ensure that data needed soon is nearby for low-latency access
 - Hierarchy of memories
+	- Accessing external DRAM is slow (300+ clock cycles)
 - Dependability via redundancy
+	- Error correcting codes
+	- Bit error detection and correction
+	- RAID
+	- Sizing of transistors - bigger transistors for arithmetic, smallest for memory
 
 #### Definitions of performance
 - Performance = 1/execution time
