@@ -9,6 +9,7 @@ The vector of prediction errors is called the residual vector
 We can fit the model using least squares estimation. this means finding parameters to minimise mean square error
 $$\begin{align}
 y&\approx~\beta_{1}e^1 +\dots+\beta_{K}e^K \\
-\epsilon&=y-({\beta_{1}}e^1+\dots+\beta_{K}e^K)
+\epsilon&=y-({\beta_{1}}e^1+\dots+\beta_{K}e^K) \\
+\text{mse}&=\frac{1}{n}\sum^n_{i=1}\epsilon^2_{i}
 \end{align}
 $$
