@@ -11,10 +11,14 @@
             "id": "cda209f64833d9c9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Part IB/Introduction to Computer Architecture/3 Eight Great Ideas.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "3 Eight Great Ideas"
             }
           }
         ]
@@ -184,6 +188,7 @@
   },
   "active": "cda209f64833d9c9",
   "lastOpenFiles": [
+    "Part IB/Introduction to Computer Architecture/3 Eight Great Ideas.md",
     "Part IB/Data Science/4 Mock Exam Question.md",
     "Part IB/Data Science/3 Likelihood notation.md",
     "Part IB/Data Science/2 Maximum Likelihood Estimation.md",
