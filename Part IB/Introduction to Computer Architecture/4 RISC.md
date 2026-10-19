@@ -9,7 +9,7 @@
 - Most are proprietary for historical reasons
 
 #### RISC philosophy
-- Make the common case fast
+- [[3 Eight Great Ideas|Make the common case fast]]
 - Orthogonal instruction set design
 	- General purpose registers
 	- All arithmetic operations use the same operands

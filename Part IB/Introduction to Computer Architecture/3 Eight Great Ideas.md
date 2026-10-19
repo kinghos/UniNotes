@@ -5,9 +5,19 @@
 	- Assembly language
 	- Hardware representation
 - Make the common case fast
+	- Amdahl's Law:
+	$$\text{execution time after improvement}=\frac{\text{execution time affected by improvement}}{\text{amount of improvement}}+\text{execution time unaffected}$$
+	- e.g. if integer division is used rarely, a large increase in performance barely affects overall performance
 - Performance via parallelism
+	- Instruction level parallelism - multiple instructions executed in one clock cycle
+	- Thread-level parallelism
+	- Data-level parallelism - an instruction can act on more than one data item
 - Performance via pipelining
+	- Key idea: a production line for executing instructions
+	- Break execution into steps e.g. fetch, decode, execute, memory access
 - Performance via prediction
+	- Predict what might happen next to make the pipeline and memory subsystem more efficient
+	- Control-flow prediction
 - Hierarchy of memories
 - Dependability via redundancy
 
@@ -20,4 +30,3 @@
 	- Clock cycles = instruction count * cycles per instruction
 	- CPU time = instruction count * CPI * clock cycle time
 - Instruction count and CPI are dictated by ISA
-- 
