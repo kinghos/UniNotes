@@ -14,4 +14,10 @@
 #### Definitions of performance
 - Performance = 1/execution time
 - Relative performance - how much faster one system is to another.
+- Execution time measured as total response time, including all aspects
+- CPU time: comprises user CPU time and system CPU time
+	- CPU clock cycles * clock period
+	- Clock cycles = instruction count * cycles per instruction
+	- CPU time = instruction count * CPI * clock cycle time
+- Instruction count and CPI are dictated by ISA
 - 
