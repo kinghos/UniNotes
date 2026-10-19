@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "958cc682d88ab28e",
+        "id": "2372fa7c907b7390",
         "type": "tabs",
         "children": [
           {
-            "id": "90f016fe25ec5e45",
+            "id": "cda209f64833d9c9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Part IB/Data Science/4 Mock Exam Question.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "4 Mock Exam Question"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -184,11 +182,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "cda209f64833d9c9",
   "lastOpenFiles": [
+    "Part IB/Data Science/4 Mock Exam Question.md",
     "Part IB/Data Science/3 Likelihood notation.md",
     "Part IB/Data Science/2 Maximum Likelihood Estimation.md",
-    "Part IB/Data Science/4 Mock Exam Question.md",
     "Pasted Image 20261016112129_165.png",
     "Pasted Image 20261016112123_941.png",
     "Part IB/Data Science/4 Neural Networks (Non-Examinable).md",
