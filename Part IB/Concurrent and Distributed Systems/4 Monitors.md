@@ -38,4 +38,10 @@ signal(rSem);
 	- If a thread calls a monitor method, it will block if another thread is holding the monitor
 	- Hence all methods within the monitor can proceed on the basis that mutual exclusion has been ensured
 - `synchronised` keyword in Java
-- 
+- Related methods are combined together (e.g. through a class) along with initialisation code, in a single construct
+- Allow condition variables
+	- Explicitly declared and managed by programmer
+	- No integrated counter, not a stateful semaphore
+	- `wait` - suspend thread and add it to the queue for CV, release monitor lock
+	- `signal` - if any threads queued on CV, wake one thread
+	- `broadcast` - wake all threads queued on CV
