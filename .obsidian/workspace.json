@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
+                "file": "Part IB/Concurrent and Distributed Systems/2 Hardware and Operating System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Monitors"
+              "title": "2 Hardware and Operating System"
             }
           }
         ]
@@ -188,6 +188,7 @@
   },
   "active": "e7a94edf5f308576",
   "lastOpenFiles": [
+    "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
     "Part IB/Data Science/5 Linear Modelling.md",
     "Part IB/Introduction to Computer Architecture/3 Eight Great Ideas.md",
     "Part IB/Introduction to Computer Architecture/4 RISC.md",
@@ -202,7 +203,6 @@
     "Ink/Drawing/2026.10.16 - 11.18am.svg",
     "Part IB/Data Science/exam1.pdf",
     "Excalidraw/Drawing 2026-10-16 11.15.06.excalidraw.md",
-    "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
     "Part IB/Concurrent and Distributed Systems/3 Mutual Exclusion.md",
     "Ink/Drawing/2026.10.14 - 11.26am.svg",
     "Ink/Drawing",
