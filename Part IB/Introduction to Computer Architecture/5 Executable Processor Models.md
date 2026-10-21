@@ -31,6 +31,8 @@
 	- Opcode determines either instruction to be performed
 	- or class of instruction to be performed
 - Execute
+	- Values fed into ALU
+	- Opcode selects the function
 - Branch
 - Memory access
 - Writeback
