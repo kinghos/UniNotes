@@ -18,4 +18,19 @@
 		- `LBU & LHU` load byte/half word unsigned
 - S-type store instructions
 	- `SB, SH, SW` - store byte, half-word, word
-- B-
+- B-type branch instructions
+	- `BEQ, BNE, BLT, BGE, BLTU & BGEU`
+- U-type for forming large constants
+	- LUI - load upper immediate
+	- AUIPC - add upper immediate to PC for far jumps
+- Pseudo assembler instructions e.g. `JAL` that aim to make code more human-readable
+
+#### Instruction execution
+- Fetch
+- Decode
+	- Opcode determines either instruction to be performed
+	- or class of instruction to be performed
+- Execute
+- Branch
+- Memory access
+- Writeback
