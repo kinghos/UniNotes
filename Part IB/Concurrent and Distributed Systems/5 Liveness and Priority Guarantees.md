@@ -43,10 +43,13 @@
 	- Element i,j of A is the number of objects of type j owned by i
 	- Element i,j of R is the number of objects of type j further needed by i
 - Successively mark rows in A for threads that are not part of a deadlocked set
-- If we cannot mark all ros of A we have deadlock
+- If we cannot mark all rows of A we have deadlock
 - Mark all zero rows of A, as clearly these cannot be deadlocked
 - Initialise a working vector W to V
-	- This describes any free resources at the start, plus any resources released by a hypothesised sequence of threads freeing and s
+	- This describes any free resources at the start, plus any resources released by a hypothesised sequence of threads freeing and terminating
+- Select an unmarked row i of A (a thread who's request can be satisfied)
+- Set `W = W = A[i]`, mark row i and repeat
+- Terminate when no such row can be found, and any unmarked rows are in the deadlock set
 
 #### Livelock
 - Less easy to detect
