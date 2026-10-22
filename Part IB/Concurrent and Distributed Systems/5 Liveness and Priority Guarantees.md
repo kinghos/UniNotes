@@ -37,4 +37,4 @@
 	- Resume from a checkpoint
 
 #### Livelock
-- 
+- Less easy to detect
