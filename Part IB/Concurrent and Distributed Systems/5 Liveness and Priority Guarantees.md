@@ -5,4 +5,9 @@
 #### Deadlock
 - Set of k threads go asleep and cannot wake up
 - Can happen when two mutual exclusion locks are taken at the same time, e.g. thread holding X tries to hold Y, while thread that holds Y tries to hold X
+- Four conditions:
+	- Mutual exclusion
+	- Hold-and-wait
+	- No preemption (lock is held until released)
+	- Circular wait
 - 
