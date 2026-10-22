@@ -36,5 +36,18 @@
 	- Kill something deadlocked
 	- Resume from a checkpoint
 
+#### Banker's Algorithm
+- Have m distinct resources and n threads
+- Vector V of currently available resources
+- A, the resource allocation matrix, and R the request matrix
+	- Element i,j of A is the number of objects of type j owned by i
+	- Element i,j of R is the number of objects of type j further needed by i
+- Successively mark rows in A for threads that are not part of a deadlocked set
+- If we cannot mark all ros of A we have deadlock
+- Mark all zero rows of A, as clearly these cannot be deadlocked
+- Initialise a working vector W to V
+	- This describes any free resources at the start, plus any resources released by a hypothesised sequence of threads freeing and s
+
 #### Livelock
 - Less easy to detect
+
