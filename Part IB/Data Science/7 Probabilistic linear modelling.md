@@ -1,0 +1,1 @@
+Fitting a linear model approximates the response vector y by a prediction vector $\tilde{y}$. The same prediction vector can be written in different ways depending hte f
