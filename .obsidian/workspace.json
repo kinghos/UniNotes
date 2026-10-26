@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Introduction to Computer Architecture/7 More Processor Pipelines.md",
+                "file": "Part IB/Data Science/8 Climate Models (Non-examinable).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 More Processor Pipelines"
+              "title": "8 Climate Models (Non-examinable)"
             }
           }
         ]
@@ -188,8 +188,10 @@
   },
   "active": "3728356afe963854",
   "lastOpenFiles": [
-    "Part IB/Data Science/7 Probabilistic linear modelling.md",
+    "Part IB/Introduction to Computer Architecture/1 Technology Trends and Design Challenges.md",
+    "Part IB/Data Science/8 Climate Models (Non-examinable).md",
     "Part IB/Introduction to Computer Architecture/7 More Processor Pipelines.md",
+    "Part IB/Data Science/7 Probabilistic linear modelling.md",
     "Part IB/Introduction to Computer Architecture/6 Processor Pipelines.md",
     "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
     "Part IB/Data Science/6 Geometry of linear models.md",
@@ -218,7 +220,6 @@
     "Ink/Drawing/2026.10.14 - 10.58am.svg",
     "Part IB/Data Science/1 Probability Models.md",
     "Part IA/Digital Electronics/Asynchronous inputs.md",
-    "Part IB/Introduction to Computer Architecture/1 Technology Trends and Design Challenges.md",
     "Part IA/Digital Electronics/Finite State Machines.md",
     "Part IB/Concurrent and Distributed Systems/1 Introduction to Concurrency.md",
     "Part IB/Programming in C and C++/1 Introduction.md",
@@ -226,7 +227,6 @@
     "Part IB/Untitled.md",
     "Part IB/Introduction to Computer Architecture",
     "Part IB/Programming in C and C++",
-    "Part IB/Further Graphics/1 Geometry Representations.md",
     "Part IB/Data Science",
     "Part IB/Compiler Construction/Compilers Principles Techniques and Tools (2nd Edition) .pdf",
     "Part IB/Further Graphics",
