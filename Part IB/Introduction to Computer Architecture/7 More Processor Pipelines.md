@@ -11,3 +11,12 @@ add    t3, t3, t2
 - Use another forwarding path
 - Two paths handles all arithmetic operations
 #### Branching 
+- Pipeline will have to be flushed
+- Dynamic prediction possible by using a buffer that stores recent branch conditions
+#### Exceptions and interrupts
+- Unexpected events require changing flow of control
+- Save PC of offending/interrupted instruction (SEPC)
+- Save indication of the problem (SCAUSE)
+- Jump to handler pointed to by (STVEC)
+- Precise/restartable exceptions
+- 
