@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Introduction to Computer Architecture/6 Processor Pipelines.md",
+                "file": "Part IB/Concurrent and Distributed Systems/Supervision Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 Processor Pipelines"
+              "title": "Supervision Notes"
             }
           }
         ]
@@ -188,16 +188,18 @@
   },
   "active": "78e4d43eac793dfa",
   "lastOpenFiles": [
+    "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
+    "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
+    "Part IB/Concurrent and Distributed Systems/Supervision Notes.md",
+    "Part IB/Concurrent and Distributed Systems/1 Introduction to Concurrency.md",
+    "Part IB/Introduction to Computer Architecture/6 Processor Pipelines.md",
     "Part IB/Data Science/8 Bayesianism.md",
     "Part IB/Introduction to Computer Architecture/1 Technology Trends and Design Challenges.md",
     "Part IB/Introduction to Computer Architecture/7 More Processor Pipelines.md",
     "Part IB/Data Science/7 Probabilistic linear modelling.md",
-    "Part IB/Introduction to Computer Architecture/6 Processor Pipelines.md",
-    "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
     "Part IB/Data Science/6 Geometry of linear models.md",
     "Part IB/Introduction to Computer Architecture/5 Executable Processor Models.md",
     "Part IB/Concurrent and Distributed Systems/2 Hardware and Operating System.md",
-    "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
     "Part IB/Data Science/5 Linear Modelling.md",
     "Part IB/Introduction to Computer Architecture/3 Eight Great Ideas.md",
     "Part IB/Introduction to Computer Architecture/4 RISC.md",
@@ -221,10 +223,8 @@
     "Part IB/Data Science/1 Probability Models.md",
     "Part IA/Digital Electronics/Asynchronous inputs.md",
     "Part IA/Digital Electronics/Finite State Machines.md",
-    "Part IB/Concurrent and Distributed Systems/1 Introduction to Concurrency.md",
     "Part IB/Programming in C and C++/1 Introduction.md",
     "Part IB/Concurrent and Distributed Systems",
-    "Part IB/Untitled.md",
     "Part IB/Introduction to Computer Architecture",
     "Part IB/Programming in C and C++",
     "Part IB/Data Science",
