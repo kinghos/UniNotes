@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Concurrent and Distributed Systems/Supervision Notes.md",
+                "file": "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "5 Liveness and Priority Guarantees"
             }
           }
         ]
@@ -188,9 +188,9 @@
   },
   "active": "78e4d43eac793dfa",
   "lastOpenFiles": [
-    "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
     "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
     "Part IB/Concurrent and Distributed Systems/Supervision Notes.md",
+    "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
     "Part IB/Concurrent and Distributed Systems/1 Introduction to Concurrency.md",
     "Part IB/Introduction to Computer Architecture/6 Processor Pipelines.md",
     "Part IB/Data Science/8 Bayesianism.md",
