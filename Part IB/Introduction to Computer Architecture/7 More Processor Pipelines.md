@@ -18,5 +18,5 @@ add    t3, t3, t2
 - Save PC of offending/interrupted instruction (SEPC)
 - Save indication of the problem (SCAUSE)
 - Jump to handler pointed to by (STVEC)
-- Precise/restartable exceptions
-- 
+- Precise/restartable exceptions (harder to handle) require flushing the instruction and previous instructions, then rerunning the instruction
+- Imprecise exceptions - pipeline just has to flush
