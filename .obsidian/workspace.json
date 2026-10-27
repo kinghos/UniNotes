@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
+                "file": "Part IA/Databases/Lecture 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 Liveness and Priority Guarantees"
+              "title": "Lecture 4"
             }
           }
         ]
@@ -188,9 +188,13 @@
   },
   "active": "78e4d43eac793dfa",
   "lastOpenFiles": [
+    "Part IA/Databases/Lecture 3.md",
+    "Part IA/Databases/Lecture 2.md",
+    "Part IA/Databases/Lecture 1.md",
+    "Part IB/Concurrent and Distributed Systems/6 Concurrency without shared data.md",
+    "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
     "Part IB/Concurrent and Distributed Systems/Supervision Notes.md",
     "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
-    "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
     "Part IB/Concurrent and Distributed Systems/1 Introduction to Concurrency.md",
     "Part IB/Introduction to Computer Architecture/6 Processor Pipelines.md",
     "Part IB/Data Science/8 Bayesianism.md",
@@ -220,10 +224,6 @@
     "Ink",
     "Ink/Drawing/2026.10.14 - 11.20am.svg",
     "Ink/Drawing/2026.10.14 - 10.58am.svg",
-    "Part IB/Data Science/1 Probability Models.md",
-    "Part IA/Digital Electronics/Asynchronous inputs.md",
-    "Part IA/Digital Electronics/Finite State Machines.md",
-    "Part IB/Programming in C and C++/1 Introduction.md",
     "Part IB/Concurrent and Distributed Systems",
     "Part IB/Introduction to Computer Architecture",
     "Part IB/Programming in C and C++",
