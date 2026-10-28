@@ -12,3 +12,7 @@ The more data we have, the closer our posterior gets to the truth
 There *must* be a prior belief about every unknown parameter
 If your prior is extreme, it will be reflected in your posterior
 
+$$
+\text{Pr}_{X\mid Y=y}(x)=\frac{{\text{Pr}_{X}(x)\text{Pr}_{Y\mid X=x}(y)}}{\text{Pr}_{Y}(y)}
+$$
+In practice, disregard $\text{Pr}_{Y}(y)$ and treat as constant $\kappa$, which is whatever is needed for this to sum/integrate to 1 over $x$.
