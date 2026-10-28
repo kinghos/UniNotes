@@ -49,4 +49,13 @@
 		- Random - approx same performance as LRU for high associativity
 #### Victim cache
 - Augment a direct mapped cache with a tiny full-associative cache
-- 
+- Evicted cache lines get a second chance in the victim cache
+#### Sources of misses
+- Compulsory misses i.e. first access to a block
+- Capacity misses, due to finite cache size
+- Conflict misses, in non-fully sa
+#### Multilevel Cache
+- Level-1 cache attached on the processor core
+- Level-2 cache services misses from primary cache
+- Occasionally L3 cache exists
+- Main memory services L2 misses
