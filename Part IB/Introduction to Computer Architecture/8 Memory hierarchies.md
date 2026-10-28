@@ -15,3 +15,9 @@
 	- Cache line - some number of contiguous words in memory
 - Hash function is some bits of the address, the index bits
 ![[Direct-mapped cache.png]]
+- Larger cache lines should reduce miss rate
+	- But this leads to fewer cache lines, which means more competition hence an increased miss rate
+	- Also leads to pollution, as data is read into the cache that may never be read
+- Larger miss penalty can override benefit of reduced miss rate
+
+#### Cache Misses
