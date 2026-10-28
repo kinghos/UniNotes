@@ -21,3 +21,10 @@
 - Larger miss penalty can override benefit of reduced miss rate
 
 #### Cache Misses
+- On a miss:
+	- Stall the processor pipeline
+	- Fetch block from next level of hierarchy
+	- Instruction cache miss
+	- Data cache miss
+#### Write-through
+- On data-write hit, update the block in cache
