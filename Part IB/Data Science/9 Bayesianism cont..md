@@ -6,3 +6,6 @@ For example:
 - Tossing 4 million coins, pretty confident about $\theta$, so low epistemic uncertainty
 - Even if we knew $\theta$, there's still uncertainty about the next coin toss. This is aleatoric uncertainty
 Represent epistemic uncertainty with $\text{Pr}_{\Theta}$ and $\text{Pr}_{X}(x\mid\Theta)$ for aleatoric uncertainty
+
+The posterior distribution depends on the amount of evidence we've seen, it quantifies epistemic uncertainty. A tighter posterior distribution means less epistemic uncertainty.
+The more data we have, the closer our posterior gets to the truth
