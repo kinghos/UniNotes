@@ -9,3 +9,6 @@ Represent epistemic uncertainty with $\text{Pr}_{\Theta}$ and $\text{Pr}_{X}(x\m
 
 The posterior distribution depends on the amount of evidence we've seen, it quantifies epistemic uncertainty. A tighter posterior distribution means less epistemic uncertainty.
 The more data we have, the closer our posterior gets to the truth
+There *must* be a prior belief about every unknown parameter
+If your prior is extreme, it will be reflected in your posterior
+
