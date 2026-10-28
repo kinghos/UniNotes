@@ -53,7 +53,7 @@
 #### Sources of misses
 - Compulsory misses i.e. first access to a block
 - Capacity misses, due to finite cache size
-- Conflict misses, in non-fully sa
+- Conflict misses, in non-fully associative caches
 #### Multilevel Cache
 - Level-1 cache attached on the processor core
 - Level-2 cache services misses from primary cache

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Introduction to Computer Architecture/8 Memory hierarchies.md",
+                "file": "Part IB/Data Science/9 Bayesianism cont..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8 Memory hierarchies"
+              "title": "9 Bayesianism cont."
             }
           }
         ]
@@ -188,8 +188,10 @@
   },
   "active": "78e4d43eac793dfa",
   "lastOpenFiles": [
-    "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
+    "Part IB/Data Science/8 Bayesianism.md",
+    "Part IB/Data Science/9 Bayesianism cont..md",
     "Part IB/Introduction to Computer Architecture/8 Memory hierarchies.md",
+    "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/7 More Processor Pipelines.md",
     "Part IB/Introduction to Computer Architecture/1 Technology Trends and Design Challenges.md",
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
@@ -206,7 +208,6 @@
     "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
     "Part IB/Concurrent and Distributed Systems/1 Introduction to Concurrency.md",
     "Part IB/Introduction to Computer Architecture/6 Processor Pipelines.md",
-    "Part IB/Data Science/8 Bayesianism.md",
     "Part IB/Data Science/7 Probabilistic linear modelling.md",
     "Part IB/Data Science/6 Geometry of linear models.md",
     "Part IB/Introduction to Computer Architecture/5 Executable Processor Models.md",
