@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Databases/Lecture 4.md",
+                "file": "Part IB/Concurrent and Distributed Systems/6 Concurrency without shared data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 4"
+              "title": "6 Concurrency without shared data"
             }
           }
         ]
@@ -188,12 +188,14 @@
   },
   "active": "78e4d43eac793dfa",
   "lastOpenFiles": [
+    "Part IA/Databases/Lecture 5.md",
+    "Part IB/Concurrent and Distributed Systems/6 Concurrency without shared data.md",
+    "Part IB/Concurrent and Distributed Systems/Supervision Notes.md",
+    "Part IA/Databases/Lecture 4.md",
     "Part IA/Databases/Lecture 3.md",
     "Part IA/Databases/Lecture 2.md",
     "Part IA/Databases/Lecture 1.md",
-    "Part IB/Concurrent and Distributed Systems/6 Concurrency without shared data.md",
     "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
-    "Part IB/Concurrent and Distributed Systems/Supervision Notes.md",
     "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
     "Part IB/Concurrent and Distributed Systems/1 Introduction to Concurrency.md",
     "Part IB/Introduction to Computer Architecture/6 Processor Pipelines.md",
@@ -217,8 +219,6 @@
     "Excalidraw",
     "Ink/Drawing/2026.10.16 - 11.18am.svg",
     "Part IB/Data Science/exam1.pdf",
-    "Excalidraw/Drawing 2026-10-16 11.15.06.excalidraw.md",
-    "Part IB/Concurrent and Distributed Systems/3 Mutual Exclusion.md",
     "Ink/Drawing/2026.10.14 - 11.26am.svg",
     "Ink/Drawing",
     "Ink",
