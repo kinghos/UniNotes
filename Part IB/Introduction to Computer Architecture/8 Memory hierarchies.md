@@ -28,3 +28,25 @@
 	- Data cache miss
 #### Write-through
 - On data-write hit, update the block in cache
+- Write buffer - holds data waiting to be written to memory
+#### Write-back
+- Instead, on data-write hit, just update the cache-line
+#### Fully associative cache
+![[Fully Associative Cache.png]]
+- Direct-mapped cache uses less circuit area, and more efficiently implemented
+- Fully-associative caches have a higher hit rate than a direct-mapped cache
+#### Set associative cache
+- Have N direct-mapped caches
+- Reads look in all N caches for data
+- Thus the cache has N-way associativity
+#### Replacement policy
+- Direct mapped, no choice
+- Set associative
+	- Prefer non-valid entry, if there is one
+	- Otherwise:
+		- LRU
+		- Not last used (approximates LRU)
+		- Random - approx same performance as LRU for high associativity
+#### Victim cache
+- Augment a direct mapped cache with a tiny full-associative cache
+- 
