@@ -12,4 +12,9 @@
 	- Requires knowledge of which locks required
 	- Risk of deadlock
 	- Non-strict isolation: releasing locks during execution means others can access those objects
-- Rollback - returning the world to a state before the transaction happened, implementing atomicity
+#### Rollback
+- Returning the world to a state before the transaction happened, implementing atomicity
+- Can be implemented by:
+	- Undoing, by recording a log of operations. However, not all operations are undoable, e.g. set
+	- Copying, by making a copy of an object before its first modification which is restored to.
+#### Timestamp ordering
