@@ -13,4 +13,3 @@
 	- Risk of deadlock
 	- Non-strict isolation: releasing locks during execution means others can access those objects
 - Rollback - returning the world to a state before the transaction happened, implementing atomicity
-- 
