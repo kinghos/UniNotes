@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Introduction to Computer Architecture/9 OS Support.md",
+                "file": "Part IB/Data Science/Monte Carlo Integration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9 OS Support"
+              "title": "Monte Carlo Integration"
             }
           }
         ]
@@ -188,8 +188,12 @@
   },
   "active": "78e4d43eac793dfa",
   "lastOpenFiles": [
-    "Part IB/Introduction to Computer Architecture/Images/OperatingModes.png",
     "Part IB/Introduction to Computer Architecture/9 OS Support.md",
+    "Part IB/Data Science/Monte Carlo Integration.md",
+    "Part IB/Introduction to Computer Architecture/8 Memory hierarchies.md",
+    "Part IB/Introduction to Computer Architecture/5 Executable Processor Models.md",
+    "Part IB/Introduction to Computer Architecture/4 RISC.md",
+    "Part IB/Introduction to Computer Architecture/Images/OperatingModes.png",
     "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
     "Part IB/Concurrent and Distributed Systems/2 Hardware and Operating System.md",
     "Part IB/Concurrent and Distributed Systems/6 Concurrency without shared data.md",
@@ -202,7 +206,6 @@
     "Part IB/Data Science/4 Mock Exam Question.md",
     "Part IB/Data Science/9 Bayesianism cont..md",
     "Part IB/Data Science/8 Bayesianism.md",
-    "Part IB/Introduction to Computer Architecture/8 Memory hierarchies.md",
     "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/7 More Processor Pipelines.md",
     "Part IB/Introduction to Computer Architecture/1 Technology Trends and Design Challenges.md",
@@ -215,8 +218,6 @@
     "Part IA/Databases/Lecture 3.md",
     "Part IA/Databases/Lecture 2.md",
     "Part IA/Databases/Lecture 1.md",
-    "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
-    "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
     "Pasted Image 20261016112123_941.png",
     "Pasted Image 20261016112129_165.png",
     "Excalidraw",
