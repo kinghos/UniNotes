@@ -21,4 +21,7 @@
 	- Compacts the structure
 	- Each section of page table fits into a page
 	- Supervisor address protection and translation (satp) register holds the base of the tree in the physical page number (ppn) field
-	- 
+#### Memory protection
+- Different applications are allocated their own virtual address space
+- Applications can share parts of this
+#### Operating modes on RISC-V
