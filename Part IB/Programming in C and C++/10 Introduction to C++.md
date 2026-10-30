@@ -30,3 +30,13 @@ int *ptri = &i[0];
 refi++; // increments value referenced
 ptri++; // increments pointer to &i[1]
 ```
+When used as a function parameter, a referenced value is not copied
+```cpp
+void inc(int& i) {i++;}
+```
+- Declare a reference as `const` when no modification takes place
+- It can be much more efficient to pass a large struct by reference
+#### Overloaded functions
+- Can define two functions with the same name, but varying in argument types
+- Type conversion is used to find the "best" match, e.g. casting an int to long or double
+- 
