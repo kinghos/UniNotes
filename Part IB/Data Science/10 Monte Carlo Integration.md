@@ -14,5 +14,13 @@ $$
 \int^b_{x=a}h(x)\,dx\approx \sum^n_{i=1}h(x_{i}) \frac{{b-a}}{n})
 $$
 where $x_i$ is the midpoint of interval $i$
+#### Computational Bayes
 Recall the [[9 Bayesianism cont.|Bayesian update]] procedure:
-$\text{Pr}_{\Theta}(\theta)+x\to\text{Pr}_{\Theta}(\theta\mid X=1)\propto\text{Pr}_{\Theta}(\theta)\text{Pr}_{X}(x\mid\the)$
+$\text{Pr}_{\Theta}(\theta)+x\to\text{Pr}_{\Theta}(\theta\mid X=x)\propto\text{Pr}_{\Theta}(\theta)\text{Pr}_{X}(x\mid\Theta=\theta)$
+prior belief + data -> posterior belief
+This requires algebra with horrible integrals. This can be done computationally
+1. Generate a sample $(\theta_{1}, \dots,\theta _{n})$ from $\Theta$
+2. Compute weights $w_{i}=\text{Pr}_{X}(x\mid\Theta=\theta_{i})$, then rescale weights to sum to one
+$$
+\mathbb{P}(\Theta\in\text{range}\mid X=x)\approx \sum^n_{i=1}w_{i}\mathbf{1}_{\theta\in\text{range}}
+$$
