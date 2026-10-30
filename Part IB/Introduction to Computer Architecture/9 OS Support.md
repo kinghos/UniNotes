@@ -25,3 +25,12 @@
 - Different applications are allocated their own virtual address space
 - Applications can share parts of this
 #### Operating modes on RISC-V
+![[OperatingModes.png]]
+- Environment calls
+	- ECALL
+		- Used to call into a more privileged mode
+		- Used by the ABI to transition from U-mode to S-mode
+	- SRET
+		- Trap return from S-mode
+		- Used by the OS to transition from S-mode back to U-mode
+		- 

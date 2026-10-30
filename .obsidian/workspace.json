@@ -188,8 +188,9 @@
   },
   "active": "78e4d43eac793dfa",
   "lastOpenFiles": [
-    "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
+    "Part IB/Introduction to Computer Architecture/Images/OperatingModes.png",
     "Part IB/Introduction to Computer Architecture/9 OS Support.md",
+    "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
     "Part IB/Concurrent and Distributed Systems/2 Hardware and Operating System.md",
     "Part IB/Concurrent and Distributed Systems/6 Concurrency without shared data.md",
     "Part IB/Data Science/2 Maximum Likelihood Estimation.md",
@@ -216,7 +217,6 @@
     "Part IA/Databases/Lecture 1.md",
     "Part IB/Concurrent and Distributed Systems/5 Liveness and Priority Guarantees.md",
     "Part IB/Concurrent and Distributed Systems/4 Monitors.md",
-    "Part IB/Concurrent and Distributed Systems/1 Introduction to Concurrency.md",
     "Pasted Image 20261016112123_941.png",
     "Pasted Image 20261016112129_165.png",
     "Excalidraw",
@@ -233,7 +233,6 @@
     "Part IB/Data Science",
     "Part IB/Compiler Construction/Compilers Principles Techniques and Tools (2nd Edition) .pdf",
     "Part IA/Operating Systems/Images/ProcessStates.png",
-    "Part IA/Algorithms 2/Images/Pasted image 20260608165833.png",
     "Untitled.canvas"
   ]
 }
