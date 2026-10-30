@@ -39,4 +39,11 @@ void inc(int& i) {i++;}
 #### Overloaded functions
 - Can define two functions with the same name, but varying in argument types
 - Type conversion is used to find the "best" match, e.g. casting an int to long or double
-- 
+- To overload, functions must be in the same scope
+- Functions can have default arguments
+#### Namespaces
+- Data can be grouped into namespaces
+- e.g. `using namespace Module1;`
+- This is a scope and expresses logical program structure
+- Collects related pieces of code
+- Nameless namespaces limit the scope of variables, functions and classes within it to the local execution unit
