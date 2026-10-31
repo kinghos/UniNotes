@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Data Science/Supervision Notes.md",
+                "file": "Part IA/Introduction to Probability/10 Estimators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "10 Estimators"
             }
           }
         ]
@@ -188,6 +188,9 @@
   },
   "active": "b2d2e74a7a80aa66",
   "lastOpenFiles": [
+    "Part IA/Introduction to Probability/11 Estimators cont..md",
+    "Part IA/Introduction to Probability/12 Online Algorithms.md",
+    "Part IA/Introduction to Probability/10 Estimators.md",
     "Part IB/Data Science/Supervision Notes.md",
     "Part IB/Programming in C and C++/10 Introduction to C++.md",
     "Part IB/Data Science/10 Monte Carlo Integration.md",
@@ -215,9 +218,6 @@
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
     "Part IB/Introduction to Computer Architecture/Images",
     "Part IA/Operating Systems/Briefing.md",
-    "Part IA/Databases/Lecture 5.md",
-    "Part IB/Concurrent and Distributed Systems/Supervision Notes.md",
-    "Part IA/Databases/Lecture 4.md",
     "Pasted Image 20261016112123_941.png",
     "Pasted Image 20261016112129_165.png",
     "Excalidraw",
