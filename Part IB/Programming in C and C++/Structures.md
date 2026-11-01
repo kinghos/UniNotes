@@ -16,4 +16,5 @@ struct circle {int x; int y; unsigned int r;} a, b; // several instances
 ```c
 struct fields {int f1 : 2; int f2 : 3;};
 ```
-- Allows low-level acess to individual bits of a word
+- Allows low-level access to individual bits of a word
+- 
