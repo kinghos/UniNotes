@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IA/Foundations of Computer Science/Lecture 5.md",
+                "file": "Part IB/Introduction to Computer Architecture/10 Other instruction sets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 5"
+              "title": "10 Other instruction sets"
             }
           }
         ]
@@ -185,8 +185,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "b2d2e74a7a80aa66",
   "lastOpenFiles": [
+    "Part IA/Foundations of Computer Science/Lecture 5.md",
+    "Part IB/Introduction to Computer Architecture/10 Other instruction sets.md",
     "Part IA/Algorithms 1/3 Divide and conquer.md",
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
     "Part IB/Programming in C and C++/Structures.md",
@@ -212,8 +214,6 @@
     "Part IB/Data Science/5 Linear Modelling.md",
     "Part IB/Data Science/1 Probability Models.md",
     "Part IB/Data Science/3 Likelihood notation.md",
-    "Part IB/Data Science/4 Mock Exam Question.md",
-    "Part IB/Data Science/9 Bayesianism cont..md",
     "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
     "Part IB/Introduction to Computer Architecture/Images",
