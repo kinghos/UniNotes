@@ -25,4 +25,14 @@
 - Allows more concurrency than 2PL
 - Can be augmented to distinguish reads and writes
 - Needs a rollback mechanism
-- 
+- Does not provide strict isolation - can lead to repeated cascading aborts
+- Good for distributed systems
+#### Optimistic concurrency control
+- Assume conflicts are rare
+- Execute transaction on a shadow/copy of the data
+- Before committing, check if everything is OK, if so update, otherwise retry
+- OK means shadows were mutually consistent, and no one else has committed later changes to any object we are hoping to update
+- Key idea is to look for a serialisable order that accepts the transaction
+- Tag all objects with version/generation numbers
+- When taking shadow copies, take note of version number
+- Committing a transaction submits the edited shadows to a validator
