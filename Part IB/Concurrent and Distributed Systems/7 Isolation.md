@@ -33,6 +33,15 @@
 - Before committing, check if everything is OK, if so update, otherwise retry
 - OK means shadows were mutually consistent, and no one else has committed later changes to any object we are hoping to update
 - Key idea is to look for a serialisable order that accepts the transaction
+
+#### Implementing OCC
 - Tag all objects with version/generation numbers
 - When taking shadow copies, take note of version number
 - Committing a transaction submits the edited shadows to a validator
+- Read validation
+	- Must ensure that all versions of data read by T were valid at some particular time t - the tentative start time for T
+- Serialisability validation
+	- Must ensure that there are no conflicts with any committed transactions which have a later start time
+- Optimality matching
+	- For a batch, must choose a serialisation that commits as many as possible
+- Not suited for a high conflict rate
