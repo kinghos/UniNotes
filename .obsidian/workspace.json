@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Data Science/11 Bayesian Model Building.md",
+                "file": "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 Bayesian Model Building"
+              "title": "7 Isolation"
             }
           }
         ]
@@ -187,6 +187,7 @@
   },
   "active": "78704f7aab4c570c",
   "lastOpenFiles": [
+    "Part IB/Concurrent and Distributed Systems/8.md",
     "Part IB/Data Science/11 Bayesian Model Building.md",
     "Part IB/Introduction to Computer Architecture/10 Other instruction sets.md",
     "Part IA/Foundations of Computer Science/Lecture 5.md",
@@ -213,7 +214,6 @@
     "Part IB/Data Science/7 Probabilistic linear modelling.md",
     "Part IB/Data Science/6 Geometry of linear models.md",
     "Part IB/Data Science/5 Linear Modelling.md",
-    "Part IB/Data Science/1 Probability Models.md",
     "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
     "Part IB/Introduction to Computer Architecture/Images",

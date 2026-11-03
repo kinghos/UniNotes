@@ -18,3 +18,11 @@
 	- Undoing, by recording a log of operations. However, not all operations are undoable, e.g. set
 	- Copying, by making a copy of an object before its first modification which is restored to.
 #### Timestamp ordering
+- Assign a timestamp to a transaction as it begins
+- Each object records the timestamp of the last transaction to successfully access it.
+- A transaction can only access an object if its timestamp is after the last transaction on that object
+- Deadlock
+- Allows more concurrency than 2PL
+- Can be augmented to distinguish reads and writes
+- Needs a rollback mechanism
+- 
