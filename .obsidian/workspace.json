@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
+                "file": "Part IB/Concurrent and Distributed Systems/8 Durability and crash recovery.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 Isolation"
+              "title": "8 Durability and crash recovery"
             }
           }
         ]
@@ -187,7 +187,8 @@
   },
   "active": "78704f7aab4c570c",
   "lastOpenFiles": [
-    "Part IB/Concurrent and Distributed Systems/8.md",
+    "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
+    "Part IB/Concurrent and Distributed Systems/8 Durability and crash recovery.md",
     "Part IB/Data Science/11 Bayesian Model Building.md",
     "Part IB/Introduction to Computer Architecture/10 Other instruction sets.md",
     "Part IA/Foundations of Computer Science/Lecture 5.md",
@@ -207,7 +208,6 @@
     "Part IB/Introduction to Computer Architecture/5 Executable Processor Models.md",
     "Part IB/Introduction to Computer Architecture/4 RISC.md",
     "Part IB/Introduction to Computer Architecture/Images/OperatingModes.png",
-    "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
     "Part IB/Concurrent and Distributed Systems/2 Hardware and Operating System.md",
     "Part IB/Concurrent and Distributed Systems/6 Concurrency without shared data.md",
     "Part IB/Data Science/2 Maximum Likelihood Estimation.md",

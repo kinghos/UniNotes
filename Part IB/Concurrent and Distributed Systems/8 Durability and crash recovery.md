@@ -1,0 +1,11 @@
+#### Write ahead logging
+- Write all updated objects to disk on commit, read back on reboot
+	- Doesn't work because you can crash between writes
+	- Can fail to provide atomicity and/or consistency
+- Split update into two stages instead:
+	- Write proposed updates to a write-ahead log
+	- Write actual updates
+- Crash during #1 -> no actual updates done
+- Crash during #2 -> use log to redo, or undo
+- Also helps with aborted transactions
+- Logs are ordered, append only fai
