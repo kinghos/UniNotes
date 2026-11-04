@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Introduction to Computer Architecture/11 Systems on Chip.md",
+                "file": "Part IB/Data Science/12 The Empirical Distribution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 Systems on Chip"
+              "title": "12 The Empirical Distribution"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IB/Introduction to Computer Architecture/11 Systems on Chip.md",
+                "file": "Part IB/Data Science/12 The Empirical Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,8 +188,9 @@
   },
   "active": "78704f7aab4c570c",
   "lastOpenFiles": [
-    "Part IB/Introduction to Computer Architecture/Images/FlynnsTaxonomy.png",
     "Part IB/Introduction to Computer Architecture/11 Systems on Chip.md",
+    "Part IB/Data Science/12 The Empirical Distribution.md",
+    "Part IB/Introduction to Computer Architecture/Images/FlynnsTaxonomy.png",
     "Part IB/Concurrent and Distributed Systems/8 Durability and crash recovery.md",
     "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
     "Part IB/Data Science/11 Bayesian Model Building.md",
