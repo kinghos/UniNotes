@@ -62,3 +62,11 @@ $$
 #### Memory Controller
 - Handles DRAM accesses
 - Responsible for converting requests from the processors into commands for the DRAM
+#### Open-Page vs Close Page
+- The sense amps act like buffers, storing the most recently accessed row
+	- Must be reset to access another row
+- Open-page policy doesn't reset
+	- Reduced latency when reading from that row again
+	- Great for sequential access to different columns
+	- Requires explicit reset when accessing another row
+- Close-page policy does reset and precharge, favouring access patterns with little locality
