@@ -8,4 +8,10 @@
 - Crash during #1 -> no actual updates done
 - Crash during #2 -> use log to redo, or undo
 - Also helps with aborted transactions
-- Logs are ordered, append only fai
+- Logs are ordered, append only files (aka journal)
+- Entries look like `<txid, obj, op, old, new>`
+	- ID of transaction, object modified, optionally the operation performed, the old value, and the new value
+	- Roll forward and backward
+- Use lazy write back to perform transaction, i.e. the OS delays all disk writes to improve efficiency
+- When a transaction is commit, first synchronously flush a commit record to the log
+- 

@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "8 Durability and crash recovery"
             }
+          },
+          {
+            "id": "0a02ce523ff423c8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.0"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +198,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "78704f7aab4c570c",
+  "active": "0a02ce523ff423c8",
   "lastOpenFiles": [
     "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
     "Part IB/Concurrent and Distributed Systems/8 Durability and crash recovery.md",
