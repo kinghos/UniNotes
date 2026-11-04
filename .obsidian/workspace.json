@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part IB/Programming in C and C++/Structures.md",
+                "file": "Part IB/Introduction to Computer Architecture/11 Systems on Chip.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,12 +161,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,7 +185,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "78704f7aab4c570c",
+  "active": "cbfc22df875b0f71",
   "lastOpenFiles": [
     "Part IB/Concurrent and Distributed Systems/8 Durability and crash recovery.md",
     "Part IB/Introduction to Computer Architecture/11 Systems on Chip.md",
