@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,10 +186,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "cbfc22df875b0f71",
+  "active": "78704f7aab4c570c",
   "lastOpenFiles": [
-    "Part IB/Concurrent and Distributed Systems/8 Durability and crash recovery.md",
+    "Part IB/Introduction to Computer Architecture/Images/FlynnsTaxonomy.png",
     "Part IB/Introduction to Computer Architecture/11 Systems on Chip.md",
+    "Part IB/Concurrent and Distributed Systems/8 Durability and crash recovery.md",
     "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
     "Part IB/Data Science/11 Bayesian Model Building.md",
     "Part IB/Introduction to Computer Architecture/10 Other instruction sets.md",
@@ -213,7 +215,6 @@
     "Part IB/Concurrent and Distributed Systems/6 Concurrency without shared data.md",
     "Part IB/Data Science/2 Maximum Likelihood Estimation.md",
     "Part IB/Data Science/7 Probabilistic linear modelling.md",
-    "Part IB/Data Science/6 Geometry of linear models.md",
     "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
     "Part IB/Introduction to Computer Architecture/Images",
@@ -232,7 +233,6 @@
     "Part IB/Programming in C and C++",
     "Part IB/Data Science",
     "Part IB/Compiler Construction/Compilers Principles Techniques and Tools (2nd Edition) .pdf",
-    "Part IA/Operating Systems/Images/ProcessStates.png",
     "Untitled.canvas"
   ]
 }
