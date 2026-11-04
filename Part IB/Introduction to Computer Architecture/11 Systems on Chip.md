@@ -38,4 +38,27 @@ $$
 	- Does there need to be virtual memory support?
 	- Should memory be centralised or distributed?
 	- How does the programmer see memory?
-- 
+
+#### Chip stacking
+- Package on package
+	- Memory chip on top of the SoC
+	- Ball grid array connects the two
+- 3D die stacking
+	- Silicon wafers are directly placed together
+	- Through-silicon vias connect the dies
+
+#### DRAM
+- Cell consists of 1 transistor and 1 capacitor
+- Capacitor is not perfect and needs refresh
+- Banks - cells organised into arrays of wordlines (rows) and bitlines (columns)
+- Wordlines select the bit, and the bitline contains data to read/write
+- Devices contain several banks, and each bank operates independently
+- Controlled through commands sent to it
+	- Row-access
+	- Column read
+	- Column write
+	- Precharge
+	- Refresh
+#### Memory Controller
+- Handles DRAM accesses
+- Responsible for converting requests from the processors into commands for the DRAM
