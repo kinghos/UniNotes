@@ -9,4 +9,7 @@ Multiple nodes communicating via an unreliable network trying to achieve some ta
 - A distributed system is concerned with solving goal, while networking is just how to get data from A to B
 #### Remote Procedure Call
 - Tell another node to call a function
+- Ideally, make calls to remote functions look the same as a local function call
+- Location transparency - system hides where a resource is located
+- Server-oriented architecture/microservices - splitting a large software application into multiple services that communicate via RPC
 - 
