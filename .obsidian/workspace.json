@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Data Science/12 The Empirical Distribution.md",
+                "file": "Part IB/Concurrent and Distributed Systems/9 Introduction to distributed systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12 The Empirical Distribution"
+              "title": "9 Introduction to distributed systems"
             }
           }
         ]
@@ -188,8 +188,9 @@
   },
   "active": "78704f7aab4c570c",
   "lastOpenFiles": [
-    "Part IB/Introduction to Computer Architecture/11 Systems on Chip.md",
     "Part IB/Data Science/12 The Empirical Distribution.md",
+    "Part IB/Concurrent and Distributed Systems/9 Introduction to distributed systems.md",
+    "Part IB/Introduction to Computer Architecture/11 Systems on Chip.md",
     "Part IB/Introduction to Computer Architecture/Images/FlynnsTaxonomy.png",
     "Part IB/Concurrent and Distributed Systems/8 Durability and crash recovery.md",
     "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
@@ -215,7 +216,6 @@
     "Part IB/Concurrent and Distributed Systems/2 Hardware and Operating System.md",
     "Part IB/Concurrent and Distributed Systems/6 Concurrency without shared data.md",
     "Part IB/Data Science/2 Maximum Likelihood Estimation.md",
-    "Part IB/Data Science/7 Probabilistic linear modelling.md",
     "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
     "Part IB/Introduction to Computer Architecture/Images",
