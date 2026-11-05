@@ -186,10 +186,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "78704f7aab4c570c",
+  "active": "55fffcc423b8f2b5",
   "lastOpenFiles": [
-    "Part IB/Concurrent and Distributed Systems/9 Introduction to distributed systems.md",
+    "Part IB/Economics, Law and Ethics/Images/MarketSurplus.png",
+    "Part IB/Economics, Law and Ethics/Images",
     "Part IB/Economics, Law and Ethics/1 Classical Economics.md",
+    "Part IB/Concurrent and Distributed Systems/9 Introduction to distributed systems.md",
     "Part IB/Economics, Law and Ethics",
     "Part IB/Data Science/12 The Empirical Distribution.md",
     "Part IB/Introduction to Computer Architecture/11 Systems on Chip.md",
@@ -216,7 +218,6 @@
     "Part IB/Introduction to Computer Architecture/4 RISC.md",
     "Part IB/Introduction to Computer Architecture/Images/OperatingModes.png",
     "Part IB/Concurrent and Distributed Systems/2 Hardware and Operating System.md",
-    "Part IB/Concurrent and Distributed Systems/6 Concurrency without shared data.md",
     "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
     "Part IB/Introduction to Computer Architecture/Images",
@@ -229,11 +230,9 @@
     "Ink/Drawing",
     "Ink",
     "Ink/Drawing/2026.10.14 - 11.20am.svg",
-    "Ink/Drawing/2026.10.14 - 10.58am.svg",
     "Part IB/Concurrent and Distributed Systems",
     "Part IB/Introduction to Computer Architecture",
     "Part IB/Programming in C and C++",
-    "Part IB/Data Science",
     "Untitled.canvas"
   ]
 }
