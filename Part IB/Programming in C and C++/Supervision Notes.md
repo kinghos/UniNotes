@@ -1,0 +1,3 @@
+- Strings are null-terminated character arrays
+- For a struct, in memory it needs to be padded according to memory alignment rules
+- 

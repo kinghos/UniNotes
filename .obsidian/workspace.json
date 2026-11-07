@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Economics, Law and Ethics/1 Classical Economics.md",
+                "file": "Part IB/Programming in C and C++/Supervision Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Classical Economics"
+              "title": "Supervision Notes"
             }
           }
         ]
@@ -186,11 +186,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "55fffcc423b8f2b5",
+  "active": "78704f7aab4c570c",
   "lastOpenFiles": [
+    "Part IB/Economics, Law and Ethics/1 Classical Economics.md",
+    "Part IB/Programming in C and C++/Supervision Notes.md",
     "Part IB/Economics, Law and Ethics/Images/MarketSurplus.png",
     "Part IB/Economics, Law and Ethics/Images",
-    "Part IB/Economics, Law and Ethics/1 Classical Economics.md",
     "Part IB/Concurrent and Distributed Systems/9 Introduction to distributed systems.md",
     "Part IB/Economics, Law and Ethics",
     "Part IB/Data Science/12 The Empirical Distribution.md",
