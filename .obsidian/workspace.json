@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Programming in C and C++/Supervision Notes.md",
+                "file": "Part IB/Introduction to Computer Architecture/12 Multicore Processors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "12 Multicore Processors"
             }
           }
         ]
@@ -188,8 +188,9 @@
   },
   "active": "78704f7aab4c570c",
   "lastOpenFiles": [
-    "Part IB/Economics, Law and Ethics/1 Classical Economics.md",
     "Part IB/Programming in C and C++/Supervision Notes.md",
+    "Part IB/Introduction to Computer Architecture/12 Multicore Processors.md",
+    "Part IB/Economics, Law and Ethics/1 Classical Economics.md",
     "Part IB/Economics, Law and Ethics/Images/MarketSurplus.png",
     "Part IB/Economics, Law and Ethics/Images",
     "Part IB/Concurrent and Distributed Systems/9 Introduction to distributed systems.md",
@@ -218,7 +219,6 @@
     "Part IB/Introduction to Computer Architecture/5 Executable Processor Models.md",
     "Part IB/Introduction to Computer Architecture/4 RISC.md",
     "Part IB/Introduction to Computer Architecture/Images/OperatingModes.png",
-    "Part IB/Concurrent and Distributed Systems/2 Hardware and Operating System.md",
     "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
     "Part IB/Introduction to Computer Architecture/Images",
