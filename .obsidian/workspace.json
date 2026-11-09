@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Concurrent and Distributed Systems/Supervision Notes.md",
+                "file": "Part IB/Introduction to Computer Architecture/Supervision Notes.md",
                 "mode": "source",
                 "source": false
               },
@@ -189,6 +189,7 @@
   "active": "78704f7aab4c570c",
   "lastOpenFiles": [
     "Part IB/Concurrent and Distributed Systems/7 Isolation.md",
+    "Part IB/Introduction to Computer Architecture/Supervision Notes.md",
     "Part IB/Concurrent and Distributed Systems/8 Durability and crash recovery.md",
     "Part IB/Concurrent and Distributed Systems/9 Introduction to distributed systems.md",
     "Part IB/Concurrent and Distributed Systems/Supervision Notes.md",
@@ -217,7 +218,6 @@
     "Part IB/Data Science/Supervision Notes.md",
     "Part IB/Programming in C and C++/10 Introduction to C++.md",
     "Part IB/Data Science/10 Monte Carlo Integration.md",
-    "Part IA/Introduction to Probability/3 Expectation and variance.md",
     "Part IB/Introduction to Computer Architecture/Images/OperatingModes.png",
     "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
