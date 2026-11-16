@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Data Science/14 The problem of induction.md",
+                "file": "Part IB/Introduction to Computer Architecture/16 Future Directions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14 The problem of induction"
+              "title": "16 Future Directions"
             }
           }
         ]
@@ -188,8 +188,10 @@
   },
   "active": "78704f7aab4c570c",
   "lastOpenFiles": [
-    "Part IB/Introduction to Computer Architecture/14 GPUs.md",
+    "Part IB/Introduction to Computer Architecture/15 GPUs cont..md",
+    "Part IB/Introduction to Computer Architecture/16 Future Directions.md",
     "Part IB/Data Science/14 The problem of induction.md",
+    "Part IB/Introduction to Computer Architecture/14 GPUs.md",
     "Part IB/Introduction to Computer Architecture/Images/GPUPipeline2.png",
     "Part IB/Introduction to Computer Architecture/Images/GPUPipeline.png",
     "Part IB/Introduction to Computer Architecture/Supervision Notes.md",
@@ -218,8 +220,6 @@
     "Part IB/Programming in C and C++/Unions.md",
     "Part IA/Introduction to Probability/10 Estimators.md",
     "Part IA/Introduction to Probability/11 Estimators cont..md",
-    "Part IA/Introduction to Probability/12 Online Algorithms.md",
-    "Part IB/Data Science/Supervision Notes.md",
     "Part IB/Introduction to Computer Architecture/Images/OperatingModes.png",
     "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
