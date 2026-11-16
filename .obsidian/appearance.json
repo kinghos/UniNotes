@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "theme-override"
   ],
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "showRibbon": true
 }
