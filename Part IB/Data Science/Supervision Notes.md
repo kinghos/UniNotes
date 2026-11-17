@@ -1,0 +1,1 @@
+`np.random.exponential` uses $\frac{1}{\lambda}$ as the param for some reason
