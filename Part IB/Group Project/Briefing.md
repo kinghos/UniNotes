@@ -3,3 +3,6 @@ cool sounding ones:
 - tasting, and savouring, fairly
 - station anywhere
 - citipod connect
+- Finding fire
+- signal sleuth
+- clear score

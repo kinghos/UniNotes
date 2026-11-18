@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1aa1e239d6b7444a",
+        "id": "83905c8a629f63c5",
         "type": "tabs",
         "children": [
           {
-            "id": "fa9c48ad002cff73",
+            "id": "12d3f716eb70541e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Data Science/Supervision Notes.md",
+                "file": "Part IB/Group Project/Briefing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision Notes"
+              "title": "Briefing"
             }
           }
         ]
@@ -186,8 +186,9 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "fa9c48ad002cff73",
+  "active": "12d3f716eb70541e",
   "lastOpenFiles": [
+    "Part IB/Data Science/Supervision Notes.md",
     "Part IB/Group Project/Briefing.md",
     "Part IB/Group Project",
     "Part IB/Introduction to Computer Architecture/16 Future Directions.md",
@@ -220,7 +221,6 @@
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
     "Part IB/Programming in C and C++/Structures.md",
     "Part IB/Programming in C and C++/Unions.md",
-    "Part IA/Introduction to Probability/10 Estimators.md",
     "Part IB/Introduction to Computer Architecture/Images/OperatingModes.png",
     "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
