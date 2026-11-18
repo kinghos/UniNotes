@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part IB/Group Project/Briefing.md",
+                "file": "Part IA/Machine Learning and Real-world Data/2 Naive Bayes Classifier.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Briefing"
+              "title": "2 Naive Bayes Classifier"
             }
           }
         ]
@@ -188,8 +188,10 @@
   },
   "active": "12d3f716eb70541e",
   "lastOpenFiles": [
-    "Part IB/Data Science/Supervision Notes.md",
+    "Part IA/Machine Learning and Real-world Data/1 Sentiment Classification.md",
+    "Part IA/Machine Learning and Real-world Data/Supervision Notes.md",
     "Part IB/Group Project/Briefing.md",
+    "Part IB/Data Science/Supervision Notes.md",
     "Part IB/Group Project",
     "Part IB/Introduction to Computer Architecture/16 Future Directions.md",
     "Part IB/Introduction to Computer Architecture/15 GPUs cont..md",
@@ -219,8 +221,6 @@
     "Part IA/Foundations of Computer Science/Lecture 5.md",
     "Part IA/Algorithms 1/3 Divide and conquer.md",
     "Part IA/Algorithms 2/8 Advanced Data Structrures.md",
-    "Part IB/Programming in C and C++/Structures.md",
-    "Part IB/Programming in C and C++/Unions.md",
     "Part IB/Introduction to Computer Architecture/Images/OperatingModes.png",
     "Part IB/Introduction to Computer Architecture/Images/Fully Associative Cache.png",
     "Part IB/Introduction to Computer Architecture/Images/Direct-mapped cache.png",
